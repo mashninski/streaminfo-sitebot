@@ -199,9 +199,13 @@ def update_vods(tw: Twitch, state: dict, logins: list) -> None:
             continue
 
         if last is None:
-            # Первый запуск: берём историю из VOD, если она есть.
-            if videos:
-                st["last_stream"] = session_from_video(videos[0])
+            # Первое знакомство: берём историю из VOD, если она есть.
+            # Но свежайшая запись может быть архивом стрима, который идёт прямо сейчас —
+            # такой архив ещё растёт и прошлой сессией не является.
+            live_sid = st["live"].get("stream_id")
+            candidates = [v for v in videos if not live_sid or v.get("stream_id") != live_sid]
+            if candidates:
+                st["last_stream"] = session_from_video(candidates[0])
             continue
 
         by_stream = {v.get("stream_id"): v for v in videos if v.get("stream_id")}
@@ -233,6 +237,7 @@ def run() -> int:
         return 2
 
     registry = load_json(REGISTRY_PATH, {"streamers": []})["streamers"]
+    known = {s["login"].lower() for s in registry}
     logins = [s["login"].lower() for s in registry if not s.get("hidden")]
     if not logins:
         print("Реестр пуст — нечего собирать")
@@ -240,6 +245,12 @@ def run() -> int:
 
     state = load_json(STATE_PATH, {"updated_at": None, "streamers": {}})
     before = json.dumps(state.get("streamers", {}), sort_keys=True, ensure_ascii=False)
+
+    # Убранный из реестра стример уходит и из состояния, иначе его данные висят вечно.
+    # У скрытого (hidden) запись сохраняется: скрытие — временное, история не теряется.
+    for gone in [k for k in state["streamers"] if k not in known]:
+        del state["streamers"][gone]
+        print(f"  {gone}: убран из реестра, запись удалена")
 
     for login in logins:
         state["streamers"].setdefault(login, blank_streamer())
