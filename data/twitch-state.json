@@ -385,28 +385,34 @@
       "broadcaster_type": "affiliate",
       "description": "Беларускі хлопчык трохі за 30 гадоў у вольны час гуляе у відэагульні і атрымвае платынавыя трафеі.",
       "display_name": "Mihas_Gareza",
-      "history": [],
-      "last_stream": {
-        "duration_min": 219,
-        "ended_at": "2026-09-10T21:33:48Z",
-        "game": null,
-        "source": "vod",
-        "started_at": "2026-09-10T17:54:48Z",
-        "stream_id": "316847424214",
-        "title": "[BLR] Рэтра чацвер. Гісторыя цацак 2. Баз светлавы год. Робім платыну",
-        "vod": {
-          "gone": false,
-          "id": "2870545829",
-          "seen_at": "2026-09-11T17:31:35Z",
-          "url": "https://www.twitch.tv/videos/2870545829"
+      "history": [
+        {
+          "duration_min": 203,
+          "ended_at": "2026-09-11T21:17:39Z",
+          "game": "Grand Theft Auto V",
+          "source": "observed",
+          "started_at": "2026-09-11T17:55:05Z",
+          "stream_id": "318612544870",
+          "title": "[BLR] Рыхтуемся да GTA VI. Рабуем докі",
+          "vod": null
         }
-      },
-      "live": {
+      ],
+      "last_stream": {
+        "duration_min": 203,
+        "ended_at": "2026-09-11T21:17:39Z",
         "game": "Grand Theft Auto V",
-        "since": "2026-09-11T17:55:05Z",
+        "source": "observed",
+        "started_at": "2026-09-11T17:55:05Z",
         "stream_id": "318612544870",
         "title": "[BLR] Рыхтуемся да GTA VI. Рабуем докі",
-        "viewers": 6
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -584,7 +590,7 @@
         "since": "2026-09-11T17:23:36Z",
         "stream_id": "316896725588",
         "title": "КС від Іринка подруга",
-        "viewers": 7
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -646,7 +652,7 @@
         "since": "2026-09-11T18:27:22Z",
         "stream_id": "318416273255",
         "title": "Мабыць, Фінал? ◉ S.T.A.L.K.E.R. 2: Cost of Hope",
-        "viewers": 8
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -701,5 +707,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-11T21:01:12Z"
+  "updated_at": "2026-09-11T21:17:39Z"
 }
