@@ -200,7 +200,7 @@
         "since": "2026-09-11T16:11:43Z",
         "stream_id": "319189567959",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 2
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -229,8 +229,8 @@
       "display_name": "lepus81",
       "history": [],
       "last_stream": {
-        "duration_min": 142,
-        "ended_at": "2026-09-11T17:31:05Z",
+        "duration_min": 172,
+        "ended_at": "2026-09-11T18:01:05Z",
         "game": null,
         "source": "vod",
         "started_at": "2026-09-11T15:09:05Z",
@@ -371,11 +371,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Grand Theft Auto V",
+        "since": "2026-09-11T17:55:05Z",
+        "stream_id": "318612544870",
+        "title": "[BLR] Рыхтуемся да GTA VI. Рабуем докі",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -464,11 +464,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Art",
+        "since": "2026-09-11T17:59:23Z",
+        "stream_id": "316897026900",
+        "title": "Пятнішны вечаровы блюзец",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -528,8 +528,8 @@
       "display_name": "ShagraeL_BY",
       "history": [],
       "last_stream": {
-        "duration_min": 8,
-        "ended_at": "2026-09-11T17:31:43Z",
+        "duration_min": 38,
+        "ended_at": "2026-09-11T18:01:43Z",
         "game": null,
         "source": "vod",
         "started_at": "2026-09-11T17:23:43Z",
@@ -664,5 +664,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-11T17:50:53Z"
+  "updated_at": "2026-09-11T18:01:15Z"
 }
