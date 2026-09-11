@@ -1,0 +1,3 @@
+# Всё в репозитории хранится с LF. Скрипты внутри workflow крутятся на Linux-раннере,
+# и CRLF в них ломает bash с ошибкой $'\r': command not found.
+* text=auto eol=lf
