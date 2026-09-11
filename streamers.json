@@ -1,17 +1,30 @@
 {
+  "_fields": "login обязателен. Необязательные: note (моё описание, перебивает описание из Twitch), socials {telegram, youtube, instagram, ...}, tags, featured, hidden",
   "streamers": [
-    {
-      "login": "example",
-      "note": null,
-      "socials": {
-        "telegram": null,
-        "youtube": null,
-        "instagram": null
-      },
-      "tags": [],
-      "featured": false,
-      "hidden": false,
-      "added_at": "2026-09-11"
-    }
+    { "login": "mashninski", "note": null, "socials": {}, "tags": [], "featured": false, "hidden": false, "added_at": "2026-09-11" },
+    { "login": "lepus81", "added_at": "2026-09-11" },
+    { "login": "kryvichanka", "added_at": "2026-09-11" },
+    { "login": "radyjo_holas", "added_at": "2026-09-11" },
+    { "login": "dzed_ahey", "added_at": "2026-09-11" },
+    { "login": "annigilatormg42", "added_at": "2026-09-11" },
+    { "login": "watafakablr", "added_at": "2026-09-11" },
+    { "login": "ms_bahiema", "added_at": "2026-09-11" },
+    { "login": "evildive", "added_at": "2026-09-11" },
+    { "login": "k4mbeg", "added_at": "2026-09-11" },
+    { "login": "toddzie", "added_at": "2026-09-11" },
+    { "login": "lilzorka_", "added_at": "2026-09-11" },
+    { "login": "marhinez", "added_at": "2026-09-11" },
+    { "login": "kurisu_illusia", "added_at": "2026-09-11" },
+    { "login": "angryralef", "added_at": "2026-09-11" },
+    { "login": "lucii7vel", "added_at": "2026-09-11" },
+    { "login": "ulaadzik", "added_at": "2026-09-11" },
+    { "login": "ucenamescy", "added_at": "2026-09-11" },
+    { "login": "mx_oda", "added_at": "2026-09-11" },
+    { "login": "mihas_gareza", "added_at": "2026-09-11" },
+    { "login": "nine_ravens_cemetery", "added_at": "2026-09-11" },
+    { "login": "dzedmaksim", "added_at": "2026-09-11" },
+    { "login": "shagrael_by", "added_at": "2026-09-11" },
+    { "login": "bel_asch", "added_at": "2026-09-11" },
+    { "login": "rudzi_belarus", "added_at": "2026-09-11" }
   ]
 }
