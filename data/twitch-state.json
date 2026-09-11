@@ -406,7 +406,7 @@
         "since": "2026-09-11T17:55:05Z",
         "stream_id": "318612544870",
         "title": "[BLR] Рыхтуемся да GTA VI. Рабуем докі",
-        "viewers": 7
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -478,28 +478,34 @@
       "broadcaster_type": "affiliate",
       "description": "Штодзённыя стрымы - маляванне і гульні. Утульнасць, дзіўныя казкі, дранікі. Ніякага \"ші\".",
       "display_name": "Nine_Ravens_Cemetery",
-      "history": [],
-      "last_stream": {
-        "duration_min": 123,
-        "ended_at": "2026-09-10T20:02:50Z",
-        "game": null,
-        "source": "vod",
-        "started_at": "2026-09-10T17:59:50Z",
-        "stream_id": "316890905300",
-        "title": "Петрык!",
-        "vod": {
-          "gone": false,
-          "id": "2870550620",
-          "seen_at": "2026-09-11T17:31:35Z",
-          "url": "https://www.twitch.tv/videos/2870550620"
+      "history": [
+        {
+          "duration_min": 140,
+          "ended_at": "2026-09-11T20:19:19Z",
+          "game": "Art",
+          "source": "observed",
+          "started_at": "2026-09-11T17:59:23Z",
+          "stream_id": "316897026900",
+          "title": "Пятнішны вечаровы блюзец",
+          "vod": null
         }
-      },
-      "live": {
+      ],
+      "last_stream": {
+        "duration_min": 140,
+        "ended_at": "2026-09-11T20:19:19Z",
         "game": "Art",
-        "since": "2026-09-11T17:59:23Z",
+        "source": "observed",
+        "started_at": "2026-09-11T17:59:23Z",
         "stream_id": "316897026900",
         "title": "Пятнішны вечаровы блюзец",
-        "viewers": 11
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -578,7 +584,7 @@
         "since": "2026-09-11T17:23:36Z",
         "stream_id": "316896725588",
         "title": "КС від Іринка подруга",
-        "viewers": 5
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -640,7 +646,7 @@
         "since": "2026-09-11T18:27:22Z",
         "stream_id": "318416273255",
         "title": "Мабыць, Фінал? ◉ S.T.A.L.K.E.R. 2: Cost of Hope",
-        "viewers": 11
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -695,5 +701,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-11T20:01:03Z"
+  "updated_at": "2026-09-11T20:19:19Z"
 }
