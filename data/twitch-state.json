@@ -1,0 +1,22 @@
+{
+  "streamers": {
+    "example": {
+      "broadcaster_type": "",
+      "description": null,
+      "display_name": "example",
+      "history": [],
+      "last_stream": null,
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
+      },
+      "missing_runs": 0,
+      "profile_image_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/de130ab0-def7-11e9-b668-784f43822e80-profile_image-300x300.png",
+      "user_id": "886609"
+    }
+  },
+  "updated_at": "2026-09-11T17:17:19Z"
+}
