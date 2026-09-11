@@ -247,28 +247,34 @@
       "broadcaster_type": "affiliate",
       "description": "Вітаю! Стрымлю па-беларуску розныя гульні і намагаюся каб наша мова жыла. Кансультую, дапамагаю ў самастойным набыцці камплектуючых і ў рашэнні праблем з кампутарам. Далучайся па спасылках да маіх суполак. Будзе цікава і карысна ;)",
       "display_name": "lepus81",
-      "history": [],
+      "history": [
+        {
+          "duration_min": 258,
+          "ended_at": "2026-09-11T19:26:28Z",
+          "game": "Medieval II: Total War",
+          "source": "observed",
+          "started_at": "2026-09-11T15:08:56Z",
+          "stream_id": "316895607636",
+          "title": "Ці возьмем мы Ерусалем?",
+          "vod": null
+        }
+      ],
       "last_stream": {
-        "duration_min": 232,
-        "ended_at": "2026-09-11T19:01:05Z",
-        "game": null,
-        "source": "vod",
-        "started_at": "2026-09-11T15:09:05Z",
+        "duration_min": 258,
+        "ended_at": "2026-09-11T19:26:28Z",
+        "game": "Medieval II: Total War",
+        "source": "observed",
+        "started_at": "2026-09-11T15:08:56Z",
         "stream_id": "316895607636",
         "title": "Ці возьмем мы Ерусалем?",
-        "vod": {
-          "gone": false,
-          "id": "2871283779",
-          "seen_at": "2026-09-11T17:31:34Z",
-          "url": "https://www.twitch.tv/videos/2871283779"
-        }
+        "vod": null
       },
       "live": {
-        "game": "Medieval II: Total War",
-        "since": "2026-09-11T15:08:56Z",
-        "stream_id": "316895607636",
-        "title": "Ці возьмем мы Ерусалем?",
-        "viewers": 11
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -488,7 +494,7 @@
         "since": "2026-09-11T17:59:23Z",
         "stream_id": "316897026900",
         "title": "Пятнішны вечаровы блюзец",
-        "viewers": 10
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -567,7 +573,7 @@
         "since": "2026-09-11T17:23:36Z",
         "stream_id": "316896725588",
         "title": "КС від Іринка подруга",
-        "viewers": 6
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -629,7 +635,7 @@
         "since": "2026-09-11T18:27:22Z",
         "stream_id": "318416273255",
         "title": "Мабыць, Фінал? ◉ S.T.A.L.K.E.R. 2: Cost of Hope",
-        "viewers": 4
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -684,5 +690,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-11T19:17:07Z"
+  "updated_at": "2026-09-11T19:26:28Z"
 }
