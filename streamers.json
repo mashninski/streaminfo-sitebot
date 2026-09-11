@@ -1,0 +1,17 @@
+{
+  "streamers": [
+    {
+      "login": "example",
+      "note": null,
+      "socials": {
+        "telegram": null,
+        "youtube": null,
+        "instagram": null
+      },
+      "tags": [],
+      "featured": false,
+      "hidden": false,
+      "added_at": "2026-09-11"
+    }
+  ]
+}
