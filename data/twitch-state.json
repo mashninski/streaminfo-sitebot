@@ -100,11 +100,11 @@
       "history": [],
       "last_stream": null,
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Witcher",
+        "since": "2026-09-12T11:01:24Z",
+        "stream_id": "318423405415",
+        "title": "Гуляем у першага Вядзьмара па-беларуску. Першы тэст перакладу.",
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b3e18b5-6d45-4af2-9abb-eec6eb3a1264-profile_image-300x300.png",
@@ -734,5 +734,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-12T08:53:47Z"
+  "updated_at": "2026-09-12T11:16:36Z"
 }
