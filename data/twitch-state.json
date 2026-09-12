@@ -587,14 +587,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 714,
-        "ended_at": "2026-09-12T05:17:34Z",
+        "duration_min": 709,
+        "ended_at": "2026-09-12T05:12:36Z",
         "game": "Fortnite",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-11T17:23:36Z",
         "stream_id": "316896725588",
         "title": "не КС від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2871382833",
+          "seen_at": "2026-09-12T06:00:57Z",
+          "url": "https://www.twitch.tv/videos/2871382833"
+        }
       },
       "live": {
         "game": null,
@@ -729,5 +734,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-12T05:17:34Z"
+  "updated_at": "2026-09-12T06:00:55Z"
 }
