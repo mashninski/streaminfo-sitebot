@@ -479,7 +479,7 @@
         "since": "2026-09-14T18:04:36Z",
         "stream_id": "316916707540",
         "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -594,14 +594,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 145,
-        "ended_at": "2026-09-14T20:19:33Z",
+        "duration_min": 128,
+        "ended_at": "2026-09-14T20:03:01Z",
         "game": "Art",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-14T17:55:01Z",
         "stream_id": "316873342038",
         "title": "Глядзім фоткі, пасля малюем гук",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2874146643",
+          "seen_at": "2026-09-14T21:01:10Z",
+          "url": "https://www.twitch.tv/videos/2874146643"
+        }
       },
       "live": {
         "game": null,
@@ -808,33 +813,39 @@
       "broadcaster_type": "affiliate",
       "description": "Тут мы бавімся ў гульні , слухаем музыку ды размаўляем 😉                                                                                                                              ",
       "display_name": "watafakablr",
-      "history": [],
-      "last_stream": {
-        "duration_min": 222,
-        "ended_at": "2026-09-04T21:41:35Z",
-        "game": null,
-        "source": "vod",
-        "started_at": "2026-09-04T17:59:35Z",
-        "stream_id": "316852861012",
-        "title": "🔥#2 Вечарынка юнакоў (ЗА ПАДПІСКУ 2ога УЗРОЎНЯ ТВІЧ МОЖНА АДПРАЎЛЯЦЬ ГІФКІ Ў ЧАТ) 🥰@watafakablr",
-        "vod": {
-          "gone": false,
-          "id": "2865185640",
-          "seen_at": "2026-09-11T17:31:34Z",
-          "url": "https://www.twitch.tv/videos/2865185640"
+      "history": [
+        {
+          "duration_min": 348,
+          "ended_at": "2026-09-14T21:01:08Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-09-14T15:13:36Z",
+          "stream_id": "316872110934",
+          "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
+          "vod": null
         }
-      },
-      "live": {
+      ],
+      "last_stream": {
+        "duration_min": 348,
+        "ended_at": "2026-09-14T21:01:08Z",
         "game": "WARDOGS",
-        "since": "2026-09-14T15:13:36Z",
+        "source": "observed",
+        "started_at": "2026-09-14T15:13:36Z",
         "stream_id": "316872110934",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 7
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-14T20:53:33Z"
+  "updated_at": "2026-09-14T21:01:08Z"
 }
