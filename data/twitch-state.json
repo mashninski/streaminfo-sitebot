@@ -479,7 +479,7 @@
         "since": "2026-09-14T18:04:36Z",
         "stream_id": "316916707540",
         "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
-        "viewers": 5
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -553,6 +553,16 @@
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
         {
+          "duration_min": 145,
+          "ended_at": "2026-09-14T20:19:33Z",
+          "game": "Art",
+          "source": "observed",
+          "started_at": "2026-09-14T17:55:01Z",
+          "stream_id": "316873342038",
+          "title": "Глядзім фоткі, пасля малюем гук",
+          "vod": null
+        },
+        {
           "duration_min": 165,
           "ended_at": "2026-09-13T20:38:29Z",
           "game": "Thief: Deadly Shadows",
@@ -584,26 +594,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 160,
-        "ended_at": "2026-09-13T20:33:58Z",
-        "game": "Thief: Deadly Shadows",
-        "source": "vod",
-        "started_at": "2026-09-13T17:53:58Z",
-        "stream_id": "316867912662",
-        "title": "Паслясвяточны стэлс",
-        "vod": {
-          "gone": false,
-          "id": "2873326147",
-          "seen_at": "2026-09-13T21:01:03Z",
-          "url": "https://www.twitch.tv/videos/2873326147"
-        }
-      },
-      "live": {
+        "duration_min": 145,
+        "ended_at": "2026-09-14T20:19:33Z",
         "game": "Art",
-        "since": "2026-09-14T17:55:01Z",
+        "source": "observed",
+        "started_at": "2026-09-14T17:55:01Z",
         "stream_id": "316873342038",
         "title": "Глядзім фоткі, пасля малюем гук",
-        "viewers": 10
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -703,7 +708,7 @@
         "since": "2026-09-14T18:24:40Z",
         "stream_id": "318452860647",
         "title": "Рэалістычныя тра-та-та від Іринка подруга",
-        "viewers": 14
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -824,12 +829,12 @@
         "since": "2026-09-14T15:13:36Z",
         "stream_id": "316872110934",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 10
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-14T20:01:19Z"
+  "updated_at": "2026-09-14T20:19:33Z"
 }
