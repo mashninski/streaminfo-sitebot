@@ -470,14 +470,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 194,
-        "ended_at": "2026-09-14T21:18:17Z",
+        "duration_min": 184,
+        "ended_at": "2026-09-14T21:08:36Z",
         "game": "Grand Theft Auto V",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-14T18:04:36Z",
         "stream_id": "316916707540",
         "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2874156144",
+          "seen_at": "2026-09-14T22:01:03Z",
+          "url": "https://www.twitch.tv/videos/2874156144"
+        }
       },
       "live": {
         "game": null,
@@ -718,7 +723,7 @@
         "since": "2026-09-14T18:24:40Z",
         "stream_id": "318452860647",
         "title": "Рэалістычныя тра-та-та від Іринка подруга",
-        "viewers": 14
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -852,5 +857,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-14T21:53:25Z"
+  "updated_at": "2026-09-14T22:01:03Z"
 }
