@@ -439,6 +439,16 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 194,
+          "ended_at": "2026-09-14T21:18:17Z",
+          "game": "Grand Theft Auto V",
+          "source": "observed",
+          "started_at": "2026-09-14T18:04:36Z",
+          "stream_id": "316916707540",
+          "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
+          "vod": null
+        },
+        {
           "duration_min": 137,
           "ended_at": "2026-09-13T20:29:02Z",
           "game": "SpeedRunners 2: King of Speed",
@@ -460,26 +470,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 130,
-        "ended_at": "2026-09-13T20:22:22Z",
-        "game": "SpeedRunners 2: King of Speed",
-        "source": "vod",
-        "started_at": "2026-09-13T18:12:22Z",
-        "stream_id": "318576561253",
-        "title": "[BLR] Нядзельны трыял. 2 гульні па гадзіне. Каліста пратакол.",
-        "vod": {
-          "gone": false,
-          "id": "2873344592",
-          "seen_at": "2026-09-13T21:01:03Z",
-          "url": "https://www.twitch.tv/videos/2873344592"
-        }
-      },
-      "live": {
+        "duration_min": 194,
+        "ended_at": "2026-09-14T21:18:17Z",
         "game": "Grand Theft Auto V",
-        "since": "2026-09-14T18:04:36Z",
+        "source": "observed",
+        "started_at": "2026-09-14T18:04:36Z",
         "stream_id": "316916707540",
         "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
-        "viewers": 5
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -713,7 +718,7 @@
         "since": "2026-09-14T18:24:40Z",
         "stream_id": "318452860647",
         "title": "Рэалістычныя тра-та-та від Іринка подруга",
-        "viewers": 17
+        "viewers": 20
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -847,5 +852,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-14T21:01:08Z"
+  "updated_at": "2026-09-14T21:18:17Z"
 }
