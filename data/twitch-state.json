@@ -46,28 +46,44 @@
       "broadcaster_type": "affiliate",
       "description": "мамкін стрымер",
       "display_name": "annigilatormg42",
-      "history": [],
+      "history": [
+        {
+          "duration_min": 144,
+          "ended_at": "2026-09-14T18:56:19Z",
+          "game": "Gallipoli",
+          "source": "vod",
+          "started_at": "2026-09-14T16:32:19Z",
+          "stream_id": "318586546405",
+          "title": "Працягваем штурм плато Галліпалі)",
+          "vod": {
+            "gone": false,
+            "id": "2874083503",
+            "seen_at": "2026-09-14T19:02:40Z",
+            "url": "https://www.twitch.tv/videos/2874083503"
+          }
+        }
+      ],
       "last_stream": {
-        "duration_min": 178,
-        "ended_at": "2026-09-06T16:53:59Z",
-        "game": null,
+        "duration_min": 144,
+        "ended_at": "2026-09-14T18:56:19Z",
+        "game": "Gallipoli",
         "source": "vod",
-        "started_at": "2026-09-06T13:55:59Z",
-        "stream_id": "318491791845",
-        "title": "Працягваем біцца за Вялікі Катай)",
+        "started_at": "2026-09-14T16:32:19Z",
+        "stream_id": "318586546405",
+        "title": "Працягваем штурм плато Галліпалі)",
         "vod": {
           "gone": false,
-          "id": "2866900976",
-          "seen_at": "2026-09-11T17:31:34Z",
-          "url": "https://www.twitch.tv/videos/2866900976"
+          "id": "2874083503",
+          "seen_at": "2026-09-14T19:02:40Z",
+          "url": "https://www.twitch.tv/videos/2874083503"
         }
       },
       "live": {
-        "game": "Gallipoli",
-        "since": "2026-09-14T16:32:19Z",
-        "stream_id": "318586546405",
-        "title": "Працягваем штурм плато Галліпалі)",
-        "viewers": 4
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -463,7 +479,7 @@
         "since": "2026-09-14T18:04:36Z",
         "stream_id": "316916707540",
         "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
-        "viewers": 4
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -587,7 +603,7 @@
         "since": "2026-09-14T17:55:01Z",
         "stream_id": "316873342038",
         "title": "Глядзім фоткі, пасля малюем гук",
-        "viewers": 8
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -604,7 +620,7 @@
         "since": "2026-09-14T18:05:25Z",
         "stream_id": "316873437142",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 0
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -687,7 +703,7 @@
         "since": "2026-09-14T18:24:40Z",
         "stream_id": "318452860647",
         "title": "Рэалістычныя тра-та-та від Іринка подруга",
-        "viewers": 8
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -808,12 +824,12 @@
         "since": "2026-09-14T15:13:36Z",
         "stream_id": "316872110934",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 14
+        "viewers": 16
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-14T18:52:00Z"
+  "updated_at": "2026-09-14T19:02:40Z"
 }
