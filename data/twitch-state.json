@@ -4,28 +4,34 @@
       "broadcaster_type": "affiliate",
       "description": "Вітанкі! Я аматар гульняў і гуляў у іх колькі сябе памятаю. Пачынаў пад MS-DOS на кампе, які ў дзяцінстве і спаліў у выніку. Спадзяюся, што табе тут спадабаецца!",
       "display_name": "AngryRalef",
-      "history": [],
-      "last_stream": {
-        "duration_min": 229,
-        "ended_at": "2026-09-11T11:57:37Z",
-        "game": null,
-        "source": "vod",
-        "started_at": "2026-09-11T08:08:37Z",
-        "stream_id": "316849828694",
-        "title": "Кароль Малп. Black Myth: Wukong",
-        "vod": {
-          "gone": false,
-          "id": "2871085702",
-          "seen_at": "2026-09-11T17:31:34Z",
-          "url": "https://www.twitch.tv/videos/2871085702"
+      "history": [
+        {
+          "duration_min": 220,
+          "ended_at": "2026-09-14T11:56:06Z",
+          "game": "Nancy Drew: The Secret of Shadow Ranch",
+          "source": "observed",
+          "started_at": "2026-09-14T08:16:32Z",
+          "stream_id": "318642628070",
+          "title": "Белы конь з'яўляецца ў начы і адразу нешта адбываецца. Nancy Drew: The Secret of Shadow Ranch",
+          "vod": null
         }
-      },
-      "live": {
+      ],
+      "last_stream": {
+        "duration_min": 220,
+        "ended_at": "2026-09-14T11:56:06Z",
         "game": "Nancy Drew: The Secret of Shadow Ranch",
-        "since": "2026-09-14T08:16:32Z",
+        "source": "observed",
+        "started_at": "2026-09-14T08:16:32Z",
         "stream_id": "318642628070",
         "title": "Белы конь з'яўляецца ў начы і адразу нешта адбываецца. Nancy Drew: The Secret of Shadow Ranch",
-        "viewers": 24
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -593,7 +599,7 @@
         "since": "2026-09-12T18:05:14Z",
         "stream_id": "318562915301",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 16
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -804,5 +810,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-14T11:46:55Z"
+  "updated_at": "2026-09-14T11:56:06Z"
 }
