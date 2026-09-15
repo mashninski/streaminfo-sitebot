@@ -322,14 +322,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 168,
-        "ended_at": "2026-09-15T17:17:18Z",
+        "duration_min": 166,
+        "ended_at": "2026-09-15T17:15:18Z",
         "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-15T14:29:18Z",
         "stream_id": "316921191380",
         "title": "Новыя сюрпрызы?",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2874841942",
+          "seen_at": "2026-09-15T18:00:59Z",
+          "url": "https://www.twitch.tv/videos/2874841942"
+        }
       },
       "live": {
         "game": null,
@@ -490,11 +495,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "RESIDENT EVIL: requiem",
+        "since": "2026-09-15T17:55:06Z",
+        "stream_id": "318599486821",
+        "title": "[BLR] Круцім Гуся. Лявон мусіць памерці. Заўсёды.",
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -865,12 +870,12 @@
         "since": "2026-09-15T15:09:14Z",
         "stream_id": "316878154454",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 19
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-15T17:52:10Z"
+  "updated_at": "2026-09-15T18:00:58Z"
 }
