@@ -683,6 +683,16 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 512,
+          "ended_at": "2026-09-15T02:57:08Z",
+          "game": "Kingdom Come: Deliverance",
+          "source": "observed",
+          "started_at": "2026-09-14T18:24:40Z",
+          "stream_id": "318452860647",
+          "title": "Рэалістычныя тра-та-та від Іринка подруга",
+          "vod": null
+        },
+        {
           "duration_min": 149,
           "ended_at": "2026-09-13T03:52:21Z",
           "game": "Fortnite",
@@ -704,26 +714,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 144,
-        "ended_at": "2026-09-13T03:47:11Z",
-        "game": "Fortnite",
-        "source": "vod",
-        "started_at": "2026-09-13T01:23:11Z",
-        "stream_id": "318629044582",
-        "title": "Не Барадзец від Іринка подруга",
-        "vod": {
-          "gone": false,
-          "id": "2872735626",
-          "seen_at": "2026-09-13T04:01:13Z",
-          "url": "https://www.twitch.tv/videos/2872735626"
-        }
-      },
-      "live": {
+        "duration_min": 512,
+        "ended_at": "2026-09-15T02:57:08Z",
         "game": "Kingdom Come: Deliverance",
-        "since": "2026-09-14T18:24:40Z",
+        "source": "observed",
+        "started_at": "2026-09-14T18:24:40Z",
         "stream_id": "318452860647",
         "title": "Рэалістычныя тра-та-та від Іринка подруга",
-        "viewers": 35
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -857,5 +862,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-15T02:48:26Z"
+  "updated_at": "2026-09-15T02:57:08Z"
 }
