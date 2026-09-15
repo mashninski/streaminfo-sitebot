@@ -449,6 +449,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 181,
+          "ended_at": "2026-09-15T20:56:06Z",
+          "game": "RESIDENT EVIL: requiem",
+          "source": "vod",
+          "started_at": "2026-09-15T17:55:06Z",
+          "stream_id": "318599486821",
+          "title": "[BLR] Круцім Гуся. Лявон мусіць памерці. Заўсёды.",
+          "vod": {
+            "gone": false,
+            "id": "2874991412",
+            "seen_at": "2026-09-15T21:01:18Z",
+            "url": "https://www.twitch.tv/videos/2874991412"
+          }
+        },
+        {
           "duration_min": 194,
           "ended_at": "2026-09-14T21:18:17Z",
           "game": "Grand Theft Auto V",
@@ -480,26 +495,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 184,
-        "ended_at": "2026-09-14T21:08:36Z",
-        "game": "Grand Theft Auto V",
+        "duration_min": 181,
+        "ended_at": "2026-09-15T20:56:06Z",
+        "game": "RESIDENT EVIL: requiem",
         "source": "vod",
-        "started_at": "2026-09-14T18:04:36Z",
-        "stream_id": "316916707540",
-        "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
+        "started_at": "2026-09-15T17:55:06Z",
+        "stream_id": "318599486821",
+        "title": "[BLR] Круцім Гуся. Лявон мусіць памерці. Заўсёды.",
         "vod": {
           "gone": false,
-          "id": "2874156144",
-          "seen_at": "2026-09-14T22:01:03Z",
-          "url": "https://www.twitch.tv/videos/2874156144"
+          "id": "2874991412",
+          "seen_at": "2026-09-15T21:01:18Z",
+          "url": "https://www.twitch.tv/videos/2874991412"
         }
       },
       "live": {
-        "game": "RESIDENT EVIL: requiem",
-        "since": "2026-09-15T17:55:06Z",
-        "stream_id": "318599486821",
-        "title": "[BLR] Круцім Гуся. Лявон мусіць памерці. Заўсёды.",
-        "viewers": 9
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -624,14 +639,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 138,
-        "ended_at": "2026-09-15T20:18:48Z",
+        "duration_min": 122,
+        "ended_at": "2026-09-15T20:03:18Z",
         "game": "Art",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-15T18:01:18Z",
         "stream_id": "316922954324",
         "title": "Звычайны дзень, звычайная мітусня",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2874997812",
+          "seen_at": "2026-09-15T21:01:18Z",
+          "url": "https://www.twitch.tv/videos/2874997812"
+        }
       },
       "live": {
         "game": null,
@@ -748,7 +768,7 @@
         "since": "2026-09-15T18:16:31Z",
         "stream_id": "316847135317",
         "title": "Та за шо від Іринка подруга",
-        "viewers": 17
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -875,12 +895,12 @@
         "since": "2026-09-15T15:09:14Z",
         "stream_id": "316878154454",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 15
+        "viewers": 22
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-15T20:54:04Z"
+  "updated_at": "2026-09-15T21:01:16Z"
 }
