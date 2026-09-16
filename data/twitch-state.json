@@ -293,6 +293,16 @@
       "display_name": "Kryvichanka",
       "history": [
         {
+          "duration_min": 46,
+          "ended_at": "2026-09-16T22:45:34Z",
+          "game": "Starfield",
+          "source": "observed",
+          "started_at": "2026-09-16T21:59:22Z",
+          "stream_id": "318142262744",
+          "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
+          "vod": null
+        },
+        {
           "duration_min": 130,
           "ended_at": "2026-09-11T18:21:50Z",
           "game": "Starfield",
@@ -304,21 +314,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 130,
-        "ended_at": "2026-09-11T18:21:50Z",
+        "duration_min": 46,
+        "ended_at": "2026-09-16T22:45:34Z",
         "game": "Starfield",
         "source": "observed",
-        "started_at": "2026-09-11T16:11:43Z",
-        "stream_id": "319189567959",
+        "started_at": "2026-09-16T21:59:22Z",
+        "stream_id": "318142262744",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
         "vod": null
       },
       "live": {
-        "game": "Starfield",
-        "since": "2026-09-16T21:59:22Z",
-        "stream_id": "318142262744",
-        "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 3
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -891,7 +901,7 @@
         "since": "2026-09-16T16:34:03Z",
         "stream_id": "318472547687",
         "title": "Ці дашпацыруем? від Іринка подруга",
-        "viewers": 14
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1060,5 +1070,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T22:37:40Z"
+  "updated_at": "2026-09-16T22:45:34Z"
 }
