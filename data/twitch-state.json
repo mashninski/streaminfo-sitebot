@@ -711,28 +711,44 @@
       "broadcaster_type": "affiliate",
       "description": "Беларускі стрымер, аглядальнік на YouTube",
       "display_name": "Rudzi_Belarus",
-      "history": [],
+      "history": [
+        {
+          "duration_min": 126,
+          "ended_at": "2026-09-16T13:02:26Z",
+          "game": "The Witcher 2: Assassins of Kings",
+          "source": "vod",
+          "started_at": "2026-09-16T10:56:26Z",
+          "stream_id": "316926218580",
+          "title": "Вядзьмар 2 - збіраемся біць супер-тэнтакля!",
+          "vod": {
+            "gone": false,
+            "id": "2875595053",
+            "seen_at": "2026-09-16T13:03:14Z",
+            "url": "https://www.twitch.tv/videos/2875595053"
+          }
+        }
+      ],
       "last_stream": {
-        "duration_min": 121,
-        "ended_at": "2026-09-04T12:53:30Z",
-        "game": null,
+        "duration_min": 126,
+        "ended_at": "2026-09-16T13:02:26Z",
+        "game": "The Witcher 2: Assassins of Kings",
         "source": "vod",
-        "started_at": "2026-09-04T10:52:30Z",
-        "stream_id": "316806884694",
-        "title": "Metro Exodus - каспійскі груз!",
+        "started_at": "2026-09-16T10:56:26Z",
+        "stream_id": "316926218580",
+        "title": "Вядзьмар 2 - збіраемся біць супер-тэнтакля!",
         "vod": {
           "gone": false,
-          "id": "2864912365",
-          "seen_at": "2026-09-11T17:31:35Z",
-          "url": "https://www.twitch.tv/videos/2864912365"
+          "id": "2875595053",
+          "seen_at": "2026-09-16T13:03:14Z",
+          "url": "https://www.twitch.tv/videos/2875595053"
         }
       },
       "live": {
-        "game": "The Witcher 2: Assassins of Kings",
-        "since": "2026-09-16T10:56:26Z",
-        "stream_id": "316926218580",
-        "title": "Вядзьмар 2 - збіраемся біць супер-тэнтакля!",
-        "viewers": 43
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -948,5 +964,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T12:53:33Z"
+  "updated_at": "2026-09-16T13:03:12Z"
 }
