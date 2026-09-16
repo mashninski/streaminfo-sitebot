@@ -94,11 +94,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Total War: Shogun 2",
+        "since": "2026-09-16T13:05:59Z",
+        "stream_id": "318606773221",
+        "title": "Пачынаем шлях, сакура адцвяла, снег тае...)",
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -964,5 +964,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T13:03:12Z"
+  "updated_at": "2026-09-16T13:21:31Z"
 }
