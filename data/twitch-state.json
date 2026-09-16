@@ -337,6 +337,16 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 219,
+          "ended_at": "2026-09-16T17:52:46Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "observed",
+          "started_at": "2026-09-16T14:14:00Z",
+          "stream_id": "316851293781",
+          "title": "Паціху даследуем ЗОНУ",
+          "vod": null
+        },
+        {
           "duration_min": 168,
           "ended_at": "2026-09-15T17:17:18Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -358,26 +368,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 166,
-        "ended_at": "2026-09-15T17:15:18Z",
+        "duration_min": 219,
+        "ended_at": "2026-09-16T17:52:46Z",
         "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "source": "vod",
-        "started_at": "2026-09-15T14:29:18Z",
-        "stream_id": "316921191380",
-        "title": "Новыя сюрпрызы?",
-        "vod": {
-          "gone": false,
-          "id": "2874841942",
-          "seen_at": "2026-09-15T18:00:59Z",
-          "url": "https://www.twitch.tv/videos/2874841942"
-        }
-      },
-      "live": {
-        "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "since": "2026-09-16T14:14:00Z",
+        "source": "observed",
+        "started_at": "2026-09-16T14:14:00Z",
         "stream_id": "316851293781",
         "title": "Паціху даследуем ЗОНУ",
-        "viewers": 14
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -473,7 +478,7 @@
         "since": "2026-09-16T16:32:00Z",
         "stream_id": "316884678102",
         "title": "Сланы ідуць на шпацыр | каап",
-        "viewers": 5
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -550,7 +555,7 @@
         "since": "2026-09-16T16:37:59Z",
         "stream_id": "318472600423",
         "title": "[BLR] Каапная серада. Таямніца выспы",
-        "viewers": 5
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -830,7 +835,7 @@
         "since": "2026-09-16T16:34:03Z",
         "stream_id": "318472547687",
         "title": "Ці дашпацыруем? від Іринка подруга",
-        "viewers": 9
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -903,7 +908,7 @@
         "since": "2026-09-16T16:40:11Z",
         "stream_id": "318668189926",
         "title": "Шукаем Грушы ◉ Big Walk",
-        "viewers": 1
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -967,12 +972,12 @@
         "since": "2026-09-16T16:16:40Z",
         "stream_id": "316928113108",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 8
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T17:44:57Z"
+  "updated_at": "2026-09-16T17:52:46Z"
 }
