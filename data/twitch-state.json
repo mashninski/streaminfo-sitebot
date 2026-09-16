@@ -483,7 +483,7 @@
         "since": "2026-09-16T16:32:00Z",
         "stream_id": "316884678102",
         "title": "Сланы ідуць на шпацыр | каап",
-        "viewers": 3
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -560,7 +560,7 @@
         "since": "2026-09-16T16:37:59Z",
         "stream_id": "318472600423",
         "title": "[BLR] Каапная серада. Таямніца выспы",
-        "viewers": 2
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -850,7 +850,7 @@
         "since": "2026-09-16T16:34:03Z",
         "stream_id": "318472547687",
         "title": "Ці дашпацыруем? від Іринка подруга",
-        "viewers": 15
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -923,7 +923,7 @@
         "since": "2026-09-16T16:40:11Z",
         "stream_id": "318668189926",
         "title": "Шукаем Грушы ◉ Big Walk",
-        "viewers": 4
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -952,6 +952,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 303,
+          "ended_at": "2026-09-16T21:19:30Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-09-16T16:16:40Z",
+          "stream_id": "316928113108",
+          "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 378,
           "ended_at": "2026-09-15T21:27:17Z",
           "game": "WARDOGS",
@@ -973,26 +983,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 378,
-        "ended_at": "2026-09-15T21:27:17Z",
+        "duration_min": 303,
+        "ended_at": "2026-09-16T21:19:30Z",
         "game": "WARDOGS",
         "source": "observed",
-        "started_at": "2026-09-15T15:09:14Z",
-        "stream_id": "316878154454",
+        "started_at": "2026-09-16T16:16:40Z",
+        "stream_id": "316928113108",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "WARDOGS",
-        "since": "2026-09-16T16:16:40Z",
-        "stream_id": "316928113108",
-        "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T21:00:52Z"
+  "updated_at": "2026-09-16T21:19:30Z"
 }
