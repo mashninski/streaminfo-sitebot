@@ -36,7 +36,7 @@
         "since": "2026-09-16T08:13:16Z",
         "stream_id": "316925515092",
         "title": "Месца здабычы Чорнага Камню. У пошуках Прызмы. Control",
-        "viewers": 13
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -166,28 +166,34 @@
       "broadcaster_type": "affiliate",
       "description": "Падпішыся! Тут пра гульні і не толькі. Падтрымаць і запытаць - https://dzedmaksim.donatik.ua/ aльбо тут  - https://streamlabs.com/dzedmaksim",
       "display_name": "DzedMaksim",
-      "history": [],
-      "last_stream": {
-        "duration_min": 214,
-        "ended_at": "2026-09-11T11:08:20Z",
-        "game": null,
-        "source": "vod",
-        "started_at": "2026-09-11T07:34:20Z",
-        "stream_id": "318544187237",
-        "title": "#9 Велен. Ратуем Ганну і іншае. | The Witcher 3 беларуская мова",
-        "vod": {
-          "gone": false,
-          "id": "2871074515",
-          "seen_at": "2026-09-11T17:31:35Z",
-          "url": "https://www.twitch.tv/videos/2871074515"
+      "history": [
+        {
+          "duration_min": 201,
+          "ended_at": "2026-09-16T11:31:15Z",
+          "game": "Crysis",
+          "source": "observed",
+          "started_at": "2026-09-16T08:10:23Z",
+          "stream_id": "318604786789",
+          "title": "4# На караблі іншапланетнікаў без набояў | Crysis беларуская мова",
+          "vod": null
         }
-      },
-      "live": {
+      ],
+      "last_stream": {
+        "duration_min": 201,
+        "ended_at": "2026-09-16T11:31:15Z",
         "game": "Crysis",
-        "since": "2026-09-16T08:10:23Z",
+        "source": "observed",
+        "started_at": "2026-09-16T08:10:23Z",
         "stream_id": "318604786789",
         "title": "4# На караблі іншапланетнікаў без набояў | Crysis беларуская мова",
-        "viewers": 6
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -706,7 +712,7 @@
         "since": "2026-09-16T10:56:26Z",
         "stream_id": "316926218580",
         "title": "Вядзьмар 2 - збіраемся біць супер-тэнтакля!",
-        "viewers": 21
+        "viewers": 27
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -922,5 +928,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T11:20:10Z"
+  "updated_at": "2026-09-16T11:31:15Z"
 }
