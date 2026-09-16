@@ -99,14 +99,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 174,
-        "ended_at": "2026-09-16T21:52:35Z",
+        "duration_min": 167,
+        "ended_at": "2026-09-16T21:45:26Z",
         "game": "Dungeons 3",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-16T18:58:26Z",
         "stream_id": "318474653671",
         "title": "Спабуем сабе ў ролі Злоснага Зла)",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2875910015",
+          "seen_at": "2026-09-16T22:01:03Z",
+          "url": "https://www.twitch.tv/videos/2875910015"
+        }
       },
       "live": {
         "game": null,
@@ -309,11 +314,11 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Starfield",
+        "since": "2026-09-16T21:59:22Z",
+        "stream_id": "318142262744",
+        "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -467,28 +472,44 @@
       "broadcaster_type": "affiliate",
       "description": "• стрымлю • здымаю ютуб • раблю мемы на беларускай  • на канале ёсць расклад будучых стрымоў",
       "display_name": "mashninski",
-      "history": [],
+      "history": [
+        {
+          "duration_min": 326,
+          "ended_at": "2026-09-16T21:58:00Z",
+          "game": "Big Walk",
+          "source": "vod",
+          "started_at": "2026-09-16T16:32:00Z",
+          "stream_id": "316884678102",
+          "title": "Сланы ідуць на шпацыр | каап",
+          "vod": {
+            "gone": false,
+            "id": "2875791041",
+            "seen_at": "2026-09-16T22:01:02Z",
+            "url": "https://www.twitch.tv/videos/2875791041"
+          }
+        }
+      ],
       "last_stream": {
-        "duration_min": 265,
-        "ended_at": "2026-09-09T21:20:55Z",
-        "game": null,
+        "duration_min": 326,
+        "ended_at": "2026-09-16T21:58:00Z",
+        "game": "Big Walk",
         "source": "vod",
-        "started_at": "2026-09-09T16:55:55Z",
-        "stream_id": "316809920213",
-        "title": "Скончым? | каап",
+        "started_at": "2026-09-16T16:32:00Z",
+        "stream_id": "316884678102",
+        "title": "Сланы ідуць на шпацыр | каап",
         "vod": {
           "gone": false,
-          "id": "2869654488",
-          "seen_at": "2026-09-11T17:31:33Z",
-          "url": "https://www.twitch.tv/videos/2869654488"
+          "id": "2875791041",
+          "seen_at": "2026-09-16T22:01:02Z",
+          "url": "https://www.twitch.tv/videos/2875791041"
         }
       },
       "live": {
-        "game": "Big Walk",
-        "since": "2026-09-16T16:32:00Z",
-        "stream_id": "316884678102",
-        "title": "Сланы ідуць на шпацыр | каап",
-        "viewers": 4
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -499,6 +520,21 @@
       "description": "Беларускі хлопчык трохі за 30 гадоў у вольны час гуляе у відэагульні і атрымвае платынавыя трафеі.",
       "display_name": "Mihas_Gareza",
       "history": [
+        {
+          "duration_min": 321,
+          "ended_at": "2026-09-16T21:58:59Z",
+          "game": "Big Walk",
+          "source": "vod",
+          "started_at": "2026-09-16T16:37:59Z",
+          "stream_id": "318472600423",
+          "title": "[BLR] Каапная серада. Таямніца выспы",
+          "vod": {
+            "gone": false,
+            "id": "2875795266",
+            "seen_at": "2026-09-16T22:01:04Z",
+            "url": "https://www.twitch.tv/videos/2875795266"
+          }
+        },
         {
           "duration_min": 181,
           "ended_at": "2026-09-15T20:56:06Z",
@@ -546,26 +582,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 181,
-        "ended_at": "2026-09-15T20:56:06Z",
-        "game": "RESIDENT EVIL: requiem",
+        "duration_min": 321,
+        "ended_at": "2026-09-16T21:58:59Z",
+        "game": "Big Walk",
         "source": "vod",
-        "started_at": "2026-09-15T17:55:06Z",
-        "stream_id": "318599486821",
-        "title": "[BLR] Круцім Гуся. Лявон мусіць памерці. Заўсёды.",
+        "started_at": "2026-09-16T16:37:59Z",
+        "stream_id": "318472600423",
+        "title": "[BLR] Каапная серада. Таямніца выспы",
         "vod": {
           "gone": false,
-          "id": "2874991412",
-          "seen_at": "2026-09-15T21:01:18Z",
-          "url": "https://www.twitch.tv/videos/2874991412"
+          "id": "2875795266",
+          "seen_at": "2026-09-16T22:01:04Z",
+          "url": "https://www.twitch.tv/videos/2875795266"
         }
       },
       "live": {
-        "game": "Big Walk",
-        "since": "2026-09-16T16:37:59Z",
-        "stream_id": "318472600423",
-        "title": "[BLR] Каапная серада. Таямніца выспы",
-        "viewers": 2
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -855,7 +891,7 @@
         "since": "2026-09-16T16:34:03Z",
         "stream_id": "318472547687",
         "title": "Ці дашпацыруем? від Іринка подруга",
-        "viewers": 12
+        "viewers": 21
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -898,6 +934,21 @@
       "display_name": "Ucenamescy",
       "history": [
         {
+          "duration_min": 318,
+          "ended_at": "2026-09-16T21:58:11Z",
+          "game": "Big Walk",
+          "source": "vod",
+          "started_at": "2026-09-16T16:40:11Z",
+          "stream_id": "318668189926",
+          "title": "Шукаем Грушы ◉ Big Walk",
+          "vod": {
+            "gone": false,
+            "id": "2875796744",
+            "seen_at": "2026-09-16T22:01:04Z",
+            "url": "https://www.twitch.tv/videos/2875796744"
+          }
+        },
+        {
           "duration_min": 195,
           "ended_at": "2026-09-11T21:41:52Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -909,26 +960,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 192,
-        "ended_at": "2026-09-11T21:39:22Z",
-        "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+        "duration_min": 318,
+        "ended_at": "2026-09-16T21:58:11Z",
+        "game": "Big Walk",
         "source": "vod",
-        "started_at": "2026-09-11T18:27:22Z",
-        "stream_id": "318416273255",
-        "title": "Мабыць, Фінал? ◉ S.T.A.L.K.E.R. 2: Cost of Hope",
+        "started_at": "2026-09-16T16:40:11Z",
+        "stream_id": "318668189926",
+        "title": "Шукаем Грушы ◉ Big Walk",
         "vod": {
           "gone": false,
-          "id": "2871435462",
-          "seen_at": "2026-09-11T22:01:20Z",
-          "url": "https://www.twitch.tv/videos/2871435462"
+          "id": "2875796744",
+          "seen_at": "2026-09-16T22:01:04Z",
+          "url": "https://www.twitch.tv/videos/2875796744"
         }
       },
       "live": {
-        "game": "Big Walk",
-        "since": "2026-09-16T16:40:11Z",
-        "stream_id": "318668189926",
-        "title": "Шукаем Грушы ◉ Big Walk",
-        "viewers": 5
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -1009,5 +1060,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T21:52:35Z"
+  "updated_at": "2026-09-16T22:01:02Z"
 }
