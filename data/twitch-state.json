@@ -701,7 +701,7 @@
         "since": "2026-09-14T18:05:25Z",
         "stream_id": "316873437142",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 2
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -732,7 +732,7 @@
         "since": "2026-09-16T10:56:26Z",
         "stream_id": "316926218580",
         "title": "Вядзьмар 2 - збіраемся біць супер-тэнтакля!",
-        "viewers": 42
+        "viewers": 44
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -948,5 +948,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T12:24:57Z"
+  "updated_at": "2026-09-16T12:40:05Z"
 }
