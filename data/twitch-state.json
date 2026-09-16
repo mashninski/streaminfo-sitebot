@@ -104,11 +104,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Dungeons 3",
+        "since": "2026-09-16T18:58:26Z",
+        "stream_id": "318474653671",
+        "title": "Спабуем сабе ў ролі Злоснага Зла)",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -483,7 +483,7 @@
         "since": "2026-09-16T16:32:00Z",
         "stream_id": "316884678102",
         "title": "Сланы ідуць на шпацыр | каап",
-        "viewers": 5
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -560,7 +560,7 @@
         "since": "2026-09-16T16:37:59Z",
         "stream_id": "318472600423",
         "title": "[BLR] Каапная серада. Таямніца выспы",
-        "viewers": 4
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -704,7 +704,7 @@
         "since": "2026-09-16T17:57:42Z",
         "stream_id": "318669436006",
         "title": "Серада актыўнай працы",
-        "viewers": 11
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -913,7 +913,7 @@
         "since": "2026-09-16T16:40:11Z",
         "stream_id": "318668189926",
         "title": "Шукаем Грушы ◉ Big Walk",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -977,12 +977,12 @@
         "since": "2026-09-16T16:16:40Z",
         "stream_id": "316928113108",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 11
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-16T18:56:46Z"
+  "updated_at": "2026-09-16T19:04:14Z"
 }
