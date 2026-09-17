@@ -88,6 +88,16 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 143,
+          "ended_at": "2026-09-17T22:50:40Z",
+          "game": "Gallipoli",
+          "source": "observed",
+          "started_at": "2026-09-17T20:27:59Z",
+          "stream_id": "318487230439",
+          "title": "Працягваем штурм плато Галліпалі)",
+          "vod": null
+        },
+        {
           "duration_min": 174,
           "ended_at": "2026-09-16T21:52:35Z",
           "game": "Dungeons 3",
@@ -124,26 +134,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 167,
-        "ended_at": "2026-09-16T21:45:26Z",
-        "game": "Dungeons 3",
-        "source": "vod",
-        "started_at": "2026-09-16T18:58:26Z",
-        "stream_id": "318474653671",
-        "title": "Спабуем сабе ў ролі Злоснага Зла)",
-        "vod": {
-          "gone": false,
-          "id": "2875910015",
-          "seen_at": "2026-09-16T22:01:03Z",
-          "url": "https://www.twitch.tv/videos/2875910015"
-        }
-      },
-      "live": {
+        "duration_min": 143,
+        "ended_at": "2026-09-17T22:50:40Z",
         "game": "Gallipoli",
-        "since": "2026-09-17T20:27:59Z",
+        "source": "observed",
+        "started_at": "2026-09-17T20:27:59Z",
         "stream_id": "318487230439",
         "title": "Працягваем штурм плато Галліпалі)",
-        "viewers": 4
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -982,7 +987,7 @@
         "since": "2026-09-17T17:55:38Z",
         "stream_id": "316859062357",
         "title": "Пакульгалі від Іринка подруга",
-        "viewers": 13
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1161,5 +1166,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-17T22:41:59Z"
+  "updated_at": "2026-09-17T22:50:40Z"
 }
