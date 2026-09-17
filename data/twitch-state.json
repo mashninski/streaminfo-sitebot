@@ -642,11 +642,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Serious Sam: The Second Encounter",
+        "since": "2026-09-17T18:10:59Z",
+        "stream_id": "316859213525",
+        "title": "[BLR] Рэтра чацвер. Вяртанне сур'ёзнага Сэму",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -800,7 +800,7 @@
         "since": "2026-09-17T17:59:24Z",
         "stream_id": "316935074516",
         "title": "Несерада актыўнай працы",
-        "viewers": 5
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -946,7 +946,7 @@
         "since": "2026-09-17T17:55:38Z",
         "stream_id": "316859062357",
         "title": "Па кейсікі від Іринка подруга",
-        "viewers": 4
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1108,12 +1108,12 @@
         "since": "2026-09-17T15:46:55Z",
         "stream_id": "316857912405",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 12
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-17T18:01:23Z"
+  "updated_at": "2026-09-17T18:22:49Z"
 }
