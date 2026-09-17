@@ -359,11 +359,11 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Talk Shows & Podcasts",
+        "since": "2026-09-17T20:10:07Z",
+        "stream_id": "318149240664",
+        "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -646,7 +646,7 @@
         "since": "2026-09-17T18:10:59Z",
         "stream_id": "316859213525",
         "title": "[BLR] Рэтра чацвер. Вяртанне сур'ёзнага Сэму",
-        "viewers": 4
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -708,7 +708,7 @@
         "since": "2026-09-17T18:31:48Z",
         "stream_id": "316076701289",
         "title": "Гатуемся да сэсіі  | Foundry & DnD",
-        "viewers": 2
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/805982e1-6bc8-46b9-a2f2-3c215142d613-profile_image-300x300.png",
@@ -719,6 +719,16 @@
       "description": "Штодзённыя стрымы - маляванне і гульні. Утульнасць, дзіўныя казкі, дранікі. Ніякага \"ші\".",
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
+        {
+          "duration_min": 140,
+          "ended_at": "2026-09-17T20:19:53Z",
+          "game": "Art",
+          "source": "observed",
+          "started_at": "2026-09-17T17:59:24Z",
+          "stream_id": "316935074516",
+          "title": "Несерада актыўнай працы",
+          "vod": null
+        },
         {
           "duration_min": 142,
           "ended_at": "2026-09-16T20:20:07Z",
@@ -781,26 +791,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 131,
-        "ended_at": "2026-09-16T20:08:42Z",
+        "duration_min": 140,
+        "ended_at": "2026-09-17T20:19:53Z",
         "game": "Art",
-        "source": "vod",
-        "started_at": "2026-09-16T17:57:42Z",
-        "stream_id": "318669436006",
-        "title": "Серада актыўнай працы",
-        "vod": {
-          "gone": false,
-          "id": "2875858194",
-          "seen_at": "2026-09-16T21:00:53Z",
-          "url": "https://www.twitch.tv/videos/2875858194"
-        }
-      },
-      "live": {
-        "game": "Art",
-        "since": "2026-09-17T17:59:24Z",
+        "source": "observed",
+        "started_at": "2026-09-17T17:59:24Z",
         "stream_id": "316935074516",
         "title": "Несерада актыўнай працы",
-        "viewers": 9
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -946,7 +951,7 @@
         "since": "2026-09-17T17:55:38Z",
         "stream_id": "316859062357",
         "title": "Па кейсікі від Іринка подруга",
-        "viewers": 9
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1108,12 +1113,12 @@
         "since": "2026-09-17T15:46:55Z",
         "stream_id": "316857912405",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 11
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-17T20:01:06Z"
+  "updated_at": "2026-09-17T20:19:53Z"
 }
