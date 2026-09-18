@@ -185,6 +185,16 @@
       "display_name": "Bel_Asch",
       "history": [
         {
+          "duration_min": 110,
+          "ended_at": "2026-09-18T22:42:59Z",
+          "game": "Dungeons & Dragons",
+          "source": "observed",
+          "started_at": "2026-09-18T20:53:29Z",
+          "stream_id": "318499087463",
+          "title": "Сэссія трэцья | Дрэва",
+          "vod": null
+        },
+        {
           "duration_min": 147,
           "ended_at": "2026-09-18T20:51:31Z",
           "game": "Dungeons & Dragons",
@@ -196,26 +206,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 141,
-        "ended_at": "2026-09-18T20:45:55Z",
+        "duration_min": 110,
+        "ended_at": "2026-09-18T22:42:59Z",
         "game": "Dungeons & Dragons",
-        "source": "vod",
-        "started_at": "2026-09-18T18:24:55Z",
-        "stream_id": "318634358245",
-        "title": "Сэссія трэцья | Дрэва",
-        "vod": {
-          "gone": false,
-          "id": "2877626676",
-          "seen_at": "2026-09-18T21:01:12Z",
-          "url": "https://www.twitch.tv/videos/2877626676"
-        }
-      },
-      "live": {
-        "game": "Dungeons & Dragons",
-        "since": "2026-09-18T20:53:29Z",
+        "source": "observed",
+        "started_at": "2026-09-18T20:53:29Z",
         "stream_id": "318499087463",
         "title": "Сэссія трэцья | Дрэва",
-        "viewers": 5
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -420,11 +425,11 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Talk Shows & Podcasts",
+        "since": "2026-09-18T22:39:29Z",
+        "stream_id": "319271748183",
+        "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -790,6 +795,16 @@
       "display_name": "mx_oda",
       "history": [
         {
+          "duration_min": 244,
+          "ended_at": "2026-09-18T22:42:59Z",
+          "game": "Board Games",
+          "source": "observed",
+          "started_at": "2026-09-18T18:39:21Z",
+          "stream_id": "316080632297",
+          "title": "Казанія. За межамі зла | DnD",
+          "vod": null
+        },
+        {
           "duration_min": 167,
           "ended_at": "2026-09-17T21:18:50Z",
           "game": "Just Chatting",
@@ -801,26 +816,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 158,
-        "ended_at": "2026-09-17T21:09:48Z",
-        "game": "Just Chatting",
-        "source": "vod",
-        "started_at": "2026-09-17T18:31:48Z",
-        "stream_id": "316076701289",
-        "title": "Гатуемся да сэсіі  | Foundry & DnD",
-        "vod": {
-          "gone": false,
-          "id": "2876749415",
-          "seen_at": "2026-09-18T10:01:22Z",
-          "url": "https://www.twitch.tv/videos/2876749415"
-        }
-      },
-      "live": {
+        "duration_min": 244,
+        "ended_at": "2026-09-18T22:42:59Z",
         "game": "Board Games",
-        "since": "2026-09-18T18:39:21Z",
+        "source": "observed",
+        "started_at": "2026-09-18T18:39:21Z",
         "stream_id": "316080632297",
         "title": "Казанія. За межамі зла | DnD",
-        "viewers": 2
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/805982e1-6bc8-46b9-a2f2-3c215142d613-profile_image-300x300.png",
@@ -1088,7 +1098,7 @@
         "since": "2026-09-18T18:33:02Z",
         "stream_id": "318634503141",
         "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
-        "viewers": 14
+        "viewers": 16
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1277,5 +1287,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T22:35:42Z"
+  "updated_at": "2026-09-18T22:42:59Z"
 }
