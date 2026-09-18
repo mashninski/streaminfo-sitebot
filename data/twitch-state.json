@@ -429,7 +429,7 @@
         "since": "2026-09-18T22:39:29Z",
         "stream_id": "319271748183",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 0
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -1018,6 +1018,16 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 258,
+          "ended_at": "2026-09-18T22:51:16Z",
+          "game": "Dungeons & Dragons",
+          "source": "observed",
+          "started_at": "2026-09-18T18:33:02Z",
+          "stream_id": "318634503141",
+          "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
+          "vod": null
+        },
+        {
           "duration_min": 468,
           "ended_at": "2026-09-18T01:44:07Z",
           "game": "Project Zomboid",
@@ -1079,26 +1089,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 464,
-        "ended_at": "2026-09-18T01:39:38Z",
-        "game": "Project Zomboid",
-        "source": "vod",
-        "started_at": "2026-09-17T17:55:38Z",
-        "stream_id": "316859062357",
-        "title": "Пакульгалі від Іринка подруга",
-        "vod": {
-          "gone": false,
-          "id": "2876717261",
-          "seen_at": "2026-09-18T02:01:07Z",
-          "url": "https://www.twitch.tv/videos/2876717261"
-        }
-      },
-      "live": {
+        "duration_min": 258,
+        "ended_at": "2026-09-18T22:51:16Z",
         "game": "Dungeons & Dragons",
-        "since": "2026-09-18T18:33:02Z",
+        "source": "observed",
+        "started_at": "2026-09-18T18:33:02Z",
         "stream_id": "318634503141",
         "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
-        "viewers": 16
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1287,5 +1292,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T22:42:59Z"
+  "updated_at": "2026-09-18T22:51:16Z"
 }
