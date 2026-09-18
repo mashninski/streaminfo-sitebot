@@ -76,7 +76,7 @@
         "since": "2026-09-18T08:14:40Z",
         "stream_id": "316893657558",
         "title": "Мы пачалі здымаць неблагое кіно! Усё яшчэ дрэнна, але ўжо можна глядзець. Hollywood Animal",
-        "viewers": 20
+        "viewers": 25
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -238,6 +238,16 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 193,
+          "ended_at": "2026-09-18T10:47:40Z",
+          "game": "The Witcher 3: Wild Hunt",
+          "source": "observed",
+          "started_at": "2026-09-18T07:34:39Z",
+          "stream_id": "318490365031",
+          "title": "#10 Велен. Барон вісіць, Ганна памерла, што далей?! | The Witcher 3 беларуская мова",
+          "vod": null
+        },
+        {
           "duration_min": 224,
           "ended_at": "2026-09-17T10:46:10Z",
           "game": "The Long Dark",
@@ -259,26 +269,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 223,
-        "ended_at": "2026-09-17T10:45:32Z",
-        "game": "The Long Dark",
-        "source": "vod",
-        "started_at": "2026-09-17T07:02:32Z",
-        "stream_id": "318674493670",
-        "title": "77# Дамалёўваем Разбураную чыгунку. Дзень 390+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "vod": {
-          "gone": false,
-          "id": "2876378838",
-          "seen_at": "2026-09-17T11:01:22Z",
-          "url": "https://www.twitch.tv/videos/2876378838"
-        }
-      },
-      "live": {
+        "duration_min": 193,
+        "ended_at": "2026-09-18T10:47:40Z",
         "game": "The Witcher 3: Wild Hunt",
-        "since": "2026-09-18T07:34:39Z",
+        "source": "observed",
+        "started_at": "2026-09-18T07:34:39Z",
         "stream_id": "318490365031",
         "title": "#10 Велен. Барон вісіць, Ганна памерла, што далей?! | The Witcher 3 беларуская мова",
-        "viewers": 11
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -1186,5 +1191,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T10:39:57Z"
+  "updated_at": "2026-09-18T10:47:40Z"
 }
