@@ -76,7 +76,7 @@
         "since": "2026-09-18T08:14:40Z",
         "stream_id": "316893657558",
         "title": "Мы пачалі здымаць неблагое кіно! Усё яшчэ дрэнна, але ўжо можна глядзець. Hollywood Animal",
-        "viewers": 11
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -835,7 +835,7 @@
         "stream_id": "316935074516",
         "title": "Несерада актыўнай працы",
         "vod": {
-          "gone": false,
+          "gone": true,
           "id": "2876720735",
           "seen_at": "2026-09-17T21:01:04Z",
           "url": "https://www.twitch.tv/videos/2876720735"
@@ -1181,5 +1181,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T08:53:37Z"
+  "updated_at": "2026-09-18T09:00:54Z"
 }
