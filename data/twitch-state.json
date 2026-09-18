@@ -206,14 +206,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 110,
-        "ended_at": "2026-09-18T22:42:59Z",
+        "duration_min": 101,
+        "ended_at": "2026-09-18T22:34:29Z",
         "game": "Dungeons & Dragons",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-18T20:53:29Z",
         "stream_id": "318499087463",
         "title": "Сэссія трэцья | Дрэва",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2877751356",
+          "seen_at": "2026-09-18T23:01:16Z",
+          "url": "https://www.twitch.tv/videos/2877751356"
+        }
       },
       "live": {
         "game": null,
@@ -429,7 +434,7 @@
         "since": "2026-09-18T22:39:29Z",
         "stream_id": "319271748183",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 2
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -1089,14 +1094,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 258,
-        "ended_at": "2026-09-18T22:51:16Z",
+        "duration_min": 254,
+        "ended_at": "2026-09-18T22:47:02Z",
         "game": "Dungeons & Dragons",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-18T18:33:02Z",
         "stream_id": "318634503141",
         "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2877633821",
+          "seen_at": "2026-09-18T23:01:16Z",
+          "url": "https://www.twitch.tv/videos/2877633821"
+        }
       },
       "live": {
         "game": null,
@@ -1292,5 +1302,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T22:51:16Z"
+  "updated_at": "2026-09-18T23:01:14Z"
 }
