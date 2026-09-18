@@ -215,7 +215,7 @@
         "since": "2026-09-18T20:53:29Z",
         "stream_id": "318499087463",
         "title": "Сэссія трэцья | Дрэва",
-        "viewers": 3
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -647,6 +647,16 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 203,
+          "ended_at": "2026-09-18T21:17:59Z",
+          "game": "Grand Theft Auto V",
+          "source": "observed",
+          "started_at": "2026-09-18T17:55:03Z",
+          "stream_id": "318692786662",
+          "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны",
+          "vod": null
+        },
+        {
           "duration_min": 197,
           "ended_at": "2026-09-17T21:28:17Z",
           "game": "Serious Sam: The Second Encounter",
@@ -718,26 +728,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 191,
-        "ended_at": "2026-09-17T21:21:59Z",
-        "game": "Serious Sam: The Second Encounter",
-        "source": "vod",
-        "started_at": "2026-09-17T18:10:59Z",
-        "stream_id": "316859213525",
-        "title": "[BLR] Рэтра чацвер. Вяртанне сур'ёзнага Сэму",
-        "vod": {
-          "gone": false,
-          "id": "2876732187",
-          "seen_at": "2026-09-17T22:01:16Z",
-          "url": "https://www.twitch.tv/videos/2876732187"
-        }
-      },
-      "live": {
+        "duration_min": 203,
+        "ended_at": "2026-09-18T21:17:59Z",
         "game": "Grand Theft Auto V",
-        "since": "2026-09-18T17:55:03Z",
+        "source": "observed",
+        "started_at": "2026-09-18T17:55:03Z",
         "stream_id": "318692786662",
         "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны",
-        "viewers": 3
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -912,7 +917,7 @@
         "since": "2026-09-18T18:01:52Z",
         "stream_id": "318496574055",
         "title": "Кінапятніца, \"Уладар пярсцёнкаў 2\"",
-        "viewers": 8
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1240,12 +1245,12 @@
         "since": "2026-09-18T14:44:02Z",
         "stream_id": "316864271445",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 10
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T21:01:10Z"
+  "updated_at": "2026-09-18T21:17:59Z"
 }
