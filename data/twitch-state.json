@@ -196,21 +196,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 147,
-        "ended_at": "2026-09-18T20:51:31Z",
+        "duration_min": 141,
+        "ended_at": "2026-09-18T20:45:55Z",
         "game": "Dungeons & Dragons",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-18T18:24:55Z",
         "stream_id": "318634358245",
         "title": "Сэссія трэцья | Дрэва",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2877626676",
+          "seen_at": "2026-09-18T21:01:12Z",
+          "url": "https://www.twitch.tv/videos/2877626676"
+        }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Dungeons & Dragons",
+        "since": "2026-09-18T20:53:29Z",
+        "stream_id": "318499087463",
+        "title": "Сэссія трэцья | Дрэва",
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -499,14 +504,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 240,
-        "ended_at": "2026-09-18T20:18:18Z",
+        "duration_min": 239,
+        "ended_at": "2026-09-18T20:17:04Z",
         "game": "Kingdom Come: Deliverance II",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-18T16:18:04Z",
         "stream_id": "316865071701",
         "title": "Пераможца пятніцы KСD2, вернемся на вечарок у Сярэднявечную Багемію",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2877522088",
+          "seen_at": "2026-09-18T21:01:10Z",
+          "url": "https://www.twitch.tv/videos/2877522088"
+        }
       },
       "live": {
         "game": null,
@@ -800,7 +810,7 @@
         "since": "2026-09-18T18:39:21Z",
         "stream_id": "316080632297",
         "title": "Казанія. За межамі зла | DnD",
-        "viewers": 3
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/805982e1-6bc8-46b9-a2f2-3c215142d613-profile_image-300x300.png",
@@ -902,7 +912,7 @@
         "since": "2026-09-18T18:01:52Z",
         "stream_id": "318496574055",
         "title": "Кінапятніца, \"Уладар пярсцёнкаў 2\"",
-        "viewers": 9
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1058,7 +1068,7 @@
         "since": "2026-09-18T18:33:02Z",
         "stream_id": "318634503141",
         "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
-        "viewers": 16
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1230,12 +1240,12 @@
         "since": "2026-09-18T14:44:02Z",
         "stream_id": "316864271445",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 7
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T20:51:31Z"
+  "updated_at": "2026-09-18T21:01:10Z"
 }
