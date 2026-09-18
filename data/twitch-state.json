@@ -194,7 +194,7 @@
         "since": "2026-09-18T18:24:55Z",
         "stream_id": "318634358245",
         "title": "Сэссія трэцья | Дрэва",
-        "viewers": 4
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -492,7 +492,7 @@
         "since": "2026-09-18T16:18:04Z",
         "stream_id": "316865071701",
         "title": "Пераможца пятніцы KСD2, вернемся на вечарок у Сярэднявечную Багемію",
-        "viewers": 9
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -706,7 +706,7 @@
         "since": "2026-09-18T17:55:03Z",
         "stream_id": "318692786662",
         "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны",
-        "viewers": 4
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -775,11 +775,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Board Games",
+        "since": "2026-09-18T18:39:21Z",
+        "stream_id": "316080632297",
+        "title": "Казанія. За межамі зла | DnD",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/805982e1-6bc8-46b9-a2f2-3c215142d613-profile_image-300x300.png",
@@ -1037,7 +1037,7 @@
         "since": "2026-09-18T18:33:02Z",
         "stream_id": "318634503141",
         "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
-        "viewers": 3
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1216,5 +1216,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T18:35:51Z"
+  "updated_at": "2026-09-18T18:45:00Z"
 }
