@@ -482,7 +482,7 @@
         "stream_id": "318453658469",
         "title": "BEL а ў зоркі дн",
         "vod": {
-          "gone": false,
+          "gone": true,
           "id": "2864000626",
           "seen_at": "2026-09-11T17:31:34Z",
           "url": "https://www.twitch.tv/videos/2864000626"
@@ -1181,5 +1181,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T02:01:05Z"
+  "updated_at": "2026-09-18T04:01:58Z"
 }
