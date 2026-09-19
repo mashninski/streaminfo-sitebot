@@ -225,7 +225,7 @@
         "since": "2026-09-19T09:18:16Z",
         "stream_id": "318503129191",
         "title": "Праходзім дадатак 🌋 | Tomb Raider 1 Unfinished Business Remastered",
-        "viewers": 4
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -620,6 +620,16 @@
       "display_name": "mashninski",
       "history": [
         {
+          "duration_min": 185,
+          "ended_at": "2026-09-19T13:27:26Z",
+          "game": "Dark Souls: Remastered",
+          "source": "observed",
+          "started_at": "2026-09-19T10:22:32Z",
+          "stream_id": "316869498453",
+          "title": "Траім DLC (балючае)",
+          "vod": null
+        },
+        {
           "duration_min": 326,
           "ended_at": "2026-09-16T21:58:00Z",
           "game": "Big Walk",
@@ -636,26 +646,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 326,
-        "ended_at": "2026-09-16T21:58:00Z",
-        "game": "Big Walk",
-        "source": "vod",
-        "started_at": "2026-09-16T16:32:00Z",
-        "stream_id": "316884678102",
-        "title": "Сланы ідуць на шпацыр | каап",
-        "vod": {
-          "gone": false,
-          "id": "2875791041",
-          "seen_at": "2026-09-16T22:01:02Z",
-          "url": "https://www.twitch.tv/videos/2875791041"
-        }
-      },
-      "live": {
+        "duration_min": 185,
+        "ended_at": "2026-09-19T13:27:26Z",
         "game": "Dark Souls: Remastered",
-        "since": "2026-09-19T10:22:32Z",
+        "source": "observed",
+        "started_at": "2026-09-19T10:22:32Z",
         "stream_id": "316869498453",
         "title": "Траім DLC (балючае)",
-        "viewers": 7
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1305,12 +1310,12 @@
         "since": "2026-09-19T11:06:39Z",
         "stream_id": "316901752022",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 7
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-19T13:18:08Z"
+  "updated_at": "2026-09-19T13:27:26Z"
 }
