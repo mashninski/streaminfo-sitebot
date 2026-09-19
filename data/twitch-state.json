@@ -216,14 +216,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 333,
-        "ended_at": "2026-09-19T14:50:50Z",
+        "duration_min": 332,
+        "ended_at": "2026-09-19T14:50:16Z",
         "game": "Tomb Raider I•II•III Remastered",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-19T09:18:16Z",
         "stream_id": "318503129191",
         "title": "Праходзім дадатак 🌋 | Tomb Raider 1 Unfinished Business Remastered",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2878221723",
+          "seen_at": "2026-09-19T15:00:52Z",
+          "url": "https://www.twitch.tv/videos/2878221723"
+        }
       },
       "live": {
         "game": null,
@@ -1320,12 +1325,12 @@
         "since": "2026-09-19T11:06:39Z",
         "stream_id": "316901752022",
         "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-        "viewers": 16
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-19T14:50:50Z"
+  "updated_at": "2026-09-19T15:00:50Z"
 }
