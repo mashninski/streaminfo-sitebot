@@ -221,11 +221,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Tomb Raider I•II•III Remastered",
+        "since": "2026-09-19T09:18:16Z",
+        "stream_id": "318503129191",
+        "title": "Праходзім дадатак 🌋 | Tomb Raider 1 Unfinished Business Remastered",
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -1312,5 +1312,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-18T23:34:16Z"
+  "updated_at": "2026-09-19T09:28:12Z"
 }
