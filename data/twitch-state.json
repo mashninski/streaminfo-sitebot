@@ -98,6 +98,16 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 223,
+          "ended_at": "2026-09-19T18:44:43Z",
+          "game": "Empire: Total War",
+          "source": "observed",
+          "started_at": "2026-09-19T15:01:14Z",
+          "stream_id": "318506774887",
+          "title": "Працягваем даследваць Свет вачыма гішпанскіх канкістадораў)",
+          "vod": null
+        },
+        {
           "duration_min": 190,
           "ended_at": "2026-09-18T19:32:28Z",
           "game": "Total War: WARHAMMER III",
@@ -154,26 +164,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 189,
-        "ended_at": "2026-09-18T19:31:36Z",
-        "game": "Total War: WARHAMMER III",
-        "source": "vod",
-        "started_at": "2026-09-18T16:22:36Z",
-        "stream_id": "318632204773",
-        "title": "Працягваем змагацца за Вялікі Катай)",
-        "vod": {
-          "gone": false,
-          "id": "2877525218",
-          "seen_at": "2026-09-18T20:01:06Z",
-          "url": "https://www.twitch.tv/videos/2877525218"
-        }
-      },
-      "live": {
+        "duration_min": 223,
+        "ended_at": "2026-09-19T18:44:43Z",
         "game": "Empire: Total War",
-        "since": "2026-09-19T15:01:14Z",
+        "source": "observed",
+        "started_at": "2026-09-19T15:01:14Z",
         "stream_id": "318506774887",
         "title": "Працягваем даследваць Свет вачыма гішпанскіх канкістадораў)",
-        "viewers": 5
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -977,7 +982,7 @@
         "since": "2026-09-19T17:57:40Z",
         "stream_id": "316948600148",
         "title": "Цемра і ўтульнасць",
-        "viewers": 5
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1335,12 +1340,12 @@
         "since": "2026-09-19T17:09:17Z",
         "stream_id": "316948230868",
         "title": "🔥DOGSWAR ТУТ + ІНТЭЛЕКТУАЛЬНАЕ ШОЎ ВЕЧАРАМ🥰@watafakablr",
-        "viewers": 10
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-19T18:35:05Z"
+  "updated_at": "2026-09-19T18:44:43Z"
 }
