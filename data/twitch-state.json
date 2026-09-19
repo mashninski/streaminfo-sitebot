@@ -651,11 +651,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Dark Souls: Remastered",
+        "since": "2026-09-19T10:22:32Z",
+        "stream_id": "316869498453",
+        "title": "Траім DLC (балючае)",
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1312,5 +1312,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-19T10:18:02Z"
+  "updated_at": "2026-09-19T10:27:47Z"
 }
