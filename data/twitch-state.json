@@ -978,14 +978,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 166,
-        "ended_at": "2026-09-19T20:43:11Z",
+        "duration_min": 162,
+        "ended_at": "2026-09-19T20:39:40Z",
         "game": "Thief: Deadly Shadows",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-19T17:57:40Z",
         "stream_id": "316948600148",
         "title": "Цемра і ўтульнасць",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2878560774",
+          "seen_at": "2026-09-19T21:00:59Z",
+          "url": "https://www.twitch.tv/videos/2878560774"
+        }
       },
       "live": {
         "game": null,
@@ -1350,12 +1355,12 @@
         "since": "2026-09-19T17:09:17Z",
         "stream_id": "316948230868",
         "title": "🔥ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
-        "viewers": 16
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-19T20:50:40Z"
+  "updated_at": "2026-09-19T21:00:57Z"
 }
