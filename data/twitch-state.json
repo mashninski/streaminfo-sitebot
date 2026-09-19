@@ -164,14 +164,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 223,
-        "ended_at": "2026-09-19T18:44:43Z",
+        "duration_min": 221,
+        "ended_at": "2026-09-19T18:42:14Z",
         "game": "Empire: Total War",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-19T15:01:14Z",
         "stream_id": "318506774887",
         "title": "Працягваем даследваць Свет вачыма гішпанскіх канкістадораў)",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2878416451",
+          "seen_at": "2026-09-19T19:01:00Z",
+          "url": "https://www.twitch.tv/videos/2878416451"
+        }
       },
       "live": {
         "game": null,
@@ -982,7 +987,7 @@
         "since": "2026-09-19T17:57:40Z",
         "stream_id": "316948600148",
         "title": "Цемра і ўтульнасць",
-        "viewers": 11
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1336,16 +1341,16 @@
         "vod": null
       },
       "live": {
-        "game": "WARDOGS",
+        "game": "Just Chatting",
         "since": "2026-09-19T17:09:17Z",
         "stream_id": "316948230868",
-        "title": "🔥DOGSWAR ТУТ + ІНТЭЛЕКТУАЛЬНАЕ ШОЎ ВЕЧАРАМ🥰@watafakablr",
-        "viewers": 8
+        "title": "🔥ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-19T18:51:46Z"
+  "updated_at": "2026-09-19T19:01:00Z"
 }
