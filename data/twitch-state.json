@@ -685,7 +685,7 @@
         "since": "2026-09-20T09:05:18Z",
         "stream_id": "316908254806",
         "title": "Фёрст трай ін зыс гейс",
-        "viewers": 3
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1280,6 +1280,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 136,
+          "ended_at": "2026-09-20T10:27:45Z",
+          "game": "Retro",
+          "source": "observed",
+          "started_at": "2026-09-20T08:11:21Z",
+          "stream_id": "316875334101",
+          "title": "🔥ХТО ПАМЯМАЕ ТАКУЮ ГУЛЬНЮ? 🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 248,
           "ended_at": "2026-09-19T21:16:59Z",
           "game": "Just Chatting",
@@ -1351,26 +1361,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 248,
-        "ended_at": "2026-09-19T21:16:59Z",
-        "game": "Just Chatting",
+        "duration_min": 136,
+        "ended_at": "2026-09-20T10:27:45Z",
+        "game": "Retro",
         "source": "observed",
-        "started_at": "2026-09-19T17:09:17Z",
-        "stream_id": "316948230868",
-        "title": "🔥ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
+        "started_at": "2026-09-20T08:11:21Z",
+        "stream_id": "316875334101",
+        "title": "🔥ХТО ПАМЯМАЕ ТАКУЮ ГУЛЬНЮ? 🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "Retro",
-        "since": "2026-09-20T08:11:21Z",
-        "stream_id": "316875334101",
-        "title": "🔥ХТО ПАМЯМАЕ ТАКУЮ ГУЛЬНЮ? 🥰@watafakablr",
-        "viewers": 11
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-20T10:17:58Z"
+  "updated_at": "2026-09-20T10:27:45Z"
 }
