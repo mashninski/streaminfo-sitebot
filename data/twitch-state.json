@@ -583,7 +583,7 @@
         "since": "2026-09-20T18:15:30Z",
         "stream_id": "316879115349",
         "title": "Знаёмімся з Сідаровічам",
-        "viewers": 9
+        "viewers": 20
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -827,7 +827,7 @@
         "since": "2026-09-20T16:43:22Z",
         "stream_id": "318659336293",
         "title": "[BLR] Нядзельны трыял. Глядзім дэмку фіналкі рэзананс",
-        "viewers": 9
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1198,7 +1198,7 @@
         "since": "2026-09-20T18:02:27Z",
         "stream_id": "318660509285",
         "title": "Пакульгалі далей від Іринка подруга",
-        "viewers": 19
+        "viewers": 16
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1315,6 +1315,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 423,
+          "ended_at": "2026-09-20T20:51:11Z",
+          "game": "Just Chatting",
+          "source": "observed",
+          "started_at": "2026-09-20T13:48:30Z",
+          "stream_id": "316909968470",
+          "title": "🔥ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 136,
           "ended_at": "2026-09-20T10:27:45Z",
           "game": "Retro",
@@ -1396,31 +1406,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 135,
-        "ended_at": "2026-09-20T10:26:21Z",
-        "game": "Retro",
-        "source": "vod",
-        "started_at": "2026-09-20T08:11:21Z",
-        "stream_id": "316875334101",
-        "title": "🔥ХТО ПАМЯМАЕ ТАКУЮ ГУЛЬНЮ? 🥰@watafakablr",
-        "vod": {
-          "gone": false,
-          "id": "2879144214",
-          "seen_at": "2026-09-20T14:00:57Z",
-          "url": "https://www.twitch.tv/videos/2879144214"
-        }
-      },
-      "live": {
+        "duration_min": 423,
+        "ended_at": "2026-09-20T20:51:11Z",
         "game": "Just Chatting",
-        "since": "2026-09-20T13:48:30Z",
+        "source": "observed",
+        "started_at": "2026-09-20T13:48:30Z",
         "stream_id": "316909968470",
         "title": "🔥ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
-        "viewers": 16
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-20T20:43:19Z"
+  "updated_at": "2026-09-20T20:51:11Z"
 }
