@@ -1361,16 +1361,16 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Retro",
+        "since": "2026-09-20T08:11:21Z",
+        "stream_id": "316875334101",
+        "title": "🔥ХТО ПАМЯМАЕ ТАКУЮ ГУЛЬНЮ? 🥰@watafakablr",
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-20T05:01:03Z"
+  "updated_at": "2026-09-20T08:18:50Z"
 }
