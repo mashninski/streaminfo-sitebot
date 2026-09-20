@@ -583,7 +583,7 @@
         "since": "2026-09-20T18:15:30Z",
         "stream_id": "316879115349",
         "title": "Знаёмімся з Сідаровічам",
-        "viewers": 6
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -827,7 +827,7 @@
         "since": "2026-09-20T16:43:22Z",
         "stream_id": "318659336293",
         "title": "[BLR] Нядзельны трыял. Глядзім дэмку фіналкі рэзананс",
-        "viewers": 6
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -916,6 +916,16 @@
       "description": "Штодзённыя стрымы - маляванне і гульні. Утульнасць, дзіўныя казкі, дранікі. Ніякага \"ші\".",
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
+        {
+          "duration_min": 161,
+          "ended_at": "2026-09-20T20:35:55Z",
+          "game": "Thief: Deadly Shadows",
+          "source": "observed",
+          "started_at": "2026-09-20T17:55:09Z",
+          "stream_id": "316878965077",
+          "title": "Пляжны эпізод",
+          "vod": null
+        },
         {
           "duration_min": 166,
           "ended_at": "2026-09-19T20:43:11Z",
@@ -1008,26 +1018,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 162,
-        "ended_at": "2026-09-19T20:39:40Z",
+        "duration_min": 161,
+        "ended_at": "2026-09-20T20:35:55Z",
         "game": "Thief: Deadly Shadows",
-        "source": "vod",
-        "started_at": "2026-09-19T17:57:40Z",
-        "stream_id": "316948600148",
-        "title": "Цемра і ўтульнасць",
-        "vod": {
-          "gone": false,
-          "id": "2878560774",
-          "seen_at": "2026-09-19T21:00:59Z",
-          "url": "https://www.twitch.tv/videos/2878560774"
-        }
-      },
-      "live": {
-        "game": "Thief: Deadly Shadows",
-        "since": "2026-09-20T17:55:09Z",
+        "source": "observed",
+        "started_at": "2026-09-20T17:55:09Z",
         "stream_id": "316878965077",
         "title": "Пляжны эпізод",
-        "viewers": 7
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1193,7 +1198,7 @@
         "since": "2026-09-20T18:02:27Z",
         "stream_id": "318660509285",
         "title": "Пакульгалі далей від Іринка подруга",
-        "viewers": 18
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1417,5 +1422,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-20T20:27:27Z"
+  "updated_at": "2026-09-20T20:35:55Z"
 }
