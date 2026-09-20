@@ -183,7 +183,7 @@
         "since": "2026-09-20T14:01:05Z",
         "stream_id": "318715442278",
         "title": "Працягваем пашыраць уплыў Вялікага Катая)",
-        "viewers": 4
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -194,6 +194,16 @@
       "description": "Ты не нічога не бачыў/ла.",
       "display_name": "Bel_Asch",
       "history": [
+        {
+          "duration_min": 158,
+          "ended_at": "2026-09-20T14:35:36Z",
+          "game": "Dragon Age: Inquisition",
+          "source": "observed",
+          "started_at": "2026-09-20T11:57:44Z",
+          "stream_id": "318713958886",
+          "title": "Інквізіцыя ідзе да тампліераў 🛡️ | Dragon Age: Inquisition",
+          "vod": null
+        },
         {
           "duration_min": 333,
           "ended_at": "2026-09-19T14:50:50Z",
@@ -226,26 +236,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 332,
-        "ended_at": "2026-09-19T14:50:16Z",
-        "game": "Tomb Raider I•II•III Remastered",
-        "source": "vod",
-        "started_at": "2026-09-19T09:18:16Z",
-        "stream_id": "318503129191",
-        "title": "Праходзім дадатак 🌋 | Tomb Raider 1 Unfinished Business Remastered",
-        "vod": {
-          "gone": false,
-          "id": "2878221723",
-          "seen_at": "2026-09-19T15:00:52Z",
-          "url": "https://www.twitch.tv/videos/2878221723"
-        }
-      },
-      "live": {
+        "duration_min": 158,
+        "ended_at": "2026-09-20T14:35:36Z",
         "game": "Dragon Age: Inquisition",
-        "since": "2026-09-20T11:57:44Z",
+        "source": "observed",
+        "started_at": "2026-09-20T11:57:44Z",
         "stream_id": "318713958886",
         "title": "Інквізіцыя ідзе да тампліераў 🛡️ | Dragon Age: Inquisition",
-        "viewers": 8
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -1390,12 +1395,12 @@
         "since": "2026-09-20T13:48:30Z",
         "stream_id": "316909968470",
         "title": "🔥СПАЧАТКУ РАТ ТА ТА а ПОТЫМ А 22.00 ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
-        "viewers": 6
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-20T14:27:07Z"
+  "updated_at": "2026-09-20T14:35:36Z"
 }
