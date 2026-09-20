@@ -183,7 +183,7 @@
         "since": "2026-09-20T14:01:05Z",
         "stream_id": "318715442278",
         "title": "Працягваем пашыраць уплыў Вялікага Катая)",
-        "viewers": 5
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -236,14 +236,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 158,
-        "ended_at": "2026-09-20T14:35:36Z",
+        "duration_min": 157,
+        "ended_at": "2026-09-20T14:34:44Z",
         "game": "Dragon Age: Inquisition",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-20T11:57:44Z",
         "stream_id": "318713958886",
         "title": "Інквізіцыя ідзе да тампліераў 🛡️ | Dragon Age: Inquisition",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2879245784",
+          "seen_at": "2026-09-20T15:00:57Z",
+          "url": "https://www.twitch.tv/videos/2879245784"
+        }
       },
       "live": {
         "game": null,
@@ -1395,12 +1400,12 @@
         "since": "2026-09-20T13:48:30Z",
         "stream_id": "316909968470",
         "title": "🔥СПАЧАТКУ РАТ ТА ТА а ПОТЫМ А 22.00 ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
-        "viewers": 10
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-20T14:50:56Z"
+  "updated_at": "2026-09-20T15:00:56Z"
 }
