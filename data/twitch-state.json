@@ -737,6 +737,16 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 402,
+          "ended_at": "2026-09-20T23:25:41Z",
+          "game": "Final Fantasy Resonance",
+          "source": "observed",
+          "started_at": "2026-09-20T16:43:22Z",
+          "stream_id": "318659336293",
+          "title": "[BLR] Нядзельны трыял. Глядзім дэмку фіналкі рэзананс",
+          "vod": null
+        },
+        {
           "duration_min": 203,
           "ended_at": "2026-09-18T21:17:59Z",
           "game": "Grand Theft Auto V",
@@ -818,26 +828,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 186,
-        "ended_at": "2026-09-18T21:01:03Z",
-        "game": "Grand Theft Auto V",
-        "source": "vod",
-        "started_at": "2026-09-18T17:55:03Z",
-        "stream_id": "318692786662",
-        "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны",
-        "vod": {
-          "gone": false,
-          "id": "2877599370",
-          "seen_at": "2026-09-18T22:00:56Z",
-          "url": "https://www.twitch.tv/videos/2877599370"
-        }
-      },
-      "live": {
+        "duration_min": 402,
+        "ended_at": "2026-09-20T23:25:41Z",
         "game": "Final Fantasy Resonance",
-        "since": "2026-09-20T16:43:22Z",
+        "source": "observed",
+        "started_at": "2026-09-20T16:43:22Z",
         "stream_id": "318659336293",
         "title": "[BLR] Нядзельны трыял. Глядзім дэмку фіналкі рэзананс",
-        "viewers": 7
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1213,7 +1218,7 @@
         "since": "2026-09-20T18:02:27Z",
         "stream_id": "318660509285",
         "title": "Пакульгалі далей від Іринка подруга",
-        "viewers": 16
+        "viewers": 20
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1442,5 +1447,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-20T23:16:50Z"
+  "updated_at": "2026-09-20T23:25:41Z"
 }
