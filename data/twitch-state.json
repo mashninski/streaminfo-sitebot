@@ -619,14 +619,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 253,
-        "ended_at": "2026-09-21T17:52:16Z",
+        "duration_min": 248,
+        "ended_at": "2026-09-21T17:46:51Z",
         "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T13:38:51Z",
         "stream_id": "316882899413",
         "title": "Сідаравіч нядобры чалавек",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880172835",
+          "seen_at": "2026-09-21T18:01:31Z",
+          "url": "https://www.twitch.tv/videos/2880172835"
+        }
       },
       "live": {
         "game": null,
@@ -765,7 +770,7 @@
         "since": "2026-09-21T16:27:07Z",
         "stream_id": "318727041638",
         "title": "Кажуць, будзе цікава (гуляю першы раз)",
-        "viewers": 5
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -887,7 +892,7 @@
         "since": "2026-09-21T16:36:14Z",
         "stream_id": "316917149398",
         "title": "[BLR] Каапны панядзелак. Трэніруем новага бойскаўта",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1093,11 +1098,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Art",
+        "since": "2026-09-21T17:58:26Z",
+        "stream_id": "316917823830",
+        "title": "Петрык і Янук танчаць",
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1114,7 +1119,7 @@
         "since": "2026-09-20T22:30:53Z",
         "stream_id": "316913188054",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 2
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -1273,7 +1278,7 @@
         "since": "2026-09-21T16:25:13Z",
         "stream_id": "316960773332",
         "title": "Зноў падаць.. від Іринка подруга",
-        "viewers": 12
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1361,7 +1366,7 @@
         "since": "2026-09-21T16:39:13Z",
         "stream_id": "318669502437",
         "title": "Cход Пікінераў ◉ Peak",
-        "viewers": 9
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -1495,12 +1500,12 @@
         "since": "2026-09-21T14:40:27Z",
         "stream_id": "316883245653",
         "title": "🔥ГУЛЯЕМ ГАЎКАЕМ ды СЛУХАЕМ МУЗЫКУ 🥰@watafakablr",
-        "viewers": 10
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-21T17:52:16Z"
+  "updated_at": "2026-09-21T18:01:31Z"
 }
