@@ -756,11 +756,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "PEAK",
+        "since": "2026-09-21T16:27:07Z",
+        "stream_id": "318727041638",
+        "title": "Кажуць, будзе цікава (гуляю першы раз)",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1264,11 +1264,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "PEAK",
+        "since": "2026-09-21T16:25:13Z",
+        "stream_id": "316960773332",
+        "title": "Зноў падаць.. від Іринка подруга",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1490,12 +1490,12 @@
         "since": "2026-09-21T14:40:27Z",
         "stream_id": "316883245653",
         "title": "🔥ГУЛЯЕМ ГАЎКАЕМ ды СЛУХАЕМ МУЗЫКУ 🥰@watafakablr",
-        "viewers": 12
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-21T16:20:01Z"
+  "updated_at": "2026-09-21T16:31:45Z"
 }
