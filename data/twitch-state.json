@@ -276,11 +276,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Dragon Age: Inquisition",
+        "since": "2026-09-21T12:23:32Z",
+        "stream_id": "318724711014",
+        "title": "Паразмаўляцькі ў нашай новай крэпасці 🏰 | Dragon Age: Inquisition",
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -1487,5 +1487,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-21T12:22:51Z"
+  "updated_at": "2026-09-21T12:36:41Z"
 }
