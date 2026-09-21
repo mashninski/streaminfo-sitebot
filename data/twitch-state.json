@@ -199,14 +199,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 127,
-        "ended_at": "2026-09-21T20:37:00Z",
+        "duration_min": 122,
+        "ended_at": "2026-09-21T20:32:27Z",
         "game": "Gallipoli",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T18:30:27Z",
         "stream_id": "318533220839",
         "title": "Разслабляем мазгі пасля першага працоўнага дня)",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880379835",
+          "seen_at": "2026-09-21T21:01:12Z",
+          "url": "https://www.twitch.tv/videos/2880379835"
+        }
       },
       "live": {
         "game": null,
@@ -766,14 +771,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 232,
-        "ended_at": "2026-09-21T20:18:44Z",
+        "duration_min": 221,
+        "ended_at": "2026-09-21T20:08:07Z",
         "game": "PEAK",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T16:27:07Z",
         "stream_id": "318727041638",
         "title": "Кажуць, будзе цікава (гуляю першы раз)",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880280819",
+          "seen_at": "2026-09-21T21:01:11Z",
+          "url": "https://www.twitch.tv/videos/2880280819"
+        }
       },
       "live": {
         "game": null,
@@ -893,14 +903,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 223,
-        "ended_at": "2026-09-21T20:18:44Z",
+        "duration_min": 212,
+        "ended_at": "2026-09-21T20:08:14Z",
         "game": "PEAK",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T16:36:14Z",
         "stream_id": "316917149398",
         "title": "[BLR] Каапны панядзелак. Трэніруем новага бойскаўта",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880287564",
+          "seen_at": "2026-09-21T21:01:13Z",
+          "url": "https://www.twitch.tv/videos/2880287564"
+        }
       },
       "live": {
         "game": null,
@@ -1108,14 +1123,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 140,
-        "ended_at": "2026-09-21T20:18:44Z",
+        "duration_min": 123,
+        "ended_at": "2026-09-21T20:01:26Z",
         "game": "Art",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T17:58:26Z",
         "stream_id": "316917823830",
         "title": "Петрык і Янук танчаць",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880352270",
+          "seen_at": "2026-09-21T21:01:13Z",
+          "url": "https://www.twitch.tv/videos/2880352270"
+        }
       },
       "live": {
         "game": null,
@@ -1377,14 +1397,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 220,
-        "ended_at": "2026-09-21T20:18:44Z",
+        "duration_min": 210,
+        "ended_at": "2026-09-21T20:09:13Z",
         "game": "PEAK",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T16:39:13Z",
         "stream_id": "318669502437",
         "title": "Cход Пікінераў ◉ Peak",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880289568",
+          "seen_at": "2026-09-21T21:01:13Z",
+          "url": "https://www.twitch.tv/videos/2880289568"
+        }
       },
       "live": {
         "game": null,
@@ -1525,12 +1550,12 @@
         "since": "2026-09-21T14:40:27Z",
         "stream_id": "316883245653",
         "title": "🔥ГУЛЯЕМ ГАЎКАЕМ ды СЛУХАЕМ МУЗЫКУ 🥰@watafakablr",
-        "viewers": 11
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-21T20:51:40Z"
+  "updated_at": "2026-09-21T21:01:11Z"
 }
