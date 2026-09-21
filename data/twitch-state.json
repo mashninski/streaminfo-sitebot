@@ -1214,14 +1214,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 496,
-        "ended_at": "2026-09-21T02:18:55Z",
+        "duration_min": 495,
+        "ended_at": "2026-09-21T02:17:27Z",
         "game": "Project Zomboid",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-20T18:02:27Z",
         "stream_id": "318660509285",
         "title": "Пакульгалі далей від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2879521459",
+          "seen_at": "2026-09-21T03:00:54Z",
+          "url": "https://www.twitch.tv/videos/2879521459"
+        }
       },
       "live": {
         "game": null,
@@ -1457,5 +1462,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-21T02:53:41Z"
+  "updated_at": "2026-09-21T03:00:53Z"
 }
