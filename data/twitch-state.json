@@ -86,7 +86,7 @@
         "since": "2026-09-21T08:17:05Z",
         "stream_id": "316881382485",
         "title": "Дылан, дзе ты? Control",
-        "viewers": 18
+        "viewers": 26
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -319,6 +319,16 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 186,
+          "ended_at": "2026-09-21T11:19:23Z",
+          "game": "Farming Simulator 25",
+          "source": "observed",
+          "started_at": "2026-09-21T08:13:05Z",
+          "stream_id": "318527078119",
+          "title": "🥔Ураджай сабралі. 🎄Зімуем і маштабуемся ❄️| Farming Simulator 2025 беларуская мова",
+          "vod": null
+        },
+        {
           "duration_min": 193,
           "ended_at": "2026-09-18T10:47:40Z",
           "game": "The Witcher 3: Wild Hunt",
@@ -350,26 +360,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 189,
-        "ended_at": "2026-09-18T10:43:39Z",
-        "game": "The Witcher 3: Wild Hunt",
-        "source": "vod",
-        "started_at": "2026-09-18T07:34:39Z",
-        "stream_id": "318490365031",
-        "title": "#10 Велен. Барон вісіць, Ганна памерла, што далей?! | The Witcher 3 беларуская мова",
-        "vod": {
-          "gone": false,
-          "id": "2877257601",
-          "seen_at": "2026-09-18T11:01:27Z",
-          "url": "https://www.twitch.tv/videos/2877257601"
-        }
-      },
-      "live": {
+        "duration_min": 186,
+        "ended_at": "2026-09-21T11:19:23Z",
         "game": "Farming Simulator 25",
-        "since": "2026-09-21T08:13:05Z",
+        "source": "observed",
+        "started_at": "2026-09-21T08:13:05Z",
         "stream_id": "318527078119",
         "title": "🥔Ураджай сабралі. 🎄Зімуем і маштабуемся ❄️| Farming Simulator 2025 беларуская мова",
-        "viewers": 7
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -1462,5 +1467,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-21T11:01:04Z"
+  "updated_at": "2026-09-21T11:19:23Z"
 }
