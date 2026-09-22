@@ -410,11 +410,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Long Dark",
+        "since": "2026-09-22T06:58:28Z",
+        "stream_id": "318537450215",
+        "title": "78# Замалёўваем Даліну Ціхай Рэчкі. Дзень 400+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -1597,5 +1597,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-22T03:31:04Z"
+  "updated_at": "2026-09-22T07:02:02Z"
 }
