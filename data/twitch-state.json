@@ -474,6 +474,16 @@
       "display_name": "Kryvichanka",
       "history": [
         {
+          "duration_min": 60,
+          "ended_at": "2026-09-22T02:30:02Z",
+          "game": "Talk Shows & Podcasts",
+          "source": "observed",
+          "started_at": "2026-09-22T01:30:05Z",
+          "stream_id": "319309691351",
+          "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
+          "vod": null
+        },
+        {
           "duration_min": 55,
           "ended_at": "2026-09-18T23:34:16Z",
           "game": "Talk Shows & Podcasts",
@@ -515,21 +525,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 55,
-        "ended_at": "2026-09-18T23:34:16Z",
+        "duration_min": 60,
+        "ended_at": "2026-09-22T02:30:02Z",
         "game": "Talk Shows & Podcasts",
         "source": "observed",
-        "started_at": "2026-09-18T22:39:29Z",
-        "stream_id": "319271748183",
+        "started_at": "2026-09-22T01:30:05Z",
+        "stream_id": "319309691351",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
         "vod": null
       },
       "live": {
-        "game": "Talk Shows & Podcasts",
-        "since": "2026-09-22T01:30:05Z",
-        "stream_id": "319309691351",
-        "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 1
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -1587,5 +1597,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-22T02:18:46Z"
+  "updated_at": "2026-09-22T02:30:02Z"
 }
