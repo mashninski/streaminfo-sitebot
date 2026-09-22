@@ -101,7 +101,7 @@
         "since": "2026-09-22T08:13:32Z",
         "stream_id": "316964221012",
         "title": "Праграма кандыдатаў. Control",
-        "viewers": 19
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -1006,14 +1006,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 204,
-        "ended_at": "2026-09-21T21:44:40Z",
+        "duration_min": 200,
+        "ended_at": "2026-09-21T21:40:55Z",
         "game": "DragonSword: Awakening",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T18:20:55Z",
         "stream_id": "316053334504",
         "title": "Гульнявы вечар | Dragon Sword",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880372264",
+          "seen_at": "2026-09-22T10:01:20Z",
+          "url": "https://www.twitch.tv/videos/2880372264"
+        }
       },
       "live": {
         "game": null,
@@ -1195,11 +1200,11 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Just Chatting",
+        "since": "2026-09-22T09:55:43Z",
+        "stream_id": "318677049445",
+        "title": "Беларускі кантэнт — хутка навіны пра праэкт",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -1617,5 +1622,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-22T09:54:37Z"
+  "updated_at": "2026-09-22T10:01:18Z"
 }
