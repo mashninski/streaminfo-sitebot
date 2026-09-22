@@ -1319,14 +1319,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 480,
-        "ended_at": "2026-09-22T00:25:04Z",
+        "duration_min": 478,
+        "ended_at": "2026-09-22T00:23:13Z",
         "game": "Valheim",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-21T16:25:13Z",
         "stream_id": "316960773332",
         "title": "Не ўтрымаўся від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2880279457",
+          "seen_at": "2026-09-22T01:01:03Z",
+          "url": "https://www.twitch.tv/videos/2880279457"
+        }
       },
       "live": {
         "game": null,
@@ -1582,5 +1587,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-22T00:25:04Z"
+  "updated_at": "2026-09-22T01:01:01Z"
 }
