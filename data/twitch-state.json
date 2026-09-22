@@ -669,14 +669,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 210,
-        "ended_at": "2026-09-22T17:27:45Z",
+        "duration_min": 200,
+        "ended_at": "2026-09-22T17:17:54Z",
         "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-22T13:57:54Z",
         "stream_id": "316888539349",
         "title": "Паглыбляемся ў фракцыйныя стасункі",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2881031075",
+          "seen_at": "2026-09-22T18:01:22Z",
+          "url": "https://www.twitch.tv/videos/2881031075"
+        }
       },
       "live": {
         "game": null,
@@ -816,14 +821,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 125,
-        "ended_at": "2026-09-22T17:51:10Z",
+        "duration_min": 120,
+        "ended_at": "2026-09-22T17:45:41Z",
         "game": "BioShock Remastered",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-22T15:45:41Z",
         "stream_id": "318541689831",
         "title": "Бляцкае баговішча, перапраходжу ўзровень",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2881097805",
+          "seen_at": "2026-09-22T18:01:22Z",
+          "url": "https://www.twitch.tv/videos/2881097805"
+        }
       },
       "live": {
         "game": null,
@@ -958,11 +968,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "RESIDENT EVIL: requiem",
+        "since": "2026-09-22T17:55:08Z",
+        "stream_id": "318681971173",
+        "title": "[BLR] Рагалікавы аўторак. Круцім Гусь",
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1193,11 +1203,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Art",
+        "since": "2026-09-22T17:58:26Z",
+        "stream_id": "316923415510",
+        "title": "Грыбныя танцы",
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1645,12 +1655,12 @@
         "since": "2026-09-22T14:15:28Z",
         "stream_id": "316888646229",
         "title": "🔥ГУЛЯЕМ ГАЎКАЕМ ды СЛУХАЕМ МУЗЫКУ 🥰@watafakablr",
-        "viewers": 9
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-22T17:51:10Z"
+  "updated_at": "2026-09-22T18:01:22Z"
 }
