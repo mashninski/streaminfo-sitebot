@@ -228,7 +228,7 @@
         "since": "2026-09-23T20:36:56Z",
         "stream_id": "318557565415",
         "title": "Спрабуем узыйсці на п'едыстал Зла)",
-        "viewers": 8
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -893,6 +893,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 174,
+          "ended_at": "2026-09-23T20:57:23Z",
+          "game": "Grand Theft Auto V",
+          "source": "vod",
+          "started_at": "2026-09-23T18:03:23Z",
+          "stream_id": "316929285206",
+          "title": "[BLR] Рыхтуемся да GTA VI. Хто жыве на дне акіяну?",
+          "vod": {
+            "gone": false,
+            "id": "2882069021",
+            "seen_at": "2026-09-23T21:01:27Z",
+            "url": "https://www.twitch.tv/videos/2882069021"
+          }
+        },
+        {
           "duration_min": 179,
           "ended_at": "2026-09-22T20:54:08Z",
           "game": "RESIDENT EVIL: requiem",
@@ -1009,26 +1024,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 179,
-        "ended_at": "2026-09-22T20:54:08Z",
-        "game": "RESIDENT EVIL: requiem",
+        "duration_min": 174,
+        "ended_at": "2026-09-23T20:57:23Z",
+        "game": "Grand Theft Auto V",
         "source": "vod",
-        "started_at": "2026-09-22T17:55:08Z",
-        "stream_id": "318681971173",
-        "title": "[BLR] Рагалікавы аўторак. Круцім Гусь",
+        "started_at": "2026-09-23T18:03:23Z",
+        "stream_id": "316929285206",
+        "title": "[BLR] Рыхтуемся да GTA VI. Хто жыве на дне акіяну?",
         "vod": {
           "gone": false,
-          "id": "2881197031",
-          "seen_at": "2026-09-22T21:01:20Z",
-          "url": "https://www.twitch.tv/videos/2881197031"
+          "id": "2882069021",
+          "seen_at": "2026-09-23T21:01:27Z",
+          "url": "https://www.twitch.tv/videos/2882069021"
         }
       },
       "live": {
-        "game": "Grand Theft Auto V",
-        "since": "2026-09-23T18:03:23Z",
-        "stream_id": "316929285206",
-        "title": "[BLR] Рыхтуемся да GTA VI. Хто жыве на дне акіяну?",
-        "viewers": 7
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1264,14 +1279,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 140,
-        "ended_at": "2026-09-23T20:19:45Z",
+        "duration_min": 123,
+        "ended_at": "2026-09-23T20:02:26Z",
         "game": "Art",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-23T17:59:26Z",
         "stream_id": "318750152422",
         "title": "Петрык неяк жыве",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2882064345",
+          "seen_at": "2026-09-23T21:01:27Z",
+          "url": "https://www.twitch.tv/videos/2882064345"
+        }
       },
       "live": {
         "game": null,
@@ -1494,7 +1514,7 @@
         "since": "2026-09-23T13:15:42Z",
         "stream_id": "318551584999",
         "title": "Яшчэ замбарымся від Іринка подруга",
-        "viewers": 8
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1583,14 +1603,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 170,
-        "ended_at": "2026-09-23T20:51:32Z",
+        "duration_min": 168,
+        "ended_at": "2026-09-23T20:49:37Z",
         "game": "Mewgenics",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-23T18:01:37Z",
         "stream_id": "318693444837",
         "title": "Чылім з Котыкамі ◉ Mewgenics",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2882067185",
+          "seen_at": "2026-09-23T21:01:27Z",
+          "url": "https://www.twitch.tv/videos/2882067185"
+        }
       },
       "live": {
         "game": null,
@@ -1768,5 +1793,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-23T20:51:32Z"
+  "updated_at": "2026-09-23T21:01:25Z"
 }
