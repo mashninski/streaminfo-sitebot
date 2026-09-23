@@ -8,9 +8,12 @@
   3. Get Streams — кто сейчас в эфире;
   4. ловит переходы онлайн→офлайн и закрывает сессию;
   5. раз в час — Get Videos: ищет VOD, проверяет, не исчезли ли старые;
-  6. пишет data/twitch-state.json, только если состояние изменилось.
+  6. пишет data/twitch-state.json, только если состояние изменилось;
+  7. копит статистику (категории, часы суток по Мінску, месячные счётчики,
+     подписчики) и пишет data/twitch-stats.json — тоже только при изменениях.
 
 Ключи читаются из переменных окружения TWITCH_CLIENT_ID и TWITCH_CLIENT_SECRET.
+Устройство статистики — claude/twitch-stats-spec.md в репозитории сайта.
 """
 
 import json
@@ -26,9 +29,24 @@ import requests
 ROOT = Path(__file__).resolve().parent
 REGISTRY_PATH = ROOT / "streamers.json"
 STATE_PATH = ROOT / "data" / "twitch-state.json"
+STATS_PATH = ROOT / "data" / "twitch-stats.json"
 
 HELIX = "https://api.twitch.tv/helix"
 TOKEN_URL = "https://id.twitch.tv/oauth2/token"
+
+# Внутренний GraphQL Twitch — им пользуется сама страница twitch.tv. Недокументированный,
+# формат может поменяться без предупреждения (риск принят, спека статистики §8).
+# Client-Id — публичный идентификатор веб-клиента twitch.tv, виден в коде любой страницы
+# канала; это не наш секрет. Переменная окружения — на случай, если Twitch его сменит.
+GQL_URL = "https://gql.twitch.tv/gql"
+GQL_CLIENT_ID = os.environ.get("TWITCH_GQL_CLIENT_ID", "kimne78kx3ncx6brgo4mv6wki5h1ko")
+FOLLOWERS_QUERY = "query($logins:[String!]){users(logins:$logins){login followers{totalCount}}}"
+FOLLOWERS_ATTEMPTS = 3
+FOLLOWERS_PAUSE_SEC = 2.5
+
+# Беларусь весь год на UTC+3, без перехода на летнее время — смещение фиксированное.
+MINSK = timezone(timedelta(hours=3))
+RECENT_DAYS = 31              # окно recent_sessions: 30 дней карточек + день запаса
 
 VOD_CHECK_WINDOW_MIN = 10     # Get Videos дёргаем только в первом прогоне каждого часа
 VOD_LOOKBACK_DAYS = 65        # дольше максимального срока хранения VOD (60 дней)
@@ -229,6 +247,192 @@ def update_vods(tw: Twitch, state: dict, logins: list) -> None:
         # Если vod никогда не было — значит стример не сохраняет трансляции. Оставляем None.
 
 
+# ---------- статистика ----------
+#
+# in_progress — открытая сессия, которая переживает между прогонами. Внутри копятся
+# секунды, а не минуты: прогон идёт раз в ~10 минут, и округление на каждом шаге
+# набегало бы. В минуты переводится один раз, при закрытии сессии.
+
+def minsk_month(dt: datetime) -> str:
+    return dt.astimezone(MINSK).strftime("%Y-%m")
+
+
+def prev_month(month: str) -> str:
+    y, m = map(int, month.split("-"))
+    return f"{y - 1}-12" if m == 1 else f"{y}-{m - 1:02d}"
+
+
+def blank_stats() -> dict:
+    return {
+        "monthly": {},
+        "recent_sessions": [],
+        "in_progress": None,
+        "followers": {"count": None, "changed_at": None, "snapshots": {}, "fail_runs": 0},
+    }
+
+
+def blank_month() -> dict:
+    return {"launches": 0, "minutes": 0, "hours": [0] * 24, "categories": {}}
+
+
+def open_progress(stream_id: str, started_at: str, game) -> dict:
+    # last_seen_at = начало эфира: время от старта до первого прогона, который эфир
+    # увидел, тоже засчитывается — иначе сумма часов не сходилась бы с duration_min.
+    return {
+        "stream_id": stream_id,
+        "started_at": started_at,
+        "last_seen_at": started_at,
+        "hours_sec": [0] * 24,
+        "categories": [{"game": game or None, "sec": 0}],
+    }
+
+
+def advance_progress(prog: dict, until: datetime, game_now=None, switch: bool = False) -> None:
+    """Засчитывает время с прошлого прогона до until: в текущий сегмент категории
+    и по часам суток по Мінску. Интервал, перешедший границу часа, делится по минутам.
+    switch=True — после этого открыть новый сегмент, если категория сменилась."""
+    cur = parse_iso(prog["last_seen_at"])
+    if until > cur:
+        prog["categories"][-1]["sec"] += int((until - cur).total_seconds())
+        while cur < until:
+            local = cur.astimezone(MINSK)
+            next_hour = local.replace(minute=0, second=0, microsecond=0) + timedelta(hours=1)
+            piece_end = min(until, next_hour)
+            prog["hours_sec"][local.hour] += int((piece_end - cur).total_seconds())
+            cur = piece_end
+        prog["last_seen_at"] = iso(until)
+    # Смена категории: время с прошлого прогона ушло старой, новая начинается сейчас.
+    if switch and (game_now or None) != prog["categories"][-1]["game"]:
+        prog["categories"].append({"game": game_now or None, "sec": 0})
+
+
+def track_live(login: str, ss: dict, stream: dict, ts: datetime) -> None:
+    prog = ss.get("in_progress")
+    if prog and prog.get("stream_id") != stream.get("id"):
+        # Сюда попадать не должны: смену stream_id ловит run() и закрывает сессию раньше.
+        print(f"  {login}: in_progress от чужого stream_id, начинаем заново", file=sys.stderr)
+        prog = None
+    if not prog:
+        prog = open_progress(stream.get("id"), stream["started_at"], stream.get("game_name"))
+        ss["in_progress"] = prog
+    advance_progress(prog, ts, stream.get("game_name"), switch=True)
+
+
+def close_stats(ss: dict, live: dict, closed: dict) -> None:
+    """Закрытие сессии: in_progress → recent_sessions и в месяц её начала."""
+    prog = ss.get("in_progress")
+    if not prog or prog.get("stream_id") != live.get("stream_id"):
+        # Статистика эту сессию не видела (файл статистики появился позже или потерялся) —
+        # восстанавливаем из того, что знает состояние: всё время на последнюю категорию.
+        prog = open_progress(live.get("stream_id"), live["since"], live.get("game"))
+    advance_progress(prog, parse_iso(closed["ended_at"]))
+
+    session = {
+        "started_at": closed["started_at"],
+        "ended_at": closed["ended_at"],
+        "hours": [round(s / 60) for s in prog["hours_sec"]],
+        "categories": [{"game": c["game"], "minutes": round(c["sec"] / 60)}
+                       for c in prog["categories"] if c["sec"] > 0],
+    }
+    ss["recent_sessions"].insert(0, session)
+    ss["in_progress"] = None
+
+    # Сессия через полночь 1-го числа целиком относится к месяцу начала — так три числа
+    # карточки (выходы, минуты, часы суток) не расходятся между собой.
+    m = ss["monthly"].setdefault(minsk_month(parse_iso(closed["started_at"])), blank_month())
+    m["launches"] += 1
+    m["minutes"] += closed["duration_min"]
+    m["hours"] = [a + b for a, b in zip(m["hours"], session["hours"])]
+    for c in session["categories"]:
+        if not c["game"]:
+            continue
+        mc = m["categories"].setdefault(c["game"], {"launches": 0, "minutes": 0})
+        mc["launches"] += 1
+        mc["minutes"] += c["minutes"]
+
+
+def prune_stats(ss: dict, ts: datetime) -> None:
+    """Держим только текущий и прошлый месяц и сессии за RECENT_DAYS дней.
+    Зовётся каждый прогон для всех: у того, кто перестал стримить, старое тоже уходит."""
+    keep_from = prev_month(minsk_month(ts))
+    for k in [k for k in ss["monthly"] if k < keep_from]:
+        del ss["monthly"][k]
+    snaps = ss["followers"]["snapshots"]
+    for k in [k for k in snaps if k[:7] < keep_from]:
+        del snaps[k]
+    cutoff = ts - timedelta(days=RECENT_DAYS)
+    ss["recent_sessions"] = [s for s in ss["recent_sessions"] if parse_iso(s["ended_at"]) >= cutoff]
+
+
+def fetch_followers(session: requests.Session, logins: list) -> dict:
+    """Число подписчиков одним запросом на всех. Три попытки с паузой, как у Twitch.get().
+    Логина, которого Twitch не нашёл, в ответе нет. Все попытки провалились — исключение."""
+    last_err = None
+    for attempt in range(FOLLOWERS_ATTEMPTS):
+        if attempt:
+            time.sleep(FOLLOWERS_PAUSE_SEC)
+        try:
+            r = session.post(
+                GQL_URL,
+                json={"query": FOLLOWERS_QUERY, "variables": {"logins": logins}},
+                headers={"Client-Id": GQL_CLIENT_ID},
+                timeout=TIMEOUT,
+            )
+            r.raise_for_status()
+            users = r.json()["data"]["users"]
+            out = {}
+            for u in users:
+                if u and isinstance(u.get("followers", {}).get("totalCount"), int):
+                    out[u["login"].lower()] = u["followers"]["totalCount"]
+            if not out:
+                raise ValueError("в ответе ни одного числа подписчиков")
+            return out
+        except Exception as e:
+            last_err = e
+            print(f"  подписчики: попытка {attempt + 1} не удалась — {e}", file=sys.stderr)
+    raise RuntimeError(f"подписчики не получены после {FOLLOWERS_ATTEMPTS} попыток: {last_err}")
+
+
+def update_followers(stats: dict, logins: list, counts, ts: datetime) -> None:
+    """counts — ответ fetch_followers или None, если все попытки провалились.
+    При сбое старое число не трогаем: ни нуля, ни пропуска."""
+    month_key = ts.astimezone(MINSK).strftime("%Y-%m-01")
+    for login in logins:
+        f = stats["streamers"][login]["followers"]
+        count = counts.get(login) if counts else None
+        if count is None:
+            # Считаем до порога и останавливаемся — как missing_runs: иначе счётчик
+            # порождал бы коммит каждый прогон, пока путь сломан.
+            if f["fail_runs"] < STALE_RUNS_TO_HIDE:
+                f["fail_runs"] += 1
+            if f["fail_runs"] >= STALE_RUNS_TO_HIDE:
+                print(f"  !!! {login}: ПОДПІСЧЫКІ НЕ СОБІРАЮЦЦА ЎЖО ГАДЗІНУ "
+                      f"({STALE_RUNS_TO_HIDE}+ прогонов подряд)", file=sys.stderr)
+            else:
+                print(f"  {login}: подписчики не получены, прогон {f['fail_runs']} подряд",
+                      file=sys.stderr)
+            continue
+        f["fail_runs"] = 0
+        # changed_at — когда число последний раз изменилось, а не «когда проверяли»:
+        # отметка проверки менялась бы каждый прогон и порождала коммит каждые 10 минут.
+        if count != f["count"]:
+            f["count"] = count
+            f["changed_at"] = iso(ts)
+        # Снимок на 1-е число — первое успешное значение на или после 1-го по Мінску.
+        f["snapshots"].setdefault(month_key, count)
+
+
+def dump_json(path: Path, data: dict, compact_lists: bool = False) -> None:
+    text = json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True)
+    if compact_lists:
+        # Массивы чисел (hours) — в одну строку, иначе 24 строки на каждый.
+        text = re.sub(r"\[\s*(-?\d+(?:,\s*-?\d+)*)\s*\]",
+                      lambda m: "[" + re.sub(r"\s+", "", m.group(1)) + "]", text)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        f.write(text + "\n")
+
+
 def run() -> int:
     client_id = os.environ.get("TWITCH_CLIENT_ID")
     client_secret = os.environ.get("TWITCH_CLIENT_SECRET")
@@ -245,15 +449,22 @@ def run() -> int:
 
     state = load_json(STATE_PATH, {"updated_at": None, "streamers": {}})
     before = json.dumps(state.get("streamers", {}), sort_keys=True, ensure_ascii=False)
+    stats = load_json(STATS_PATH, {"updated_at": None, "collecting_since": None, "streamers": {}})
+    # updated_at в сравнение не входит — по той же причине, что у состояния.
+    stats_before = json.dumps({k: v for k, v in stats.items() if k != "updated_at"},
+                              sort_keys=True, ensure_ascii=False)
 
     # Убранный из реестра стример уходит и из состояния, иначе его данные висят вечно.
     # У скрытого (hidden) запись сохраняется: скрытие — временное, история не теряется.
     for gone in [k for k in state["streamers"] if k not in known]:
         del state["streamers"][gone]
         print(f"  {gone}: убран из реестра, запись удалена")
+    for gone in [k for k in stats["streamers"] if k not in known]:
+        del stats["streamers"][gone]
 
     for login in logins:
         state["streamers"].setdefault(login, blank_streamer())
+        stats["streamers"].setdefault(login, blank_stats())
 
     tw = Twitch(client_id, client_secret)
 
@@ -286,7 +497,19 @@ def run() -> int:
     ids = [state["streamers"][l]["user_id"] for l in logins if state["streamers"][l].get("user_id")]
     live_now = tw.streams(ids) if ids else {}
 
-    ts = now()
+    # Без микросекунд: отметки в in_progress пишутся с точностью до секунды,
+    # и интервалы между прогонами должны считаться от тех же значений.
+    ts = now().replace(microsecond=0)
+
+    def close_session(login: str, st: dict, ended_at: datetime) -> None:
+        live = st["live"]
+        closed = session_from_live(live, ended_at)
+        st["last_stream"] = closed
+        st["history"] = ([closed] + st.get("history", []))[:HISTORY_LIMIT]
+        st["live"] = {"since": None, "title": None, "game": None, "viewers": None, "stream_id": None}
+        close_stats(stats["streamers"][login], live, closed)
+        print(f"  {login}: стрим закончился, {closed['duration_min']} мин")
+
     for login in logins:
         st = state["streamers"][login]
         uid = st.get("user_id")
@@ -296,6 +519,14 @@ def run() -> int:
         s = live_now.get(uid)
 
         if s:
+            # Канал упал и поднялся внутри одного интервала опроса: офлайна мы не видели,
+            # но stream_id сменился — это второй выход, а не продолжение первого.
+            # Конец первой сессии — не позже начала второй, иначе часы задвоятся.
+            old_sid = st["live"].get("stream_id")
+            if was_live and old_sid and s.get("id") and s["id"] != old_sid:
+                print(f"  {login}: stream_id сменился без офлайна — рестарт, закрываем прошлую сессию")
+                ended = min(ts, parse_iso(s["started_at"]))
+                close_session(login, st, max(ended, parse_iso(st["live"]["since"])))
             st["live"] = {
                 "since": s["started_at"],
                 "title": s.get("title"),
@@ -303,12 +534,23 @@ def run() -> int:
                 "viewers": s.get("viewer_count"),
                 "stream_id": s.get("id"),
             }
+            track_live(login, stats["streamers"][login], s, ts)
         elif was_live:
-            closed = session_from_live(st["live"], ts)
-            st["last_stream"] = closed
-            st["history"] = ([closed] + st.get("history", []))[:HISTORY_LIMIT]
-            st["live"] = {"since": None, "title": None, "game": None, "viewers": None, "stream_id": None}
-            print(f"  {login}: стрим закончился, {closed['duration_min']} мин")
+            close_session(login, st, ts)
+
+    # --- подписчики ---
+    try:
+        counts = fetch_followers(requests.Session(), logins)
+    except Exception as e:
+        print(f"  {e}", file=sys.stderr)
+        counts = None
+    update_followers(stats, logins, counts, ts)
+
+    for login in logins:
+        prune_stats(stats["streamers"][login], ts)
+    if not stats.get("collecting_since"):
+        # Пишется один раз: по нему сайт отличает «не стримил» от «бот ещё не собирал».
+        stats["collecting_since"] = ts.astimezone(MINSK).strftime("%Y-%m-%d")
 
     # --- VOD ---
     # Проверяем раз в час: только в первом прогоне часа. Расписание определяется
@@ -319,18 +561,23 @@ def run() -> int:
     if first_run or ts.minute < VOD_CHECK_WINDOW_MIN or os.environ.get("FORCE_VOD_CHECK"):
         update_vods(tw, state, logins)
 
-    # --- запись только при изменениях ---
+    # --- запись только при изменениях, каждый файл отдельно ---
     after = json.dumps(state["streamers"], sort_keys=True, ensure_ascii=False)
     if after == before:
         print("Изменений нет, файл не трогаем")
-        return 0
+    else:
+        state["updated_at"] = iso(ts)
+        dump_json(STATE_PATH, state)
+        print(f"Состояние обновлено: {STATE_PATH}")
 
-    state["updated_at"] = iso(ts)
-    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with STATE_PATH.open("w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2, sort_keys=True)
-        f.write("\n")
-    print(f"Состояние обновлено: {STATE_PATH}")
+    stats_after = json.dumps({k: v for k, v in stats.items() if k != "updated_at"},
+                             sort_keys=True, ensure_ascii=False)
+    if stats_after == stats_before:
+        print("Статистика без изменений, файл не трогаем")
+    else:
+        stats["updated_at"] = iso(ts)
+        dump_json(STATS_PATH, stats, compact_lists=True)
+        print(f"Статистика обновлена: {STATS_PATH}")
     return 0
 
 
