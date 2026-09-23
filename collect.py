@@ -87,6 +87,26 @@ def chunked(seq, size):
         yield seq[i:i + size]
 
 
+# Сообщения автору о событиях, которые требуют его рук: смена логина, пропажа канала.
+# Пишутся в файл ALERTS_PATH (задаёт workflow), и последний шаг workflow, уже после
+# коммита данных, завершается ошибкой — GitHub присылает владельцу письмо о сбое.
+# Сообщение появляется один раз, в прогоне, где событие случилось впервые, иначе
+# письмо приходило бы каждые 10 минут.
+ALERTS: list = []
+
+
+def alert(message: str) -> None:
+    print(f"  !!! {message}", file=sys.stderr)
+    ALERTS.append(message)
+
+
+def write_alerts() -> None:
+    path = os.environ.get("ALERTS_PATH")
+    if ALERTS and path:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write("\n".join(ALERTS) + "\n")
+
+
 def load_json(path: Path, default):
     if not path.exists():
         return default
@@ -138,6 +158,15 @@ class Twitch:
         for batch in chunked(logins, 100):
             for u in self.get("users", [("login", x) for x in batch]):
                 out[u["login"].lower()] = u
+        return out
+
+    def users_by_id(self, user_ids: list) -> dict:
+        """Get Users по user_id: user_id → объект. Нужен, когда канал перестал
+        находиться по логину, — отличить смену логина от бана или удаления."""
+        out = {}
+        for batch in chunked(user_ids, 100):
+            for u in self.get("users", [("id", x) for x in batch]):
+                out[u["id"]] = u
         return out
 
     def streams(self, user_ids: list) -> dict:
@@ -454,13 +483,11 @@ def run() -> int:
     stats_before = json.dumps({k: v for k, v in stats.items() if k != "updated_at"},
                               sort_keys=True, ensure_ascii=False)
 
-    # Убранный из реестра стример уходит и из состояния, иначе его данные висят вечно.
-    # У скрытого (hidden) запись сохраняется: скрытие — временное, история не теряется.
-    for gone in [k for k in state["streamers"] if k not in known]:
-        del state["streamers"][gone]
-        print(f"  {gone}: убран из реестра, запись удалена")
-    for gone in [k for k in stats["streamers"] if k not in known]:
-        del stats["streamers"][gone]
+    # Записи, чьих логинов в реестре больше нет. Удаляются не сразу: сначала
+    # проверяем, не сменил ли кто-то из них логин (ниже, после Get Users).
+    orphans = [k for k in state["streamers"] if k not in known]
+    # Логины, которых в состоянии ещё не было, — кандидаты в «новое имя» сироты.
+    fresh = [l for l in logins if l not in state["streamers"]]
 
     for login in logins:
         state["streamers"].setdefault(login, blank_streamer())
@@ -470,10 +497,53 @@ def run() -> int:
 
     # --- профили ---
     users = tw.users(logins)
+
+    # Смена логина: автор поправил login в той же записи реестра (added_at остался).
+    # user_id на Twitch не меняется никогда — по нему старая запись и находится.
+    # История и статистика переезжают на новый логин, а не обнуляются.
+    orphan_by_uid = {state["streamers"][k]["user_id"]: k
+                     for k in orphans if state["streamers"][k].get("user_id")}
+    for login in fresh:
+        u = users.get(login)
+        old = orphan_by_uid.get(u["id"]) if u else None
+        if not old:
+            continue
+        state["streamers"][login] = state["streamers"].pop(old)
+        if old in stats["streamers"]:
+            stats["streamers"][login] = stats["streamers"].pop(old)
+        orphans.remove(old)
+        print(f"  {old} → {login}: логин сменился, история перенесена")
+
+    # Убранный из реестра стример уходит и из состояния, иначе его данные висят вечно.
+    # У скрытого (hidden) запись сохраняется: скрытие — временное, история не теряется.
+    for gone in orphans:
+        del state["streamers"][gone]
+        print(f"  {gone}: убран из реестра, запись удалена")
+    for gone in [k for k in stats["streamers"] if k not in known]:
+        del stats["streamers"][gone]
+
+    # Кто не нашёлся по логину, но известен по user_id, — спрашиваем по user_id:
+    # нашёлся под другим логином — это смена логина, а не бан.
+    lost_ids = [state["streamers"][l]["user_id"] for l in logins
+                if l not in users and state["streamers"][l].get("user_id")]
+    try:
+        by_id = tw.users_by_id(lost_ids) if lost_ids else {}
+    except Exception as e:
+        print(f"  поиск по user_id не удался — {e}", file=sys.stderr)
+        by_id = {}
+
     for login in logins:
         st = state["streamers"][login]
         u = users.get(login)
         if not u:
+            moved = by_id.get(st.get("user_id"))
+            new_login = moved["login"].lower() if moved else None
+            if new_login and st.get("renamed_to") != new_login:
+                st["renamed_to"] = new_login
+                alert(f"{login}: логин на Twitch сменился на {new_login}. В streamers.json "
+                      f"поправь login в записи {login} на {new_login} (added_at не трогай) — "
+                      f"история и статистика перенесутся сами. Пока не поправлено, через час "
+                      f"карточка скроется с сайта.")
             # Считаем до порога и останавливаемся: иначе счётчик рос бы вечно
             # и каждый прогон порождал бы коммит из-за одного пропавшего канала.
             if st.get("missing_runs", 0) < STALE_RUNS_TO_HIDE:
@@ -482,16 +552,19 @@ def run() -> int:
                     st["stale"] = True
                     print(f"  {login}: канал не отвечает {STALE_RUNS_TO_HIDE} прогонов, помечен stale",
                           file=sys.stderr)
+                    if not st.get("renamed_to"):
+                        alert(f"{login}: канала нет на Twitch уже {STALE_RUNS_TO_HIDE} прогонов "
+                              f"(около часа) — бан или удаление. Карточка скрыта с сайта; "
+                              f"вернётся сама, если канал вернётся.")
             continue
         st["missing_runs"] = 0
         st.pop("stale", None)
+        st.pop("renamed_to", None)
         st["user_id"] = u["id"]
         st["display_name"] = u["display_name"]
         st["profile_image_url"] = u["profile_image_url"]
         st["description"] = u.get("description") or None
         st["broadcaster_type"] = u.get("broadcaster_type", "")
-        if u["login"].lower() != login:
-            print(f"  {login}: логин сменился на {u['login']}", file=sys.stderr)
 
     # --- кто в эфире ---
     ids = [state["streamers"][l]["user_id"] for l in logins if state["streamers"][l].get("user_id")]
@@ -578,6 +651,7 @@ def run() -> int:
         stats["updated_at"] = iso(ts)
         dump_json(STATS_PATH, stats, compact_lists=True)
         print(f"Статистика обновлена: {STATS_PATH}")
+    write_alerts()
     return 0
 
 

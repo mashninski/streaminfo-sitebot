@@ -30,6 +30,7 @@ jobs:
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          ALERTS_PATH: ${{ runner.temp }}/alerts.txt
         run: python collect.py
 
       - name: Commit if changed
@@ -43,3 +44,14 @@ jobs:
           git add data/
           git commit -m "state: $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+
+      # Смена логина или пропажа канала: данные уже закоммичены выше, а этот шаг
+      # завершается ошибкой, чтобы GitHub прислал владельцу письмо о сбое.
+      # collect.py пишет сообщение один раз, в прогоне, где событие случилось.
+      - name: Alerts
+        run: |
+          f="$RUNNER_TEMP/alerts.txt"
+          if [[ -s "$f" ]]; then
+            while IFS= read -r line; do echo "::error::$line"; done < "$f"
+            exit 1
+          fi
