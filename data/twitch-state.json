@@ -444,28 +444,34 @@
       "broadcaster_type": "affiliate",
       "description": null,
       "display_name": "evildive",
-      "history": [],
-      "last_stream": {
-        "duration_min": 45,
-        "ended_at": "2026-09-10T09:11:47Z",
-        "game": null,
-        "source": "vod",
-        "started_at": "2026-09-10T08:26:47Z",
-        "stream_id": "318398238183",
-        "title": "[eng/ua/by] Симулятор мінометника 3-ї штурмової",
-        "vod": {
-          "gone": false,
-          "id": "2870238209",
-          "seen_at": "2026-09-11T17:31:34Z",
-          "url": "https://www.twitch.tv/videos/2870238209"
+      "history": [
+        {
+          "duration_min": 154,
+          "ended_at": "2026-09-23T09:30:42Z",
+          "game": "Rivage",
+          "source": "observed",
+          "started_at": "2026-09-23T06:56:51Z",
+          "stream_id": "318548873447",
+          "title": "[eng/ua/by] A.R.E.S.",
+          "vod": null
         }
-      },
-      "live": {
+      ],
+      "last_stream": {
+        "duration_min": 154,
+        "ended_at": "2026-09-23T09:30:42Z",
         "game": "Rivage",
-        "since": "2026-09-23T06:56:51Z",
+        "source": "observed",
+        "started_at": "2026-09-23T06:56:51Z",
         "stream_id": "318548873447",
         "title": "[eng/ua/by] A.R.E.S.",
-        "viewers": 2
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7c4b240-9260-45c6-b278-bee76f116471-profile_image-300x300.png",
@@ -1717,5 +1723,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-23T09:19:14Z"
+  "updated_at": "2026-09-23T09:30:42Z"
 }
