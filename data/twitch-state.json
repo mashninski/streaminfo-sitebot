@@ -1439,14 +1439,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 485,
-        "ended_at": "2026-09-23T00:38:39Z",
+        "duration_min": 476,
+        "ended_at": "2026-09-23T00:29:14Z",
         "game": "7 Days to Die",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-22T16:33:14Z",
         "stream_id": "318737880038",
         "title": "не, не Элдэн від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2881133340",
+          "seen_at": "2026-09-23T01:01:40Z",
+          "url": "https://www.twitch.tv/videos/2881133340"
+        }
       },
       "live": {
         "game": null,
@@ -1712,5 +1717,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-23T00:38:39Z"
+  "updated_at": "2026-09-23T01:01:38Z"
 }
