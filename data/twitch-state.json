@@ -659,6 +659,16 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 205,
+          "ended_at": "2026-09-24T17:18:12Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "observed",
+          "started_at": "2026-09-24T13:53:16Z",
+          "stream_id": "316900737237",
+          "title": "Проста цёгаюся па анамальшчыне",
+          "vod": null
+        },
+        {
           "duration_min": 204,
           "ended_at": "2026-09-23T19:37:31Z",
           "game": "No Man's Sky",
@@ -750,26 +760,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 202,
-        "ended_at": "2026-09-23T19:35:11Z",
-        "game": "No Man's Sky",
-        "source": "vod",
-        "started_at": "2026-09-23T16:13:11Z",
-        "stream_id": "316973135188",
-        "title": "Зазірнем у новую экспедыцыю",
-        "vod": {
-          "gone": false,
-          "id": "2881982246",
-          "seen_at": "2026-09-23T20:01:17Z",
-          "url": "https://www.twitch.tv/videos/2881982246"
-        }
-      },
-      "live": {
+        "duration_min": 205,
+        "ended_at": "2026-09-24T17:18:12Z",
         "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "since": "2026-09-24T13:53:16Z",
+        "source": "observed",
+        "started_at": "2026-09-24T13:53:16Z",
         "stream_id": "316900737237",
         "title": "Проста цёгаюся па анамальшчыне",
-        "viewers": 10
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -1579,7 +1584,7 @@
         "since": "2026-09-24T16:13:52Z",
         "stream_id": "316979117396",
         "title": "Прасмажка працягваецца (першае праходжанне) від Іринка подруга",
-        "viewers": 10
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1866,12 +1871,12 @@
         "since": "2026-09-24T14:38:38Z",
         "stream_id": "316933318486",
         "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
-        "viewers": 16
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-24T17:01:39Z"
+  "updated_at": "2026-09-24T17:18:12Z"
 }
