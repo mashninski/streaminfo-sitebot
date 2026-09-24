@@ -1414,6 +1414,21 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 702,
+          "ended_at": "2026-09-24T00:57:42Z",
+          "game": "7 Days to Die",
+          "source": "vod",
+          "started_at": "2026-09-23T13:15:42Z",
+          "stream_id": "318551584999",
+          "title": "Яшчэ замбарымся від Іринка подруга",
+          "vod": {
+            "gone": false,
+            "id": "2881869181",
+            "seen_at": "2026-09-24T01:02:16Z",
+            "url": "https://www.twitch.tv/videos/2881869181"
+          }
+        },
+        {
           "duration_min": 485,
           "ended_at": "2026-09-23T00:38:39Z",
           "game": "7 Days to Die",
@@ -1515,26 +1530,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 476,
-        "ended_at": "2026-09-23T00:29:14Z",
+        "duration_min": 702,
+        "ended_at": "2026-09-24T00:57:42Z",
         "game": "7 Days to Die",
         "source": "vod",
-        "started_at": "2026-09-22T16:33:14Z",
-        "stream_id": "318737880038",
-        "title": "не, не Элдэн від Іринка подруга",
+        "started_at": "2026-09-23T13:15:42Z",
+        "stream_id": "318551584999",
+        "title": "Яшчэ замбарымся від Іринка подруга",
         "vod": {
           "gone": false,
-          "id": "2881133340",
-          "seen_at": "2026-09-23T01:01:40Z",
-          "url": "https://www.twitch.tv/videos/2881133340"
+          "id": "2881869181",
+          "seen_at": "2026-09-24T01:02:16Z",
+          "url": "https://www.twitch.tv/videos/2881869181"
         }
       },
       "live": {
-        "game": "7 Days to Die",
-        "since": "2026-09-23T13:15:42Z",
-        "stream_id": "318551584999",
-        "title": "Яшчэ замбарымся від Іринка подруга",
-        "viewers": 10
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1813,5 +1828,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-24T00:41:05Z"
+  "updated_at": "2026-09-24T01:02:14Z"
 }
