@@ -107,11 +107,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "HλLF-LIFE",
+        "since": "2026-09-24T08:07:50Z",
+        "stream_id": "318755312486",
+        "title": "Іншыя вымярэнні ў фанацкай мадыфікацыі да Half-Life. Diffusion",
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -454,7 +454,7 @@
         "since": "2026-09-24T07:08:09Z",
         "stream_id": "318560583783",
         "title": "79# Другая спроба замалёўкі ДЦР. Дзень 405+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "viewers": 9
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -1828,5 +1828,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-24T08:01:06Z"
+  "updated_at": "2026-09-24T08:21:05Z"
 }
