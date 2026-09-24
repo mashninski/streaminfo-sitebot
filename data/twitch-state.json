@@ -378,11 +378,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "CONTROL Resonant",
+        "since": "2026-09-24T21:59:33Z",
+        "stream_id": "318707856869",
+        "title": "Начны стрым! З'язджаем з глузду ў Control Resonant.",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b3e18b5-6d45-4af2-9abb-eec6eb3a1264-profile_image-300x300.png",
@@ -1084,14 +1084,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 202,
-        "ended_at": "2026-09-24T21:18:27Z",
+        "duration_min": 188,
+        "ended_at": "2026-09-24T21:04:08Z",
         "game": "Serious Sam: The Second Encounter",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-24T17:56:08Z",
         "stream_id": "316902429269",
         "title": "[BLR] Рэтра Чацвер. Сур'ёзны сэм. Дадатак",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2882912534",
+          "seen_at": "2026-09-24T22:01:03Z",
+          "url": "https://www.twitch.tv/videos/2882912534"
+        }
       },
       "live": {
         "game": null,
@@ -1604,7 +1609,7 @@
         "since": "2026-09-24T16:13:52Z",
         "stream_id": "316979117396",
         "title": "Чыл від Іринка подруга",
-        "viewers": 13
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1741,6 +1746,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 442,
+          "ended_at": "2026-09-24T22:01:01Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-09-24T14:38:38Z",
+          "stream_id": "316933318486",
+          "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 138,
           "ended_at": "2026-09-24T11:52:56Z",
           "game": "PAPERHEAD EP.0",
@@ -1872,31 +1887,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 136,
-        "ended_at": "2026-09-24T11:50:55Z",
-        "game": "PAPERHEAD EP.0",
-        "source": "vod",
-        "started_at": "2026-09-24T09:34:55Z",
-        "stream_id": "316931917782",
-        "title": "🔥#1 Глядзім штосьці новае 🥰@watafakablr",
-        "vod": {
-          "gone": false,
-          "id": "2882627876",
-          "seen_at": "2026-09-24T15:09:03Z",
-          "url": "https://www.twitch.tv/videos/2882627876"
-        }
-      },
-      "live": {
+        "duration_min": 442,
+        "ended_at": "2026-09-24T22:01:01Z",
         "game": "WARDOGS",
-        "since": "2026-09-24T14:38:38Z",
+        "source": "observed",
+        "started_at": "2026-09-24T14:38:38Z",
         "stream_id": "316933318486",
         "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
-        "viewers": 9
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-24T21:51:00Z"
+  "updated_at": "2026-09-24T22:01:01Z"
 }
