@@ -6,6 +6,16 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 225,
+          "ended_at": "2026-09-24T11:52:56Z",
+          "game": "HλLF-LIFE",
+          "source": "observed",
+          "started_at": "2026-09-24T08:07:50Z",
+          "stream_id": "318755312486",
+          "title": "Іншыя вымярэнні ў фанацкай мадыфікацыі да Half-Life. Diffusion",
+          "vod": null
+        },
+        {
           "duration_min": 219,
           "ended_at": "2026-09-22T11:52:57Z",
           "game": "Control",
@@ -92,26 +102,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 217,
-        "ended_at": "2026-09-22T11:50:32Z",
-        "game": "Control",
-        "source": "vod",
-        "started_at": "2026-09-22T08:13:32Z",
-        "stream_id": "316964221012",
-        "title": "Праграма кандыдатаў. Control",
-        "vod": {
-          "gone": false,
-          "id": "2880888472",
-          "seen_at": "2026-09-22T12:01:10Z",
-          "url": "https://www.twitch.tv/videos/2880888472"
-        }
-      },
-      "live": {
+        "duration_min": 225,
+        "ended_at": "2026-09-24T11:52:56Z",
         "game": "HλLF-LIFE",
-        "since": "2026-09-24T08:07:50Z",
+        "source": "observed",
+        "started_at": "2026-09-24T08:07:50Z",
         "stream_id": "318755312486",
         "title": "Іншыя вымярэнні ў фанацкай мадыфікацыі да Half-Life. Diffusion",
-        "viewers": 22
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -1701,6 +1706,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 138,
+          "ended_at": "2026-09-24T11:52:56Z",
+          "game": "PAPERHEAD EP.0",
+          "source": "observed",
+          "started_at": "2026-09-24T09:34:55Z",
+          "stream_id": "316931917782",
+          "title": "🔥#1 Глядзім штосьці новае 🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 353,
           "ended_at": "2026-09-23T20:51:32Z",
           "game": "WARDOGS",
@@ -1822,26 +1837,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 353,
-        "ended_at": "2026-09-23T20:51:32Z",
-        "game": "WARDOGS",
+        "duration_min": 138,
+        "ended_at": "2026-09-24T11:52:56Z",
+        "game": "PAPERHEAD EP.0",
         "source": "observed",
-        "started_at": "2026-09-23T14:58:52Z",
-        "stream_id": "316927860182",
-        "title": "🔥ГУЛЯЕМ ГАЎКАЕМ ды СЛУХАЕМ МУЗЫКУ 🥰@watafakablr",
+        "started_at": "2026-09-24T09:34:55Z",
+        "stream_id": "316931917782",
+        "title": "🔥#1 Глядзім штосьці новае 🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "PAPERHEAD EP.0",
-        "since": "2026-09-24T09:34:55Z",
-        "stream_id": "316931917782",
-        "title": "🔥#1 Глядзім штосьці новае 🥰@watafakablr",
-        "viewers": 8
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-24T11:45:07Z"
+  "updated_at": "2026-09-24T11:52:56Z"
 }

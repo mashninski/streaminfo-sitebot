@@ -10,20 +10,33 @@
           "2026-09-01": 1292
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "HλLF-LIFE",
-            "sec": 13037
-          }
-        ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,3130,3600,3600,2707,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-09-24T11:45:07Z",
-        "started_at": "2026-09-24T08:07:50Z",
-        "stream_id": "318755312486"
+      "in_progress": null,
+      "monthly": {
+        "2026-09": {
+          "categories": {
+            "HλLF-LIFE": {
+              "launches": 1,
+              "minutes": 225
+            }
+          },
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,52,60,60,53,0,0,0,0,0,0,0,0,0],
+          "launches": 1,
+          "minutes": 225
+        }
       },
-      "monthly": {},
-      "recent_sessions": []
+      "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "HλLF-LIFE",
+              "minutes": 225
+            }
+          ],
+          "ended_at": "2026-09-24T11:52:56Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,52,60,60,53,0,0,0,0,0,0,0,0,0],
+          "started_at": "2026-09-24T08:07:50Z"
+        }
+      ]
     },
     "annigilatormg42": {
       "followers": {
@@ -427,11 +440,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 154
+            "sec": 623
           }
         ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-09-24T11:45:07Z",
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,623,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-09-24T11:52:56Z",
         "started_at": "2026-09-24T11:42:33Z",
         "stream_id": "316900037205"
       },
@@ -584,32 +597,36 @@
           "2026-09-01": 467
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "PAPERHEAD EP.0",
-            "sec": 7812
-          }
-        ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,1505,3600,2707,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-09-24T11:45:07Z",
-        "started_at": "2026-09-24T09:34:55Z",
-        "stream_id": "316931917782"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
+            "PAPERHEAD EP.0": {
+              "launches": 1,
+              "minutes": 138
+            },
             "WARDOGS": {
               "launches": 1,
               "minutes": 353
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60,60,60,60,60,52],
-          "launches": 1,
-          "minutes": 353
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,25,60,53,0,0,1,60,60,60,60,60,52],
+          "launches": 2,
+          "minutes": 491
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "PAPERHEAD EP.0",
+              "minutes": 138
+            }
+          ],
+          "ended_at": "2026-09-24T11:52:56Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,25,60,53,0,0,0,0,0,0,0,0,0],
+          "started_at": "2026-09-24T09:34:55Z"
+        },
         {
           "categories": [
             {
@@ -624,5 +641,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-24T11:45:07Z"
+  "updated_at": "2026-09-24T11:52:56Z"
 }
