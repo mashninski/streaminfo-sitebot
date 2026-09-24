@@ -111,7 +111,7 @@
         "since": "2026-09-24T08:07:50Z",
         "stream_id": "318755312486",
         "title": "Іншыя вымярэнні ў фанацкай мадыфікацыі да Half-Life. Diffusion",
-        "viewers": 21
+        "viewers": 22
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -384,6 +384,16 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 251,
+          "ended_at": "2026-09-24T11:19:00Z",
+          "game": "The Long Dark",
+          "source": "observed",
+          "started_at": "2026-09-24T07:08:09Z",
+          "stream_id": "318560583783",
+          "title": "79# Другая спроба замалёўкі ДЦР. Дзень 405+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
+          "vod": null
+        },
+        {
           "duration_min": 260,
           "ended_at": "2026-09-22T11:18:30Z",
           "game": "The Long Dark",
@@ -435,26 +445,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 255,
-        "ended_at": "2026-09-22T11:13:28Z",
+        "duration_min": 251,
+        "ended_at": "2026-09-24T11:19:00Z",
         "game": "The Long Dark",
-        "source": "vod",
-        "started_at": "2026-09-22T06:58:28Z",
-        "stream_id": "318537450215",
-        "title": "78# Замалёўваем Даліну Ціхай Рэчкі. Дзень 400+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "vod": {
-          "gone": false,
-          "id": "2880864414",
-          "seen_at": "2026-09-22T12:01:10Z",
-          "url": "https://www.twitch.tv/videos/2880864414"
-        }
-      },
-      "live": {
-        "game": "The Long Dark",
-        "since": "2026-09-24T07:08:09Z",
+        "source": "observed",
+        "started_at": "2026-09-24T07:08:09Z",
         "stream_id": "318560583783",
         "title": "79# Другая спроба замалёўкі ДЦР. Дзень 405+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "viewers": 5
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -1821,12 +1826,12 @@
         "since": "2026-09-24T09:34:55Z",
         "stream_id": "316931917782",
         "title": "🔥#1 Глядзім штосьці новае 🥰@watafakablr",
-        "viewers": 5
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-24T11:01:14Z"
+  "updated_at": "2026-09-24T11:19:00Z"
 }
