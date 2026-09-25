@@ -263,7 +263,7 @@
         "since": "2026-09-25T19:11:00Z",
         "stream_id": "318773321574",
         "title": "Пачынаем шлях, сакура адцвяла, снег тае...)",
-        "viewers": 8
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -1023,6 +1023,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 224,
+          "ended_at": "2026-09-25T21:55:32Z",
+          "game": "Grand Theft Auto V",
+          "source": "vod",
+          "started_at": "2026-09-25T18:11:32Z",
+          "stream_id": "318716792549",
+          "title": "[BLR] Рыхтуемся да GTA VI. Прыгоды ў Солтэн сіці",
+          "vod": {
+            "gone": false,
+            "id": "2883785137",
+            "seen_at": "2026-09-25T22:01:06Z",
+            "url": "https://www.twitch.tv/videos/2883785137"
+          }
+        },
+        {
           "duration_min": 202,
           "ended_at": "2026-09-24T21:18:27Z",
           "game": "Serious Sam: The Second Encounter",
@@ -1164,26 +1179,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 188,
-        "ended_at": "2026-09-24T21:04:08Z",
-        "game": "Serious Sam: The Second Encounter",
+        "duration_min": 224,
+        "ended_at": "2026-09-25T21:55:32Z",
+        "game": "Grand Theft Auto V",
         "source": "vod",
-        "started_at": "2026-09-24T17:56:08Z",
-        "stream_id": "316902429269",
-        "title": "[BLR] Рэтра Чацвер. Сур'ёзны сэм. Дадатак",
+        "started_at": "2026-09-25T18:11:32Z",
+        "stream_id": "318716792549",
+        "title": "[BLR] Рыхтуемся да GTA VI. Прыгоды ў Солтэн сіці",
         "vod": {
           "gone": false,
-          "id": "2882912534",
-          "seen_at": "2026-09-24T22:01:03Z",
-          "url": "https://www.twitch.tv/videos/2882912534"
+          "id": "2883785137",
+          "seen_at": "2026-09-25T22:01:06Z",
+          "url": "https://www.twitch.tv/videos/2883785137"
         }
       },
       "live": {
-        "game": "Grand Theft Auto V",
-        "since": "2026-09-25T18:11:32Z",
-        "stream_id": "318716792549",
-        "title": "[BLR] Рыхтуемся да GTA VI. Прыгоды ў Солтэн сіці",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2033,5 +2048,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-25T21:53:20Z"
+  "updated_at": "2026-09-25T22:01:05Z"
 }
