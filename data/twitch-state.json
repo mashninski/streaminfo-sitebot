@@ -121,7 +121,7 @@
         "since": "2026-09-25T08:09:43Z",
         "stream_id": "318710622437",
         "title": "Знікла цэлая вёска, падарожнічаем туды. Banquet for Fools",
-        "viewers": 14
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -404,6 +404,16 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 234,
+          "ended_at": "2026-09-25T10:45:50Z",
+          "game": "The Witcher 3: Wild Hunt",
+          "source": "observed",
+          "started_at": "2026-09-25T06:51:26Z",
+          "stream_id": "318710153573",
+          "title": "#11 Велен. Збіраем строі Школы Грыфона | The Witcher 3 беларуская мова",
+          "vod": null
+        },
+        {
           "duration_min": 251,
           "ended_at": "2026-09-24T11:19:00Z",
           "game": "The Long Dark",
@@ -465,26 +475,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 238,
-        "ended_at": "2026-09-24T11:06:09Z",
-        "game": "The Long Dark",
-        "source": "vod",
-        "started_at": "2026-09-24T07:08:09Z",
-        "stream_id": "318560583783",
-        "title": "79# Другая спроба замалёўкі ДЦР. Дзень 405+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "vod": {
-          "gone": false,
-          "id": "2882581984",
-          "seen_at": "2026-09-24T12:01:08Z",
-          "url": "https://www.twitch.tv/videos/2882581984"
-        }
-      },
-      "live": {
+        "duration_min": 234,
+        "ended_at": "2026-09-25T10:45:50Z",
         "game": "The Witcher 3: Wild Hunt",
-        "since": "2026-09-25T06:51:26Z",
+        "source": "observed",
+        "started_at": "2026-09-25T06:51:26Z",
         "stream_id": "318710153573",
         "title": "#11 Велен. Збіраем строі Школы Грыфона | The Witcher 3 беларуская мова",
-        "viewers": 7
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -1931,12 +1936,12 @@
         "since": "2026-09-25T09:17:16Z",
         "stream_id": "316937783126",
         "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
-        "viewers": 10
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-25T10:31:41Z"
+  "updated_at": "2026-09-25T10:45:50Z"
 }
