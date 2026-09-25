@@ -263,7 +263,7 @@
         "since": "2026-09-25T19:11:00Z",
         "stream_id": "318773321574",
         "title": "Пачынаем шлях, сакура адцвяла, снег тае...)",
-        "viewers": 5
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -274,6 +274,21 @@
       "description": "Ты не нічога не бачыў/ла.",
       "display_name": "Bel_Asch",
       "history": [
+        {
+          "duration_min": 233,
+          "ended_at": "2026-09-25T20:00:15Z",
+          "game": "Dragon Age: Inquisition",
+          "source": "vod",
+          "started_at": "2026-09-25T16:07:15Z",
+          "stream_id": "318576601191",
+          "title": "Шпацыр па Заходнім падыходзе 🏜️ | Dragon Age: Inquisition",
+          "vod": {
+            "gone": false,
+            "id": "2883683986",
+            "seen_at": "2026-09-25T20:00:57Z",
+            "url": "https://www.twitch.tv/videos/2883683986"
+          }
+        },
         {
           "duration_min": 218,
           "ended_at": "2026-09-23T19:17:41Z",
@@ -336,26 +351,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 206,
-        "ended_at": "2026-09-23T19:05:33Z",
+        "duration_min": 233,
+        "ended_at": "2026-09-25T20:00:15Z",
         "game": "Dragon Age: Inquisition",
         "source": "vod",
-        "started_at": "2026-09-23T15:39:33Z",
-        "stream_id": "318691138405",
-        "title": "Хоўк павярнулась! 🦅 | Dragon Age: Inquisition",
+        "started_at": "2026-09-25T16:07:15Z",
+        "stream_id": "318576601191",
+        "title": "Шпацыр па Заходнім падыходзе 🏜️ | Dragon Age: Inquisition",
         "vod": {
           "gone": false,
-          "id": "2881957017",
-          "seen_at": "2026-09-23T20:01:19Z",
-          "url": "https://www.twitch.tv/videos/2881957017"
+          "id": "2883683986",
+          "seen_at": "2026-09-25T20:00:57Z",
+          "url": "https://www.twitch.tv/videos/2883683986"
         }
       },
       "live": {
-        "game": "Dragon Age: Inquisition",
-        "since": "2026-09-25T16:07:15Z",
-        "stream_id": "318576601191",
-        "title": "Шпацыр па Заходнім падыходзе 🏜️ | Dragon Age: Inquisition",
-        "viewers": 2
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -824,7 +839,7 @@
         "since": "2026-09-25T17:45:03Z",
         "stream_id": "316941242454",
         "title": "Зняслаўлены...",
-        "viewers": 9
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -1251,7 +1266,7 @@
         "since": "2026-09-25T16:53:54Z",
         "stream_id": "316067719784",
         "title": "Творчы вечар | Дызайнім каляндар",
-        "viewers": 1
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/805982e1-6bc8-46b9-a2f2-3c215142d613-profile_image-300x300.png",
@@ -1423,7 +1438,7 @@
         "since": "2026-09-25T17:59:42Z",
         "stream_id": "318772172774",
         "title": "Пятнішная праца",
-        "viewers": 9
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1674,7 +1689,7 @@
         "since": "2026-09-25T16:16:24Z",
         "stream_id": "318770632806",
         "title": "тра-та-та від Іринка подруга",
-        "viewers": 9
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1976,12 +1991,12 @@
         "since": "2026-09-25T14:53:56Z",
         "stream_id": "316939690454",
         "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
-        "viewers": 10
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-25T19:52:42Z"
+  "updated_at": "2026-09-25T20:00:55Z"
 }
