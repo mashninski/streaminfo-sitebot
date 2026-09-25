@@ -263,7 +263,7 @@
         "since": "2026-09-25T19:11:00Z",
         "stream_id": "318773321574",
         "title": "Пачынаем шлях, сакура адцвяла, снег тае...)",
-        "viewers": 5
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -1183,7 +1183,7 @@
         "since": "2026-09-25T18:11:32Z",
         "stream_id": "318716792549",
         "title": "[BLR] Рыхтуемся да GTA VI. Прыгоды ў Солтэн сіці",
-        "viewers": 6
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1226,6 +1226,16 @@
       "display_name": "mx_oda",
       "history": [
         {
+          "duration_min": 276,
+          "ended_at": "2026-09-25T21:29:29Z",
+          "game": "Art",
+          "source": "observed",
+          "started_at": "2026-09-25T16:53:54Z",
+          "stream_id": "316067719784",
+          "title": "Творчы вечар | Дызайнім каляндар",
+          "vod": null
+        },
+        {
           "duration_min": 204,
           "ended_at": "2026-09-21T21:44:40Z",
           "game": "DragonSword: Awakening",
@@ -1257,26 +1267,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 200,
-        "ended_at": "2026-09-21T21:40:55Z",
-        "game": "DragonSword: Awakening",
-        "source": "vod",
-        "started_at": "2026-09-21T18:20:55Z",
-        "stream_id": "316053334504",
-        "title": "Гульнявы вечар | Dragon Sword",
-        "vod": {
-          "gone": false,
-          "id": "2880372264",
-          "seen_at": "2026-09-22T10:01:20Z",
-          "url": "https://www.twitch.tv/videos/2880372264"
-        }
-      },
-      "live": {
+        "duration_min": 276,
+        "ended_at": "2026-09-25T21:29:29Z",
         "game": "Art",
-        "since": "2026-09-25T16:53:54Z",
+        "source": "observed",
+        "started_at": "2026-09-25T16:53:54Z",
         "stream_id": "316067719784",
         "title": "Творчы вечар | Дызайнім каляндар",
-        "viewers": 1
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/805982e1-6bc8-46b9-a2f2-3c215142d613-profile_image-300x300.png",
@@ -1709,7 +1714,7 @@
         "since": "2026-09-25T16:16:24Z",
         "stream_id": "318770632806",
         "title": "тра-та-та від Іринка подруга",
-        "viewers": 18
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -1845,6 +1850,16 @@
       "description": "Тут мы бавімся ў гульні , слухаем музыку ды размаўляем 😉                                                                                                                              ",
       "display_name": "watafakablr",
       "history": [
+        {
+          "duration_min": 396,
+          "ended_at": "2026-09-25T21:29:29Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-09-25T14:53:56Z",
+          "stream_id": "316939690454",
+          "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
+          "vod": null
+        },
         {
           "duration_min": 134,
           "ended_at": "2026-09-25T11:30:46Z",
@@ -1997,26 +2012,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 134,
-        "ended_at": "2026-09-25T11:30:46Z",
+        "duration_min": 396,
+        "ended_at": "2026-09-25T21:29:29Z",
         "game": "WARDOGS",
         "source": "observed",
-        "started_at": "2026-09-25T09:17:16Z",
-        "stream_id": "316937783126",
+        "started_at": "2026-09-25T14:53:56Z",
+        "stream_id": "316939690454",
         "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "WARDOGS",
-        "since": "2026-09-25T14:53:56Z",
-        "stream_id": "316939690454",
-        "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
-        "viewers": 9
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-25T21:18:50Z"
+  "updated_at": "2026-09-25T21:29:29Z"
 }
