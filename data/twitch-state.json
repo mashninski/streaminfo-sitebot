@@ -1750,14 +1750,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 734,
-        "ended_at": "2026-09-26T04:30:29Z",
+        "duration_min": 733,
+        "ended_at": "2026-09-26T04:29:24Z",
         "game": "Valheim",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-25T16:16:24Z",
         "stream_id": "318770632806",
         "title": "чыл від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2883690685",
+          "seen_at": "2026-09-26T05:01:00Z",
+          "url": "https://www.twitch.tv/videos/2883690685"
+        }
       },
       "live": {
         "game": null,
@@ -2083,5 +2088,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-26T04:30:29Z"
+  "updated_at": "2026-09-26T05:00:58Z"
 }
