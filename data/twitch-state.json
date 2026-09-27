@@ -1398,6 +1398,16 @@
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
         {
+          "duration_min": 170,
+          "ended_at": "2026-09-27T20:47:01Z",
+          "game": "Thief: Deadly Shadows",
+          "source": "observed",
+          "started_at": "2026-09-27T17:56:47Z",
+          "stream_id": "316999876692",
+          "title": "Дзе тут срэбныя лыжкі?",
+          "vod": null
+        },
+        {
           "duration_min": 175,
           "ended_at": "2026-09-26T20:52:39Z",
           "game": "Thief: Deadly Shadows",
@@ -1559,26 +1569,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 173,
-        "ended_at": "2026-09-26T20:51:01Z",
+        "duration_min": 170,
+        "ended_at": "2026-09-27T20:47:01Z",
         "game": "Thief: Deadly Shadows",
-        "source": "vod",
-        "started_at": "2026-09-26T17:58:01Z",
-        "stream_id": "316915402453",
-        "title": "Гэткі розны цень",
-        "vod": {
-          "gone": false,
-          "id": "2884726327",
-          "seen_at": "2026-09-26T21:00:52Z",
-          "url": "https://www.twitch.tv/videos/2884726327"
-        }
-      },
-      "live": {
-        "game": "Thief: Deadly Shadows",
-        "since": "2026-09-27T17:56:47Z",
+        "source": "observed",
+        "started_at": "2026-09-27T17:56:47Z",
         "stream_id": "316999876692",
         "title": "Дзе тут срэбныя лыжкі?",
-        "viewers": 11
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1859,7 +1864,7 @@
         "since": "2026-09-27T16:47:43Z",
         "stream_id": "316921400789",
         "title": "ну тратата від Іринка подруга",
-        "viewers": 12
+        "viewers": 22
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2208,5 +2213,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-27T20:38:52Z"
+  "updated_at": "2026-09-27T20:47:01Z"
 }
