@@ -1329,14 +1329,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 220,
-        "ended_at": "2026-09-28T21:45:10Z",
+        "duration_min": 217,
+        "ended_at": "2026-09-28T21:41:48Z",
         "game": "Grand Theft Auto V",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-28T18:04:48Z",
         "stream_id": "316961275222",
         "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны.",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2886523923",
+          "seen_at": "2026-09-28T22:01:03Z",
+          "url": "https://www.twitch.tv/videos/2886523923"
+        }
       },
       "live": {
         "game": null,
@@ -1959,7 +1964,7 @@
         "since": "2026-09-28T15:46:10Z",
         "stream_id": "316960153174",
         "title": "Місія: выратаваць радавога Курку від Іринка подруга",
-        "viewers": 20
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2308,5 +2313,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-28T21:53:42Z"
+  "updated_at": "2026-09-28T22:01:02Z"
 }
