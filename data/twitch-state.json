@@ -127,14 +127,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 256,
-        "ended_at": "2026-09-28T12:26:22Z",
+        "duration_min": 237,
+        "ended_at": "2026-09-28T12:07:30Z",
         "game": "Control",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-28T08:10:30Z",
         "stream_id": "317002242004",
         "title": "Праектар са слайдамі здольны адпраўляць у іншыя вымярэнні. Control",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2886208172",
+          "seen_at": "2026-09-28T13:09:36Z",
+          "url": "https://www.twitch.tv/videos/2886208172"
+        }
       },
       "live": {
         "game": null,
@@ -1675,7 +1680,7 @@
         "since": "2026-09-28T11:42:54Z",
         "stream_id": "316958713302",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 3
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -2258,5 +2263,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-28T12:58:34Z"
+  "updated_at": "2026-09-28T13:09:35Z"
 }
