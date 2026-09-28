@@ -6,6 +6,16 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 256,
+          "ended_at": "2026-09-28T12:26:22Z",
+          "game": "Control",
+          "source": "observed",
+          "started_at": "2026-09-28T08:10:30Z",
+          "stream_id": "317002242004",
+          "title": "Праектар са слайдамі здольны адпраўляць у іншыя вымярэнні. Control",
+          "vod": null
+        },
+        {
           "duration_min": 231,
           "ended_at": "2026-09-25T12:00:43Z",
           "game": "Banquet for Fools",
@@ -117,26 +127,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 231,
-        "ended_at": "2026-09-25T12:00:43Z",
-        "game": "Banquet for Fools",
-        "source": "vod",
-        "started_at": "2026-09-25T08:09:43Z",
-        "stream_id": "318710622437",
-        "title": "Знікла цэлая вёска, падарожнічаем туды. Banquet for Fools",
-        "vod": {
-          "gone": false,
-          "id": "2883447768",
-          "seen_at": "2026-09-25T12:01:20Z",
-          "url": "https://www.twitch.tv/videos/2883447768"
-        }
-      },
-      "live": {
+        "duration_min": 256,
+        "ended_at": "2026-09-28T12:26:22Z",
         "game": "Control",
-        "since": "2026-09-28T08:10:30Z",
+        "source": "observed",
+        "started_at": "2026-09-28T08:10:30Z",
         "stream_id": "317002242004",
         "title": "Праектар са слайдамі здольны адпраўляць у іншыя вымярэнні. Control",
-        "viewers": 23
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -1670,7 +1675,7 @@
         "since": "2026-09-28T11:42:54Z",
         "stream_id": "316958713302",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -2253,5 +2258,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-28T12:01:08Z"
+  "updated_at": "2026-09-28T12:26:22Z"
 }
