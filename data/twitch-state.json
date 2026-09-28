@@ -401,14 +401,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 141,
-        "ended_at": "2026-09-28T19:35:58Z",
+        "duration_min": 140,
+        "ended_at": "2026-09-28T19:34:39Z",
         "game": "Dragon Age: Inquisition",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-28T17:14:39Z",
         "stream_id": "318614898535",
         "title": "Інквізітарскія справы ⚔️ | Dragon Age: Inquisition",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2886483835",
+          "seen_at": "2026-09-28T20:03:27Z",
+          "url": "https://www.twitch.tv/videos/2886483835"
+        }
       },
       "live": {
         "game": null,
@@ -944,7 +949,7 @@
         "since": "2026-09-28T17:05:37Z",
         "stream_id": "316960808790",
         "title": "Ратуем шкалату ад хімеры",
-        "viewers": 14
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -1318,7 +1323,7 @@
         "since": "2026-09-28T18:04:48Z",
         "stream_id": "316961275222",
         "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны.",
-        "viewers": 5
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1427,6 +1432,21 @@
       "description": "Штодзённыя стрымы - маляванне і гульні. Утульнасць, дзіўныя казкі, дранікі. Ніякага \"ші\".",
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
+        {
+          "duration_min": 124,
+          "ended_at": "2026-09-28T20:03:18Z",
+          "game": "Art",
+          "source": "vod",
+          "started_at": "2026-09-28T17:59:18Z",
+          "stream_id": "317005421780",
+          "title": "Малюем, пілікаем",
+          "vod": {
+            "gone": false,
+            "id": "2886518003",
+            "seen_at": "2026-09-28T20:03:27Z",
+            "url": "https://www.twitch.tv/videos/2886518003"
+          }
+        },
         {
           "duration_min": 170,
           "ended_at": "2026-09-27T20:47:01Z",
@@ -1599,26 +1619,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 163,
-        "ended_at": "2026-09-27T20:39:47Z",
-        "game": "Thief: Deadly Shadows",
+        "duration_min": 124,
+        "ended_at": "2026-09-28T20:03:18Z",
+        "game": "Art",
         "source": "vod",
-        "started_at": "2026-09-27T17:56:47Z",
-        "stream_id": "316999876692",
-        "title": "Дзе тут срэбныя лыжкі?",
+        "started_at": "2026-09-28T17:59:18Z",
+        "stream_id": "317005421780",
+        "title": "Малюем, пілікаем",
         "vod": {
           "gone": false,
-          "id": "2885683307",
-          "seen_at": "2026-09-27T21:01:01Z",
-          "url": "https://www.twitch.tv/videos/2885683307"
+          "id": "2886518003",
+          "seen_at": "2026-09-28T20:03:27Z",
+          "url": "https://www.twitch.tv/videos/2886518003"
         }
       },
       "live": {
-        "game": "Art",
-        "since": "2026-09-28T17:59:18Z",
-        "stream_id": "317005421780",
-        "title": "Малюем, пілікаем",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -2268,5 +2288,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-28T19:56:31Z"
+  "updated_at": "2026-09-28T20:03:26Z"
 }
