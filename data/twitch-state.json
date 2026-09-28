@@ -799,6 +799,21 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 237,
+          "ended_at": "2026-09-28T21:02:37Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-09-28T17:05:37Z",
+          "stream_id": "316960808790",
+          "title": "Ратуем шкалату ад хімеры",
+          "vod": {
+            "gone": false,
+            "id": "2886476915",
+            "seen_at": "2026-09-28T21:07:39Z",
+            "url": "https://www.twitch.tv/videos/2886476915"
+          }
+        },
+        {
           "duration_min": 133,
           "ended_at": "2026-09-27T18:56:41Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -930,26 +945,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 129,
-        "ended_at": "2026-09-27T18:52:27Z",
+        "duration_min": 237,
+        "ended_at": "2026-09-28T21:02:37Z",
         "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
         "source": "vod",
-        "started_at": "2026-09-27T16:43:27Z",
-        "stream_id": "316999326036",
-        "title": "Паглыбляемся ў ЗОНУ",
+        "started_at": "2026-09-28T17:05:37Z",
+        "stream_id": "316960808790",
+        "title": "Ратуем шкалату ад хімеры",
         "vod": {
           "gone": false,
-          "id": "2885619206",
-          "seen_at": "2026-09-27T19:03:26Z",
-          "url": "https://www.twitch.tv/videos/2885619206"
+          "id": "2886476915",
+          "seen_at": "2026-09-28T21:07:39Z",
+          "url": "https://www.twitch.tv/videos/2886476915"
         }
       },
       "live": {
-        "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "since": "2026-09-28T17:05:37Z",
-        "stream_id": "316960808790",
-        "title": "Ратуем шкалату ад хімеры",
-        "viewers": 11
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -1939,7 +1954,7 @@
         "since": "2026-09-28T15:46:10Z",
         "stream_id": "316960153174",
         "title": "Місія: выратаваць радавога Курку від Іринка подруга",
-        "viewers": 19
+        "viewers": 27
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2288,5 +2303,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-28T20:58:02Z"
+  "updated_at": "2026-09-28T21:07:39Z"
 }
