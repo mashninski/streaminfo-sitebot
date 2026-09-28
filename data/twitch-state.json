@@ -315,6 +315,16 @@
       "display_name": "Bel_Asch",
       "history": [
         {
+          "duration_min": 141,
+          "ended_at": "2026-09-28T19:35:58Z",
+          "game": "Dragon Age: Inquisition",
+          "source": "observed",
+          "started_at": "2026-09-28T17:14:39Z",
+          "stream_id": "318614898535",
+          "title": "Інквізітарскія справы ⚔️ | Dragon Age: Inquisition",
+          "vod": null
+        },
+        {
           "duration_min": 233,
           "ended_at": "2026-09-25T20:00:15Z",
           "game": "Dragon Age: Inquisition",
@@ -391,26 +401,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 233,
-        "ended_at": "2026-09-25T20:00:15Z",
+        "duration_min": 141,
+        "ended_at": "2026-09-28T19:35:58Z",
         "game": "Dragon Age: Inquisition",
-        "source": "vod",
-        "started_at": "2026-09-25T16:07:15Z",
-        "stream_id": "318576601191",
-        "title": "Шпацыр па Заходнім падыходзе 🏜️ | Dragon Age: Inquisition",
-        "vod": {
-          "gone": false,
-          "id": "2883683986",
-          "seen_at": "2026-09-25T20:00:57Z",
-          "url": "https://www.twitch.tv/videos/2883683986"
-        }
-      },
-      "live": {
-        "game": "Dragon Age: Inquisition",
-        "since": "2026-09-28T17:14:39Z",
+        "source": "observed",
+        "started_at": "2026-09-28T17:14:39Z",
         "stream_id": "318614898535",
         "title": "Інквізітарскія справы ⚔️ | Dragon Age: Inquisition",
-        "viewers": 5
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -939,7 +944,7 @@
         "since": "2026-09-28T17:05:37Z",
         "stream_id": "316960808790",
         "title": "Ратуем шкалату ад хімеры",
-        "viewers": 12
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -1313,7 +1318,7 @@
         "since": "2026-09-28T18:04:48Z",
         "stream_id": "316961275222",
         "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны.",
-        "viewers": 3
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -1613,7 +1618,7 @@
         "since": "2026-09-28T17:59:18Z",
         "stream_id": "317005421780",
         "title": "Малюем, пілікаем",
-        "viewers": 7
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -1914,7 +1919,7 @@
         "since": "2026-09-28T15:46:10Z",
         "stream_id": "316960153174",
         "title": "Місія: выратаваць радавога Курку від Іринка подруга",
-        "viewers": 11
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2263,5 +2268,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-28T19:20:44Z"
+  "updated_at": "2026-09-28T19:35:58Z"
 }
