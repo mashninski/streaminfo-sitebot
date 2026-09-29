@@ -1955,14 +1955,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 696,
-        "ended_at": "2026-09-29T03:22:14Z",
+        "duration_min": 683,
+        "ended_at": "2026-09-29T03:09:10Z",
         "game": "Valheim",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-09-28T15:46:10Z",
         "stream_id": "316960153174",
         "title": "Вікінгі на месцы від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2886417058",
+          "seen_at": "2026-09-29T04:08:13Z",
+          "url": "https://www.twitch.tv/videos/2886417058"
+        }
       },
       "live": {
         "game": null,
@@ -2318,5 +2323,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-29T03:22:14Z"
+  "updated_at": "2026-09-29T04:08:10Z"
 }
