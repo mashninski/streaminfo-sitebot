@@ -989,7 +989,7 @@
         "since": "2026-09-29T14:30:33Z",
         "stream_id": "317009549396",
         "title": "Памацаем новы рэмайстар Вядзьмара",
-        "viewers": 11
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -1066,6 +1066,16 @@
       "display_name": "mashninski",
       "history": [
         {
+          "duration_min": 279,
+          "ended_at": "2026-09-29T17:58:12Z",
+          "game": "The Witcher 3: Wild Hunt",
+          "source": "observed",
+          "started_at": "2026-09-29T13:18:48Z",
+          "stream_id": "318623550183",
+          "title": "ЦЕРПКА ЯК АГРЭСТ СЎОДКА ЯК БЭЗ",
+          "vod": null
+        },
+        {
           "duration_min": 147,
           "ended_at": "2026-09-25T16:36:49Z",
           "game": "BioShock Remastered",
@@ -1132,26 +1142,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 143,
-        "ended_at": "2026-09-25T16:33:11Z",
-        "game": "BioShock Remastered",
-        "source": "vod",
-        "started_at": "2026-09-25T14:10:11Z",
-        "stream_id": "318769160678",
-        "title": "Я таксама хачу сабе Вялікага Татачку",
-        "vod": {
-          "gone": false,
-          "id": "2883605662",
-          "seen_at": "2026-09-25T17:02:58Z",
-          "url": "https://www.twitch.tv/videos/2883605662"
-        }
-      },
-      "live": {
+        "duration_min": 279,
+        "ended_at": "2026-09-29T17:58:12Z",
         "game": "The Witcher 3: Wild Hunt",
-        "since": "2026-09-29T13:18:48Z",
+        "source": "observed",
+        "started_at": "2026-09-29T13:18:48Z",
         "stream_id": "318623550183",
         "title": "ЦЕРПКА ЯК АГРЭСТ СЎОДКА ЯК БЭЗ",
-        "viewers": 9
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1369,11 +1374,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "RESIDENT EVIL: requiem",
+        "since": "2026-09-29T17:55:26Z",
+        "stream_id": "318763867877",
+        "title": "[BLR] Нядзельны трыял. Лявон мусіць памерці. Заўсёды. Лімба Лявона",
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2358,5 +2363,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-29T17:47:35Z"
+  "updated_at": "2026-09-29T17:58:12Z"
 }
