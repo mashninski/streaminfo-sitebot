@@ -173,6 +173,16 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 155,
+          "ended_at": "2026-09-29T21:46:12Z",
+          "game": "Overlord II",
+          "source": "observed",
+          "started_at": "2026-09-29T19:11:41Z",
+          "stream_id": "318765135845",
+          "title": "Вырушылі на астатні адрэзак шляху да Ўладара Зла)",
+          "vod": null
+        },
+        {
           "duration_min": 191,
           "ended_at": "2026-09-27T18:37:25Z",
           "game": "Total War: WARHAMMER III",
@@ -299,26 +309,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 189,
-        "ended_at": "2026-09-27T18:35:30Z",
-        "game": "Total War: WARHAMMER III",
-        "source": "vod",
-        "started_at": "2026-09-27T15:26:30Z",
-        "stream_id": "318795053542",
-        "title": "Працягваем змагацца за веліч Вялікага Катаю)",
-        "vod": {
-          "gone": false,
-          "id": "2885557185",
-          "seen_at": "2026-09-27T19:03:27Z",
-          "url": "https://www.twitch.tv/videos/2885557185"
-        }
-      },
-      "live": {
+        "duration_min": 155,
+        "ended_at": "2026-09-29T21:46:12Z",
         "game": "Overlord II",
-        "since": "2026-09-29T19:11:41Z",
+        "source": "observed",
+        "started_at": "2026-09-29T19:11:41Z",
         "stream_id": "318765135845",
         "title": "Вырушылі на астатні адрэзак шляху да Ўладара Зла)",
-        "viewers": 5
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -2049,7 +2054,7 @@
         "since": "2026-09-29T19:57:51Z",
         "stream_id": "318629077095",
         "title": "элдэн маркет від Іринка подруга",
-        "viewers": 14
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2398,5 +2403,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-29T21:32:13Z"
+  "updated_at": "2026-09-29T21:46:12Z"
 }
