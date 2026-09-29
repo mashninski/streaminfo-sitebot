@@ -1147,11 +1147,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Witcher 3: Wild Hunt",
+        "since": "2026-09-29T13:18:48Z",
+        "stream_id": "318623550183",
+        "title": "ЦЕРПКА ЯК АГРЭСТ СЎОДКА ЯК БЭЗ",
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1767,6 +1767,16 @@
       "display_name": "Rudzi_Belarus",
       "history": [
         {
+          "duration_min": 119,
+          "ended_at": "2026-09-29T13:24:02Z",
+          "game": "SILENT HILL: townfall",
+          "source": "observed",
+          "started_at": "2026-09-29T11:25:24Z",
+          "stream_id": "316964306262",
+          "title": "Новы Silent Hill - Townfall. Страшна-вырубай.",
+          "vod": null
+        },
+        {
           "duration_min": 126,
           "ended_at": "2026-09-16T13:02:26Z",
           "game": "The Witcher 2: Assassins of Kings",
@@ -1783,26 +1793,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 126,
-        "ended_at": "2026-09-16T13:02:26Z",
-        "game": "The Witcher 2: Assassins of Kings",
-        "source": "vod",
-        "started_at": "2026-09-16T10:56:26Z",
-        "stream_id": "316926218580",
-        "title": "Вядзьмар 2 - збіраемся біць супер-тэнтакля!",
-        "vod": {
-          "gone": false,
-          "id": "2875595053",
-          "seen_at": "2026-09-16T13:03:14Z",
-          "url": "https://www.twitch.tv/videos/2875595053"
-        }
-      },
-      "live": {
+        "duration_min": 119,
+        "ended_at": "2026-09-29T13:24:02Z",
         "game": "SILENT HILL: townfall",
-        "since": "2026-09-29T11:25:24Z",
+        "source": "observed",
+        "started_at": "2026-09-29T11:25:24Z",
         "stream_id": "316964306262",
         "title": "Новы Silent Hill - Townfall. Страшна-вырубай.",
-        "viewers": 37
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -2348,5 +2353,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-29T13:01:21Z"
+  "updated_at": "2026-09-29T13:24:02Z"
 }
