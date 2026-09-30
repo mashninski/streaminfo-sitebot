@@ -1889,6 +1889,16 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 350,
+          "ended_at": "2026-09-30T01:47:39Z",
+          "game": "Supermarket Simulator",
+          "source": "observed",
+          "started_at": "2026-09-29T19:57:51Z",
+          "stream_id": "318629077095",
+          "title": "элдэн маркет від Іринка подруга",
+          "vod": null
+        },
+        {
           "duration_min": 696,
           "ended_at": "2026-09-29T03:22:14Z",
           "game": "Valheim",
@@ -2055,26 +2065,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 683,
-        "ended_at": "2026-09-29T03:09:10Z",
-        "game": "Valheim",
-        "source": "vod",
-        "started_at": "2026-09-28T15:46:10Z",
-        "stream_id": "316960153174",
-        "title": "Вікінгі на месцы від Іринка подруга",
-        "vod": {
-          "gone": false,
-          "id": "2886417058",
-          "seen_at": "2026-09-29T04:08:13Z",
-          "url": "https://www.twitch.tv/videos/2886417058"
-        }
-      },
-      "live": {
+        "duration_min": 350,
+        "ended_at": "2026-09-30T01:47:39Z",
         "game": "Supermarket Simulator",
-        "since": "2026-09-29T19:57:51Z",
+        "source": "observed",
+        "started_at": "2026-09-29T19:57:51Z",
         "stream_id": "318629077095",
         "title": "элдэн маркет від Іринка подруга",
-        "viewers": 14
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2423,5 +2428,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-30T01:35:42Z"
+  "updated_at": "2026-09-30T01:47:39Z"
 }

@@ -946,11 +946,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 3775
+            "sec": 4492
           }
         ],
-        "hours_sec": [0,0,0,1633,2142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-09-30T01:35:42Z",
+        "hours_sec": [0,0,0,1633,2859,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-09-30T01:47:39Z",
         "started_at": "2026-09-30T00:32:47Z",
         "stream_id": "316935360597"
       },
@@ -1060,18 +1060,7 @@
           "2026-09-01": 988
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "Supermarket Simulator",
-            "sec": 20271
-          }
-        ],
-        "hours_sec": [3600,3600,3600,3600,2142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,3600],
-        "last_seen_at": "2026-09-30T01:35:42Z",
-        "started_at": "2026-09-29T19:57:51Z",
-        "stream_id": "318629077095"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1096,20 +1085,31 @@
               "minutes": 71
             },
             "Supermarket Simulator": {
-              "launches": 2,
-              "minutes": 339
+              "launches": 3,
+              "minutes": 689
             },
             "Valheim": {
               "launches": 4,
               "minutes": 1224
             }
           },
-          "hours": [360,360,360,344,202,138,82,30,0,0,0,0,0,0,0,0,44,94,134,282,360,360,360,360],
-          "launches": 6,
-          "minutes": 3872
+          "hours": [420,420,420,404,250,138,82,30,0,0,0,0,0,0,0,0,44,94,134,282,360,360,362,420],
+          "launches": 7,
+          "minutes": 4222
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Supermarket Simulator",
+              "minutes": 350
+            }
+          ],
+          "ended_at": "2026-09-30T01:47:39Z",
+          "hours": [60,60,60,60,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,60],
+          "started_at": "2026-09-29T19:57:51Z"
+        },
         {
           "categories": [
             {
@@ -1404,5 +1404,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-30T01:35:42Z"
+  "updated_at": "2026-09-30T01:47:39Z"
 }
