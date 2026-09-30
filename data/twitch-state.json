@@ -6,6 +6,16 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 241,
+          "ended_at": "2026-09-30T12:11:27Z",
+          "game": "Control",
+          "source": "observed",
+          "started_at": "2026-09-30T08:10:41Z",
+          "stream_id": "317013636564",
+          "title": "Гэта не возера, гэта акіян. Control",
+          "vod": null
+        },
+        {
           "duration_min": 232,
           "ended_at": "2026-09-29T12:00:05Z",
           "game": "Control",
@@ -142,26 +152,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 232,
-        "ended_at": "2026-09-29T12:00:05Z",
+        "duration_min": 241,
+        "ended_at": "2026-09-30T12:11:27Z",
         "game": "Control",
-        "source": "vod",
-        "started_at": "2026-09-29T08:08:05Z",
-        "stream_id": "318621322727",
-        "title": "Хтанічны голас спынены, але Бюро ўсё яшчэ на лакдаўне. Робім дадатковыя квэсты, потым дапаўненні. Control",
-        "vod": {
-          "gone": false,
-          "id": "2887045274",
-          "seen_at": "2026-09-29T12:09:00Z",
-          "url": "https://www.twitch.tv/videos/2887045274"
-        }
-      },
-      "live": {
-        "game": "Control",
-        "since": "2026-09-30T08:10:41Z",
+        "source": "observed",
+        "started_at": "2026-09-30T08:10:41Z",
         "stream_id": "317013636564",
         "title": "Гэта не возера, гэта акіян. Control",
-        "viewers": 22
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -1847,6 +1852,16 @@
       "display_name": "Rudzi_Belarus",
       "history": [
         {
+          "duration_min": 67,
+          "ended_at": "2026-09-30T12:08:27Z",
+          "game": "SILENT HILL: townfall",
+          "source": "observed",
+          "started_at": "2026-09-30T11:01:39Z",
+          "stream_id": "317014242772",
+          "title": "Новы Silent Hill - Townfall. Смерць і адтуліны",
+          "vod": null
+        },
+        {
           "duration_min": 119,
           "ended_at": "2026-09-29T13:24:02Z",
           "game": "SILENT HILL: townfall",
@@ -1873,26 +1888,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 106,
-        "ended_at": "2026-09-29T13:11:24Z",
+        "duration_min": 67,
+        "ended_at": "2026-09-30T12:08:27Z",
         "game": "SILENT HILL: townfall",
-        "source": "vod",
-        "started_at": "2026-09-29T11:25:24Z",
-        "stream_id": "316964306262",
-        "title": "Новы Silent Hill - Townfall. Страшна-вырубай.",
-        "vod": {
-          "gone": false,
-          "id": "2887113782",
-          "seen_at": "2026-09-29T14:03:51Z",
-          "url": "https://www.twitch.tv/videos/2887113782"
-        }
+        "source": "observed",
+        "started_at": "2026-09-30T11:01:39Z",
+        "stream_id": "317014242772",
+        "title": "Новы Silent Hill - Townfall. Смерць і адтуліны",
+        "vod": null
       },
       "live": {
         "game": "SILENT HILL: townfall",
-        "since": "2026-09-30T11:01:39Z",
-        "stream_id": "317014242772",
+        "since": "2026-09-30T12:08:27Z",
+        "stream_id": "317014528596",
         "title": "Новы Silent Hill - Townfall. Смерць і адтуліны",
-        "viewers": 24
+        "viewers": 41
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -2448,5 +2458,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-30T11:58:29Z"
+  "updated_at": "2026-09-30T12:11:27Z"
 }
