@@ -1755,6 +1755,16 @@
       "display_name": "radyjo_holas",
       "history": [
         {
+          "duration_min": 2210,
+          "ended_at": "2026-09-30T00:32:47Z",
+          "game": "Just Chatting",
+          "source": "observed",
+          "started_at": "2026-09-28T11:42:54Z",
+          "stream_id": "316958713302",
+          "title": "Беларускі кантэнт — хутка навіны пра праэкт",
+          "vod": null
+        },
+        {
           "duration_min": 2880,
           "ended_at": "2026-09-28T11:42:54Z",
           "game": "Just Chatting",
@@ -1796,21 +1806,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 2880,
-        "ended_at": "2026-09-28T11:42:54Z",
+        "duration_min": 2210,
+        "ended_at": "2026-09-30T00:32:47Z",
         "game": "Just Chatting",
         "source": "observed",
-        "started_at": "2026-09-26T11:42:44Z",
-        "stream_id": "316945750358",
+        "started_at": "2026-09-28T11:42:54Z",
+        "stream_id": "316958713302",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
         "vod": null
       },
       "live": {
         "game": "Just Chatting",
-        "since": "2026-09-28T11:42:54Z",
-        "stream_id": "316958713302",
+        "since": "2026-09-30T00:32:47Z",
+        "stream_id": "316935360597",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -2413,5 +2423,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-09-30T00:28:44Z"
+  "updated_at": "2026-09-30T00:47:14Z"
 }
