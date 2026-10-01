@@ -1069,7 +1069,7 @@
         "since": "2026-10-01T16:13:42Z",
         "stream_id": "316944460501",
         "title": "Зноў нясем дабро ў гэты жорскткі Свет",
-        "viewers": 10
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -1145,6 +1145,16 @@
       "description": "• стрымлю • здымаю ютуб • раблю мемы на беларускай  • на канале ёсць расклад будучых стрымоў",
       "display_name": "mashninski",
       "history": [
+        {
+          "duration_min": 147,
+          "ended_at": "2026-10-01T17:43:17Z",
+          "game": "The Witcher 3: Wild Hunt",
+          "source": "observed",
+          "started_at": "2026-10-01T15:16:41Z",
+          "stream_id": "318648182887",
+          "title": "Велен то Гомельшчына",
+          "vod": null
+        },
         {
           "duration_min": 176,
           "ended_at": "2026-09-30T18:06:44Z",
@@ -1237,26 +1247,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 176,
-        "ended_at": "2026-09-30T18:06:44Z",
+        "duration_min": 147,
+        "ended_at": "2026-10-01T17:43:17Z",
         "game": "The Witcher 3: Wild Hunt",
-        "source": "vod",
-        "started_at": "2026-09-30T15:10:44Z",
-        "stream_id": "318772615013",
-        "title": "Не хаціце крыху ябучага грыфона?",
-        "vod": {
-          "gone": false,
-          "id": "2888101890",
-          "seen_at": "2026-09-30T18:07:36Z",
-          "url": "https://www.twitch.tv/videos/2888101890"
-        }
-      },
-      "live": {
-        "game": "The Witcher 3: Wild Hunt",
-        "since": "2026-10-01T15:16:41Z",
+        "source": "observed",
+        "started_at": "2026-10-01T15:16:41Z",
         "stream_id": "318648182887",
         "title": "Велен то Гомельшчына",
-        "viewers": 8
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -2214,7 +2219,7 @@
         "since": "2026-10-01T16:07:50Z",
         "stream_id": "317022065748",
         "title": "МяўБіАй, оўпэн ап! від Іринка подруга",
-        "viewers": 9
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2322,7 +2327,7 @@
         "since": "2026-10-01T16:13:36Z",
         "stream_id": "318841648358",
         "title": "Баявы Піў Піў Піў ◉ Ready or Not",
-        "viewers": 6
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -2563,5 +2568,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-01T17:29:59Z"
+  "updated_at": "2026-10-01T17:43:17Z"
 }
