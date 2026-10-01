@@ -1905,7 +1905,7 @@
         "since": "2026-09-30T00:32:47Z",
         "stream_id": "316935360597",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 2
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -1916,6 +1916,16 @@
       "description": "Беларускі стрымер, аглядальнік на YouTube",
       "display_name": "Rudzi_Belarus",
       "history": [
+        {
+          "duration_min": 136,
+          "ended_at": "2026-10-01T14:50:25Z",
+          "game": "SILENT HILL: townfall",
+          "source": "observed",
+          "started_at": "2026-10-01T12:34:19Z",
+          "stream_id": "316976597590",
+          "title": "Новы Silent Hill - Townfall. Ходзім-бадзяемся",
+          "vod": null
+        },
         {
           "duration_min": 52,
           "ended_at": "2026-09-30T13:00:27Z",
@@ -1968,26 +1978,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 52,
-        "ended_at": "2026-09-30T13:00:27Z",
+        "duration_min": 136,
+        "ended_at": "2026-10-01T14:50:25Z",
         "game": "SILENT HILL: townfall",
-        "source": "vod",
-        "started_at": "2026-09-30T12:08:27Z",
-        "stream_id": "317014528596",
-        "title": "Новы Silent Hill - Townfall. Смерць і адтуліны",
-        "vod": {
-          "gone": false,
-          "id": "2887993271",
-          "seen_at": "2026-09-30T13:09:53Z",
-          "url": "https://www.twitch.tv/videos/2887993271"
-        }
-      },
-      "live": {
-        "game": "SILENT HILL: townfall",
-        "since": "2026-10-01T12:34:19Z",
+        "source": "observed",
+        "started_at": "2026-10-01T12:34:19Z",
         "stream_id": "316976597590",
         "title": "Новы Silent Hill - Townfall. Ходзім-бадзяемся",
-        "viewers": 31
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -2553,5 +2558,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-01T14:33:11Z"
+  "updated_at": "2026-10-01T14:50:25Z"
 }
