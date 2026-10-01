@@ -6,6 +6,16 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 217,
+          "ended_at": "2026-10-01T11:50:08Z",
+          "game": "Whispers in the Moss",
+          "source": "observed",
+          "started_at": "2026-10-01T08:12:49Z",
+          "stream_id": "316975354838",
+          "title": "Гэта што, JRPG намаляваная ў кансолі? Так, яна. Whispers in the Moss",
+          "vod": null
+        },
+        {
           "duration_min": 241,
           "ended_at": "2026-09-30T12:11:27Z",
           "game": "Control",
@@ -152,26 +162,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 232,
-        "ended_at": "2026-09-30T12:02:41Z",
-        "game": "Control",
-        "source": "vod",
-        "started_at": "2026-09-30T08:10:41Z",
-        "stream_id": "317013636564",
-        "title": "Гэта не возера, гэта акіян. Control",
-        "vod": {
-          "gone": false,
-          "id": "2887905318",
-          "seen_at": "2026-09-30T13:09:53Z",
-          "url": "https://www.twitch.tv/videos/2887905318"
-        }
-      },
-      "live": {
+        "duration_min": 217,
+        "ended_at": "2026-10-01T11:50:08Z",
         "game": "Whispers in the Moss",
-        "since": "2026-10-01T08:12:49Z",
+        "source": "observed",
+        "started_at": "2026-10-01T08:12:49Z",
         "stream_id": "316975354838",
         "title": "Гэта што, JRPG намаляваная ў кансолі? Так, яна. Whispers in the Moss",
-        "viewers": 21
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -1890,7 +1895,7 @@
         "since": "2026-09-30T00:32:47Z",
         "stream_id": "316935360597",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -2538,5 +2543,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-01T11:36:59Z"
+  "updated_at": "2026-10-01T11:50:08Z"
 }
