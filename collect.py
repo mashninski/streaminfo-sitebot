@@ -10,10 +10,13 @@
   5. раз в час — Get Videos: ищет VOD, проверяет, не исчезли ли старые;
   6. пишет data/twitch-state.json, только если состояние изменилось;
   7. копит статистику (категории, часы суток по Мінску, месячные счётчики,
-     подписчики) и пишет data/twitch-stats.json — тоже только при изменениях.
+     подписчики) и пишет data/twitch-stats.json — тоже только при изменениях;
+  8. пишет архив месяцев data/archive/YYYY-MM.json для текущего и прошлого
+     месяца — тоже только при изменениях.
 
 Ключи читаются из переменных окружения TWITCH_CLIENT_ID и TWITCH_CLIENT_SECRET.
-Устройство статистики — claude/twitch-stats-spec.md в репозитории сайта.
+Устройство статистики — claude/twitch-stats-spec.md в репозитории сайта,
+архива месяцев — claude/twitch-chronicle-spec.md, §4, там же.
 """
 
 import json
@@ -30,6 +33,7 @@ ROOT = Path(__file__).resolve().parent
 REGISTRY_PATH = ROOT / "streamers.json"
 STATE_PATH = ROOT / "data" / "twitch-state.json"
 STATS_PATH = ROOT / "data" / "twitch-stats.json"
+ARCHIVE_DIR = ROOT / "data" / "archive"
 
 HELIX = "https://api.twitch.tv/helix"
 TOKEN_URL = "https://id.twitch.tv/oauth2/token"
@@ -462,6 +466,107 @@ def dump_json(path: Path, data: dict, compact_lists: bool = False) -> None:
         f.write(text + "\n")
 
 
+# ---------- архив месяцев ----------
+#
+# data/archive/YYYY-MM.json — всё, что сайту нужно, чтобы показать месяц, когда его
+# в twitch-stats.json уже нет. Спека — claude/twitch-chronicle-spec.md, §4, в репозитории
+# сайта. Файл пишется, пока месяц текущий или прошлый, потом не трогается: заморожен сам.
+#
+# Сессии копятся в самом файле: recent_sessions держит 31 день, history — 20 сессий,
+# а месяцу нужны все. Поэтому файл собирается поверх своей прошлой версии, ключ
+# сессии — started_at: одна и та же сессия не задваивается, ушедшая из recent_sessions
+# не теряется.
+
+def next_month(month: str) -> str:
+    y, m = map(int, month.split("-"))
+    return f"{y + 1}-01" if m == 12 else f"{y}-{m + 1:02d}"
+
+
+def session_minutes(s: dict) -> int:
+    # Та же формула, что в session_from_live: ровно столько close_stats прибавил
+    # к monthly.minutes, и сумма по сессиям месяца с minutes сходится. Длительность
+    # из history не берётся: её уточняет VOD, и файл разошёлся бы сам с собой.
+    return max(1, round((parse_iso(s["ended_at"]) - parse_iso(s["started_at"])).total_seconds() / 60))
+
+
+def archive_entry(month: str, old: dict, ss: dict, st: dict, added_at) -> dict:
+    """Запись стримера за месяц: old — его запись из прошлой версии файла (или {}),
+    ss — его статистика, st — его состояние."""
+    sessions = {s["started_at"]: s for s in old.get("sessions", [])}
+    # Сессия через полночь 1-го числа — в месяце начала, как в monthly.
+    for s in ss["recent_sessions"]:
+        if minsk_month(parse_iso(s["started_at"])) == month:
+            sessions[s["started_at"]] = {"started_at": s["started_at"], "ended_at": s["ended_at"],
+                                         "duration_min": session_minutes(s)}
+    sessions = sorted(sessions.values(), key=lambda s: parse_iso(s["started_at"]))
+
+    # Конец последней сессии до первой сессии месяца — для «Вяртання» с первой же сессии.
+    # history держит 20 сессий, и к концу месяца нужная может из неё уйти,
+    # поэтому найденное раньше значение остаётся кандидатом.
+    prev_ended_at = None
+    if sessions:
+        first = parse_iso(sessions[0]["started_at"])
+        candidates = [h["ended_at"] for h in st.get("history", [])
+                      if parse_iso(h["started_at"]) < first]
+        if old.get("prev_ended_at") and parse_iso(old["prev_ended_at"]) <= first:
+            candidates.append(old["prev_ended_at"])
+        if candidates:
+            prev_ended_at = max(candidates, key=parse_iso)
+
+    # Месяц из monthly не уходит, пока файл пишется. Если его там нет, а в файле
+    # счётчики есть (файл статистики потерялся), — старые не затираются нулями.
+    counters = ss["monthly"].get(month)
+    if counters is None:
+        counters = {k: old[k] for k in blank_month() if k in old} or blank_month()
+
+    snaps = ss["followers"]["snapshots"]
+    return {
+        "display_name": st.get("display_name") or old.get("display_name"),
+        "added_at": added_at or old.get("added_at"),
+        **{k: counters.get(k, v) for k, v in blank_month().items()},
+        "sessions": sessions,
+        "prev_ended_at": prev_ended_at,
+        "followers_start": snaps.get(f"{month}-01", old.get("followers_start")),
+        "followers_end": snaps.get(f"{next_month(month)}-01", old.get("followers_end")),
+    }
+
+
+def update_archive(stats: dict, state: dict, registry: list, logins: list, ts: datetime,
+                   renamed: dict, archive_dir: Path = ARCHIVE_DIR) -> list:
+    """Пишет файлы текущего и прошлого месяца, только при изменениях.
+    Запросов к Twitch нет — всё из stats и state. Возвращает записанные месяцы.
+    renamed — {старый логин: новый}, логины, сменившиеся в этом прогоне."""
+    since = stats.get("collecting_since")
+    if not since:
+        return []
+    added = {s["login"].lower(): s.get("added_at") for s in registry}
+    cur = minsk_month(ts)
+    written = []
+    # До месяца, в котором бот начал собирать, данных нет — такого файла не будет.
+    for month in [m for m in (prev_month(cur), cur) if m >= since[:7]]:
+        path = archive_dir / f"{month}.json"
+        old = load_json(path, {})
+        streamers = dict(old.get("streamers", {}))
+        # Смена логина: запись месяца переезжает, а не появляется вторая — с теми же сессиями.
+        for old_login, new_login in renamed.items():
+            if old_login in streamers and new_login not in streamers:
+                streamers[new_login] = streamers.pop(old_login)
+        # Обновляются только те, кого бот собирает сейчас. Убранный из реестра или скрытый
+        # остаётся в файле таким, каким был: в своём месяце человек не пропадает.
+        for login in logins:
+            streamers[login] = archive_entry(month, streamers.get(login, {}),
+                                             stats["streamers"][login],
+                                             state["streamers"].get(login, {}), added.get(login))
+        data = {"month": month, "collecting_since": since, "streamers": streamers}
+        # updated_at в сравнение не входит — по той же причине, что у состояния.
+        if data == {k: v for k, v in old.items() if k != "updated_at"}:
+            continue
+        data["updated_at"] = iso(ts)
+        dump_json(path, data, compact_lists=True)
+        written.append(month)
+    return written
+
+
 def run() -> int:
     client_id = os.environ.get("TWITCH_CLIENT_ID")
     client_secret = os.environ.get("TWITCH_CLIENT_SECRET")
@@ -503,6 +608,7 @@ def run() -> int:
     # История и статистика переезжают на новый логин, а не обнуляются.
     orphan_by_uid = {state["streamers"][k]["user_id"]: k
                      for k in orphans if state["streamers"][k].get("user_id")}
+    renamed = {}  # старый логин → новый, для архива месяцев
     for login in fresh:
         u = users.get(login)
         old = orphan_by_uid.get(u["id"]) if u else None
@@ -512,6 +618,7 @@ def run() -> int:
         if old in stats["streamers"]:
             stats["streamers"][login] = stats["streamers"].pop(old)
         orphans.remove(old)
+        renamed[old] = login
         print(f"  {old} → {login}: логин сменился, история перенесена")
 
     # Убранный из реестра стример уходит и из состояния, иначе его данные висят вечно.
@@ -651,6 +758,15 @@ def run() -> int:
         stats["updated_at"] = iso(ts)
         dump_json(STATS_PATH, stats, compact_lists=True)
         print(f"Статистика обновлена: {STATS_PATH}")
+
+    # Архив — после записи состояния и статистики: его сбой не должен их задержать.
+    # Но и молча пропадать не должен — сессии месяца живут в recent_sessions 31 день.
+    try:
+        written = update_archive(stats, state, registry, logins, ts, renamed)
+        print(f"Архив месяцев обновлён: {', '.join(written)}" if written
+              else "Архив месяцев без изменений")
+    except Exception as e:
+        alert(f"архив месяцев (data/archive) не записан — {e}")
     write_alerts()
     return 0
 
