@@ -1,0 +1,887 @@
+{
+  "collecting_since": "2026-09-23",
+  "month": "2026-09",
+  "streamers": {
+    "angryralef": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Banquet for Fools": {
+          "launches": 1,
+          "minutes": 232
+        },
+        "Control": {
+          "launches": 3,
+          "minutes": 738
+        },
+        "HλLF-LIFE": {
+          "launches": 1,
+          "minutes": 225
+        }
+      },
+      "display_name": "AngryRalef",
+      "followers_end": 1293,
+      "followers_start": 1292,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,253,300,300,293,47,0,0,0,0,0,0,0,0],
+      "launches": 5,
+      "minutes": 1195,
+      "prev_ended_at": "2026-09-22T11:52:57Z",
+      "sessions": [
+        {
+          "duration_min": 225,
+          "ended_at": "2026-09-24T11:52:56Z",
+          "started_at": "2026-09-24T08:07:50Z"
+        },
+        {
+          "duration_min": 232,
+          "ended_at": "2026-09-25T12:01:20Z",
+          "started_at": "2026-09-25T08:09:43Z"
+        },
+        {
+          "duration_min": 256,
+          "ended_at": "2026-09-28T12:26:22Z",
+          "started_at": "2026-09-28T08:10:30Z"
+        },
+        {
+          "duration_min": 241,
+          "ended_at": "2026-09-29T12:08:59Z",
+          "started_at": "2026-09-29T08:08:05Z"
+        },
+        {
+          "duration_min": 241,
+          "ended_at": "2026-09-30T12:11:27Z",
+          "started_at": "2026-09-30T08:10:41Z"
+        }
+      ]
+    },
+    "annigilatormg42": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Empire: Total War": {
+          "launches": 1,
+          "minutes": 275
+        },
+        "Overlord II": {
+          "launches": 2,
+          "minutes": 290
+        },
+        "Total War: Shogun 2": {
+          "launches": 1,
+          "minutes": 314
+        },
+        "Total War: WARHAMMER III": {
+          "launches": 1,
+          "minutes": 191
+        }
+      },
+      "display_name": "annigilatormg42",
+      "followers_end": 54,
+      "followers_start": 47,
+      "hours": [226,130,60,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,60,77,97,157,203],
+      "launches": 5,
+      "minutes": 1070,
+      "prev_ended_at": "2026-09-21T20:37:00Z",
+      "sessions": [
+        {
+          "duration_min": 135,
+          "ended_at": "2026-09-23T22:51:48Z",
+          "started_at": "2026-09-23T20:36:56Z"
+        },
+        {
+          "duration_min": 314,
+          "ended_at": "2026-09-26T00:24:44Z",
+          "started_at": "2026-09-25T19:11:00Z"
+        },
+        {
+          "duration_min": 275,
+          "ended_at": "2026-09-26T22:18:00Z",
+          "started_at": "2026-09-26T17:43:12Z"
+        },
+        {
+          "duration_min": 191,
+          "ended_at": "2026-09-27T18:37:25Z",
+          "started_at": "2026-09-27T15:26:30Z"
+        },
+        {
+          "duration_min": 155,
+          "ended_at": "2026-09-29T21:46:12Z",
+          "started_at": "2026-09-29T19:11:41Z"
+        }
+      ]
+    },
+    "bel_asch": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Dragon Age: Inquisition": {
+          "launches": 3,
+          "minutes": 593
+        }
+      },
+      "display_name": "Bel_Asch",
+      "followers_end": 207,
+      "followers_start": 207,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,113,165,180,114,1],
+      "launches": 3,
+      "minutes": 593,
+      "prev_ended_at": "2026-09-21T15:17:46Z",
+      "sessions": [
+        {
+          "duration_min": 218,
+          "ended_at": "2026-09-23T19:17:41Z",
+          "started_at": "2026-09-23T15:39:33Z"
+        },
+        {
+          "duration_min": 234,
+          "ended_at": "2026-09-25T20:00:55Z",
+          "started_at": "2026-09-25T16:07:15Z"
+        },
+        {
+          "duration_min": 141,
+          "ended_at": "2026-09-28T19:35:58Z",
+          "started_at": "2026-09-28T17:14:39Z"
+        }
+      ]
+    },
+    "dzed_ahey": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "CONTROL Resonant": {
+          "launches": 1,
+          "minutes": 104
+        }
+      },
+      "display_name": "Dzed_Ahey",
+      "followers_end": 41,
+      "followers_start": 41,
+      "hours": [0,60,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 1,
+      "minutes": 104,
+      "prev_ended_at": "2026-09-12T14:17:58Z",
+      "sessions": [
+        {
+          "duration_min": 104,
+          "ended_at": "2026-09-24T23:43:36Z",
+          "started_at": "2026-09-24T21:59:33Z"
+        }
+      ]
+    },
+    "dzedmaksim": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Crysis 2": {
+          "launches": 2,
+          "minutes": 189
+        },
+        "Euro Truck Simulator 2": {
+          "launches": 1,
+          "minutes": 142
+        },
+        "The Long Dark": {
+          "launches": 2,
+          "minutes": 468
+        },
+        "The Witcher 3: Wild Hunt": {
+          "launches": 1,
+          "minutes": 234
+        }
+      },
+      "display_name": "DzedMaksim",
+      "followers_end": 228,
+      "followers_start": 224,
+      "hours": [0,0,0,0,0,0,0,0,0,9,129,262,300,275,59,0,0,0,0,0,0,0,0,0],
+      "launches": 6,
+      "minutes": 1033,
+      "prev_ended_at": "2026-09-22T11:18:30Z",
+      "sessions": [
+        {
+          "duration_min": 251,
+          "ended_at": "2026-09-24T11:19:00Z",
+          "started_at": "2026-09-24T07:08:09Z"
+        },
+        {
+          "duration_min": 234,
+          "ended_at": "2026-09-25T10:45:50Z",
+          "started_at": "2026-09-25T06:51:26Z"
+        },
+        {
+          "duration_min": 142,
+          "ended_at": "2026-09-28T10:49:05Z",
+          "started_at": "2026-09-28T08:26:38Z"
+        },
+        {
+          "duration_min": 217,
+          "ended_at": "2026-09-29T11:20:09Z",
+          "started_at": "2026-09-29T07:43:04Z"
+        },
+        {
+          "duration_min": 11,
+          "ended_at": "2026-09-30T08:21:40Z",
+          "started_at": "2026-09-30T08:10:11Z"
+        },
+        {
+          "duration_min": 178,
+          "ended_at": "2026-09-30T11:19:32Z",
+          "started_at": "2026-09-30T08:21:40Z"
+        }
+      ]
+    },
+    "evildive": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "evildive",
+      "followers_end": 77,
+      "followers_start": 78,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "k4mbeg": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "K4mbeg",
+      "followers_end": 38,
+      "followers_start": 38,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "kryvichanka": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Starfield": {
+          "launches": 4,
+          "minutes": 255
+        }
+      },
+      "display_name": "Kryvichanka",
+      "followers_end": 144,
+      "followers_start": 144,
+      "hours": [0,54,80,60,60,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 4,
+      "minutes": 255,
+      "prev_ended_at": "2026-09-22T23:01:12Z",
+      "sessions": [
+        {
+          "duration_min": 51,
+          "ended_at": "2026-09-23T22:51:48Z",
+          "started_at": "2026-09-23T22:00:55Z"
+        },
+        {
+          "duration_min": 39,
+          "ended_at": "2026-09-24T23:35:32Z",
+          "started_at": "2026-09-24T22:56:44Z"
+        },
+        {
+          "duration_min": 5,
+          "ended_at": "2026-09-25T23:21:06Z",
+          "started_at": "2026-09-25T23:16:21Z"
+        },
+        {
+          "duration_min": 160,
+          "ended_at": "2026-09-26T02:01:32Z",
+          "started_at": "2026-09-25T23:21:06Z"
+        }
+      ]
+    },
+    "kurisu_illusia": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "kurisu_illusia",
+      "followers_end": 1003,
+      "followers_start": 1005,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "lepus81": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Dishonored": {
+          "launches": 2,
+          "minutes": 412
+        },
+        "No Man's Sky": {
+          "launches": 1,
+          "minutes": 204
+        },
+        "S.T.A.L.K.E.R. 2: Heart of Chornobyl": {
+          "launches": 4,
+          "minutes": 791
+        },
+        "The Witcher 3: Wild Hunt": {
+          "launches": 1,
+          "minutes": 260
+        }
+      },
+      "display_name": "lepus81",
+      "followers_end": 632,
+      "followers_start": 626,
+      "hours": [8,0,0,0,0,0,0,0,0,0,0,0,0,11,60,60,67,136,120,184,302,348,218,156],
+      "launches": 8,
+      "minutes": 1667,
+      "prev_ended_at": "2026-09-22T17:27:45Z",
+      "sessions": [
+        {
+          "duration_min": 204,
+          "ended_at": "2026-09-23T19:37:31Z",
+          "started_at": "2026-09-23T16:13:11Z"
+        },
+        {
+          "duration_min": 205,
+          "ended_at": "2026-09-24T17:18:12Z",
+          "started_at": "2026-09-24T13:53:16Z"
+        },
+        {
+          "duration_min": 175,
+          "ended_at": "2026-09-25T20:39:38Z",
+          "started_at": "2026-09-25T17:45:03Z"
+        },
+        {
+          "duration_min": 237,
+          "ended_at": "2026-09-26T14:46:46Z",
+          "started_at": "2026-09-26T10:49:29Z"
+        },
+        {
+          "duration_min": 133,
+          "ended_at": "2026-09-27T18:56:41Z",
+          "started_at": "2026-09-27T16:43:27Z"
+        },
+        {
+          "duration_min": 242,
+          "ended_at": "2026-09-28T21:07:39Z",
+          "started_at": "2026-09-28T17:05:37Z"
+        },
+        {
+          "duration_min": 260,
+          "ended_at": "2026-09-29T18:50:57Z",
+          "started_at": "2026-09-29T14:30:33Z"
+        },
+        {
+          "duration_min": 211,
+          "ended_at": "2026-09-30T20:55:42Z",
+          "started_at": "2026-09-30T17:24:56Z"
+        }
+      ]
+    },
+    "lilzorka_": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "lilzorka_",
+      "followers_end": 130,
+      "followers_start": 130,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "lucii7vel": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "lucii7vel",
+      "followers_end": 74,
+      "followers_start": 74,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "marhinez": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "marhinez",
+      "followers_end": 230,
+      "followers_start": 230,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "mashninski": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "BioShock Remastered": {
+          "launches": 1,
+          "minutes": 147
+        },
+        "The Witcher 3: Wild Hunt": {
+          "launches": 2,
+          "minutes": 456
+        }
+      },
+      "display_name": "mashninski",
+      "followers_end": 162,
+      "followers_start": 161,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,110,169,157,118,8,0,0],
+      "launches": 3,
+      "minutes": 603,
+      "prev_ended_at": "2026-09-22T17:51:10Z",
+      "sessions": [
+        {
+          "duration_min": 147,
+          "ended_at": "2026-09-25T16:36:49Z",
+          "started_at": "2026-09-25T14:10:11Z"
+        },
+        {
+          "duration_min": 279,
+          "ended_at": "2026-09-29T17:58:12Z",
+          "started_at": "2026-09-29T13:18:48Z"
+        },
+        {
+          "duration_min": 177,
+          "ended_at": "2026-09-30T18:07:36Z",
+          "started_at": "2026-09-30T15:10:44Z"
+        }
+      ]
+    },
+    "mihas_gareza": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Alaskan Road Truckers": {
+          "launches": 1,
+          "minutes": 142
+        },
+        "Grand Theft Auto V": {
+          "launches": 4,
+          "minutes": 810
+        },
+        "RESIDENT EVIL: requiem": {
+          "launches": 1,
+          "minutes": 204
+        },
+        "Serious Sam: The Second Encounter": {
+          "launches": 1,
+          "minutes": 202
+        }
+      },
+      "display_name": "Mihas_Gareza",
+      "followers_end": 198,
+      "followers_start": 199,
+      "hours": [145,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,400,420,378],
+      "launches": 7,
+      "minutes": 1358,
+      "prev_ended_at": "2026-09-22T20:54:08Z",
+      "sessions": [
+        {
+          "duration_min": 178,
+          "ended_at": "2026-09-23T21:01:25Z",
+          "started_at": "2026-09-23T18:03:23Z"
+        },
+        {
+          "duration_min": 202,
+          "ended_at": "2026-09-24T21:18:27Z",
+          "started_at": "2026-09-24T17:56:08Z"
+        },
+        {
+          "duration_min": 230,
+          "ended_at": "2026-09-25T22:01:05Z",
+          "started_at": "2026-09-25T18:11:32Z"
+        },
+        {
+          "duration_min": 182,
+          "ended_at": "2026-09-26T21:00:50Z",
+          "started_at": "2026-09-26T17:58:56Z"
+        },
+        {
+          "duration_min": 142,
+          "ended_at": "2026-09-27T20:18:21Z",
+          "started_at": "2026-09-27T17:55:54Z"
+        },
+        {
+          "duration_min": 220,
+          "ended_at": "2026-09-28T21:45:10Z",
+          "started_at": "2026-09-28T18:04:48Z"
+        },
+        {
+          "duration_min": 204,
+          "ended_at": "2026-09-29T21:19:48Z",
+          "started_at": "2026-09-29T17:55:26Z"
+        }
+      ]
+    },
+    "ms_bahiema": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "ms_bahiema",
+      "followers_end": 938,
+      "followers_start": 938,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "mx_oda": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Art": {
+          "launches": 1,
+          "minutes": 276
+        }
+      },
+      "display_name": "mx_oda",
+      "followers_end": 162,
+      "followers_start": 161,
+      "hours": [29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,60,60,60,60],
+      "launches": 1,
+      "minutes": 276,
+      "prev_ended_at": "2026-09-21T21:44:40Z",
+      "sessions": [
+        {
+          "duration_min": 276,
+          "ended_at": "2026-09-25T21:29:29Z",
+          "started_at": "2026-09-25T16:53:54Z"
+        }
+      ]
+    },
+    "nine_ravens_cemetery": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Art": {
+          "launches": 6,
+          "minutes": 812
+        },
+        "Thief: Deadly Shadows": {
+          "launches": 2,
+          "minutes": 345
+        }
+      },
+      "display_name": "Nine_Ravens_Cemetery",
+      "followers_end": 298,
+      "followers_start": 295,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,480,480,188],
+      "launches": 8,
+      "minutes": 1157,
+      "prev_ended_at": "2026-09-22T20:17:37Z",
+      "sessions": [
+        {
+          "duration_min": 140,
+          "ended_at": "2026-09-23T20:19:45Z",
+          "started_at": "2026-09-23T17:59:26Z"
+        },
+        {
+          "duration_min": 141,
+          "ended_at": "2026-09-24T20:20:30Z",
+          "started_at": "2026-09-24T17:59:21Z"
+        },
+        {
+          "duration_min": 138,
+          "ended_at": "2026-09-25T20:17:43Z",
+          "started_at": "2026-09-25T17:59:42Z"
+        },
+        {
+          "duration_min": 175,
+          "ended_at": "2026-09-26T20:52:39Z",
+          "started_at": "2026-09-26T17:58:01Z"
+        },
+        {
+          "duration_min": 170,
+          "ended_at": "2026-09-27T20:47:01Z",
+          "started_at": "2026-09-27T17:56:47Z"
+        },
+        {
+          "duration_min": 124,
+          "ended_at": "2026-09-28T20:03:26Z",
+          "started_at": "2026-09-28T17:59:18Z"
+        },
+        {
+          "duration_min": 126,
+          "ended_at": "2026-09-29T20:05:42Z",
+          "started_at": "2026-09-29T17:59:55Z"
+        },
+        {
+          "duration_min": 143,
+          "ended_at": "2026-09-30T20:20:53Z",
+          "started_at": "2026-09-30T17:58:04Z"
+        }
+      ]
+    },
+    "radyjo_holas": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Just Chatting": {
+          "launches": 5,
+          "minutes": 13730
+        }
+      },
+      "display_name": "radyjo_holas",
+      "followers_end": 65,
+      "followers_start": 64,
+      "hours": [600,600,600,573,540,540,540,540,540,540,540,540,540,540,557,600,600,600,600,600,600,600,600,600],
+      "launches": 5,
+      "minutes": 13730,
+      "prev_ended_at": "2026-09-22T09:54:37Z",
+      "sessions": [
+        {
+          "duration_min": 2880,
+          "ended_at": "2026-09-24T11:42:33Z",
+          "started_at": "2026-09-22T11:42:22Z"
+        },
+        {
+          "duration_min": 2880,
+          "ended_at": "2026-09-26T11:42:44Z",
+          "started_at": "2026-09-24T11:42:33Z"
+        },
+        {
+          "duration_min": 2880,
+          "ended_at": "2026-09-28T11:42:54Z",
+          "started_at": "2026-09-26T11:42:44Z"
+        },
+        {
+          "duration_min": 2210,
+          "ended_at": "2026-09-30T00:32:47Z",
+          "started_at": "2026-09-28T11:42:54Z"
+        },
+        {
+          "duration_min": 2880,
+          "ended_at": "2026-10-02T00:32:59Z",
+          "started_at": "2026-09-30T00:32:47Z"
+        }
+      ]
+    },
+    "rudzi_belarus": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "SILENT HILL: townfall": {
+          "launches": 3,
+          "minutes": 247
+        }
+      },
+      "display_name": "Rudzi_Belarus",
+      "followers_end": 926,
+      "followers_start": 924,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,120,34,0,0,0,0,0,0,0],
+      "launches": 3,
+      "minutes": 247,
+      "prev_ended_at": "2026-09-16T13:02:26Z",
+      "sessions": [
+        {
+          "duration_min": 119,
+          "ended_at": "2026-09-29T13:24:02Z",
+          "started_at": "2026-09-29T11:25:24Z"
+        },
+        {
+          "duration_min": 67,
+          "ended_at": "2026-09-30T12:08:27Z",
+          "started_at": "2026-09-30T11:01:39Z"
+        },
+        {
+          "duration_min": 61,
+          "ended_at": "2026-09-30T13:09:52Z",
+          "started_at": "2026-09-30T12:08:27Z"
+        }
+      ]
+    },
+    "shagrael_by": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "7 Days to Die": {
+          "launches": 3,
+          "minutes": 1405
+        },
+        "Counter-Strike": {
+          "launches": 2,
+          "minutes": 247
+        },
+        "Deadzone: Rogue": {
+          "launches": 1,
+          "minutes": 270
+        },
+        "ELDEN RING": {
+          "launches": 1,
+          "minutes": 315
+        },
+        "Fortnite": {
+          "launches": 1,
+          "minutes": 71
+        },
+        "Supermarket Simulator": {
+          "launches": 3,
+          "minutes": 689
+        },
+        "The Witcher 3: Wild Hunt": {
+          "launches": 1,
+          "minutes": 726
+        },
+        "Valheim": {
+          "launches": 4,
+          "minutes": 1224
+        }
+      },
+      "display_name": "ShagraeL_BY",
+      "followers_end": 998,
+      "followers_start": 988,
+      "hours": [480,480,480,464,307,138,82,30,0,0,0,0,0,0,0,0,53,154,194,342,420,420,422,480],
+      "launches": 8,
+      "minutes": 4948,
+      "prev_ended_at": "2026-09-23T00:38:39Z",
+      "sessions": [
+        {
+          "duration_min": 707,
+          "ended_at": "2026-09-24T01:02:14Z",
+          "started_at": "2026-09-23T13:15:42Z"
+        },
+        {
+          "duration_min": 604,
+          "ended_at": "2026-09-25T02:17:55Z",
+          "started_at": "2026-09-24T16:13:52Z"
+        },
+        {
+          "duration_min": 734,
+          "ended_at": "2026-09-26T04:30:29Z",
+          "started_at": "2026-09-25T16:16:24Z"
+        },
+        {
+          "duration_min": 618,
+          "ended_at": "2026-09-27T00:43:34Z",
+          "started_at": "2026-09-26T14:25:45Z"
+        },
+        {
+          "duration_min": 513,
+          "ended_at": "2026-09-28T01:20:14Z",
+          "started_at": "2026-09-27T16:47:43Z"
+        },
+        {
+          "duration_min": 696,
+          "ended_at": "2026-09-29T03:22:14Z",
+          "started_at": "2026-09-28T15:46:10Z"
+        },
+        {
+          "duration_min": 350,
+          "ended_at": "2026-09-30T01:47:39Z",
+          "started_at": "2026-09-29T19:57:51Z"
+        },
+        {
+          "duration_min": 726,
+          "ended_at": "2026-10-01T01:57:14Z",
+          "started_at": "2026-09-30T13:50:46Z"
+        }
+      ]
+    },
+    "toddzie": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "Toddzie",
+      "followers_end": 411,
+      "followers_start": 410,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "ucenamescy": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Mewgenics": {
+          "launches": 1,
+          "minutes": 170
+        }
+      },
+      "display_name": "Ucenamescy",
+      "followers_end": 142,
+      "followers_start": 142,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,60,52],
+      "launches": 1,
+      "minutes": 170,
+      "prev_ended_at": "2026-09-21T20:18:44Z",
+      "sessions": [
+        {
+          "duration_min": 170,
+          "ended_at": "2026-09-23T20:51:32Z",
+          "started_at": "2026-09-23T18:01:37Z"
+        }
+      ]
+    },
+    "ulaadzik": {
+      "added_at": "2026-09-11",
+      "categories": {},
+      "display_name": "ulaadzik",
+      "followers_end": 181,
+      "followers_start": 181,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_ended_at": null,
+      "sessions": []
+    },
+    "watafakablr": {
+      "added_at": "2026-09-11",
+      "categories": {
+        "Just Chatting": {
+          "launches": 1,
+          "minutes": 90
+        },
+        "PAPERHEAD EP.0": {
+          "launches": 1,
+          "minutes": 138
+        },
+        "Retro": {
+          "launches": 2,
+          "minutes": 509
+        },
+        "WARDOGS": {
+          "launches": 5,
+          "minutes": 1598
+        }
+      },
+      "display_name": "watafakablr",
+      "followers_end": 466,
+      "followers_start": 467,
+      "hours": [89,1,0,0,0,0,0,0,0,0,0,102,188,240,173,60,17,73,240,240,240,240,240,190],
+      "launches": 8,
+      "minutes": 2335,
+      "prev_ended_at": "2026-09-22T21:43:51Z",
+      "sessions": [
+        {
+          "duration_min": 353,
+          "ended_at": "2026-09-23T20:51:32Z",
+          "started_at": "2026-09-23T14:58:52Z"
+        },
+        {
+          "duration_min": 138,
+          "ended_at": "2026-09-24T11:52:56Z",
+          "started_at": "2026-09-24T09:34:55Z"
+        },
+        {
+          "duration_min": 442,
+          "ended_at": "2026-09-24T22:01:01Z",
+          "started_at": "2026-09-24T14:38:38Z"
+        },
+        {
+          "duration_min": 134,
+          "ended_at": "2026-09-25T11:30:46Z",
+          "started_at": "2026-09-25T09:17:16Z"
+        },
+        {
+          "duration_min": 396,
+          "ended_at": "2026-09-25T21:29:29Z",
+          "started_at": "2026-09-25T14:53:56Z"
+        },
+        {
+          "duration_min": 306,
+          "ended_at": "2026-09-26T13:17:29Z",
+          "started_at": "2026-09-26T08:11:33Z"
+        },
+        {
+          "duration_min": 203,
+          "ended_at": "2026-09-27T11:28:35Z",
+          "started_at": "2026-09-27T08:05:30Z"
+        },
+        {
+          "duration_min": 363,
+          "ended_at": "2026-09-27T20:18:21Z",
+          "started_at": "2026-09-27T14:15:11Z"
+        }
+      ]
+    }
+  },
+  "updated_at": "2026-10-02T11:22:07Z"
+}
