@@ -1560,11 +1560,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Dressmaker (2026)",
+        "since": "2026-10-02T12:20:14Z",
+        "stream_id": "318658328167",
+        "title": "[BEL] дзяўчаткі, запісваемся на сукеначкі",
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1b38b284-561d-4158-b998-05f6a2664097-profile_image-300x300.png",
@@ -1960,7 +1960,7 @@
         "since": "2026-10-02T00:32:59Z",
         "stream_id": "316980752854",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 9
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -2648,5 +2648,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-02T12:10:25Z"
+  "updated_at": "2026-10-02T12:35:40Z"
 }
