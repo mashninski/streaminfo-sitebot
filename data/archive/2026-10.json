@@ -162,6 +162,10 @@
     "lepus81": {
       "added_at": "2026-09-11",
       "categories": {
+        "Dishonored": {
+          "launches": 1,
+          "minutes": 176
+        },
         "Ready or Not": {
           "launches": 1,
           "minutes": 213
@@ -170,9 +174,9 @@
       "display_name": "lepus81",
       "followers_end": null,
       "followers_start": 632,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,60,60,47,0],
-      "launches": 1,
-      "minutes": 213,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,120,120,85,0],
+      "launches": 2,
+      "minutes": 389,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:55:42Z",
       "sessions": [
@@ -180,6 +184,11 @@
           "duration_min": 213,
           "ended_at": "2026-10-01T19:47:10Z",
           "started_at": "2026-10-01T16:13:42Z"
+        },
+        {
+          "duration_min": 176,
+          "ended_at": "2026-10-02T19:37:35Z",
+          "started_at": "2026-10-02T16:41:06Z"
         }
       ]
     },
@@ -481,5 +490,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-02T19:23:02Z"
+  "updated_at": "2026-10-02T19:37:35Z"
 }

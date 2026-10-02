@@ -906,6 +906,16 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 176,
+          "ended_at": "2026-10-02T19:37:35Z",
+          "game": "Dishonored",
+          "source": "observed",
+          "started_at": "2026-10-02T16:41:06Z",
+          "stream_id": "316984515542",
+          "title": "Ці пасуне гэта гульня Bioshok з майго п'едысталу",
+          "vod": null
+        },
+        {
           "duration_min": 213,
           "ended_at": "2026-10-01T19:47:10Z",
           "game": "Ready or Not",
@@ -1082,26 +1092,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 210,
-        "ended_at": "2026-10-01T19:43:42Z",
-        "game": "Ready or Not",
-        "source": "vod",
-        "started_at": "2026-10-01T16:13:42Z",
-        "stream_id": "316944460501",
-        "title": "Зноў нясем дабро ў гэты жорскткі Свет",
-        "vod": {
-          "gone": false,
-          "id": "2889005290",
-          "seen_at": "2026-10-01T20:01:26Z",
-          "url": "https://www.twitch.tv/videos/2889005290"
-        }
-      },
-      "live": {
+        "duration_min": 176,
+        "ended_at": "2026-10-02T19:37:35Z",
         "game": "Dishonored",
-        "since": "2026-10-02T16:41:06Z",
+        "source": "observed",
+        "started_at": "2026-10-02T16:41:06Z",
         "stream_id": "316984515542",
         "title": "Ці пасуне гэта гульня Bioshok з майго п'едысталу",
-        "viewers": 11
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -2305,7 +2310,7 @@
         "since": "2026-10-02T17:58:44Z",
         "stream_id": "318662477927",
         "title": "You died (першае праходжанне) від Іринка подруга",
-        "viewers": 19
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2676,5 +2681,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-02T19:23:02Z"
+  "updated_at": "2026-10-02T19:37:35Z"
 }
