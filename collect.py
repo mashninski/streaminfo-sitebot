@@ -44,7 +44,10 @@ TOKEN_URL = "https://id.twitch.tv/oauth2/token"
 # канала; это не наш секрет. Переменная окружения — на случай, если Twitch его сменит.
 GQL_URL = "https://gql.twitch.tv/gql"
 GQL_CLIENT_ID = os.environ.get("TWITCH_GQL_CLIENT_ID", "kimne78kx3ncx6brgo4mv6wki5h1ko")
-FOLLOWERS_QUERY = "query($logins:[String!]){users(logins:$logins){login followers{totalCount}}}"
+# Тем же запросом — начало последнего эфира (lastBroadcast) и идёт ли эфир сейчас (stream):
+# дата прошлого эфира для «Вяртання» на сайте (спека статистики, §9, «Точное число»).
+FOLLOWERS_QUERY = ("query($logins:[String!]){users(logins:$logins)"
+                   "{login followers{totalCount} lastBroadcast{startedAt} stream{id}}}")
 FOLLOWERS_ATTEMPTS = 3
 FOLLOWERS_PAUSE_SEC = 2.5
 
@@ -56,6 +59,9 @@ VOD_CHECK_WINDOW_MIN = 10     # Get Videos дёргаем только в пер
 VOD_LOOKBACK_DAYS = 65        # дольше максимального срока хранения VOD (60 дней)
 HISTORY_LIMIT = 20            # сколько сессий храним на стримера
 STALE_RUNS_TO_HIDE = 6        # после скольких прогонов без ответа считаем канал пропавшим
+# Насколько раньше первой сессии history должен начаться эфир из lastBroadcast, чтобы
+# считаться прошлым, а не той же сессией: Twitch и Helix расходятся в начале на секунды.
+PREV_BROADCAST_MARGIN = timedelta(hours=1)
 
 TIMEOUT = 20
 
@@ -397,9 +403,11 @@ def prune_stats(ss: dict, ts: datetime) -> None:
     ss["recent_sessions"] = [s for s in ss["recent_sessions"] if parse_iso(s["ended_at"]) >= cutoff]
 
 
-def fetch_followers(session: requests.Session, logins: list) -> dict:
+def fetch_followers(session: requests.Session, logins: list) -> tuple:
     """Число подписчиков одним запросом на всех. Три попытки с паузой, как у Twitch.get().
-    Логина, которого Twitch не нашёл, в ответе нет. Все попытки провалились — исключение."""
+    Возвращает (подписчики, эфиры): эфиры — начало последнего эфира у тех, кто сейчас
+    не в эфире. Логина, которого Twitch не нашёл, в ответе нет. Все попытки провалились —
+    исключение."""
     last_err = None
     for attempt in range(FOLLOWERS_ATTEMPTS):
         if attempt:
@@ -413,13 +421,17 @@ def fetch_followers(session: requests.Session, logins: list) -> dict:
             )
             r.raise_for_status()
             users = r.json()["data"]["users"]
-            out = {}
+            out, broadcasts = {}, {}
             for u in users:
                 if u and isinstance(u.get("followers", {}).get("totalCount"), int):
                     out[u["login"].lower()] = u["followers"]["totalCount"]
+                # В эфире lastBroadcast — уже идущий эфир, а не прошлый: такой не берём.
+                started = ((u or {}).get("lastBroadcast") or {}).get("startedAt")
+                if started and u.get("stream") is None:
+                    broadcasts[u["login"].lower()] = iso(parse_iso(started))
             if not out:
                 raise ValueError("в ответе ни одного числа подписчиков")
-            return out
+            return out, broadcasts
         except Exception as e:
             last_err = e
             print(f"  подписчики: попытка {attempt + 1} не удалась — {e}", file=sys.stderr)
@@ -453,6 +465,33 @@ def update_followers(stats: dict, logins: list, counts, ts: datetime) -> None:
             f["changed_at"] = iso(ts)
         # Снимок на 1-е число — первое успешное значение на или после 1-го по Мінску.
         f["snapshots"].setdefault(month_key, count)
+
+
+def update_prev_broadcast(state: dict, logins: list, broadcasts) -> None:
+    """prev_broadcast_at — начало последнего эфира до первой сессии в history: по нему
+    сайт считает перерыв перед первой сессией точно, а не «больш за» от added_at
+    (спека статистики, §9, «Точное число»). broadcasts — из fetch_followers или None.
+
+    Не «последний эфир вообще»: после эфира-возвращения Twitch отдаёт уже его, и прошлая
+    дата затёрлась бы. Поэтому берётся только эфир раньше первой сессии history — пока
+    history пуста, любой, потом значение больше не меняется. Отсюда же «коммит только
+    при изменениях»: поле меняется, только когда канал с пустой history стримил.
+    Сбой запроса и канал в эфире старое значение не трогают."""
+    if not broadcasts:
+        return
+    for login in logins:
+        st = state["streamers"][login]
+        started = broadcasts.get(login)
+        if not started or st["live"]["since"] is not None:
+            continue
+        history = st.get("history", [])
+        if history:
+            first = min(parse_iso(h["started_at"]) for h in history)
+            if parse_iso(started) > first - PREV_BROADCAST_MARGIN:
+                continue
+        if st.get("prev_broadcast_at") != started:
+            st["prev_broadcast_at"] = started
+            print(f"  {login}: прошлый эфир по Twitch — {started}")
 
 
 def dump_json(path: Path, data: dict, compact_lists: bool = False) -> None:
@@ -519,6 +558,19 @@ def archive_entry(month: str, old: dict, ss: dict, st: dict, added_at) -> dict:
     if counters is None:
         counters = {k: old[k] for k in blank_month() if k in old} or blank_month()
 
+    # Бот не знал конца прошлой сессии — начало прошлого эфира по Twitch, отдельным полем:
+    # это начало, а не конец. Только пока history короче предела: полная могла потерять
+    # сессии после этого эфира, и он уже не «прошлый» для первой сессии месяца.
+    prev_broadcast_at = None
+    if sessions and prev_ended_at is None:
+        limit = parse_iso(sessions[0]["started_at"]) - PREV_BROADCAST_MARGIN
+        candidates = [old.get("prev_broadcast_at")]
+        if len(st.get("history", [])) < HISTORY_LIMIT:
+            candidates.append(st.get("prev_broadcast_at"))
+        candidates = [c for c in candidates if c and parse_iso(c) <= limit]
+        if candidates:
+            prev_broadcast_at = max(candidates, key=parse_iso)
+
     snaps = ss["followers"]["snapshots"]
     return {
         "display_name": st.get("display_name") or old.get("display_name"),
@@ -526,6 +578,7 @@ def archive_entry(month: str, old: dict, ss: dict, st: dict, added_at) -> dict:
         **{k: counters.get(k, v) for k, v in blank_month().items()},
         "sessions": sessions,
         "prev_ended_at": prev_ended_at,
+        "prev_broadcast_at": prev_broadcast_at,
         "followers_start": snaps.get(f"{month}-01", old.get("followers_start")),
         "followers_end": snaps.get(f"{next_month(month)}-01", old.get("followers_end")),
     }
@@ -720,11 +773,12 @@ def run() -> int:
 
     # --- подписчики ---
     try:
-        counts = fetch_followers(requests.Session(), logins)
+        counts, broadcasts = fetch_followers(requests.Session(), logins)
     except Exception as e:
         print(f"  {e}", file=sys.stderr)
-        counts = None
+        counts, broadcasts = None, None
     update_followers(stats, logins, counts, ts)
+    update_prev_broadcast(state, logins, broadcasts)
 
     for login in logins:
         prune_stats(stats["streamers"][login], ts)
