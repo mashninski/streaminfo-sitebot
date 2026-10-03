@@ -135,16 +135,27 @@
     },
     "kryvichanka": {
       "added_at": "2026-09-11",
-      "categories": {},
+      "categories": {
+        "Starfield": {
+          "launches": 1,
+          "minutes": 56
+        }
+      },
       "display_name": "Kryvichanka",
       "followers_end": null,
       "followers_start": 144,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 0,
-      "minutes": 0,
+      "hours": [0,0,0,48,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 1,
+      "minutes": 56,
       "prev_broadcast_at": null,
-      "prev_ended_at": null,
-      "sessions": []
+      "prev_ended_at": "2026-09-26T02:01:32Z",
+      "sessions": [
+        {
+          "duration_min": 56,
+          "ended_at": "2026-10-03T01:08:12Z",
+          "started_at": "2026-10-03T00:11:42Z"
+        }
+      ]
     },
     "kurisu_illusia": {
       "added_at": "2026-09-11",
@@ -499,5 +510,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-02T20:07:43Z"
+  "updated_at": "2026-10-03T01:08:12Z"
 }
