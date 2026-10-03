@@ -354,11 +354,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Empire: Total War",
+        "since": "2026-10-03T15:12:04Z",
+        "stream_id": "318809573349",
+        "title": "НАзіраем за рэшткамі Свету, які яшчэ не патрапіў пад зрок гішпанскіх канкістадораў)",
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -471,11 +471,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Order: 1886",
+        "since": "2026-10-03T17:11:53Z",
+        "stream_id": "318674859623",
+        "title": "Сустракаем кастрычніцкія вайбы 🕯️ | The Order: 1886",
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -736,6 +736,24 @@
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a7c4b240-9260-45c6-b278-bee76f116471-profile_image-300x300.png",
       "user_id": "102619027"
+    },
+    "impani4": {
+      "broadcaster_type": "affiliate",
+      "description": "Я тут па суботах і нядзелях.",
+      "display_name": "imPani4",
+      "history": [],
+      "last_stream": null,
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
+      },
+      "missing_runs": 0,
+      "prev_broadcast_at": "2026-10-03T15:36:12Z",
+      "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/f12ff529-91ee-42a0-b666-48224127287d-profile_image-300x300.png",
+      "user_id": "810463969"
     },
     "k4mbeg": {
       "broadcaster_type": "",
@@ -1201,6 +1219,16 @@
       "display_name": "mashninski",
       "history": [
         {
+          "duration_min": 329,
+          "ended_at": "2026-10-03T18:23:23Z",
+          "game": "The Witcher 3: Wild Hunt",
+          "source": "observed",
+          "started_at": "2026-10-03T12:54:07Z",
+          "stream_id": "318671583335",
+          "title": "Абдымемся і разам пойдзем",
+          "vod": null
+        },
+        {
           "duration_min": 217,
           "ended_at": "2026-10-02T19:23:02Z",
           "game": "The Witcher 3: Wild Hunt",
@@ -1312,26 +1340,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 206,
-        "ended_at": "2026-10-02T19:12:24Z",
+        "duration_min": 329,
+        "ended_at": "2026-10-03T18:23:23Z",
         "game": "The Witcher 3: Wild Hunt",
-        "source": "vod",
-        "started_at": "2026-10-02T15:46:24Z",
-        "stream_id": "318796789349",
-        "title": "Ганяем тлустага + ПРЭЗЕНТАЦЫЯ",
-        "vod": {
-          "gone": false,
-          "id": "2889857561",
-          "seen_at": "2026-10-02T20:07:43Z",
-          "url": "https://www.twitch.tv/videos/2889857561"
-        }
-      },
-      "live": {
-        "game": "The Witcher 3: Wild Hunt",
-        "since": "2026-10-03T12:54:07Z",
+        "source": "observed",
+        "started_at": "2026-10-03T12:54:07Z",
         "stream_id": "318671583335",
         "title": "Абдымемся і разам пойдзем",
-        "viewers": 8
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1925,11 +1948,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Just Chatting",
+        "since": "2026-10-03T17:58:25Z",
+        "stream_id": "316992277718",
+        "title": "Глядзім \"Адрынутыя\" 2012, трошкі захварэў",
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -2346,11 +2369,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Species: Unknown",
+        "since": "2026-10-03T18:05:50Z",
+        "stream_id": "318869077734",
+        "title": "У космас ды па жахі! від Іринка подруга",
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2710,16 +2733,16 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "WARDOGS",
+        "since": "2026-10-03T14:45:52Z",
+        "stream_id": "316956962261",
+        "title": "🔥САБАЧАЧЫ ВАЙБ🥰@watafakablr",
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-03T13:27:57Z"
+  "updated_at": "2026-10-03T18:23:23Z"
 }

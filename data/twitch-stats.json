@@ -130,15 +130,26 @@
     },
     "annigilatormg42": {
       "followers": {
-        "changed_at": "2026-09-27T17:17:14Z",
-        "count": 54,
+        "changed_at": "2026-10-03T18:23:23Z",
+        "count": 55,
         "fail_runs": 0,
         "snapshots": {
           "2026-09-01": 47,
           "2026-10-01": 54
         }
       },
-      "in_progress": null,
+      "in_progress": {
+        "categories": [
+          {
+            "game": "Empire: Total War",
+            "sec": 11479
+          }
+        ],
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2876,3600,3600,1403,0,0],
+        "last_seen_at": "2026-10-03T18:23:23Z",
+        "started_at": "2026-10-03T15:12:04Z",
+        "stream_id": "318809573349"
+      },
       "monthly": {
         "2026-09": {
           "categories": {
@@ -224,15 +235,26 @@
     },
     "bel_asch": {
       "followers": {
-        "changed_at": "2026-10-02T19:37:35Z",
-        "count": 208,
+        "changed_at": "2026-10-03T18:23:23Z",
+        "count": 207,
         "fail_runs": 0,
         "snapshots": {
           "2026-09-01": 207,
           "2026-10-01": 207
         }
       },
-      "in_progress": null,
+      "in_progress": {
+        "categories": [
+          {
+            "game": "The Order: 1886",
+            "sec": 4290
+          }
+        ],
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2887,1403,0,0],
+        "last_seen_at": "2026-10-03T18:23:23Z",
+        "started_at": "2026-10-03T17:11:53Z",
+        "stream_id": "318674859623"
+      },
       "monthly": {
         "2026-09": {
           "categories": {
@@ -470,6 +492,19 @@
         "snapshots": {
           "2026-09-01": 78,
           "2026-10-01": 77
+        }
+      },
+      "in_progress": null,
+      "monthly": {},
+      "recent_sessions": []
+    },
+    "impani4": {
+      "followers": {
+        "changed_at": "2026-10-03T18:23:23Z",
+        "count": 120,
+        "fail_runs": 0,
+        "snapshots": {
+          "2026-10-01": 120
         }
       },
       "in_progress": null,
@@ -805,26 +840,15 @@
     },
     "mashninski": {
       "followers": {
-        "changed_at": "2026-10-03T13:27:57Z",
-        "count": 164,
+        "changed_at": "2026-10-03T18:23:23Z",
+        "count": 165,
         "fail_runs": 0,
         "snapshots": {
           "2026-09-01": 161,
           "2026-10-01": 162
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "The Witcher 3: Wild Hunt",
-            "sec": 2030
-          }
-        ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,1677,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-03T13:27:57Z",
-        "started_at": "2026-10-03T12:54:07Z",
-        "stream_id": "318671583335"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -844,16 +868,27 @@
         "2026-10": {
           "categories": {
             "The Witcher 3: Wild Hunt": {
-              "launches": 2,
-              "minutes": 364
+              "launches": 3,
+              "minutes": 693
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,120,103,60,23,0],
-          "launches": 2,
-          "minutes": 364
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,60,60,117,180,163,83,23,0],
+          "launches": 3,
+          "minutes": 693
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "The Witcher 3: Wild Hunt",
+              "minutes": 329
+            }
+          ],
+          "ended_at": "2026-10-03T18:23:23Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,60,60,60,60,60,23,0,0],
+          "started_at": "2026-10-03T12:54:07Z"
+        },
         {
           "categories": [
             {
@@ -1135,7 +1170,18 @@
           "2026-10-01": 298
         }
       },
-      "in_progress": null,
+      "in_progress": {
+        "categories": [
+          {
+            "game": "Just Chatting",
+            "sec": 1498
+          }
+        ],
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,1403,0,0],
+        "last_seen_at": "2026-10-03T18:23:23Z",
+        "started_at": "2026-10-03T17:58:25Z",
+        "stream_id": "316992277718"
+      },
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1283,8 +1329,8 @@
     },
     "radyjo_holas": {
       "followers": {
-        "changed_at": "2026-10-02T19:49:56Z",
-        "count": 66,
+        "changed_at": "2026-10-03T18:23:23Z",
+        "count": 67,
         "fail_runs": 0,
         "snapshots": {
           "2026-09-01": 64,
@@ -1295,11 +1341,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 132898
+            "sec": 150624
           }
         ],
-        "hours_sec": [3600,3600,3600,5221,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,5277,3600,3600,3600,3600,3600,3600,3600],
-        "last_seen_at": "2026-10-03T13:27:57Z",
+        "hours_sec": [3600,3600,3600,5221,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,7200,5003,3600,3600],
+        "last_seen_at": "2026-10-03T18:23:23Z",
         "started_at": "2026-10-02T00:32:59Z",
         "stream_id": "316980752854"
       },
@@ -1458,15 +1504,26 @@
     },
     "shagrael_by": {
       "followers": {
-        "changed_at": "2026-10-03T05:26:42Z",
-        "count": 1002,
+        "changed_at": "2026-10-03T18:23:23Z",
+        "count": 1003,
         "fail_runs": 0,
         "snapshots": {
           "2026-09-01": 988,
           "2026-10-01": 998
         }
       },
-      "in_progress": null,
+      "in_progress": {
+        "categories": [
+          {
+            "game": "Species: Unknown",
+            "sec": 1053
+          }
+        ],
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1053,0,0],
+        "last_seen_at": "2026-10-03T18:23:23Z",
+        "started_at": "2026-10-03T18:05:50Z",
+        "stream_id": "318869077734"
+      },
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1782,7 +1839,18 @@
           "2026-10-01": 466
         }
       },
-      "in_progress": null,
+      "in_progress": {
+        "categories": [
+          {
+            "game": "WARDOGS",
+            "sec": 13051
+          }
+        ],
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,848,3600,3600,3600,1403,0,0],
+        "last_seen_at": "2026-10-03T18:23:23Z",
+        "started_at": "2026-10-03T14:45:52Z",
+        "stream_id": "316956962261"
+      },
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1952,5 +2020,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-03T13:27:57Z"
+  "updated_at": "2026-10-03T18:23:23Z"
 }

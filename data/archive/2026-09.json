@@ -242,6 +242,19 @@
       "prev_ended_at": null,
       "sessions": []
     },
+    "impani4": {
+      "added_at": "2026-10-03",
+      "categories": {},
+      "display_name": "imPani4",
+      "followers_end": 120,
+      "followers_start": null,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 0,
+      "minutes": 0,
+      "prev_broadcast_at": null,
+      "prev_ended_at": null,
+      "sessions": []
+    },
     "k4mbeg": {
       "added_at": "2026-09-11",
       "categories": {},
@@ -908,5 +921,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-02T13:39:12Z"
+  "updated_at": "2026-10-03T18:23:23Z"
 }
