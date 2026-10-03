@@ -1284,11 +1284,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 97828
+            "sec": 99027
           }
         ],
-        "hours_sec": [3600,3600,3600,5221,7200,7200,6207,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600],
-        "last_seen_at": "2026-10-03T03:43:27Z",
+        "hours_sec": [3600,3600,3600,5221,7200,7200,7200,3806,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600],
+        "last_seen_at": "2026-10-03T04:03:26Z",
         "started_at": "2026-10-02T00:32:59Z",
         "stream_id": "316980752854"
       },
@@ -1455,22 +1455,7 @@
           "2026-10-01": 998
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "ELDEN RING",
-            "sec": 8588
-          },
-          {
-            "game": "Waterpark Simulator",
-            "sec": 26495
-          }
-        ],
-        "hours_sec": [3600,3600,3600,3600,3600,3600,2607,0,0,0,0,0,0,0,0,0,0,0,0,0,76,3600,3600,3600],
-        "last_seen_at": "2026-10-03T03:43:27Z",
-        "started_at": "2026-10-02T17:58:44Z",
-        "stream_id": "318662477927"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1513,6 +1498,10 @@
         },
         "2026-10": {
           "categories": {
+            "ELDEN RING": {
+              "launches": 1,
+              "minutes": 143
+            },
             "Ready or Not": {
               "launches": 1,
               "minutes": 169
@@ -1520,14 +1509,33 @@
             "The Witcher 3: Wild Hunt Remastered": {
               "launches": 1,
               "minutes": 271
+            },
+            "Waterpark Simulator": {
+              "launches": 1,
+              "minutes": 462
             }
           },
-          "hours": [60,60,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,60,60,60,60],
-          "launches": 1,
-          "minutes": 440
+          "hours": [120,120,88,60,60,60,60,3,0,0,0,0,0,0,0,0,0,0,0,52,61,120,120,120],
+          "launches": 2,
+          "minutes": 1045
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "ELDEN RING",
+              "minutes": 143
+            },
+            {
+              "game": "Waterpark Simulator",
+              "minutes": 462
+            }
+          ],
+          "ended_at": "2026-10-03T04:03:26Z",
+          "hours": [60,60,60,60,60,60,60,3,0,0,0,0,0,0,0,0,0,0,0,0,1,60,60,60],
+          "started_at": "2026-10-02T17:58:44Z"
+        },
         {
           "categories": [
             {
@@ -1918,5 +1926,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-03T03:43:27Z"
+  "updated_at": "2026-10-03T04:03:26Z"
 }
