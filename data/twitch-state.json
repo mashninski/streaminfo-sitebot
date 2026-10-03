@@ -1327,11 +1327,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Witcher 3: Wild Hunt",
+        "since": "2026-10-03T12:54:07Z",
+        "stream_id": "318671583335",
+        "title": "Абдымемся і разам пойдзем",
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -2499,6 +2499,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 359,
+          "ended_at": "2026-10-03T13:27:57Z",
+          "game": "Retro",
+          "source": "observed",
+          "started_at": "2026-10-03T07:28:59Z",
+          "stream_id": "316987956310",
+          "title": "🔥РЭТРА ГУЛЬНЯ ПАСЛЯ ЯКОЙ Я СТАЎ БЛАКІТНЫМ ЖАЎНЕРАМ🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 160,
           "ended_at": "2026-10-02T18:08:35Z",
           "game": "WARDOGS",
@@ -2687,39 +2697,29 @@
           "stream_id": "316928113108",
           "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 378,
-          "ended_at": "2026-09-15T21:27:17Z",
-          "game": "WARDOGS",
-          "source": "observed",
-          "started_at": "2026-09-15T15:09:14Z",
-          "stream_id": "316878154454",
-          "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 160,
-        "ended_at": "2026-10-02T18:08:35Z",
-        "game": "WARDOGS",
+        "duration_min": 359,
+        "ended_at": "2026-10-03T13:27:57Z",
+        "game": "Retro",
         "source": "observed",
-        "started_at": "2026-10-02T15:29:02Z",
-        "stream_id": "317028419924",
-        "title": "🔥САБАЧАЧЫ ВАЙБ🥰@watafakablr",
+        "started_at": "2026-10-03T07:28:59Z",
+        "stream_id": "316987956310",
+        "title": "🔥РЭТРА ГУЛЬНЯ ПАСЛЯ ЯКОЙ Я СТАЎ БЛАКІТНЫМ ЖАЎНЕРАМ🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "Retro",
-        "since": "2026-10-03T07:28:59Z",
-        "stream_id": "316987956310",
-        "title": "🔥РЭТРА ГУЛЬНЯ ПАСЛЯ ЯКОЙ Я СТАЎ БЛАКІТНЫМ ЖАЎНЕРАМ🥰@watafakablr",
-        "viewers": 11
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-03T11:04:40Z"
+  "updated_at": "2026-10-03T13:27:57Z"
 }
