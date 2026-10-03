@@ -2710,16 +2710,16 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Retro",
+        "since": "2026-10-03T07:28:59Z",
+        "stream_id": "316987956310",
+        "title": "🔥РЭТРА ГУЛЬНЯ ПАСЛЯ ЯКОЙ Я СТАЎ БЛАКІТНЫМ ЖАЎНЕРАМ🥰@watafakablr",
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-03T04:03:26Z"
+  "updated_at": "2026-10-03T07:39:12Z"
 }
