@@ -37,29 +37,51 @@
     },
     "annigilatormg42": {
       "added_at": "2026-09-11",
-      "categories": {},
+      "categories": {
+        "Empire: Total War": {
+          "launches": 1,
+          "minutes": 358
+        }
+      },
       "display_name": "annigilatormg42",
       "followers_end": null,
       "followers_start": 54,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 0,
-      "minutes": 0,
+      "hours": [10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,60,60,60,60,60],
+      "launches": 1,
+      "minutes": 358,
       "prev_broadcast_at": null,
-      "prev_ended_at": null,
-      "sessions": []
+      "prev_ended_at": "2026-09-29T21:46:12Z",
+      "sessions": [
+        {
+          "duration_min": 358,
+          "ended_at": "2026-10-03T21:09:48Z",
+          "started_at": "2026-10-03T15:12:04Z"
+        }
+      ]
     },
     "bel_asch": {
       "added_at": "2026-09-11",
-      "categories": {},
+      "categories": {
+        "The Order: 1886": {
+          "launches": 1,
+          "minutes": 238
+        }
+      },
       "display_name": "Bel_Asch",
       "followers_end": null,
       "followers_start": 207,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 0,
-      "minutes": 0,
+      "hours": [10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,60,60,60],
+      "launches": 1,
+      "minutes": 238,
       "prev_broadcast_at": null,
-      "prev_ended_at": null,
-      "sessions": []
+      "prev_ended_at": "2026-09-28T19:35:58Z",
+      "sessions": [
+        {
+          "duration_min": 238,
+          "ended_at": "2026-10-03T21:09:48Z",
+          "started_at": "2026-10-03T17:11:53Z"
+        }
+      ]
     },
     "dzed_ahey": {
       "added_at": "2026-09-11",
@@ -358,16 +380,16 @@
           "minutes": 142
         },
         "Just Chatting": {
-          "launches": 1,
-          "minutes": 127
+          "launches": 2,
+          "minutes": 318
         }
       },
       "display_name": "Nine_Ravens_Cemetery",
       "followers_end": null,
       "followers_start": 298,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119,120,29],
-      "launches": 2,
-      "minutes": 269,
+      "hours": [10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,179,180,89],
+      "launches": 3,
+      "minutes": 460,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:20:53Z",
       "sessions": [
@@ -380,6 +402,11 @@
           "duration_min": 127,
           "ended_at": "2026-10-02T20:07:43Z",
           "started_at": "2026-10-02T18:00:35Z"
+        },
+        {
+          "duration_min": 191,
+          "ended_at": "2026-10-03T21:09:48Z",
+          "started_at": "2026-10-03T17:58:25Z"
         }
       ]
     },
@@ -519,16 +546,16 @@
           "minutes": 359
         },
         "WARDOGS": {
-          "launches": 2,
-          "minutes": 534
+          "launches": 3,
+          "minutes": 918
         }
       },
       "display_name": "watafakablr",
       "followers_end": null,
       "followers_start": 466,
-      "hours": [58,0,0,0,0,0,0,0,0,0,31,60,60,60,60,60,28,0,47,120,120,69,60,60],
-      "launches": 3,
-      "minutes": 893,
+      "hours": [68,0,0,0,0,0,0,0,0,0,31,60,60,60,60,60,28,14,107,180,180,129,120,120],
+      "launches": 4,
+      "minutes": 1277,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-27T20:18:21Z",
       "sessions": [
@@ -546,9 +573,14 @@
           "duration_min": 359,
           "ended_at": "2026-10-03T13:27:57Z",
           "started_at": "2026-10-03T07:28:59Z"
+        },
+        {
+          "duration_min": 384,
+          "ended_at": "2026-10-03T21:09:48Z",
+          "started_at": "2026-10-03T14:45:52Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-03T18:23:23Z"
+  "updated_at": "2026-10-03T21:09:48Z"
 }

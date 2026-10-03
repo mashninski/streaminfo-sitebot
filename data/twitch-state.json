@@ -203,6 +203,21 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 203,
+          "ended_at": "2026-10-03T18:35:04Z",
+          "game": "Empire: Total War",
+          "source": "vod",
+          "started_at": "2026-10-03T15:12:04Z",
+          "stream_id": "318809573349",
+          "title": "НАзіраем за рэшткамі Свету, які яшчэ не патрапіў пад зрок гішпанскіх канкістадораў)",
+          "vod": {
+            "gone": false,
+            "id": "2890799548",
+            "seen_at": "2026-10-03T21:09:49Z",
+            "url": "https://www.twitch.tv/videos/2890799548"
+          }
+        },
+        {
           "duration_min": 155,
           "ended_at": "2026-09-29T21:46:12Z",
           "game": "Overlord II",
@@ -339,26 +354,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 145,
-        "ended_at": "2026-09-29T21:36:41Z",
-        "game": "Overlord II",
+        "duration_min": 203,
+        "ended_at": "2026-10-03T18:35:04Z",
+        "game": "Empire: Total War",
         "source": "vod",
-        "started_at": "2026-09-29T19:11:41Z",
-        "stream_id": "318765135845",
-        "title": "Вырушылі на астатні адрэзак шляху да Ўладара Зла)",
+        "started_at": "2026-10-03T15:12:04Z",
+        "stream_id": "318809573349",
+        "title": "НАзіраем за рэшткамі Свету, які яшчэ не патрапіў пад зрок гішпанскіх канкістадораў)",
         "vod": {
           "gone": false,
-          "id": "2887427078",
-          "seen_at": "2026-09-29T22:01:07Z",
-          "url": "https://www.twitch.tv/videos/2887427078"
+          "id": "2890799548",
+          "seen_at": "2026-10-03T21:09:49Z",
+          "url": "https://www.twitch.tv/videos/2890799548"
         }
       },
       "live": {
-        "game": "Empire: Total War",
-        "since": "2026-10-03T15:12:04Z",
-        "stream_id": "318809573349",
-        "title": "НАзіраем за рэшткамі Свету, які яшчэ не патрапіў пад зрок гішпанскіх канкістадораў)",
-        "viewers": 3
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -369,6 +384,21 @@
       "description": "Ты не нічога не бачыў/ла.",
       "display_name": "Bel_Asch",
       "history": [
+        {
+          "duration_min": 145,
+          "ended_at": "2026-10-03T19:36:53Z",
+          "game": "The Order: 1886",
+          "source": "vod",
+          "started_at": "2026-10-03T17:11:53Z",
+          "stream_id": "318674859623",
+          "title": "Сустракаем кастрычніцкія вайбы 🕯️ | The Order: 1886",
+          "vod": {
+            "gone": false,
+            "id": "2890898306",
+            "seen_at": "2026-10-03T21:09:51Z",
+            "url": "https://www.twitch.tv/videos/2890898306"
+          }
+        },
         {
           "duration_min": 141,
           "ended_at": "2026-09-28T19:35:58Z",
@@ -456,26 +486,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 140,
-        "ended_at": "2026-09-28T19:34:39Z",
-        "game": "Dragon Age: Inquisition",
+        "duration_min": 145,
+        "ended_at": "2026-10-03T19:36:53Z",
+        "game": "The Order: 1886",
         "source": "vod",
-        "started_at": "2026-09-28T17:14:39Z",
-        "stream_id": "318614898535",
-        "title": "Інквізітарскія справы ⚔️ | Dragon Age: Inquisition",
+        "started_at": "2026-10-03T17:11:53Z",
+        "stream_id": "318674859623",
+        "title": "Сустракаем кастрычніцкія вайбы 🕯️ | The Order: 1886",
         "vod": {
           "gone": false,
-          "id": "2886483835",
-          "seen_at": "2026-09-28T20:03:27Z",
-          "url": "https://www.twitch.tv/videos/2886483835"
+          "id": "2890898306",
+          "seen_at": "2026-10-03T21:09:51Z",
+          "url": "https://www.twitch.tv/videos/2890898306"
         }
       },
       "live": {
-        "game": "The Order: 1886",
-        "since": "2026-10-03T17:11:53Z",
-        "stream_id": "318674859623",
-        "title": "Сустракаем кастрычніцкія вайбы 🕯️ | The Order: 1886",
-        "viewers": 3
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -742,7 +772,21 @@
       "description": "Я тут па суботах і нядзелях.",
       "display_name": "imPani4",
       "history": [],
-      "last_stream": null,
+      "last_stream": {
+        "duration_min": 210,
+        "ended_at": "2026-10-03T15:35:43Z",
+        "game": null,
+        "source": "vod",
+        "started_at": "2026-10-03T12:05:43Z",
+        "stream_id": "318807386469",
+        "title": "лёгкі стрым",
+        "vod": {
+          "gone": false,
+          "id": "2890671808",
+          "seen_at": "2026-10-03T21:09:51Z",
+          "url": "https://www.twitch.tv/videos/2890671808"
+        }
+      },
       "live": {
         "game": null,
         "since": null,
@@ -1340,14 +1384,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 329,
-        "ended_at": "2026-10-03T18:23:23Z",
+        "duration_min": 205,
+        "ended_at": "2026-10-03T16:19:07Z",
         "game": "The Witcher 3: Wild Hunt",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-10-03T12:54:07Z",
         "stream_id": "318671583335",
         "title": "Абдымемся і разам пойдзем",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2890700879",
+          "seen_at": "2026-10-03T21:09:49Z",
+          "url": "https://www.twitch.tv/videos/2890700879"
+        }
       },
       "live": {
         "game": null,
@@ -1717,6 +1766,21 @@
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
         {
+          "duration_min": 165,
+          "ended_at": "2026-10-03T20:43:25Z",
+          "game": "Just Chatting",
+          "source": "vod",
+          "started_at": "2026-10-03T17:58:25Z",
+          "stream_id": "316992277718",
+          "title": "Глядзім \"Адрынутыя\" 2012, трошкі захварэў",
+          "vod": {
+            "gone": false,
+            "id": "2890939369",
+            "seen_at": "2026-10-03T21:09:51Z",
+            "url": "https://www.twitch.tv/videos/2890939369"
+          }
+        },
+        {
           "duration_min": 125,
           "ended_at": "2026-10-02T20:05:35Z",
           "game": "Just Chatting",
@@ -1920,39 +1984,29 @@
           "stream_id": "316873342038",
           "title": "Глядзім фоткі, пасля малюем гук",
           "vod": null
-        },
-        {
-          "duration_min": 165,
-          "ended_at": "2026-09-13T20:38:29Z",
-          "game": "Thief: Deadly Shadows",
-          "source": "observed",
-          "started_at": "2026-09-13T17:53:58Z",
-          "stream_id": "316867912662",
-          "title": "Паслясвяточны стэлс",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 125,
-        "ended_at": "2026-10-02T20:05:35Z",
+        "duration_min": 165,
+        "ended_at": "2026-10-03T20:43:25Z",
         "game": "Just Chatting",
         "source": "vod",
-        "started_at": "2026-10-02T18:00:35Z",
-        "stream_id": "317029879252",
-        "title": "Глядзім \"Гарызонт падзей\" 1997, і трохі стыму вядома",
+        "started_at": "2026-10-03T17:58:25Z",
+        "stream_id": "316992277718",
+        "title": "Глядзім \"Адрынутыя\" 2012, трошкі захварэў",
         "vod": {
           "gone": false,
-          "id": "2889965749",
-          "seen_at": "2026-10-02T20:07:45Z",
-          "url": "https://www.twitch.tv/videos/2889965749"
+          "id": "2890939369",
+          "seen_at": "2026-10-03T21:09:51Z",
+          "url": "https://www.twitch.tv/videos/2890939369"
         }
       },
       "live": {
-        "game": "Just Chatting",
-        "since": "2026-10-03T17:58:25Z",
-        "stream_id": "316992277718",
-        "title": "Глядзім \"Адрынутыя\" 2012, трошкі захварэў",
-        "viewers": 7
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -2373,7 +2427,7 @@
         "since": "2026-10-03T18:05:50Z",
         "stream_id": "318869077734",
         "title": "У космас ды па жахі! від Іринка подруга",
-        "viewers": 8
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -2521,6 +2575,16 @@
       "description": "Тут мы бавімся ў гульні , слухаем музыку ды размаўляем 😉                                                                                                                              ",
       "display_name": "watafakablr",
       "history": [
+        {
+          "duration_min": 384,
+          "ended_at": "2026-10-03T21:09:48Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-10-03T14:45:52Z",
+          "stream_id": "316956962261",
+          "title": "🔥САБАЧАЧЫ ВАЙБ🥰@watafakablr",
+          "vod": null
+        },
         {
           "duration_min": 359,
           "ended_at": "2026-10-03T13:27:57Z",
@@ -2710,39 +2774,29 @@
           "stream_id": "316857912405",
           "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 303,
-          "ended_at": "2026-09-16T21:19:30Z",
-          "game": "WARDOGS",
-          "source": "observed",
-          "started_at": "2026-09-16T16:16:40Z",
-          "stream_id": "316928113108",
-          "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 359,
-        "ended_at": "2026-10-03T13:27:57Z",
-        "game": "Retro",
+        "duration_min": 384,
+        "ended_at": "2026-10-03T21:09:48Z",
+        "game": "WARDOGS",
         "source": "observed",
-        "started_at": "2026-10-03T07:28:59Z",
-        "stream_id": "316987956310",
-        "title": "🔥РЭТРА ГУЛЬНЯ ПАСЛЯ ЯКОЙ Я СТАЎ БЛАКІТНЫМ ЖАЎНЕРАМ🥰@watafakablr",
+        "started_at": "2026-10-03T14:45:52Z",
+        "stream_id": "316956962261",
+        "title": "🔥САБАЧАЧЫ ВАЙБ🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "WARDOGS",
-        "since": "2026-10-03T14:45:52Z",
-        "stream_id": "316956962261",
-        "title": "🔥САБАЧАЧЫ ВАЙБ🥰@watafakablr",
-        "viewers": 10
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-03T18:23:23Z"
+  "updated_at": "2026-10-03T21:09:48Z"
 }
