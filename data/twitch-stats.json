@@ -1363,11 +1363,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 10094
+            "sec": 17715
           }
         ],
-        "hours_sec": [0,0,0,1609,3600,3600,1285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-04T03:21:25Z",
+        "hours_sec": [0,0,0,1609,3600,3600,3600,3600,1706,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-10-04T05:28:26Z",
         "started_at": "2026-10-04T00:33:11Z",
         "stream_id": "317039444564"
       },
@@ -1556,22 +1556,7 @@
           "2026-10-01": 998
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "Species: Unknown",
-            "sec": 21661
-          },
-          {
-            "game": "Valheim",
-            "sec": 11674
-          }
-        ],
-        "hours_sec": [3600,3600,3600,3600,3600,3600,1285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3250,3600,3600],
-        "last_seen_at": "2026-10-04T03:21:25Z",
-        "started_at": "2026-10-03T18:05:50Z",
-        "stream_id": "318869077734"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1622,21 +1607,44 @@
               "launches": 1,
               "minutes": 169
             },
+            "Species: Unknown": {
+              "launches": 1,
+              "minutes": 361
+            },
             "The Witcher 3: Wild Hunt Remastered": {
               "launches": 1,
               "minutes": 271
+            },
+            "Valheim": {
+              "launches": 1,
+              "minutes": 322
             },
             "Waterpark Simulator": {
               "launches": 1,
               "minutes": 462
             }
           },
-          "hours": [120,120,88,60,60,60,60,3,0,0,0,0,0,0,0,0,0,0,0,52,61,120,120,120],
-          "launches": 2,
-          "minutes": 1045
+          "hours": [180,180,148,120,120,120,120,63,28,0,0,0,0,0,0,0,0,0,0,52,61,174,180,180],
+          "launches": 3,
+          "minutes": 1728
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Species: Unknown",
+              "minutes": 361
+            },
+            {
+              "game": "Valheim",
+              "minutes": 322
+            }
+          ],
+          "ended_at": "2026-10-04T05:28:26Z",
+          "hours": [60,60,60,60,60,60,60,60,28,0,0,0,0,0,0,0,0,0,0,0,0,54,60,60],
+          "started_at": "2026-10-03T18:05:50Z"
+        },
         {
           "categories": [
             {
@@ -2068,5 +2076,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-04T03:21:25Z"
+  "updated_at": "2026-10-04T05:28:26Z"
 }
