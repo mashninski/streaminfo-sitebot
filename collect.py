@@ -7,7 +7,9 @@
   2. Get Users   — аватар, описание, broadcaster_type, user_id;
   3. Get Streams — кто сейчас в эфире;
   4. ловит переходы онлайн→офлайн и закрывает сессию;
-  5. раз в час — Get Videos: ищет VOD, проверяет, не исчезли ли старые;
+  5. Get Videos: ищет VOD к сессиям без записи (у кого такая есть за 7 дней —
+     каждый прогон, остальным раз в час), проверяет, не исчезли ли старые;
+     по найденной записи пересчитывает статистику сессии;
   6. пишет data/twitch-state.json, только если состояние изменилось;
   7. копит статистику (категории, часы суток по Мінску, месячные счётчики,
      подписчики) и пишет data/twitch-stats.json — тоже только при изменениях;
@@ -19,6 +21,7 @@
 архива месяцев — claude/twitch-chronicle-spec.md, §4, там же.
 """
 
+import copy
 import json
 import os
 import re
@@ -48,6 +51,12 @@ GQL_CLIENT_ID = os.environ.get("TWITCH_GQL_CLIENT_ID", "kimne78kx3ncx6brgo4mv6wk
 # дата прошлого эфира для «Вяртання» на сайте (спека статистики, §9, «Точное число»).
 FOLLOWERS_QUERY = ("query($logins:[String!]){users(logins:$logins)"
                    "{login followers{totalCount} lastBroadcast{startedAt} stream{id}}}")
+# Категории записи — главы смены игры, как их показывает плеер twitch.tv. Helix их
+# не отдаёт. Нужны только для эфиров, которые бот не видел вовсе (missed_sessions).
+VIDEO_QUERY = ("query($id:ID){video(id:$id){lengthSeconds game{name} "
+               "moments(momentRequestType:VIDEO_CHAPTER_MARKERS){edges{node{"
+               "positionMilliseconds durationMilliseconds "
+               "details{... on GameChangeMomentDetails{game{name}}}}}}}}")
 FOLLOWERS_ATTEMPTS = 3
 FOLLOWERS_PAUSE_SEC = 2.5
 
@@ -55,7 +64,11 @@ FOLLOWERS_PAUSE_SEC = 2.5
 MINSK = timezone(timedelta(hours=3))
 RECENT_DAYS = 31              # окно recent_sessions: 30 дней карточек + день запаса
 
-VOD_CHECK_WINDOW_MIN = 10     # Get Videos дёргаем только в первом прогоне каждого часа
+VOD_CHECK_WINDOW_MIN = 10     # всем Get Videos — в первом прогоне каждого часа
+# У кого есть сессия без записи, закончившаяся за столько дней, — Get Videos
+# на каждом прогоне: Actions пропускает часы, и окно minute < 10 может не наступить.
+VOD_PENDING_DAYS = 7
+VIDEOS_LIMIT = 20             # сколько записей брать: сессии ищутся по всей history
 VOD_LOOKBACK_DAYS = 65        # дольше максимального срока хранения VOD (60 дней)
 HISTORY_LIMIT = 20            # сколько сессий храним на стримера
 STALE_RUNS_TO_HIDE = 6        # после скольких прогонов без ответа считаем канал пропавшим
@@ -83,13 +96,19 @@ def parse_iso(s: str) -> datetime:
 DURATION_RE = re.compile(r"(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?")
 
 
-def parse_duration(s: str) -> int:
-    """Twitch отдаёт длительность строкой вида '3h8m33s'. Возвращаем минуты."""
+def parse_duration_sec(s: str) -> int:
+    """Twitch отдаёт длительность строкой вида '3h8m33s'. Возвращаем секунды."""
     m = DURATION_RE.fullmatch(s or "")
     if not m:
         return 0
     h, mi, sec = (int(x) if x else 0 for x in m.groups())
-    return h * 60 + mi + round(sec / 60)
+    return h * 3600 + mi * 60 + sec
+
+
+def minutes_between(start: datetime, end: datetime) -> int:
+    # Одна формула длительности на всё: состояние, monthly.minutes и архив месяца
+    # считают одинаково, и суммы между файлами сходятся.
+    return max(1, round((end - start).total_seconds() / 60))
 
 
 def chunked(seq, size):
@@ -186,7 +205,7 @@ class Twitch:
                 out[s["user_id"]] = s
         return out
 
-    def archives(self, user_id: str, limit: int = 5) -> list:
+    def archives(self, user_id: str, limit: int = VIDEOS_LIMIT) -> list:
         # Get Videos принимает только один user_id за запрос — отсюда отдельный вызов на стримера.
         return self.get("videos", {"user_id": user_id, "type": "archive", "first": limit})
 
@@ -212,7 +231,7 @@ def session_from_live(live: dict, ended_at: datetime) -> dict:
     return {
         "started_at": live["since"],
         "ended_at": iso(ended_at),
-        "duration_min": max(1, round((ended_at - started).total_seconds() / 60)),
+        "duration_min": minutes_between(started, ended_at),
         "title": live.get("title"),
         "game": live.get("game"),
         "stream_id": live.get("stream_id"),
@@ -223,11 +242,11 @@ def session_from_live(live: dict, ended_at: datetime) -> dict:
 
 def session_from_video(v: dict) -> dict:
     started = parse_iso(v["created_at"])
-    minutes = parse_duration(v.get("duration", ""))
+    ended = started + timedelta(seconds=parse_duration_sec(v.get("duration", "")))
     return {
         "started_at": v["created_at"],
-        "ended_at": iso(started + timedelta(minutes=minutes)),
-        "duration_min": minutes,
+        "ended_at": iso(ended),
+        "duration_min": minutes_between(started, ended),
         "title": v.get("title"),
         "game": None,
         "stream_id": v.get("stream_id"),
@@ -236,10 +255,117 @@ def session_from_video(v: dict) -> dict:
     }
 
 
-def update_vods(tw: Twitch, state: dict, logins: list) -> None:
-    """Привязывает VOD к последней сессии, подтягивает историю задним числом,
-    помечает исчезнувшие записи."""
+def vod_pending(st: dict, ts: datetime) -> bool:
+    """Есть наблюдённая сессия без записи, закончившаяся за VOD_PENDING_DAYS дней.
+    Таким Get Videos — на каждом прогоне, остальным — раз в час. Решается по самим
+    сессиям, без отметки «когда проверяли»: она порождала бы коммит каждый прогон."""
+    cutoff = ts - timedelta(days=VOD_PENDING_DAYS)
+    return any(h.get("source") == "observed" and not h.get("vod")
+               and parse_iso(h["ended_at"]) >= cutoff
+               for h in st.get("history", []))
+
+
+def apply_vod(session: dict, v: dict, limit) -> None:
+    """Запись нашлась: конец и длительность — по ней, они точные. Конец наблюдения —
+    время первого прогона, увидевшего офлайн, а прогоны Actions пропускает часами.
+    limit — начало следующей сессии: конец не позже него, иначе часы суток задвоятся."""
+    session["vod"] = {"id": v["id"], "url": v["url"], "seen_at": iso(now()), "gone": False}
+    sec = parse_duration_sec(v.get("duration", ""))
+    if not sec:
+        return
+    started = parse_iso(session["started_at"])
+    ended = started + timedelta(seconds=sec)
+    if limit and ended > limit:
+        ended = max(started, limit)
+    session["ended_at"] = iso(ended)
+    session["duration_min"] = minutes_between(started, ended)
+    session["source"] = "vod"
+
+
+def fetch_chapters(session: requests.Session, video_id: str) -> list:
+    """Категории записи по главам: [(игра, секунды)] по порядку. Глав нет — вся запись
+    одной игрой. Сбой — исключение: эфир не добавится, его возьмёт следующий прогон."""
+    r = session.post(GQL_URL, json={"query": VIDEO_QUERY, "variables": {"id": video_id}},
+                     headers={"Client-Id": GQL_CLIENT_ID}, timeout=TIMEOUT)
+    r.raise_for_status()
+    video = r.json()["data"]["video"]
+    if video is None:
+        raise ValueError(f"видео {video_id} нет в ответе")
+    nodes = sorted((e["node"] for e in (video.get("moments") or {}).get("edges", [])),
+                   key=lambda n: n["positionMilliseconds"])
+    if nodes:
+        return [(((n.get("details") or {}).get("game") or {}).get("name"),
+                 n["durationMilliseconds"] // 1000) for n in nodes]
+    return [((video.get("game") or {}).get("name"), video.get("lengthSeconds") or 0)]
+
+
+def progress_from_chapters(started: datetime, ended: datetime, chapters: list) -> dict:
+    """Те же секунды по часам суток и сегментам категорий, что копит живая сессия, —
+    но по главам записи. Последняя глава тянется до конца записи."""
+    prog = {"last_seen_at": iso(started), "hours_sec": [0] * 24, "categories": []}
+    cur = started
+    for i, (game, sec) in enumerate(chapters):
+        until = ended if i == len(chapters) - 1 else min(ended, cur + timedelta(seconds=sec))
+        prog["categories"].append({"game": game or None, "sec": 0})
+        advance_progress(prog, until)
+        cur = max(cur, until)
+    return prog
+
+
+def missed_sessions(login: str, st: dict, ss, videos: list, since, gql: requests.Session) -> None:
+    """Эфиры, которых бот не видел вовсе: целиком попали в дыру между прогонами
+    (03.10.2026 так пропали два). Запись есть — сессия добавляется по ней в history,
+    а если её время учтено бы статистикой, то и в recent_sessions и месяц.
+    Берутся только записи новее самой старой сессии history: раньше бот не наблюдал,
+    там пропусков нет. Пересекается с известной сессией — не берётся: время задвоилось бы.
+    since — collecting_since статистики, ss — статистика стримера."""
+    history = st.get("history", [])
+    if not history:
+        return
+    known = {h.get("stream_id") for h in history}
+    oldest = parse_iso(history[-1]["started_at"])
+    ts = now()
+    for v in videos:
+        sid = v.get("stream_id")
+        sec = parse_duration_sec(v.get("duration", ""))
+        started = parse_iso(v["created_at"])
+        if not sid or sid in known or sid == st["live"].get("stream_id") or not sec or started <= oldest:
+            continue
+        ended = started + timedelta(seconds=sec)
+        spans = [(parse_iso(h["started_at"]), parse_iso(h["ended_at"])) for h in history]
+        if st["live"].get("since"):
+            spans.append((parse_iso(st["live"]["since"]), ts))
+        if any(a < ended and started < b for a, b in spans):
+            print(f"  {login}: запись {v['id']} пересекается с известной сессией, не берём")
+            continue
+        try:
+            chapters = fetch_chapters(gql, v["id"])
+        except Exception as e:
+            print(f"  {login}: главы записи {v['id']} не получены — {e}", file=sys.stderr)
+            continue
+        session = session_from_video(v)
+        session["game"] = chapters[-1][0]
+        pos = next((i for i, h in enumerate(history) if parse_iso(h["started_at"]) < started),
+                   len(history))
+        history.insert(pos, session)
+        del history[HISTORY_LIMIT:]
+        known.add(sid)
+        print(f"  {login}: эфир {session['started_at']} бот не видел — добавлен по записи, "
+              f"{session['duration_min']} мин")
+        # В статистику — по тем же правилам, что закрытая сессия: только время, которое
+        # бот собирал, и только пока месяц и окно recent_sessions ещё живы.
+        month = minsk_month(started)
+        if (ss is not None and since and started.astimezone(MINSK).strftime("%Y-%m-%d") >= since
+                and month >= prev_month(minsk_month(ts)) and ended >= ts - timedelta(days=RECENT_DAYS)):
+            add_session_stats(ss, progress_from_chapters(started, ended, chapters), session)
+
+
+def update_vods(tw: Twitch, state: dict, stats: dict, logins: list) -> None:
+    """Привязывает VOD ко всем сессиям history, у которых записи ещё нет, подтягивает
+    историю задним числом, добавляет эфиры, которых бот не видел, помечает исчезнувшие
+    записи. Уточнённые концы в статистику переносит sync_stats_with_vods."""
     cutoff = now() - timedelta(days=VOD_LOOKBACK_DAYS)
+    gql = requests.Session()
     for login in logins:
         st = state["streamers"][login]
         if not st.get("user_id"):
@@ -255,35 +381,54 @@ def update_vods(tw: Twitch, state: dict, logins: list) -> None:
             print(f"  {login}: не удалось получить видео — {e}", file=sys.stderr)
             continue
 
+        live_sid = st["live"].get("stream_id")
         if last is None:
             # Первое знакомство: берём историю из VOD, если она есть.
             # Но свежайшая запись может быть архивом стрима, который идёт прямо сейчас —
             # такой архив ещё растёт и прошлой сессией не является.
-            live_sid = st["live"].get("stream_id")
             candidates = [v for v in videos if not live_sid or v.get("stream_id") != live_sid]
             if candidates:
                 st["last_stream"] = session_from_video(candidates[0])
             continue
 
+        history = st.get("history", [])
+        twin = bool(history) and history[0]["started_at"] == last["started_at"]
         by_stream = {v.get("stream_id"): v for v in videos if v.get("stream_id")}
-        match = by_stream.get(last.get("stream_id"))
+        for i, h in enumerate(history):
+            if h.get("source") != "observed" or h.get("vod"):
+                continue
+            match = by_stream.get(h.get("stream_id"))
+            # Архив идущего эфира ещё растёт — его длительность не конец сессии.
+            if not match or h.get("stream_id") == live_sid:
+                continue
+            # history — свежие сверху: следующая сессия стоит перед этой.
+            if i:
+                limit = parse_iso(history[i - 1]["started_at"])
+            else:
+                limit = parse_iso(st["live"]["since"]) if st["live"].get("since") else None
+            apply_vod(h, match, limit)
+            print(f"  {login}: запись к сессии {h['started_at']} — {h['duration_min']} мин")
 
-        if match:
-            # Нашли запись нашей сессии: уточняем длительность по VOD, она точная.
-            prev = last.get("vod") or {}
-            # seen_at проставляем один раз, при первой привязке. Иначе поле менялось бы
-            # каждый час у всех подряд и порождало пустой коммит.
-            seen_at = prev["seen_at"] if prev.get("id") == match["id"] else iso(now())
-            last["vod"] = {"id": match["id"], "url": match["url"], "seen_at": seen_at, "gone": False}
-            d = parse_duration(match.get("duration", ""))
-            if d:
-                last["duration_min"] = d
-                last["ended_at"] = iso(parse_iso(last["started_at"]) + timedelta(minutes=d))
-                last["source"] = "vod"
-        elif last.get("vod") and not last["vod"].get("gone"):
+        # До 04.10.2026 запись привязывалась только к last_stream, а history[0] оставалась
+        # наблюдённой. Если запись с тех пор исчезла и выше не нашлась — берём найденное тогда.
+        if twin and last.get("source") == "vod" and history[0].get("source") == "observed":
+            history[0] = copy.deepcopy(last)
+
+        # Исчезновение записи проверяем у последней сессии, как раньше.
+        newest = history[0] if twin else last
+        vod = newest.get("vod")
+        if vod and not vod.get("gone") and newest.get("stream_id") not in by_stream:
             # Запись была, а теперь её нет — истекла или удалена.
-            last["vod"]["gone"] = True
+            vod["gone"] = True
         # Если vod никогда не было — значит стример не сохраняет трансляции. Оставляем None.
+
+        missed_sessions(login, st, stats["streamers"].get(login), videos,
+                        stats.get("collecting_since"), gql)
+        # last_stream — та же сессия, что history[0]: одна правда на двоих. Пропущенный
+        # эфир мог встать в history первым — тогда последний стрим теперь он.
+        if history and parse_iso(history[0]["started_at"]) >= parse_iso(last["started_at"]) \
+                and last != history[0]:
+            st["last_stream"] = copy.deepcopy(history[0])
 
 
 # ---------- статистика ----------
@@ -365,7 +510,13 @@ def close_stats(ss: dict, live: dict, closed: dict) -> None:
         # восстанавливаем из того, что знает состояние: всё время на последнюю категорию.
         prog = open_progress(live.get("stream_id"), live["since"], live.get("game"))
     advance_progress(prog, parse_iso(closed["ended_at"]))
+    ss["in_progress"] = None
+    add_session_stats(ss, prog, closed)
 
+
+def add_session_stats(ss: dict, prog: dict, closed: dict) -> None:
+    """Готовая сессия → recent_sessions и месяц её начала. prog — накопленные секунды
+    по часам суток и сегментам категорий, closed — сессия из состояния."""
     session = {
         "started_at": closed["started_at"],
         "ended_at": closed["ended_at"],
@@ -373,8 +524,12 @@ def close_stats(ss: dict, live: dict, closed: dict) -> None:
         "categories": [{"game": c["game"], "minutes": round(c["sec"] / 60)}
                        for c in prog["categories"] if c["sec"] > 0],
     }
-    ss["recent_sessions"].insert(0, session)
-    ss["in_progress"] = None
+    # Свежие сверху. Закрытая сессия и так самая свежая, а пропущенная, добавленная
+    # по записи задним числом, встаёт на своё место.
+    recent = ss["recent_sessions"]
+    pos = next((i for i, r in enumerate(recent)
+                if parse_iso(r["started_at"]) < parse_iso(session["started_at"])), len(recent))
+    recent.insert(pos, session)
 
     # Сессия через полночь 1-го числа целиком относится к месяцу начала — так три числа
     # карточки (выходы, минуты, часы суток) не расходятся между собой.
@@ -388,6 +543,74 @@ def close_stats(ss: dict, live: dict, closed: dict) -> None:
         mc = m["categories"].setdefault(c["game"], {"launches": 0, "minutes": 0})
         mc["launches"] += 1
         mc["minutes"] += c["minutes"]
+
+
+def hours_minutes(start: datetime, end: datetime) -> list:
+    """Минуты эфира по часам суток по Мінску — тем же advance_progress, которым их
+    копит живая сессия: эфир непрерывен, и часы сессии — это покрытие [start, end]."""
+    prog = {"last_seen_at": iso(start), "hours_sec": [0] * 24, "categories": [{"game": None, "sec": 0}]}
+    advance_progress(prog, end)
+    return [round(s / 60) for s in prog["hours_sec"]]
+
+
+def retime_stats(ss: dict, started_at: str, ended_at: str) -> bool:
+    """Конец сессии уточнился по записи — пересчитать её в recent_sessions и в месяце:
+    минуты, часы суток, категории. Хвост после настоящего конца снимается с последнего
+    сегмента категории: смену категории видно только на прогонах, а после последнего
+    прогона, видевшего эфир, весь остаток шёл последнему сегменту.
+    Конец уже совпадает — ничего не делает, повторный прогон файл не меняет.
+    Возвращает, был ли пересчёт."""
+    rec = next((r for r in ss["recent_sessions"] if r["started_at"] == started_at), None)
+    if rec is None or rec["ended_at"] == ended_at:
+        return False
+    start, end = parse_iso(started_at), parse_iso(ended_at)
+    new_hours = hours_minutes(start, end)
+    # Ровно столько close_stats когда-то прибавил к monthly.minutes — столько и сдвигаем.
+    delta = minutes_between(start, end) - session_minutes(rec)
+
+    old_cats = rec["categories"]
+    cats = [dict(c) for c in old_cats]
+    if delta > 0 and cats:
+        cats[-1]["minutes"] += delta
+    rest = -delta
+    for c in reversed(cats):
+        if rest <= 0:
+            break
+        take = min(rest, c["minutes"])
+        c["minutes"] -= take
+        rest -= take
+    # Сегмент, от которого ничего не осталось, — эфир кончился раньше, чем он начался:
+    # это не запуск категории.
+    dropped = [o["minutes"] > 0 and c["minutes"] == 0 for o, c in zip(old_cats, cats)]
+
+    m = ss["monthly"].get(minsk_month(start))
+    if m is not None:
+        m["minutes"] = max(0, m["minutes"] + delta)
+        m["hours"] = [max(0, a - b + c) for a, b, c in zip(m["hours"], rec["hours"], new_hours)]
+        for o, c, gone in zip(old_cats, cats, dropped):
+            mc = m["categories"].get(o["game"]) if o["game"] else None
+            if mc is None:
+                continue
+            mc["minutes"] = max(0, mc["minutes"] + c["minutes"] - o["minutes"])
+            if gone:
+                mc["launches"] -= 1
+                if mc["launches"] <= 0:
+                    del m["categories"][o["game"]]
+
+    rec["ended_at"] = ended_at
+    rec["hours"] = new_hours
+    rec["categories"] = [c for c, gone in zip(cats, dropped) if not gone]
+    return True
+
+
+def sync_stats_with_vods(login: str, st: dict, ss: dict) -> None:
+    """Статистика идёт за состоянием: у сессии с записью конец в recent_sessions и месяце
+    должен быть тот же, что в history. Пересчёт случается один раз — при переходе
+    observed → vod; для сессий, записанных до 04.10.2026, — на первом прогоне нового кода.
+    Архив месяца собирается из recent_sessions и monthly и подтягивается сам."""
+    for h in st.get("history", []):
+        if h.get("source") == "vod" and retime_stats(ss, h["started_at"], h["ended_at"]):
+            print(f"  {login}: статистика сессии {h['started_at']} пересчитана по записи")
 
 
 def prune_stats(ss: dict, ts: datetime) -> None:
@@ -523,9 +746,9 @@ def next_month(month: str) -> str:
 
 def session_minutes(s: dict) -> int:
     # Та же формула, что в session_from_live: ровно столько close_stats прибавил
-    # к monthly.minutes, и сумма по сессиям месяца с minutes сходится. Длительность
-    # из history не берётся: её уточняет VOD, и файл разошёлся бы сам с собой.
-    return max(1, round((parse_iso(s["ended_at"]) - parse_iso(s["started_at"])).total_seconds() / 60))
+    # к monthly.minutes (а retime_stats потом сдвинул), и сумма по сессиям месяца
+    # с minutes сходится. Источник — recent_sessions, не history: только они учтены в monthly.
+    return minutes_between(parse_iso(s["started_at"]), parse_iso(s["ended_at"]))
 
 
 def archive_entry(month: str, old: dict, ss: dict, st: dict, added_at) -> dict:
@@ -787,13 +1010,20 @@ def run() -> int:
         stats["collecting_since"] = ts.astimezone(MINSK).strftime("%Y-%m-%d")
 
     # --- VOD ---
-    # Проверяем раз в час: только в первом прогоне часа. Расписание определяется
-    # часами, а не файлом состояния, — иначе отметку о проверке пришлось бы
-    # коммитить каждый час даже там, где ничего не поменялось.
+    # Всем — раз в час, в первом прогоне часа; у кого есть сессия без записи за
+    # VOD_PENDING_DAYS дней — на каждом прогоне. Расписание определяется часами
+    # и самими сессиями, а не файлом состояния, — иначе отметку о проверке пришлось бы
+    # коммитить каждый прогон даже там, где ничего не поменялось.
     # Первый запуск (пустое состояние) — проверяем сразу, чтобы подтянуть историю из VOD.
     first_run = not any(state["streamers"][l].get("last_stream") for l in logins)
     if first_run or ts.minute < VOD_CHECK_WINDOW_MIN or os.environ.get("FORCE_VOD_CHECK"):
-        update_vods(tw, state, logins)
+        vod_logins = logins
+    else:
+        vod_logins = [l for l in logins if vod_pending(state["streamers"][l], ts)]
+    if vod_logins:
+        update_vods(tw, state, stats, vod_logins)
+    for login in logins:
+        sync_stats_with_vods(login, state["streamers"][login], stats["streamers"][login])
 
     # --- запись только при изменениях, каждый файл отдельно ---
     after = json.dumps(state["streamers"], sort_keys=True, ensure_ascii=False)
