@@ -1,2 +1,6 @@
 # Кэш Python, появляется после локального запуска или импорта collect.py
 __pycache__/
+
+# Worker: зависимости и служебная папка wrangler
+worker/node_modules/
+worker/.wrangler/

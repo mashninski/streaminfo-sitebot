@@ -1,9 +1,18 @@
 name: collect
 
 on:
+  # Основной запуск — Worker в Cloudflare (папка worker/): каждые 10 минут
+  # и сразу по событию Twitch EventSub, через workflow_dispatch. Этот cron —
+  # запасной: schedule GitHub часами пропускает прогоны. Минуты сдвинуты
+  # с начала часа (совет документации GitHub) и не совпадают с Worker.
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "3-59/10 * * * *"
   workflow_dispatch:
+    inputs:
+      delay_sec:
+        description: "Пауза перед сбором, секунд (Worker после stream.offline)"
+        required: false
+        default: "0"
 
 concurrency:
   group: collect
@@ -25,6 +34,16 @@ jobs:
           python-version: "3.12"
 
       - run: pip install requests
+
+      # После конца эфира Get Streams ещё какое-то время отдаёт канал живым:
+      # без паузы прогон по stream.offline увидел бы эфир идущим.
+      - name: Wait
+        if: ${{ inputs.delay_sec && inputs.delay_sec != '0' }}
+        env:
+          DELAY: ${{ inputs.delay_sec }}
+        run: |
+          [[ "$DELAY" =~ ^[0-9]+$ ]] && (( DELAY <= 300 )) || { echo "delay_sec: $DELAY — не число до 300"; exit 1; }
+          sleep "$DELAY"
 
       - name: Collect
         env:
