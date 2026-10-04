@@ -7,30 +7,30 @@
       "categories": {
         "Lucius": {
           "launches": 1,
-          "minutes": 242
+          "minutes": 234
         },
         "Whispers in the Moss": {
           "launches": 1,
-          "minutes": 217
+          "minutes": 206
         }
       },
       "display_name": "AngryRalef",
       "followers_end": null,
       "followers_start": 1293,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,99,120,120,110,10,0,0,0,0,0,0,0,0],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,99,120,120,99,2,0,0,0,0,0,0,0,0],
       "launches": 2,
-      "minutes": 459,
+      "minutes": 440,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T12:11:27Z",
       "sessions": [
         {
-          "duration_min": 217,
-          "ended_at": "2026-10-01T11:50:08Z",
+          "duration_min": 206,
+          "ended_at": "2026-10-01T11:39:06Z",
           "started_at": "2026-10-01T08:12:49Z"
         },
         {
-          "duration_min": 242,
-          "ended_at": "2026-10-02T12:10:25Z",
+          "duration_min": 234,
+          "ended_at": "2026-10-02T12:02:23Z",
           "started_at": "2026-10-02T08:08:27Z"
         }
       ]
@@ -40,22 +40,31 @@
       "categories": {
         "Empire: Total War": {
           "launches": 1,
-          "minutes": 358
+          "minutes": 203
+        },
+        "Gallipoli": {
+          "launches": 1,
+          "minutes": 126
         }
       },
       "display_name": "annigilatormg42",
       "followers_end": null,
       "followers_start": 54,
-      "hours": [10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,60,60,60,60,60],
-      "launches": 1,
-      "minutes": 358,
+      "hours": [24,60,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,60,60,35,0,0],
+      "launches": 2,
+      "minutes": 329,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:46:12Z",
       "sessions": [
         {
-          "duration_min": 358,
-          "ended_at": "2026-10-03T21:09:48Z",
+          "duration_min": 203,
+          "ended_at": "2026-10-03T18:35:04Z",
           "started_at": "2026-10-03T15:12:04Z"
+        },
+        {
+          "duration_min": 126,
+          "ended_at": "2026-10-03T23:42:30Z",
+          "started_at": "2026-10-03T21:36:27Z"
         }
       ]
     },
@@ -64,21 +73,21 @@
       "categories": {
         "The Order: 1886": {
           "launches": 1,
-          "minutes": 238
+          "minutes": 145
         }
       },
       "display_name": "Bel_Asch",
       "followers_end": null,
       "followers_start": 207,
-      "hours": [10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,60,60,60],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,60,37,0],
       "launches": 1,
-      "minutes": 238,
+      "minutes": 145,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-28T19:35:58Z",
       "sessions": [
         {
-          "duration_min": 238,
-          "ended_at": "2026-10-03T21:09:48Z",
+          "duration_min": 145,
+          "ended_at": "2026-10-03T19:36:53Z",
           "started_at": "2026-10-03T17:11:53Z"
         }
       ]
@@ -101,30 +110,30 @@
       "categories": {
         "The Long Dark": {
           "launches": 1,
-          "minutes": 252
+          "minutes": 235
         },
         "The Witcher 3: Wild Hunt": {
           "launches": 1,
-          "minutes": 211
+          "minutes": 205
         }
       },
       "display_name": "DzedMaksim",
       "followers_end": null,
       "followers_start": 228,
-      "hours": [0,0,0,0,0,0,0,0,0,0,93,120,120,109,21,0,0,0,0,0,0,0,0,0],
+      "hours": [0,0,0,0,0,0,0,0,0,0,93,120,120,103,3,0,0,0,0,0,0,0,0,0],
       "launches": 2,
-      "minutes": 463,
+      "minutes": 440,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T11:19:32Z",
       "sessions": [
         {
-          "duration_min": 252,
-          "ended_at": "2026-10-01T11:21:02Z",
+          "duration_min": 235,
+          "ended_at": "2026-10-01T11:03:16Z",
           "started_at": "2026-10-01T07:08:41Z"
         },
         {
-          "duration_min": 211,
-          "ended_at": "2026-10-02T10:49:28Z",
+          "duration_min": 205,
+          "ended_at": "2026-10-02T10:42:58Z",
           "started_at": "2026-10-02T07:18:16Z"
         }
       ]
@@ -210,30 +219,30 @@
       "categories": {
         "Dishonored": {
           "launches": 1,
-          "minutes": 176
+          "minutes": 173
         },
         "Ready or Not": {
           "launches": 1,
-          "minutes": 213
+          "minutes": 210
         }
       },
       "display_name": "lepus81",
       "followers_end": null,
       "followers_start": 632,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,120,120,85,0],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,120,120,78,0],
       "launches": 2,
-      "minutes": 389,
+      "minutes": 383,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:55:42Z",
       "sessions": [
         {
-          "duration_min": 213,
-          "ended_at": "2026-10-01T19:47:10Z",
+          "duration_min": 210,
+          "ended_at": "2026-10-01T19:43:32Z",
           "started_at": "2026-10-01T16:13:42Z"
         },
         {
-          "duration_min": 176,
-          "ended_at": "2026-10-02T19:37:35Z",
+          "duration_min": 173,
+          "ended_at": "2026-10-02T19:34:26Z",
           "started_at": "2026-10-02T16:41:06Z"
         }
       ]
@@ -282,31 +291,31 @@
       "categories": {
         "The Witcher 3: Wild Hunt": {
           "launches": 3,
-          "minutes": 693
+          "minutes": 556
         }
       },
       "display_name": "mashninski",
       "followers_end": null,
       "followers_start": 162,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,60,60,117,180,163,83,23,0],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,60,60,117,139,102,60,13,0],
       "launches": 3,
-      "minutes": 693,
+      "minutes": 556,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T18:06:44Z",
       "sessions": [
         {
-          "duration_min": 147,
-          "ended_at": "2026-10-01T17:43:17Z",
+          "duration_min": 145,
+          "ended_at": "2026-10-01T17:41:41Z",
           "started_at": "2026-10-01T15:16:41Z"
         },
         {
-          "duration_min": 217,
-          "ended_at": "2026-10-02T19:23:02Z",
+          "duration_min": 206,
+          "ended_at": "2026-10-02T19:12:37Z",
           "started_at": "2026-10-02T15:46:24Z"
         },
         {
-          "duration_min": 329,
-          "ended_at": "2026-10-03T18:23:23Z",
+          "duration_min": 205,
+          "ended_at": "2026-10-03T16:18:40Z",
           "started_at": "2026-10-03T12:54:07Z"
         }
       ]
@@ -316,21 +325,21 @@
       "categories": {
         "Serious Sam: The Second Encounter": {
           "launches": 1,
-          "minutes": 120
+          "minutes": 119
         }
       },
       "display_name": "Mihas_Gareza",
       "followers_end": null,
       "followers_start": 198,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,60,55,0],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,60,54,0],
       "launches": 1,
-      "minutes": 120,
+      "minutes": 119,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:19:48Z",
       "sessions": [
         {
-          "duration_min": 120,
-          "ended_at": "2026-10-01T19:55:10Z",
+          "duration_min": 119,
+          "ended_at": "2026-10-01T19:53:38Z",
           "started_at": "2026-10-01T17:54:49Z"
         }
       ]
@@ -340,21 +349,21 @@
       "categories": {
         "Dressmaker (2026)": {
           "launches": 1,
-          "minutes": 241
+          "minutes": 232
         }
       },
       "display_name": "ms_bahiema",
       "followers_end": null,
       "followers_start": 938,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,60,60,60,21,0,0,0,0],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,60,60,60,12,0,0,0,0],
       "launches": 1,
-      "minutes": 241,
+      "minutes": 232,
       "prev_broadcast_at": null,
       "prev_ended_at": null,
       "sessions": [
         {
-          "duration_min": 241,
-          "ended_at": "2026-10-02T16:21:20Z",
+          "duration_min": 232,
+          "ended_at": "2026-10-02T16:12:30Z",
           "started_at": "2026-10-02T12:20:14Z"
         }
       ]
@@ -377,35 +386,35 @@
       "categories": {
         "Art": {
           "launches": 1,
-          "minutes": 142
+          "minutes": 125
         },
         "Just Chatting": {
           "launches": 2,
-          "minutes": 318
+          "minutes": 290
         }
       },
       "display_name": "Nine_Ravens_Cemetery",
       "followers_end": null,
       "followers_start": 298,
-      "hours": [10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,179,180,89],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,179,180,53],
       "launches": 3,
-      "minutes": 460,
+      "minutes": 415,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:20:53Z",
       "sessions": [
         {
-          "duration_min": 142,
-          "ended_at": "2026-10-01T20:21:23Z",
+          "duration_min": 125,
+          "ended_at": "2026-10-01T20:04:07Z",
           "started_at": "2026-10-01T17:59:34Z"
         },
         {
-          "duration_min": 127,
-          "ended_at": "2026-10-02T20:07:43Z",
+          "duration_min": 125,
+          "ended_at": "2026-10-02T20:05:35Z",
           "started_at": "2026-10-02T18:00:35Z"
         },
         {
-          "duration_min": 191,
-          "ended_at": "2026-10-03T21:09:48Z",
+          "duration_min": 165,
+          "ended_at": "2026-10-03T20:43:25Z",
           "started_at": "2026-10-03T17:58:25Z"
         }
       ]
@@ -439,21 +448,21 @@
       "categories": {
         "SILENT HILL: townfall": {
           "launches": 1,
-          "minutes": 136
+          "minutes": 125
         }
       },
       "display_name": "Rudzi_Belarus",
       "followers_end": null,
       "followers_start": 926,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,60,50,0,0,0,0,0,0],
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,60,39,0,0,0,0,0,0],
       "launches": 1,
-      "minutes": 136,
+      "minutes": 125,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T13:00:27Z",
       "sessions": [
         {
-          "duration_min": 136,
-          "ended_at": "2026-10-01T14:50:25Z",
+          "duration_min": 125,
+          "ended_at": "2026-10-01T14:38:53Z",
           "started_at": "2026-10-01T12:34:19Z"
         }
       ]
@@ -475,39 +484,39 @@
         },
         "The Witcher 3: Wild Hunt Remastered": {
           "launches": 1,
-          "minutes": 271
+          "minutes": 268
         },
         "Valheim": {
           "launches": 1,
-          "minutes": 322
+          "minutes": 213
         },
         "Waterpark Simulator": {
           "launches": 1,
-          "minutes": 462
+          "minutes": 443
         }
       },
       "display_name": "ShagraeL_BY",
       "followers_end": null,
       "followers_start": 998,
-      "hours": [180,180,148,120,120,120,120,63,28,0,0,0,0,0,0,0,0,0,0,52,61,174,180,180],
+      "hours": [180,180,145,120,120,120,85,0,0,0,0,0,0,0,0,0,0,0,0,52,61,174,180,180],
       "launches": 3,
-      "minutes": 1728,
+      "minutes": 1597,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-10-01T01:57:14Z",
       "sessions": [
         {
-          "duration_min": 440,
-          "ended_at": "2026-10-01T23:27:54Z",
+          "duration_min": 437,
+          "ended_at": "2026-10-01T23:25:10Z",
           "started_at": "2026-10-01T16:07:50Z"
         },
         {
-          "duration_min": 605,
-          "ended_at": "2026-10-03T04:03:26Z",
+          "duration_min": 586,
+          "ended_at": "2026-10-03T03:44:44Z",
           "started_at": "2026-10-02T17:58:44Z"
         },
         {
-          "duration_min": 683,
-          "ended_at": "2026-10-04T05:28:26Z",
+          "duration_min": 574,
+          "ended_at": "2026-10-04T03:39:50Z",
           "started_at": "2026-10-03T18:05:50Z"
         }
       ]
@@ -529,23 +538,32 @@
       "added_at": "2026-09-11",
       "categories": {
         "Ready or Not": {
+          "launches": 2,
+          "minutes": 144
+        },
+        "Species: Unknown": {
           "launches": 1,
-          "minutes": 151
+          "minutes": 123
         }
       },
       "display_name": "Ucenamescy",
       "followers_end": null,
       "followers_start": 142,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,60,44,0,0],
-      "launches": 1,
-      "minutes": 151,
+      "hours": [9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,60,36,55,60],
+      "launches": 2,
+      "minutes": 267,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-23T20:51:32Z",
       "sessions": [
         {
-          "duration_min": 151,
-          "ended_at": "2026-10-01T18:44:12Z",
+          "duration_min": 143,
+          "ended_at": "2026-10-01T18:36:30Z",
           "started_at": "2026-10-01T16:13:36Z"
+        },
+        {
+          "duration_min": 124,
+          "ended_at": "2026-10-03T21:08:31Z",
+          "started_at": "2026-10-03T19:04:38Z"
         }
       ]
     },
@@ -606,5 +624,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-04T05:28:26Z"
+  "updated_at": "2026-10-04T11:06:01Z"
 }

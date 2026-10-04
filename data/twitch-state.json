@@ -6,34 +6,49 @@
       "display_name": "AngryRalef",
       "history": [
         {
-          "duration_min": 242,
-          "ended_at": "2026-10-02T12:10:25Z",
+          "duration_min": 234,
+          "ended_at": "2026-10-02T12:02:23Z",
           "game": "Lucius",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-02T08:08:27Z",
           "stream_id": "318656498663",
           "title": "Дзіця пекла. Lucius",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889632609",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2889632609"
+          }
         },
         {
-          "duration_min": 217,
-          "ended_at": "2026-10-01T11:50:08Z",
+          "duration_min": 206,
+          "ended_at": "2026-10-01T11:39:06Z",
           "game": "Whispers in the Moss",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T08:12:49Z",
           "stream_id": "316975354838",
           "title": "Гэта што, JRPG намаляваная ў кансолі? Так, яна. Whispers in the Moss",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2888767017",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2888767017"
+          }
         },
         {
-          "duration_min": 241,
-          "ended_at": "2026-09-30T12:11:27Z",
+          "duration_min": 232,
+          "ended_at": "2026-09-30T12:02:31Z",
           "game": "Control",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-30T08:10:41Z",
           "stream_id": "317013636564",
           "title": "Гэта не возера, гэта акіян. Control",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887905318",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2887905318"
+          }
         },
         {
           "duration_min": 232,
@@ -51,14 +66,19 @@
           }
         },
         {
-          "duration_min": 256,
-          "ended_at": "2026-09-28T12:26:22Z",
+          "duration_min": 237,
+          "ended_at": "2026-09-28T12:07:55Z",
           "game": "Control",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-28T08:10:30Z",
           "stream_id": "317002242004",
           "title": "Праектар са слайдамі здольны адпраўляць у іншыя вымярэнні. Control",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2886208172",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2886208172"
+          }
         },
         {
           "duration_min": 231,
@@ -76,24 +96,34 @@
           }
         },
         {
-          "duration_min": 225,
-          "ended_at": "2026-09-24T11:52:56Z",
+          "duration_min": 221,
+          "ended_at": "2026-09-24T11:48:43Z",
           "game": "HλLF-LIFE",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-24T08:07:50Z",
           "stream_id": "318755312486",
           "title": "Іншыя вымярэнні ў фанацкай мадыфікацыі да Half-Life. Diffusion",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882600690",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2882600690"
+          }
         },
         {
-          "duration_min": 219,
-          "ended_at": "2026-09-22T11:52:57Z",
+          "duration_min": 217,
+          "ended_at": "2026-09-22T11:50:35Z",
           "game": "Control",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-22T08:13:32Z",
           "stream_id": "316964221012",
           "title": "Праграма кандыдатаў. Control",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880888472",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2880888472"
+          }
         },
         {
           "duration_min": 223,
@@ -111,14 +141,34 @@
           }
         },
         {
-          "duration_min": 248,
-          "ended_at": "2026-09-18T12:23:02Z",
+          "duration_min": 233,
+          "ended_at": "2026-09-18T12:07:34Z",
           "game": "Hollywood Animal",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-18T08:14:40Z",
           "stream_id": "316893657558",
           "title": "Мы пачалі здымаць неблагое кіно! Усё яшчэ дрэнна, але ўжо можна глядзець. Hollywood Animal",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2877271126",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2877271126"
+          }
+        },
+        {
+          "duration_min": 1,
+          "ended_at": "2026-09-18T08:14:37Z",
+          "game": "Hollywood Animal",
+          "source": "vod",
+          "started_at": "2026-09-18T08:13:25Z",
+          "stream_id": "316893650390",
+          "title": "Мы пачалі здымаць неблагое кіно! Усё яшчэ дрэнна, але ўжо можна глядзець. Hollywood Animal",
+          "vod": {
+            "gone": false,
+            "id": "2877270734",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2877270734"
+          }
         },
         {
           "duration_min": 141,
@@ -136,14 +186,19 @@
           }
         },
         {
-          "duration_min": 83,
-          "ended_at": "2026-09-17T09:32:23Z",
+          "duration_min": 80,
+          "ended_at": "2026-09-17T09:29:21Z",
           "game": "Pluto",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-17T08:09:02Z",
           "stream_id": "316931485012",
           "title": "Чараўніцтва на пальцах. Pluto",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2876399656",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2876399656"
+          }
         },
         {
           "duration_min": 225,
@@ -161,19 +216,24 @@
           }
         },
         {
-          "duration_min": 220,
-          "ended_at": "2026-09-14T11:56:06Z",
+          "duration_min": 210,
+          "ended_at": "2026-09-14T11:46:18Z",
           "game": "Nancy Drew: The Secret of Shadow Ranch",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-14T08:16:32Z",
           "stream_id": "318642628070",
           "title": "Белы конь з'яўляецца ў начы і адразу нешта адбываецца. Nancy Drew: The Secret of Shadow Ranch",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2873847988",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2873847988"
+          }
         }
       ],
       "last_stream": {
         "duration_min": 234,
-        "ended_at": "2026-10-02T12:02:27Z",
+        "ended_at": "2026-10-02T12:02:23Z",
         "game": "Lucius",
         "source": "vod",
         "started_at": "2026-10-02T08:08:27Z",
@@ -182,7 +242,7 @@
         "vod": {
           "gone": false,
           "id": "2889632609",
-          "seen_at": "2026-10-02T13:04:50Z",
+          "seen_at": "2026-10-04T11:06:02Z",
           "url": "https://www.twitch.tv/videos/2889632609"
         }
       },
@@ -203,6 +263,21 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 126,
+          "ended_at": "2026-10-03T23:42:30Z",
+          "game": "Gallipoli",
+          "source": "vod",
+          "started_at": "2026-10-03T21:36:27Z",
+          "stream_id": "318815310821",
+          "title": "Працягваем рваць дупку на брытанскі ды асманскія сцягі))",
+          "vod": {
+            "gone": false,
+            "id": "2891134377",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2891134377"
+          }
+        },
+        {
           "duration_min": 203,
           "ended_at": "2026-10-03T18:35:04Z",
           "game": "Empire: Total War",
@@ -218,74 +293,109 @@
           }
         },
         {
-          "duration_min": 155,
-          "ended_at": "2026-09-29T21:46:12Z",
+          "duration_min": 145,
+          "ended_at": "2026-09-29T21:36:37Z",
           "game": "Overlord II",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-29T19:11:41Z",
           "stream_id": "318765135845",
           "title": "Вырушылі на астатні адрэзак шляху да Ўладара Зла)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887427078",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2887427078"
+          }
         },
         {
-          "duration_min": 191,
-          "ended_at": "2026-09-27T18:37:25Z",
+          "duration_min": 189,
+          "ended_at": "2026-09-27T18:35:09Z",
           "game": "Total War: WARHAMMER III",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-27T15:26:30Z",
           "stream_id": "318795053542",
           "title": "Працягваем змагацца за веліч Вялікага Катаю)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2885557185",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2885557185"
+          }
         },
         {
-          "duration_min": 275,
-          "ended_at": "2026-09-26T22:18:00Z",
+          "duration_min": 267,
+          "ended_at": "2026-09-26T22:09:59Z",
           "game": "Empire: Total War",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-26T17:43:12Z",
           "stream_id": "318591116391",
           "title": "Працягваем даследваць Свет глядзя на яго вачыма гішпанскіх канкістадораў)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2884712647",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2884712647"
+          }
         },
         {
-          "duration_min": 314,
-          "ended_at": "2026-09-26T00:24:44Z",
+          "duration_min": 303,
+          "ended_at": "2026-09-26T00:13:58Z",
           "game": "Total War: Shogun 2",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-25T19:11:00Z",
           "stream_id": "318773321574",
           "title": "Пачынаем шлях, сакура адцвяла, снег тае...)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2883836865",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2883836865"
+          }
         },
         {
-          "duration_min": 135,
-          "ended_at": "2026-09-23T22:51:48Z",
+          "duration_min": 131,
+          "ended_at": "2026-09-23T22:47:52Z",
           "game": "Overlord II",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-23T20:36:56Z",
           "stream_id": "318557565415",
           "title": "Спрабуем узыйсці на п'едыстал Зла)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882189268",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2882189268"
+          }
         },
         {
-          "duration_min": 127,
-          "ended_at": "2026-09-21T20:37:00Z",
+          "duration_min": 122,
+          "ended_at": "2026-09-21T20:32:28Z",
           "game": "Gallipoli",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T18:30:27Z",
           "stream_id": "318533220839",
           "title": "Разслабляем мазгі пасля першага працоўнага дня)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880379835",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2880379835"
+          }
         },
         {
-          "duration_min": 196,
-          "ended_at": "2026-09-20T17:16:38Z",
+          "duration_min": 182,
+          "ended_at": "2026-09-20T17:02:55Z",
           "game": "Total War: WARHAMMER III",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-20T14:01:05Z",
           "stream_id": "318715442278",
           "title": "Працягваем пашыраць уплыў Вялікага Катая)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2879327316",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2879327316"
+          }
         },
         {
           "duration_min": 223,
@@ -354,18 +464,18 @@
         }
       ],
       "last_stream": {
-        "duration_min": 203,
-        "ended_at": "2026-10-03T18:35:04Z",
-        "game": "Empire: Total War",
+        "duration_min": 126,
+        "ended_at": "2026-10-03T23:42:30Z",
+        "game": "Gallipoli",
         "source": "vod",
-        "started_at": "2026-10-03T15:12:04Z",
-        "stream_id": "318809573349",
-        "title": "НАзіраем за рэшткамі Свету, які яшчэ не патрапіў пад зрок гішпанскіх канкістадораў)",
+        "started_at": "2026-10-03T21:36:27Z",
+        "stream_id": "318815310821",
+        "title": "Працягваем рваць дупку на брытанскі ды асманскія сцягі))",
         "vod": {
           "gone": false,
-          "id": "2890799548",
-          "seen_at": "2026-10-03T21:09:49Z",
-          "url": "https://www.twitch.tv/videos/2890799548"
+          "id": "2891134377",
+          "seen_at": "2026-10-04T11:06:01Z",
+          "url": "https://www.twitch.tv/videos/2891134377"
         }
       },
       "live": {
@@ -400,14 +510,19 @@
           }
         },
         {
-          "duration_min": 141,
-          "ended_at": "2026-09-28T19:35:58Z",
+          "duration_min": 140,
+          "ended_at": "2026-09-28T19:34:37Z",
           "game": "Dragon Age: Inquisition",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-28T17:14:39Z",
           "stream_id": "318614898535",
           "title": "Інквізітарскія справы ⚔️ | Dragon Age: Inquisition",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2886483835",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2886483835"
+          }
         },
         {
           "duration_min": 233,
@@ -425,34 +540,49 @@
           }
         },
         {
-          "duration_min": 218,
-          "ended_at": "2026-09-23T19:17:41Z",
+          "duration_min": 206,
+          "ended_at": "2026-09-23T19:06:03Z",
           "game": "Dragon Age: Inquisition",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-23T15:39:33Z",
           "stream_id": "318691138405",
           "title": "Хоўк павярнулась! 🦅 | Dragon Age: Inquisition",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2881957017",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2881957017"
+          }
         },
         {
-          "duration_min": 174,
-          "ended_at": "2026-09-21T15:17:46Z",
+          "duration_min": 166,
+          "ended_at": "2026-09-21T15:09:56Z",
           "game": "Dragon Age: Inquisition",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T12:23:32Z",
           "stream_id": "318724711014",
           "title": "Паразмаўляцькі ў нашай новай крэпасці 🏰 | Dragon Age: Inquisition",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880133154",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880133154"
+          }
         },
         {
-          "duration_min": 158,
-          "ended_at": "2026-09-20T14:35:36Z",
+          "duration_min": 157,
+          "ended_at": "2026-09-20T14:34:15Z",
           "game": "Dragon Age: Inquisition",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-20T11:57:44Z",
           "stream_id": "318713958886",
           "title": "Інквізіцыя ідзе да тампліераў 🛡️ | Dragon Age: Inquisition",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2879245784",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2879245784"
+          }
         },
         {
           "duration_min": 333,
@@ -517,14 +647,19 @@
       "display_name": "Dzed_Ahey",
       "history": [
         {
-          "duration_min": 104,
-          "ended_at": "2026-09-24T23:43:36Z",
+          "duration_min": 103,
+          "ended_at": "2026-09-24T23:42:33Z",
           "game": "CONTROL Resonant",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-24T21:59:33Z",
           "stream_id": "318707856869",
           "title": "Начны стрым! З'язджаем з глузду ў Control Resonant.",
-          "vod": null
+          "vod": {
+            "gone": true,
+            "id": "2883094563",
+            "seen_at": "2026-09-25T00:01:12Z",
+            "url": "https://www.twitch.tv/videos/2883094563"
+          }
         },
         {
           "duration_min": 197,
@@ -569,104 +704,154 @@
       "display_name": "DzedMaksim",
       "history": [
         {
-          "duration_min": 211,
-          "ended_at": "2026-10-02T10:49:28Z",
+          "duration_min": 205,
+          "ended_at": "2026-10-02T10:42:58Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-02T07:18:16Z",
           "stream_id": "318792431973",
           "title": "#12 Не Remastered! Крочым далей па сюжэце | The Witcher 3 беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889616224",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2889616224"
+          }
         },
         {
-          "duration_min": 252,
-          "ended_at": "2026-10-01T11:21:02Z",
+          "duration_min": 235,
+          "ended_at": "2026-10-01T11:03:16Z",
           "game": "The Long Dark",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T07:08:41Z",
           "stream_id": "318644184423",
           "title": "81# Засталіся толькі 3 месцы ў ДЦР. Дзень 420+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2888746284",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2888746284"
+          }
         },
         {
-          "duration_min": 178,
-          "ended_at": "2026-09-30T11:19:32Z",
+          "duration_min": 162,
+          "ended_at": "2026-09-30T11:03:17Z",
           "game": "Crysis 2",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-30T08:21:40Z",
           "stream_id": "318825663590",
           "title": "1# Зямля для зямлянаў! | Crysis 2 беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887908721",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887908721"
+          }
         },
         {
-          "duration_min": 11,
-          "ended_at": "2026-09-30T08:21:40Z",
+          "duration_min": 8,
+          "ended_at": "2026-09-30T08:17:54Z",
           "game": "Crysis 2",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-30T08:10:11Z",
           "stream_id": "318632676327",
           "title": "1# Зямля для зямлянаў! | Crysis 2 беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887905185",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887905185"
+          }
         },
         {
-          "duration_min": 217,
-          "ended_at": "2026-09-29T11:20:09Z",
+          "duration_min": 200,
+          "ended_at": "2026-09-29T11:03:28Z",
           "game": "The Long Dark",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-29T07:43:04Z",
           "stream_id": "318757823205",
           "title": "80# Трэця спроба замалёўкі ДЦР. Дзень 410+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887036961",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887036961"
+          }
         },
         {
-          "duration_min": 142,
-          "ended_at": "2026-09-28T10:49:05Z",
+          "duration_min": 132,
+          "ended_at": "2026-09-28T10:38:26Z",
           "game": "Euro Truck Simulator 2",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-28T08:26:38Z",
           "stream_id": "318747036005",
           "title": "Засталося 15 дасягненняў | Euro Truck Simulator 2 беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2886213028",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2886213028"
+          }
         },
         {
-          "duration_min": 234,
-          "ended_at": "2026-09-25T10:45:50Z",
+          "duration_min": 227,
+          "ended_at": "2026-09-25T10:38:34Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-25T06:51:26Z",
           "stream_id": "318710153573",
           "title": "#11 Велен. Збіраем строі Школы Грыфона | The Witcher 3 беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2883422053",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2883422053"
+          }
         },
         {
-          "duration_min": 251,
-          "ended_at": "2026-09-24T11:19:00Z",
+          "duration_min": 238,
+          "ended_at": "2026-09-24T11:06:06Z",
           "game": "The Long Dark",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-24T07:08:09Z",
           "stream_id": "318560583783",
           "title": "79# Другая спроба замалёўкі ДЦР. Дзень 405+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882581984",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2882581984"
+          }
         },
         {
-          "duration_min": 260,
-          "ended_at": "2026-09-22T11:18:30Z",
+          "duration_min": 255,
+          "ended_at": "2026-09-22T11:13:49Z",
           "game": "The Long Dark",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-22T06:58:28Z",
           "stream_id": "318537450215",
           "title": "78# Замалёўваем Даліну Ціхай Рэчкі. Дзень 400+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880864414",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880864414"
+          }
         },
         {
-          "duration_min": 186,
-          "ended_at": "2026-09-21T11:19:23Z",
+          "duration_min": 179,
+          "ended_at": "2026-09-21T11:12:10Z",
           "game": "Farming Simulator 25",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T08:13:05Z",
           "stream_id": "318527078119",
           "title": "🥔Ураджай сабралі. 🎄Зімуем і маштабуемся ❄️| Farming Simulator 2025 беларуская мова",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880042465",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880042465"
+          }
         },
         {
           "duration_min": 193,
@@ -701,7 +886,7 @@
       ],
       "last_stream": {
         "duration_min": 205,
-        "ended_at": "2026-10-02T10:43:16Z",
+        "ended_at": "2026-10-02T10:42:58Z",
         "game": "The Witcher 3: Wild Hunt",
         "source": "vod",
         "started_at": "2026-10-02T07:18:16Z",
@@ -710,7 +895,7 @@
         "vod": {
           "gone": false,
           "id": "2889616224",
-          "seen_at": "2026-10-02T11:07:46Z",
+          "seen_at": "2026-10-04T11:06:03Z",
           "url": "https://www.twitch.tv/videos/2889616224"
         }
       },
@@ -731,19 +916,24 @@
       "display_name": "evildive",
       "history": [
         {
-          "duration_min": 154,
-          "ended_at": "2026-09-23T09:30:42Z",
+          "duration_min": 147,
+          "ended_at": "2026-09-23T09:23:59Z",
           "game": "Rivage",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-23T06:56:51Z",
           "stream_id": "318548873447",
           "title": "[eng/ua/by] A.R.E.S.",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2881720737",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2881720737"
+          }
         }
       ],
       "last_stream": {
         "duration_min": 147,
-        "ended_at": "2026-09-23T09:23:51Z",
+        "ended_at": "2026-09-23T09:23:59Z",
         "game": "Rivage",
         "source": "vod",
         "started_at": "2026-09-23T06:56:51Z",
@@ -752,7 +942,7 @@
         "vod": {
           "gone": false,
           "id": "2881720737",
-          "seen_at": "2026-09-23T10:00:55Z",
+          "seen_at": "2026-10-04T11:06:02Z",
           "url": "https://www.twitch.tv/videos/2881720737"
         }
       },
@@ -978,44 +1168,79 @@
       "display_name": "lepus81",
       "history": [
         {
-          "duration_min": 176,
-          "ended_at": "2026-10-02T19:37:35Z",
+          "duration_min": 173,
+          "ended_at": "2026-10-02T19:34:26Z",
           "game": "Dishonored",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-02T16:41:06Z",
           "stream_id": "316984515542",
           "title": "Ці пасуне гэта гульня Bioshok з майго п'едысталу",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889899223",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2889899223"
+          }
         },
         {
-          "duration_min": 213,
-          "ended_at": "2026-10-01T19:47:10Z",
+          "duration_min": 210,
+          "ended_at": "2026-10-01T19:43:32Z",
           "game": "Ready or Not",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T16:13:42Z",
           "stream_id": "316944460501",
           "title": "Зноў нясем дабро ў гэты жорскткі Свет",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889005290",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2889005290"
+          }
         },
         {
-          "duration_min": 211,
-          "ended_at": "2026-09-30T20:55:42Z",
+          "duration_min": 208,
+          "ended_at": "2026-09-30T20:52:36Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-30T17:24:56Z",
           "stream_id": "316939235029",
           "title": "Слабасць вялікая, а сіла нікчэмная... (с)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2888200928",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2888200928"
+          }
         },
         {
-          "duration_min": 260,
-          "ended_at": "2026-09-29T18:50:57Z",
+          "duration_min": 252,
+          "ended_at": "2026-09-29T18:42:43Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-29T14:30:33Z",
           "stream_id": "317009549396",
           "title": "Памацаем новы рэмайстар Вядзьмара",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887213119",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2887213119"
+          }
+        },
+        {
+          "duration_min": 2,
+          "ended_at": "2026-09-29T14:29:19Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-09-29T14:27:09Z",
+          "stream_id": "317009524180",
+          "title": "Ратуем шкалату ад хімеры",
+          "vod": {
+            "gone": false,
+            "id": "2887210882",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2887210882"
+          }
         },
         {
           "duration_min": 237,
@@ -1033,139 +1258,204 @@
           }
         },
         {
-          "duration_min": 133,
-          "ended_at": "2026-09-27T18:56:41Z",
+          "duration_min": 129,
+          "ended_at": "2026-09-27T18:52:17Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-27T16:43:27Z",
           "stream_id": "316999326036",
           "title": "Паглыбляемся ў ЗОНУ",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2885619206",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2885619206"
+          }
         },
         {
-          "duration_min": 237,
-          "ended_at": "2026-09-26T14:46:46Z",
+          "duration_min": 236,
+          "ended_at": "2026-09-26T14:44:59Z",
           "game": "Dishonored",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-26T10:49:29Z",
           "stream_id": "316989886036",
           "title": "Усё ж ёсць у гэтай гульні моджо",
-          "vod": null
-        },
-        {
-          "duration_min": 175,
-          "ended_at": "2026-09-25T20:39:38Z",
-          "game": "Dishonored",
-          "source": "observed",
-          "started_at": "2026-09-25T17:45:03Z",
-          "stream_id": "316941242454",
-          "title": "Зняслаўлены...",
-          "vod": null
-        },
-        {
-          "duration_min": 205,
-          "ended_at": "2026-09-24T17:18:12Z",
-          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
-          "started_at": "2026-09-24T13:53:16Z",
-          "stream_id": "316900737237",
-          "title": "Проста цёгаюся па анамальшчыне",
-          "vod": null
-        },
-        {
-          "duration_min": 204,
-          "ended_at": "2026-09-23T19:37:31Z",
-          "game": "No Man's Sky",
-          "source": "observed",
-          "started_at": "2026-09-23T16:13:11Z",
-          "stream_id": "316973135188",
-          "title": "Зазірнем у новую экспедыцыю",
-          "vod": null
-        },
-        {
-          "duration_min": 210,
-          "ended_at": "2026-09-22T17:27:45Z",
-          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
-          "started_at": "2026-09-22T13:57:54Z",
-          "stream_id": "316888539349",
-          "title": "Паглыбляемся ў фракцыйныя стасункі",
-          "vod": null
-        },
-        {
-          "duration_min": 253,
-          "ended_at": "2026-09-21T17:52:16Z",
-          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
-          "started_at": "2026-09-21T13:38:51Z",
-          "stream_id": "316882899413",
-          "title": "Сідаравіч нядобры чалавек",
-          "vod": null
-        },
-        {
-          "duration_min": 182,
-          "ended_at": "2026-09-20T21:17:21Z",
-          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
-          "started_at": "2026-09-20T18:15:30Z",
-          "stream_id": "316879115349",
-          "title": "Знаёмімся з Сідаровічам",
-          "vod": null
-        },
-        {
-          "duration_min": 240,
-          "ended_at": "2026-09-18T20:18:18Z",
-          "game": "Kingdom Come: Deliverance II",
-          "source": "observed",
-          "started_at": "2026-09-18T16:18:04Z",
-          "stream_id": "316865071701",
-          "title": "Пераможца пятніцы KСD2, вернемся на вечарок у Сярэднявечную Багемію",
-          "vod": null
-        },
-        {
-          "duration_min": 59,
-          "ended_at": "2026-09-18T16:17:57Z",
-          "game": "Kingdom Come: Deliverance II",
-          "source": "observed",
-          "started_at": "2026-09-18T15:18:46Z",
-          "stream_id": "316896246358",
-          "title": "Пераможца пятніцы KСD2, вернемся на вечарок у Сярэднявечную Багемію",
-          "vod": null
-        },
-        {
-          "duration_min": 219,
-          "ended_at": "2026-09-16T17:52:46Z",
-          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
-          "started_at": "2026-09-16T14:14:00Z",
-          "stream_id": "316851293781",
-          "title": "Паціху даследуем ЗОНУ",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2884424777",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2884424777"
+          }
         },
         {
           "duration_min": 168,
-          "ended_at": "2026-09-15T17:17:18Z",
+          "ended_at": "2026-09-25T20:33:03Z",
+          "game": "Dishonored",
+          "source": "vod",
+          "started_at": "2026-09-25T17:45:03Z",
+          "stream_id": "316941242454",
+          "title": "Зняслаўлены...",
+          "vod": {
+            "gone": false,
+            "id": "2883761336",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2883761336"
+          }
+        },
+        {
+          "duration_min": 193,
+          "ended_at": "2026-09-24T17:06:36Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "observed",
+          "source": "vod",
+          "started_at": "2026-09-24T13:53:16Z",
+          "stream_id": "316900737237",
+          "title": "Проста цёгаюся па анамальшчыне",
+          "vod": {
+            "gone": false,
+            "id": "2882743803",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2882743803"
+          }
+        },
+        {
+          "duration_min": 202,
+          "ended_at": "2026-09-23T19:35:11Z",
+          "game": "No Man's Sky",
+          "source": "vod",
+          "started_at": "2026-09-23T16:13:11Z",
+          "stream_id": "316973135188",
+          "title": "Зазірнем у новую экспедыцыю",
+          "vod": {
+            "gone": false,
+            "id": "2881982246",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2881982246"
+          }
+        },
+        {
+          "duration_min": 200,
+          "ended_at": "2026-09-22T17:17:54Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-09-22T13:57:54Z",
+          "stream_id": "316888539349",
+          "title": "Паглыбляемся ў фракцыйныя стасункі",
+          "vod": {
+            "gone": false,
+            "id": "2881031075",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2881031075"
+          }
+        },
+        {
+          "duration_min": 248,
+          "ended_at": "2026-09-21T17:46:41Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-09-21T13:38:51Z",
+          "stream_id": "316882899413",
+          "title": "Сідаравіч нядобры чалавек",
+          "vod": {
+            "gone": false,
+            "id": "2880172835",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2880172835"
+          }
+        },
+        {
+          "duration_min": 174,
+          "ended_at": "2026-09-20T21:10:00Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-09-20T18:15:30Z",
+          "stream_id": "316879115349",
+          "title": "Знаёмімся з Сідаровічам",
+          "vod": {
+            "gone": false,
+            "id": "2879533571",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2879533571"
+          }
+        },
+        {
+          "duration_min": 239,
+          "ended_at": "2026-09-18T20:16:44Z",
+          "game": "Kingdom Come: Deliverance II",
+          "source": "vod",
+          "started_at": "2026-09-18T16:18:04Z",
+          "stream_id": "316865071701",
+          "title": "Пераможца пятніцы KСD2, вернемся на вечарок у Сярэднявечную Багемію",
+          "vod": {
+            "gone": false,
+            "id": "2877522088",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2877522088"
+          }
+        },
+        {
+          "duration_min": 54,
+          "ended_at": "2026-09-18T16:13:14Z",
+          "game": "Kingdom Come: Deliverance II",
+          "source": "vod",
+          "started_at": "2026-09-18T15:18:46Z",
+          "stream_id": "316896246358",
+          "title": "Пераможца пятніцы KСD2, вернемся на вечарок у Сярэднявечную Багемію",
+          "vod": {
+            "gone": false,
+            "id": "2877479383",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2877479383"
+          }
+        },
+        {
+          "duration_min": 211,
+          "ended_at": "2026-09-16T17:44:40Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-09-16T14:14:00Z",
+          "stream_id": "316851293781",
+          "title": "Паціху даследуем ЗОНУ",
+          "vod": {
+            "gone": false,
+            "id": "2875699296",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2875699296"
+          }
+        },
+        {
+          "duration_min": 166,
+          "ended_at": "2026-09-15T17:14:58Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
           "started_at": "2026-09-15T14:29:18Z",
           "stream_id": "316921191380",
           "title": "Новыя сюрпрызы?",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2874841942",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2874841942"
+          }
         },
         {
-          "duration_min": 258,
-          "ended_at": "2026-09-11T19:26:28Z",
+          "duration_min": 254,
+          "ended_at": "2026-09-11T19:23:06Z",
           "game": "Medieval II: Total War",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-11T15:08:56Z",
           "stream_id": "316895607636",
           "title": "Ці возьмем мы Ерусалем?",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2871283779",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2871283779"
+          }
         }
       ],
       "last_stream": {
         "duration_min": 173,
-        "ended_at": "2026-10-02T19:34:06Z",
+        "ended_at": "2026-10-02T19:34:26Z",
         "game": "Dishonored",
         "source": "vod",
         "started_at": "2026-10-02T16:41:06Z",
@@ -1174,7 +1464,7 @@
         "vod": {
           "gone": false,
           "id": "2889899223",
-          "seen_at": "2026-10-02T20:07:44Z",
+          "seen_at": "2026-10-04T11:06:01Z",
           "url": "https://www.twitch.tv/videos/2889899223"
         }
       },
@@ -1263,34 +1553,49 @@
       "display_name": "mashninski",
       "history": [
         {
-          "duration_min": 329,
-          "ended_at": "2026-10-03T18:23:23Z",
+          "duration_min": 205,
+          "ended_at": "2026-10-03T16:18:40Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-03T12:54:07Z",
           "stream_id": "318671583335",
           "title": "Абдымемся і разам пойдзем",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2890700879",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2890700879"
+          }
         },
         {
-          "duration_min": 217,
-          "ended_at": "2026-10-02T19:23:02Z",
+          "duration_min": 206,
+          "ended_at": "2026-10-02T19:12:37Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-02T15:46:24Z",
           "stream_id": "318796789349",
           "title": "Ганяем тлустага + ПРЭЗЕНТАЦЫЯ",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889857561",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2889857561"
+          }
         },
         {
-          "duration_min": 147,
-          "ended_at": "2026-10-01T17:43:17Z",
+          "duration_min": 145,
+          "ended_at": "2026-10-01T17:41:41Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T15:16:41Z",
           "stream_id": "318648182887",
           "title": "Велен то Гомельшчына",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2888963986",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2888963986"
+          }
         },
         {
           "duration_min": 176,
@@ -1308,54 +1613,79 @@
           }
         },
         {
-          "duration_min": 279,
-          "ended_at": "2026-09-29T17:58:12Z",
+          "duration_min": 272,
+          "ended_at": "2026-09-29T17:50:33Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-29T13:18:48Z",
           "stream_id": "318623550183",
           "title": "ЦЕРПКА ЯК АГРЭСТ СЎОДКА ЯК БЭЗ",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887171849",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2887171849"
+          }
         },
         {
-          "duration_min": 147,
-          "ended_at": "2026-09-25T16:36:49Z",
+          "duration_min": 143,
+          "ended_at": "2026-09-25T16:32:47Z",
           "game": "BioShock Remastered",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-25T14:10:11Z",
           "stream_id": "318769160678",
           "title": "Я таксама хачу сабе Вялікага Татачку",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2883605662",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2883605662"
+          }
         },
         {
-          "duration_min": 125,
-          "ended_at": "2026-09-22T17:51:10Z",
+          "duration_min": 120,
+          "ended_at": "2026-09-22T17:45:39Z",
           "game": "BioShock Remastered",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-22T15:45:41Z",
           "stream_id": "318541689831",
           "title": "Бляцкае баговішча, перапраходжу ўзровень",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2881097805",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2881097805"
+          }
         },
         {
-          "duration_min": 232,
-          "ended_at": "2026-09-21T20:18:44Z",
+          "duration_min": 221,
+          "ended_at": "2026-09-21T20:08:30Z",
           "game": "PEAK",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T16:27:07Z",
           "stream_id": "318727041638",
           "title": "Кажуць, будзе цікава (гуляю першы раз)",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880280819",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2880280819"
+          }
         },
         {
-          "duration_min": 223,
-          "ended_at": "2026-09-20T12:48:14Z",
+          "duration_min": 219,
+          "ended_at": "2026-09-20T12:44:47Z",
           "game": "BioShock Remastered",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-20T09:05:18Z",
           "stream_id": "316908254806",
           "title": "Фёрст трай ін зыс гейс",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2879165605",
+            "seen_at": "2026-10-04T11:06:01Z",
+            "url": "https://www.twitch.tv/videos/2879165605"
+          }
         },
         {
           "duration_min": 185,
@@ -1385,7 +1715,7 @@
       ],
       "last_stream": {
         "duration_min": 205,
-        "ended_at": "2026-10-03T16:19:07Z",
+        "ended_at": "2026-10-03T16:18:40Z",
         "game": "The Witcher 3: Wild Hunt",
         "source": "vod",
         "started_at": "2026-10-03T12:54:07Z",
@@ -1394,16 +1724,16 @@
         "vod": {
           "gone": false,
           "id": "2890700879",
-          "seen_at": "2026-10-03T21:09:49Z",
+          "seen_at": "2026-10-04T11:06:01Z",
           "url": "https://www.twitch.tv/videos/2890700879"
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": " SEKIRO: SHADOWS DIE TWICE",
+        "since": "2026-10-04T10:21:00Z",
+        "stream_id": "318819934437",
+        "title": "Гераль-кун, лепшае лязо Ўсходу + 2 АНОНСЫ",
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1415,44 +1745,64 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
-          "duration_min": 120,
-          "ended_at": "2026-10-01T19:55:10Z",
+          "duration_min": 119,
+          "ended_at": "2026-10-01T19:53:38Z",
           "game": "Serious Sam: The Second Encounter",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T17:54:49Z",
           "stream_id": "316945259221",
           "title": "[BLR] Рэтра чацвер. Сур'ёзны Сэм. Нейкі дадатак",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889083164",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2889083164"
+          }
         },
         {
-          "duration_min": 204,
-          "ended_at": "2026-09-29T21:19:48Z",
+          "duration_min": 189,
+          "ended_at": "2026-09-29T21:04:37Z",
           "game": "RESIDENT EVIL: requiem",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-29T17:55:26Z",
           "stream_id": "318763867877",
           "title": "[BLR] Нядзельны трыял. Лявон мусіць памерці. Заўсёды. Лімба Лявона",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887361283",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887361283"
+          }
         },
         {
-          "duration_min": 220,
-          "ended_at": "2026-09-28T21:45:10Z",
+          "duration_min": 217,
+          "ended_at": "2026-09-28T21:41:29Z",
           "game": "Grand Theft Auto V",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-28T18:04:48Z",
           "stream_id": "316961275222",
           "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны.",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2886523923",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2886523923"
+          }
         },
         {
           "duration_min": 142,
-          "ended_at": "2026-09-27T20:18:21Z",
+          "ended_at": "2026-09-27T20:17:27Z",
           "game": "Alaskan Road Truckers",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-27T17:55:54Z",
           "stream_id": "318741949157",
           "title": "[BLR] Нядзельны трыял. Падарожжа па Алясцы. Забіваем боса ў фіналке пасля",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2885682403",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2885682403"
+          }
         },
         {
           "duration_min": 181,
@@ -1485,14 +1835,19 @@
           }
         },
         {
-          "duration_min": 202,
-          "ended_at": "2026-09-24T21:18:27Z",
+          "duration_min": 188,
+          "ended_at": "2026-09-24T21:04:00Z",
           "game": "Serious Sam: The Second Encounter",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-24T17:56:08Z",
           "stream_id": "316902429269",
           "title": "[BLR] Рэтра Чацвер. Сур'ёзны сэм. Дадатак",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882912534",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2882912534"
+          }
         },
         {
           "duration_min": 174,
@@ -1525,24 +1880,34 @@
           }
         },
         {
-          "duration_min": 223,
-          "ended_at": "2026-09-21T20:18:44Z",
+          "duration_min": 212,
+          "ended_at": "2026-09-21T20:08:08Z",
           "game": "PEAK",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T16:36:14Z",
           "stream_id": "316917149398",
           "title": "[BLR] Каапны панядзелак. Трэніруем новага бойскаўта",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880287564",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880287564"
+          }
         },
         {
-          "duration_min": 402,
-          "ended_at": "2026-09-20T23:25:41Z",
+          "duration_min": 399,
+          "ended_at": "2026-09-20T23:22:51Z",
           "game": "Final Fantasy Resonance",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-20T16:43:22Z",
           "stream_id": "318659336293",
           "title": "[BLR] Нядзельны трыял. Глядзім дэмку фіналкі рэзананс",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2879450152",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2879450152"
+          }
         },
         {
           "duration_min": 203,
@@ -1627,7 +1992,7 @@
       ],
       "last_stream": {
         "duration_min": 119,
-        "ended_at": "2026-10-01T19:53:49Z",
+        "ended_at": "2026-10-01T19:53:38Z",
         "game": "Serious Sam: The Second Encounter",
         "source": "vod",
         "started_at": "2026-10-01T17:54:49Z",
@@ -1636,7 +2001,7 @@
         "vod": {
           "gone": false,
           "id": "2889083164",
-          "seen_at": "2026-10-01T20:01:28Z",
+          "seen_at": "2026-10-04T11:06:03Z",
           "url": "https://www.twitch.tv/videos/2889083164"
         }
       },
@@ -1657,19 +2022,24 @@
       "display_name": "ms_bahiema",
       "history": [
         {
-          "duration_min": 241,
-          "ended_at": "2026-10-02T16:21:20Z",
+          "duration_min": 232,
+          "ended_at": "2026-10-02T16:12:30Z",
           "game": "Dressmaker (2026)",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-02T12:20:14Z",
           "stream_id": "318658328167",
           "title": "[BEL] дзяўчаткі, запісваемся на сукеначкі",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889730544",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2889730544"
+          }
         }
       ],
       "last_stream": {
         "duration_min": 232,
-        "ended_at": "2026-10-02T16:12:14Z",
+        "ended_at": "2026-10-02T16:12:30Z",
         "game": "Dressmaker (2026)",
         "source": "vod",
         "started_at": "2026-10-02T12:20:14Z",
@@ -1678,7 +2048,7 @@
         "vod": {
           "gone": false,
           "id": "2889730544",
-          "seen_at": "2026-10-02T17:02:26Z",
+          "seen_at": "2026-10-04T11:06:02Z",
           "url": "https://www.twitch.tv/videos/2889730544"
         }
       },
@@ -1709,14 +2079,19 @@
           "vod": null
         },
         {
-          "duration_min": 204,
-          "ended_at": "2026-09-21T21:44:40Z",
+          "duration_min": 200,
+          "ended_at": "2026-09-21T21:41:01Z",
           "game": "DragonSword: Awakening",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T18:20:55Z",
           "stream_id": "316053334504",
           "title": "Гульнявы вечар | Dragon Sword",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880372264",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880372264"
+          }
         },
         {
           "duration_min": 244,
@@ -1796,24 +2171,34 @@
           }
         },
         {
-          "duration_min": 142,
-          "ended_at": "2026-10-01T20:21:23Z",
+          "duration_min": 125,
+          "ended_at": "2026-10-01T20:04:07Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T17:59:34Z",
           "stream_id": "318650638695",
           "title": "Восеньскі распродаж і павукі",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889087850",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2889087850"
+          }
         },
         {
-          "duration_min": 143,
-          "ended_at": "2026-09-30T20:20:53Z",
+          "duration_min": 125,
+          "ended_at": "2026-09-30T20:02:39Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-30T17:58:04Z",
           "stream_id": "316939488085",
           "title": "Тканіна, іржа, мяса і бетон",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2888227464",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2888227464"
+          }
         },
         {
           "duration_min": 122,
@@ -1846,104 +2231,154 @@
           }
         },
         {
-          "duration_min": 170,
-          "ended_at": "2026-09-27T20:47:01Z",
+          "duration_min": 163,
+          "ended_at": "2026-09-27T20:39:44Z",
           "game": "Thief: Deadly Shadows",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-27T17:56:47Z",
           "stream_id": "316999876692",
           "title": "Дзе тут срэбныя лыжкі?",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2885683307",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2885683307"
+          }
         },
         {
-          "duration_min": 175,
-          "ended_at": "2026-09-26T20:52:39Z",
+          "duration_min": 173,
+          "ended_at": "2026-09-26T20:51:17Z",
           "game": "Thief: Deadly Shadows",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-26T17:58:01Z",
           "stream_id": "316915402453",
           "title": "Гэткі розны цень",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2884726327",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2884726327"
+          }
         },
         {
-          "duration_min": 138,
-          "ended_at": "2026-09-25T20:17:43Z",
+          "duration_min": 129,
+          "ended_at": "2026-09-25T20:08:14Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-25T17:59:42Z",
           "stream_id": "318772172774",
           "title": "Пятнішная праца",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2883773764",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2883773764"
+          }
         },
         {
-          "duration_min": 141,
-          "ended_at": "2026-09-24T20:20:30Z",
+          "duration_min": 125,
+          "ended_at": "2026-09-24T20:04:08Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-24T17:59:21Z",
           "stream_id": "318566485991",
           "title": "Штодзённае няспыннае",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882915471",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2882915471"
+          }
         },
         {
-          "duration_min": 140,
-          "ended_at": "2026-09-23T20:19:45Z",
+          "duration_min": 123,
+          "ended_at": "2026-09-23T20:02:19Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-23T17:59:26Z",
           "stream_id": "318750152422",
           "title": "Петрык неяк жыве",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882064345",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2882064345"
+          }
         },
         {
-          "duration_min": 139,
-          "ended_at": "2026-09-22T20:17:37Z",
+          "duration_min": 123,
+          "ended_at": "2026-09-22T20:01:33Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-22T17:58:26Z",
           "stream_id": "316923415510",
           "title": "Грыбныя танцы",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2881200100",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2881200100"
+          }
         },
         {
-          "duration_min": 140,
-          "ended_at": "2026-09-21T20:18:44Z",
+          "duration_min": 123,
+          "ended_at": "2026-09-21T20:01:33Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T17:58:26Z",
           "stream_id": "316917823830",
           "title": "Петрык і Янук танчаць",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880352270",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880352270"
+          }
         },
         {
-          "duration_min": 161,
-          "ended_at": "2026-09-20T20:35:55Z",
+          "duration_min": 154,
+          "ended_at": "2026-09-20T20:29:23Z",
           "game": "Thief: Deadly Shadows",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-20T17:55:09Z",
           "stream_id": "316878965077",
           "title": "Пляжны эпізод",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2879513267",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2879513267"
+          }
         },
         {
-          "duration_min": 166,
-          "ended_at": "2026-09-19T20:43:11Z",
+          "duration_min": 162,
+          "ended_at": "2026-09-19T20:39:52Z",
           "game": "Thief: Deadly Shadows",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-19T17:57:40Z",
           "stream_id": "316948600148",
           "title": "Цемра і ўтульнасць",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2878560774",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2878560774"
+          }
         },
         {
-          "duration_min": 229,
-          "ended_at": "2026-09-18T21:50:45Z",
+          "duration_min": 227,
+          "ended_at": "2026-09-18T21:48:29Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-18T18:01:52Z",
           "stream_id": "318496574055",
           "title": "Кінапятніца, \"Уладар пярсцёнкаў 2\"",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2877606846",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2877606846"
+          }
         },
         {
           "duration_min": 140,
@@ -1956,34 +2391,49 @@
           "vod": null
         },
         {
-          "duration_min": 142,
-          "ended_at": "2026-09-16T20:20:07Z",
+          "duration_min": 131,
+          "ended_at": "2026-09-16T20:08:19Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-16T17:57:42Z",
           "stream_id": "318669436006",
           "title": "Серада актыўнай працы",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2875858194",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2875858194"
+          }
         },
         {
-          "duration_min": 138,
-          "ended_at": "2026-09-15T20:18:48Z",
+          "duration_min": 122,
+          "ended_at": "2026-09-15T20:03:23Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-15T18:01:18Z",
           "stream_id": "316922954324",
           "title": "Звычайны дзень, звычайная мітусня",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2874997812",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2874997812"
+          }
         },
         {
-          "duration_min": 145,
-          "ended_at": "2026-09-14T20:19:33Z",
+          "duration_min": 128,
+          "ended_at": "2026-09-14T20:02:47Z",
           "game": "Art",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-14T17:55:01Z",
           "stream_id": "316873342038",
           "title": "Глядзім фоткі, пасля малюем гук",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2874146643",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2874146643"
+          }
         }
       ],
       "last_stream": {
@@ -2115,14 +2565,19 @@
       "display_name": "Rudzi_Belarus",
       "history": [
         {
-          "duration_min": 136,
-          "ended_at": "2026-10-01T14:50:25Z",
+          "duration_min": 125,
+          "ended_at": "2026-10-01T14:38:53Z",
           "game": "SILENT HILL: townfall",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T12:34:19Z",
           "stream_id": "316976597590",
           "title": "Новы Silent Hill - Townfall. Ходзім-бадзяемся",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2888867749",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2888867749"
+          }
         },
         {
           "duration_min": 52,
@@ -2140,24 +2595,49 @@
           }
         },
         {
-          "duration_min": 67,
-          "ended_at": "2026-09-30T12:08:27Z",
+          "duration_min": 2,
+          "ended_at": "2026-09-30T12:07:53Z",
           "game": "SILENT HILL: townfall",
-          "source": "observed",
+          "source": "vod",
+          "started_at": "2026-09-30T12:06:04Z",
+          "stream_id": "317014520404",
+          "title": "Новы Silent Hill - Townfall. Смерць і адтуліны",
+          "vod": {
+            "gone": false,
+            "id": "2887991999",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887991999"
+          }
+        },
+        {
+          "duration_min": 64,
+          "ended_at": "2026-09-30T12:05:20Z",
+          "game": "SILENT HILL: townfall",
+          "source": "vod",
           "started_at": "2026-09-30T11:01:39Z",
           "stream_id": "317014242772",
           "title": "Новы Silent Hill - Townfall. Смерць і адтуліны",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887962672",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887962672"
+          }
         },
         {
-          "duration_min": 119,
-          "ended_at": "2026-09-29T13:24:02Z",
+          "duration_min": 106,
+          "ended_at": "2026-09-29T13:11:08Z",
           "game": "SILENT HILL: townfall",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-29T11:25:24Z",
           "stream_id": "316964306262",
           "title": "Новы Silent Hill - Townfall. Страшна-вырубай.",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887113782",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887113782"
+          }
         },
         {
           "duration_min": 126,
@@ -2177,7 +2657,7 @@
       ],
       "last_stream": {
         "duration_min": 125,
-        "ended_at": "2026-10-01T14:39:19Z",
+        "ended_at": "2026-10-01T14:38:53Z",
         "game": "SILENT HILL: townfall",
         "source": "vod",
         "started_at": "2026-10-01T12:34:19Z",
@@ -2186,7 +2666,7 @@
         "vod": {
           "gone": false,
           "id": "2888867749",
-          "seen_at": "2026-10-01T15:02:39Z",
+          "seen_at": "2026-10-04T11:06:03Z",
           "url": "https://www.twitch.tv/videos/2888867749"
         }
       },
@@ -2207,14 +2687,19 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
-          "duration_min": 683,
-          "ended_at": "2026-10-04T05:28:26Z",
+          "duration_min": 574,
+          "ended_at": "2026-10-04T03:39:50Z",
           "game": "Valheim",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-03T18:05:50Z",
           "stream_id": "318869077734",
           "title": "у Мяўгаллу! від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2890948369",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2890948369"
+          }
         },
         {
           "duration_min": 586,
@@ -2232,84 +2717,124 @@
           }
         },
         {
-          "duration_min": 440,
-          "ended_at": "2026-10-01T23:27:54Z",
+          "duration_min": 437,
+          "ended_at": "2026-10-01T23:25:10Z",
           "game": "The Witcher 3: Wild Hunt Remastered",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T16:07:50Z",
           "stream_id": "317022065748",
           "title": "Воўк школы ката, ці кот школы ваўка? від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889000895",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2889000895"
+          }
         },
         {
-          "duration_min": 726,
-          "ended_at": "2026-10-01T01:57:14Z",
+          "duration_min": 718,
+          "ended_at": "2026-10-01T01:48:26Z",
           "game": "The Witcher 3: Wild Hunt",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-30T13:50:46Z",
           "stream_id": "318828116582",
           "title": "а я што, руды ці як? від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2888050514",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2888050514"
+          }
         },
         {
-          "duration_min": 350,
-          "ended_at": "2026-09-30T01:47:39Z",
+          "duration_min": 338,
+          "ended_at": "2026-09-30T01:35:41Z",
           "game": "Supermarket Simulator",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-29T19:57:51Z",
           "stream_id": "318629077095",
           "title": "элдэн маркет від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2887461706",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2887461706"
+          }
         },
         {
-          "duration_min": 696,
-          "ended_at": "2026-09-29T03:22:14Z",
+          "duration_min": 683,
+          "ended_at": "2026-09-29T03:09:30Z",
           "game": "Valheim",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-28T15:46:10Z",
           "stream_id": "316960153174",
           "title": "Вікінгі на месцы від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2886417058",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2886417058"
+          }
         },
         {
-          "duration_min": 513,
-          "ended_at": "2026-09-28T01:20:14Z",
+          "duration_min": 503,
+          "ended_at": "2026-09-28T01:10:33Z",
           "game": "Valheim",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-27T16:47:43Z",
           "stream_id": "316921400789",
           "title": "амаль чыл від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2885622531",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2885622531"
+          }
         },
         {
-          "duration_min": 618,
-          "ended_at": "2026-09-27T00:43:34Z",
+          "duration_min": 612,
+          "ended_at": "2026-09-27T00:37:15Z",
           "game": "Supermarket Simulator",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-26T14:25:45Z",
           "stream_id": "318781668966",
           "title": "ага від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2884555526",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2884555526"
+          }
         },
         {
-          "duration_min": 734,
-          "ended_at": "2026-09-26T04:30:29Z",
+          "duration_min": 733,
+          "ended_at": "2026-09-26T04:29:44Z",
           "game": "Valheim",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-25T16:16:24Z",
           "stream_id": "318770632806",
           "title": "чыл від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2883690685",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2883690685"
+          }
         },
         {
-          "duration_min": 604,
-          "ended_at": "2026-09-25T02:17:55Z",
+          "duration_min": 588,
+          "ended_at": "2026-09-25T02:02:12Z",
           "game": "Valheim",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-24T16:13:52Z",
           "stream_id": "316979117396",
           "title": "Чыл від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882834983",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2882834983"
+          }
         },
         {
           "duration_min": 702,
@@ -2327,34 +2852,49 @@
           }
         },
         {
-          "duration_min": 485,
-          "ended_at": "2026-09-23T00:38:39Z",
+          "duration_min": 476,
+          "ended_at": "2026-09-23T00:29:04Z",
           "game": "7 Days to Die",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-22T16:33:14Z",
           "stream_id": "318737880038",
           "title": "не, не Элдэн від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2881133340",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2881133340"
+          }
         },
         {
-          "duration_min": 480,
-          "ended_at": "2026-09-22T00:25:04Z",
+          "duration_min": 478,
+          "ended_at": "2026-09-22T00:23:03Z",
           "game": "Valheim",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T16:25:13Z",
           "stream_id": "316960773332",
           "title": "Не ўтрымаўся від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880279457",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880279457"
+          }
         },
         {
-          "duration_min": 496,
-          "ended_at": "2026-09-21T02:18:55Z",
+          "duration_min": 495,
+          "ended_at": "2026-09-21T02:17:37Z",
           "game": "Project Zomboid",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-20T18:02:27Z",
           "stream_id": "318660509285",
           "title": "Пакульгалі далей від Іринка подруга",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2879521459",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2879521459"
+          }
         },
         {
           "duration_min": 258,
@@ -2418,14 +2958,19 @@
         }
       ],
       "last_stream": {
-        "duration_min": 683,
-        "ended_at": "2026-10-04T05:28:26Z",
+        "duration_min": 574,
+        "ended_at": "2026-10-04T03:39:50Z",
         "game": "Valheim",
-        "source": "observed",
+        "source": "vod",
         "started_at": "2026-10-03T18:05:50Z",
         "stream_id": "318869077734",
         "title": "у Мяўгаллу! від Іринка подруга",
-        "vod": null
+        "vod": {
+          "gone": false,
+          "id": "2890948369",
+          "seen_at": "2026-10-04T11:06:03Z",
+          "url": "https://www.twitch.tv/videos/2890948369"
+        }
       },
       "live": {
         "game": null,
@@ -2476,34 +3021,64 @@
       "display_name": "Ucenamescy",
       "history": [
         {
-          "duration_min": 151,
-          "ended_at": "2026-10-01T18:44:12Z",
+          "duration_min": 124,
+          "ended_at": "2026-10-03T21:08:31Z",
+          "game": "Species: Unknown",
+          "source": "vod",
+          "started_at": "2026-10-03T19:04:38Z",
+          "stream_id": "318676655975",
+          "title": "Баявы Піў Піў Піў ◉ Ready or Not",
+          "vod": {
+            "gone": false,
+            "id": "2891004753",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2891004753"
+          }
+        },
+        {
+          "duration_min": 143,
+          "ended_at": "2026-10-01T18:36:30Z",
           "game": "Ready or Not",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-10-01T16:13:36Z",
           "stream_id": "318841648358",
           "title": "Баявы Піў Піў Піў ◉ Ready or Not",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2889005178",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2889005178"
+          }
         },
         {
-          "duration_min": 170,
-          "ended_at": "2026-09-23T20:51:32Z",
+          "duration_min": 168,
+          "ended_at": "2026-09-23T20:49:51Z",
           "game": "Mewgenics",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-23T18:01:37Z",
           "stream_id": "318693444837",
           "title": "Чылім з Котыкамі ◉ Mewgenics",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882067185",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2882067185"
+          }
         },
         {
-          "duration_min": 220,
-          "ended_at": "2026-09-21T20:18:44Z",
+          "duration_min": 210,
+          "ended_at": "2026-09-21T20:08:48Z",
           "game": "PEAK",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-21T16:39:13Z",
           "stream_id": "318669502437",
           "title": "Cход Пікінераў ◉ Peak",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2880289568",
+            "seen_at": "2026-10-04T11:06:03Z",
+            "url": "https://www.twitch.tv/videos/2880289568"
+          }
         },
         {
           "duration_min": 318,
@@ -2532,18 +3107,18 @@
         }
       ],
       "last_stream": {
-        "duration_min": 143,
-        "ended_at": "2026-10-01T18:36:36Z",
-        "game": "Ready or Not",
+        "duration_min": 124,
+        "ended_at": "2026-10-03T21:08:31Z",
+        "game": "Species: Unknown",
         "source": "vod",
-        "started_at": "2026-10-01T16:13:36Z",
-        "stream_id": "318841648358",
+        "started_at": "2026-10-03T19:04:38Z",
+        "stream_id": "318676655975",
         "title": "Баявы Піў Піў Піў ◉ Ready or Not",
         "vod": {
           "gone": false,
-          "id": "2889005178",
-          "seen_at": "2026-10-01T19:06:33Z",
-          "url": "https://www.twitch.tv/videos/2889005178"
+          "id": "2891004753",
+          "seen_at": "2026-10-04T11:06:03Z",
+          "url": "https://www.twitch.tv/videos/2891004753"
         }
       },
       "live": {
@@ -2681,14 +3256,19 @@
           "vod": null
         },
         {
-          "duration_min": 138,
-          "ended_at": "2026-09-24T11:52:56Z",
+          "duration_min": 136,
+          "ended_at": "2026-09-24T11:50:51Z",
           "game": "PAPERHEAD EP.0",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-24T09:34:55Z",
           "stream_id": "316931917782",
           "title": "🔥#1 Глядзім штосьці новае 🥰@watafakablr",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2882627876",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2882627876"
+          }
         },
         {
           "duration_min": 353,
@@ -2731,14 +3311,19 @@
           "vod": null
         },
         {
-          "duration_min": 136,
-          "ended_at": "2026-09-20T10:27:45Z",
+          "duration_min": 135,
+          "ended_at": "2026-09-20T10:26:01Z",
           "game": "Retro",
-          "source": "observed",
+          "source": "vod",
           "started_at": "2026-09-20T08:11:21Z",
           "stream_id": "316875334101",
           "title": "🔥ХТО ПАМЯМАЕ ТАКУЮ ГУЛЬНЮ? 🥰@watafakablr",
-          "vod": null
+          "vod": {
+            "gone": false,
+            "id": "2879144214",
+            "seen_at": "2026-10-04T11:06:02Z",
+            "url": "https://www.twitch.tv/videos/2879144214"
+          }
         },
         {
           "duration_min": 248,
@@ -2792,16 +3377,16 @@
         "vod": null
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Retro",
+        "since": "2026-10-04T07:26:01Z",
+        "stream_id": "316961471957",
+        "title": "🔥SUPER MARIO BROS 🥰@watafakablr",
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-04T05:28:26Z"
+  "updated_at": "2026-10-04T11:06:01Z"
 }
