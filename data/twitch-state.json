@@ -2072,7 +2072,7 @@
         "since": "2026-10-04T17:47:29Z",
         "stream_id": "318826140005",
         "title": "[BEL] вечар высокае культуры",
-        "viewers": 18
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1b38b284-561d-4158-b998-05f6a2664097-profile_image-300x300.png",
@@ -2992,7 +2992,7 @@
         "since": "2026-10-04T18:09:54Z",
         "stream_id": "318826513765",
         "title": "Котдзьмяра выклікалі? від Іринка подруга",
-        "viewers": 10
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3170,6 +3170,16 @@
       "description": "Тут мы бавімся ў гульні , слухаем музыку ды размаўляем 😉                                                                                                                              ",
       "display_name": "watafakablr",
       "history": [
+        {
+          "duration_min": 344,
+          "ended_at": "2026-10-04T21:29:24Z",
+          "game": "Just Chatting",
+          "source": "observed",
+          "started_at": "2026-10-04T15:45:11Z",
+          "stream_id": "316998114134",
+          "title": "🔥МЫ ТУТ САБАК ГАНЯЕМ + ІНТЭЛЕКТУАЛЬНЫ КАНТЭНТ 🥰@watafakablr",
+          "vod": null
+        },
         {
           "duration_min": 499,
           "ended_at": "2026-10-04T15:45:11Z",
@@ -3369,39 +3379,29 @@
           "stream_id": "316901752022",
           "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 427,
-          "ended_at": "2026-09-18T21:50:45Z",
-          "game": "WARDOGS",
-          "source": "observed",
-          "started_at": "2026-09-18T14:44:02Z",
-          "stream_id": "316864271445",
-          "title": "🔥DOGSWAR ТУТ🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 499,
-        "ended_at": "2026-10-04T15:45:11Z",
-        "game": "Retro",
+        "duration_min": 344,
+        "ended_at": "2026-10-04T21:29:24Z",
+        "game": "Just Chatting",
         "source": "observed",
-        "started_at": "2026-10-04T07:26:01Z",
-        "stream_id": "316961471957",
-        "title": "🔥SUPER MARIO BROS 🥰@watafakablr",
+        "started_at": "2026-10-04T15:45:11Z",
+        "stream_id": "316998114134",
+        "title": "🔥МЫ ТУТ САБАК ГАНЯЕМ + ІНТЭЛЕКТУАЛЬНЫ КАНТЭНТ 🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "Just Chatting",
-        "since": "2026-10-04T15:45:11Z",
-        "stream_id": "316998114134",
-        "title": "🔥МЫ ТУТ САБАК ГАНЯЕМ + ІНТЭЛЕКТУАЛЬНЫ КАНТЭНТ 🥰@watafakablr",
-        "viewers": 12
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-04T20:33:06Z"
+  "updated_at": "2026-10-04T21:29:24Z"
 }

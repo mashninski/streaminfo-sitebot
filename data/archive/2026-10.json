@@ -592,6 +592,10 @@
     "watafakablr": {
       "added_at": "2026-09-11",
       "categories": {
+        "Just Chatting": {
+          "launches": 1,
+          "minutes": 344
+        },
         "Retro": {
           "launches": 2,
           "minutes": 858
@@ -604,9 +608,9 @@
       "display_name": "watafakablr",
       "followers_end": null,
       "followers_start": 466,
-      "hours": [68,0,0,0,0,0,0,0,0,0,65,120,120,120,120,120,88,74,152,180,180,129,120,120],
-      "launches": 5,
-      "minutes": 1776,
+      "hours": [97,0,0,0,0,0,0,0,0,0,65,120,120,120,120,120,88,74,167,240,240,189,180,180],
+      "launches": 6,
+      "minutes": 2120,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-27T20:18:21Z",
       "sessions": [
@@ -634,9 +638,14 @@
           "duration_min": 499,
           "ended_at": "2026-10-04T15:45:11Z",
           "started_at": "2026-10-04T07:26:01Z"
+        },
+        {
+          "duration_min": 344,
+          "ended_at": "2026-10-04T21:29:24Z",
+          "started_at": "2026-10-04T15:45:11Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-04T20:33:06Z"
+  "updated_at": "2026-10-04T21:29:24Z"
 }
