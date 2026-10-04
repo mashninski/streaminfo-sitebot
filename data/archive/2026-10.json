@@ -359,14 +359,18 @@
         "Dressmaker (2026)": {
           "launches": 1,
           "minutes": 232
+        },
+        "Minecraft": {
+          "launches": 1,
+          "minutes": 243
         }
       },
       "display_name": "ms_bahiema",
       "followers_end": null,
       "followers_start": 938,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,60,60,60,12,0,0,0,0],
-      "launches": 1,
-      "minutes": 232,
+      "hours": [51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,60,60,60,12,13,60,60,60],
+      "launches": 2,
+      "minutes": 475,
       "prev_broadcast_at": null,
       "prev_ended_at": null,
       "sessions": [
@@ -374,6 +378,11 @@
           "duration_min": 232,
           "ended_at": "2026-10-02T16:12:30Z",
           "started_at": "2026-10-02T12:20:14Z"
+        },
+        {
+          "duration_min": 243,
+          "ended_at": "2026-10-04T21:50:50Z",
+          "started_at": "2026-10-04T17:47:29Z"
         }
       ]
     },
@@ -647,5 +656,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-04T21:29:24Z"
+  "updated_at": "2026-10-04T21:50:50Z"
 }
