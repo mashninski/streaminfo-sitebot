@@ -263,6 +263,21 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 127,
+          "ended_at": "2026-10-04T17:08:12Z",
+          "game": "Total War: WARHAMMER III",
+          "source": "vod",
+          "started_at": "2026-10-04T15:01:16Z",
+          "stream_id": "318686227047",
+          "title": "Змагаемся за Вялікі Катай, супраць чумных)",
+          "vod": {
+            "gone": false,
+            "id": "2891758847",
+            "seen_at": "2026-10-04T22:06:15Z",
+            "url": "https://www.twitch.tv/videos/2891758847"
+          }
+        },
+        {
           "duration_min": 126,
           "ended_at": "2026-10-03T23:42:30Z",
           "game": "Gallipoli",
@@ -464,18 +479,18 @@
         }
       ],
       "last_stream": {
-        "duration_min": 126,
-        "ended_at": "2026-10-03T23:42:30Z",
-        "game": "Gallipoli",
+        "duration_min": 127,
+        "ended_at": "2026-10-04T17:08:12Z",
+        "game": "Total War: WARHAMMER III",
         "source": "vod",
-        "started_at": "2026-10-03T21:36:27Z",
-        "stream_id": "318815310821",
-        "title": "Працягваем рваць дупку на брытанскі ды асманскія сцягі))",
+        "started_at": "2026-10-04T15:01:16Z",
+        "stream_id": "318686227047",
+        "title": "Змагаемся за Вялікі Катай, супраць чумных)",
         "vod": {
           "gone": false,
-          "id": "2891134377",
-          "seen_at": "2026-10-04T11:06:01Z",
-          "url": "https://www.twitch.tv/videos/2891134377"
+          "id": "2891758847",
+          "seen_at": "2026-10-04T22:06:15Z",
+          "url": "https://www.twitch.tv/videos/2891758847"
         }
       },
       "live": {
@@ -1168,6 +1183,21 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 179,
+          "ended_at": "2026-10-04T16:26:28Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-10-04T13:27:20Z",
+          "stream_id": "316963340757",
+          "title": "Ну заходзь, раз прыйшоўшы (с)",
+          "vod": {
+            "gone": false,
+            "id": "2891692815",
+            "seen_at": "2026-10-04T22:06:14Z",
+            "url": "https://www.twitch.tv/videos/2891692815"
+          }
+        },
+        {
           "duration_min": 173,
           "ended_at": "2026-10-02T19:34:26Z",
           "game": "Dishonored",
@@ -1454,18 +1484,18 @@
         }
       ],
       "last_stream": {
-        "duration_min": 173,
-        "ended_at": "2026-10-02T19:34:26Z",
-        "game": "Dishonored",
+        "duration_min": 179,
+        "ended_at": "2026-10-04T16:26:28Z",
+        "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
         "source": "vod",
-        "started_at": "2026-10-02T16:41:06Z",
-        "stream_id": "316984515542",
-        "title": "Ці пасуне гэта гульня Bioshok з майго п'едысталу",
+        "started_at": "2026-10-04T13:27:20Z",
+        "stream_id": "316963340757",
+        "title": "Ну заходзь, раз прыйшоўшы (с)",
         "vod": {
           "gone": false,
-          "id": "2889899223",
-          "seen_at": "2026-10-04T11:06:01Z",
-          "url": "https://www.twitch.tv/videos/2889899223"
+          "id": "2891692815",
+          "seen_at": "2026-10-04T22:06:14Z",
+          "url": "https://www.twitch.tv/videos/2891692815"
         }
       },
       "live": {
@@ -1760,6 +1790,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 128,
+          "ended_at": "2026-10-04T20:07:57Z",
+          "game": "Way of the Hunter 2",
+          "source": "vod",
+          "started_at": "2026-10-04T17:59:55Z",
+          "stream_id": "318881969638",
+          "title": "[BLR] Нядзельны трыял. Шлях паляўнічага. 2 гадзіны",
+          "vod": {
+            "gone": false,
+            "id": "2891907630",
+            "seen_at": "2026-10-04T22:06:16Z",
+            "url": "https://www.twitch.tv/videos/2891907630"
+          }
+        },
+        {
           "duration_min": 119,
           "ended_at": "2026-10-01T19:53:38Z",
           "game": "Serious Sam: The Second Encounter",
@@ -2006,18 +2051,18 @@
         }
       ],
       "last_stream": {
-        "duration_min": 119,
-        "ended_at": "2026-10-01T19:53:38Z",
-        "game": "Serious Sam: The Second Encounter",
+        "duration_min": 128,
+        "ended_at": "2026-10-04T20:07:57Z",
+        "game": "Way of the Hunter 2",
         "source": "vod",
-        "started_at": "2026-10-01T17:54:49Z",
-        "stream_id": "316945259221",
-        "title": "[BLR] Рэтра чацвер. Сур'ёзны Сэм. Нейкі дадатак",
+        "started_at": "2026-10-04T17:59:55Z",
+        "stream_id": "318881969638",
+        "title": "[BLR] Нядзельны трыял. Шлях паляўнічага. 2 гадзіны",
         "vod": {
           "gone": false,
-          "id": "2889083164",
-          "seen_at": "2026-10-04T11:06:03Z",
-          "url": "https://www.twitch.tv/videos/2889083164"
+          "id": "2891907630",
+          "seen_at": "2026-10-04T22:06:16Z",
+          "url": "https://www.twitch.tv/videos/2891907630"
         }
       },
       "live": {
@@ -2160,6 +2205,21 @@
       "description": "Штодзённыя стрымы - маляванне і гульні. Утульнасць, дзіўныя казкі, дранікі. Ніякага \"ші\".",
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
+        {
+          "duration_min": 122,
+          "ended_at": "2026-10-04T20:02:37Z",
+          "game": "Thief: Deadly Shadows",
+          "source": "vod",
+          "started_at": "2026-10-04T18:01:00Z",
+          "stream_id": "316999278422",
+          "title": "Хаваемся ад сілавікоў",
+          "vod": {
+            "gone": false,
+            "id": "2891909223",
+            "seen_at": "2026-10-04T22:06:16Z",
+            "url": "https://www.twitch.tv/videos/2891909223"
+          }
+        },
         {
           "duration_min": 165,
           "ended_at": "2026-10-03T20:43:25Z",
@@ -2439,36 +2499,21 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2874997812"
           }
-        },
-        {
-          "duration_min": 128,
-          "ended_at": "2026-09-14T20:02:47Z",
-          "game": "Art",
-          "source": "vod",
-          "started_at": "2026-09-14T17:55:01Z",
-          "stream_id": "316873342038",
-          "title": "Глядзім фоткі, пасля малюем гук",
-          "vod": {
-            "gone": false,
-            "id": "2874146643",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2874146643"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 165,
-        "ended_at": "2026-10-03T20:43:25Z",
-        "game": "Just Chatting",
+        "duration_min": 122,
+        "ended_at": "2026-10-04T20:02:37Z",
+        "game": "Thief: Deadly Shadows",
         "source": "vod",
-        "started_at": "2026-10-03T17:58:25Z",
-        "stream_id": "316992277718",
-        "title": "Глядзім \"Адрынутыя\" 2012, трошкі захварэў",
+        "started_at": "2026-10-04T18:01:00Z",
+        "stream_id": "316999278422",
+        "title": "Хаваемся ад сілавікоў",
         "vod": {
           "gone": false,
-          "id": "2890939369",
-          "seen_at": "2026-10-03T21:09:51Z",
-          "url": "https://www.twitch.tv/videos/2890939369"
+          "id": "2891909223",
+          "seen_at": "2026-10-04T22:06:16Z",
+          "url": "https://www.twitch.tv/videos/2891909223"
         }
       },
       "live": {
@@ -2997,7 +3042,7 @@
         "since": "2026-10-04T18:09:54Z",
         "stream_id": "318826513765",
         "title": "Котдзьмяра выклікалі? від Іринка подруга",
-        "viewers": 14
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3408,5 +3453,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-04T21:50:50Z"
+  "updated_at": "2026-10-04T22:06:14Z"
 }

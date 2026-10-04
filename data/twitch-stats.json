@@ -172,14 +172,29 @@
             "Gallipoli": {
               "launches": 1,
               "minutes": 126
+            },
+            "Total War: WARHAMMER III": {
+              "launches": 1,
+              "minutes": 127
             }
           },
-          "hours": [24,60,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,60,60,35,0,0],
-          "launches": 2,
-          "minutes": 329
+          "hours": [24,60,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,120,68,35,0,0],
+          "launches": 3,
+          "minutes": 456
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Total War: WARHAMMER III",
+              "minutes": 127
+            }
+          ],
+          "ended_at": "2026-10-04T17:08:12Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,60,8,0,0,0],
+          "started_at": "2026-10-04T15:01:16Z"
+        },
         {
           "categories": [
             {
@@ -713,14 +728,29 @@
             "Ready or Not": {
               "launches": 1,
               "minutes": 210
+            },
+            "S.T.A.L.K.E.R. 2: Heart of Chornobyl": {
+              "launches": 1,
+              "minutes": 179
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,120,120,78,0],
-          "launches": 2,
-          "minutes": 383
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,60,60,91,120,120,78,0],
+          "launches": 3,
+          "minutes": 562
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+              "minutes": 179
+            }
+          ],
+          "ended_at": "2026-10-04T16:26:28Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,60,60,26,0,0,0,0],
+          "started_at": "2026-10-04T13:27:20Z"
+        },
         {
           "categories": [
             {
@@ -1049,14 +1079,29 @@
             "Serious Sam: The Second Encounter": {
               "launches": 1,
               "minutes": 119
+            },
+            "Way of the Hunter 2": {
+              "launches": 1,
+              "minutes": 128
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,60,54,0],
-          "launches": 1,
-          "minutes": 119
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,120,114,8],
+          "launches": 2,
+          "minutes": 247
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Way of the Hunter 2",
+              "minutes": 128
+            }
+          ],
+          "ended_at": "2026-10-04T20:07:57Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,60,8],
+          "started_at": "2026-10-04T17:59:55Z"
+        },
         {
           "categories": [
             {
@@ -1274,14 +1319,29 @@
             "Just Chatting": {
               "launches": 2,
               "minutes": 290
+            },
+            "Thief: Deadly Shadows": {
+              "launches": 1,
+              "minutes": 122
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,179,180,53],
-          "launches": 3,
-          "minutes": 415
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,238,240,56],
+          "launches": 4,
+          "minutes": 537
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Thief: Deadly Shadows",
+              "minutes": 122
+            }
+          ],
+          "ended_at": "2026-10-04T20:02:37Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,60,3],
+          "started_at": "2026-10-04T18:01:00Z"
+        },
         {
           "categories": [
             {
@@ -1419,11 +1479,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 76659
+            "sec": 77583
           }
         ],
-        "hours_sec": [3050,0,0,1609,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600],
-        "last_seen_at": "2026-10-04T21:50:50Z",
+        "hours_sec": [3600,374,0,1609,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600],
+        "last_seen_at": "2026-10-04T22:06:14Z",
         "started_at": "2026-10-04T00:33:11Z",
         "stream_id": "317039444564"
       },
@@ -1627,11 +1687,11 @@
         "categories": [
           {
             "game": "The Witcher 3: Wild Hunt Remastered",
-            "sec": 13256
+            "sec": 14180
           }
         ],
-        "hours_sec": [3050,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3006,3600,3600],
-        "last_seen_at": "2026-10-04T21:50:50Z",
+        "hours_sec": [3600,374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3006,3600,3600],
+        "last_seen_at": "2026-10-04T22:06:14Z",
         "started_at": "2026-10-04T18:09:54Z",
         "stream_id": "318826513765"
       },
@@ -2199,5 +2259,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-04T21:50:50Z"
+  "updated_at": "2026-10-04T22:06:14Z"
 }
