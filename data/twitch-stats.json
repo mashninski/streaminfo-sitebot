@@ -130,8 +130,8 @@
     },
     "annigilatormg42": {
       "followers": {
-        "changed_at": "2026-10-03T18:23:23Z",
-        "count": 55,
+        "changed_at": "2026-10-04T20:33:06Z",
+        "count": 54,
         "fail_runs": 0,
         "snapshots": {
           "2026-09-01": 47,
@@ -896,18 +896,7 @@
           "2026-10-01": 162
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": " SEKIRO: SHADOWS DIE TWICE",
-            "sec": 2701
-          }
-        ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,2340,361,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-04T11:06:01Z",
-        "started_at": "2026-10-04T10:21:00Z",
-        "stream_id": "318819934437"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -926,17 +915,32 @@
         },
         "2026-10": {
           "categories": {
+            " SEKIRO: SHADOWS DIE TWICE": {
+              "launches": 1,
+              "minutes": 226
+            },
             "The Witcher 3: Wild Hunt": {
               "launches": 3,
               "minutes": 556
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,60,60,117,139,102,60,13,0],
-          "launches": 3,
-          "minutes": 556
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,120,67,117,139,102,60,13,0],
+          "launches": 4,
+          "minutes": 782
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": " SEKIRO: SHADOWS DIE TWICE",
+              "minutes": 226
+            }
+          ],
+          "ended_at": "2026-10-04T14:06:47Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,60,60,7,0,0,0,0,0,0],
+          "started_at": "2026-10-04T10:21:00Z"
+        },
         {
           "categories": [
             {
@@ -1153,7 +1157,18 @@
           "2026-10-01": 938
         }
       },
-      "in_progress": null,
+      "in_progress": {
+        "categories": [
+          {
+            "game": "Minecraft",
+            "sec": 9937
+          }
+        ],
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,751,3600,3600,1986],
+        "last_seen_at": "2026-10-04T20:33:06Z",
+        "started_at": "2026-10-04T17:47:29Z",
+        "stream_id": "318826140005"
+      },
       "monthly": {
         "2026-10": {
           "categories": {
@@ -1400,11 +1415,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 37970
+            "sec": 71995
           }
         ],
-        "hours_sec": [0,0,0,1609,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,361,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-04T11:06:01Z",
+        "hours_sec": [0,0,0,1609,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,1986],
+        "last_seen_at": "2026-10-04T20:33:06Z",
         "started_at": "2026-10-04T00:33:11Z",
         "stream_id": "317039444564"
       },
@@ -1604,7 +1619,18 @@
           "2026-10-01": 998
         }
       },
-      "in_progress": null,
+      "in_progress": {
+        "categories": [
+          {
+            "game": "The Witcher 3: Wild Hunt Remastered",
+            "sec": 8592
+          }
+        ],
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3006,3600,1986],
+        "last_seen_at": "2026-10-04T20:33:06Z",
+        "started_at": "2026-10-04T18:09:54Z",
+        "stream_id": "318826513765"
+      },
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1965,14 +1991,14 @@
       "in_progress": {
         "categories": [
           {
-            "game": "Retro",
-            "sec": 13200
+            "game": "Just Chatting",
+            "sec": 17275
           }
         ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,2039,3600,3600,3600,361,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-04T11:06:01Z",
-        "started_at": "2026-10-04T07:26:01Z",
-        "stream_id": "316961471957"
+        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,889,3600,3600,3600,3600,1986],
+        "last_seen_at": "2026-10-04T20:33:06Z",
+        "started_at": "2026-10-04T15:45:11Z",
+        "stream_id": "316998114134"
       },
       "monthly": {
         "2026-09": {
@@ -2001,20 +2027,31 @@
         "2026-10": {
           "categories": {
             "Retro": {
-              "launches": 1,
-              "minutes": 359
+              "launches": 2,
+              "minutes": 858
             },
             "WARDOGS": {
               "launches": 3,
               "minutes": 918
             }
           },
-          "hours": [68,0,0,0,0,0,0,0,0,0,31,60,60,60,60,60,28,14,107,180,180,129,120,120],
-          "launches": 4,
-          "minutes": 1277
+          "hours": [68,0,0,0,0,0,0,0,0,0,65,120,120,120,120,120,88,74,152,180,180,129,120,120],
+          "launches": 5,
+          "minutes": 1776
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Retro",
+              "minutes": 499
+            }
+          ],
+          "ended_at": "2026-10-04T15:45:11Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,34,60,60,60,60,60,60,60,45,0,0,0,0,0],
+          "started_at": "2026-10-04T07:26:01Z"
+        },
         {
           "categories": [
             {
@@ -2154,5 +2191,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-04T11:06:01Z"
+  "updated_at": "2026-10-04T20:33:06Z"
 }
