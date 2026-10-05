@@ -326,8 +326,12 @@
       "added_at": "2026-09-11",
       "categories": {
         " SEKIRO: SHADOWS DIE TWICE": {
+          "launches": 2,
+          "minutes": 281
+        },
+        "How to Fish": {
           "launches": 1,
-          "minutes": 226
+          "minutes": 162
         },
         "The Witcher 3: Wild Hunt": {
           "launches": 3,
@@ -337,9 +341,9 @@
       "display_name": "mashninski",
       "followers_end": null,
       "followers_start": 162,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,120,67,117,139,102,60,13,0],
-      "launches": 4,
-      "minutes": 782,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,120,67,119,199,162,120,48,0],
+      "launches": 5,
+      "minutes": 999,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T18:06:44Z",
       "sessions": [
@@ -362,6 +366,11 @@
           "duration_min": 226,
           "ended_at": "2026-10-04T14:06:47Z",
           "started_at": "2026-10-04T10:21:00Z"
+        },
+        {
+          "duration_min": 217,
+          "ended_at": "2026-10-05T19:34:44Z",
+          "started_at": "2026-10-05T15:57:42Z"
         }
       ]
     },
@@ -448,8 +457,8 @@
       "added_at": "2026-09-11",
       "categories": {
         "Art": {
-          "launches": 1,
-          "minutes": 125
+          "launches": 2,
+          "minutes": 337
         },
         "Just Chatting": {
           "launches": 2,
@@ -463,9 +472,9 @@
       "display_name": "Nine_Ravens_Cemetery",
       "followers_end": null,
       "followers_start": 298,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,238,240,56],
-      "launches": 4,
-      "minutes": 537,
+      "hours": [32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,298,300,116],
+      "launches": 5,
+      "minutes": 749,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:20:53Z",
       "sessions": [
@@ -488,6 +497,11 @@
           "duration_min": 122,
           "ended_at": "2026-10-04T20:02:37Z",
           "started_at": "2026-10-04T18:01:00Z"
+        },
+        {
+          "duration_min": 212,
+          "ended_at": "2026-10-05T21:31:51Z",
+          "started_at": "2026-10-05T17:59:40Z"
         }
       ]
     },
@@ -683,16 +697,16 @@
           "minutes": 858
         },
         "WARDOGS": {
-          "launches": 3,
-          "minutes": 918
+          "launches": 4,
+          "minutes": 1252
         }
       },
       "display_name": "watafakablr",
       "followers_end": null,
       "followers_start": 466,
-      "hours": [97,0,0,0,0,0,0,0,0,0,65,120,120,120,120,120,88,74,167,240,240,189,180,180],
-      "launches": 6,
-      "minutes": 2120,
+      "hours": [129,0,0,0,0,0,0,0,0,0,65,120,120,120,120,120,88,74,169,300,300,249,240,240],
+      "launches": 7,
+      "minutes": 2454,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-27T20:18:21Z",
       "sessions": [
@@ -725,9 +739,14 @@
           "duration_min": 344,
           "ended_at": "2026-10-04T21:29:24Z",
           "started_at": "2026-10-04T15:45:11Z"
+        },
+        {
+          "duration_min": 334,
+          "ended_at": "2026-10-05T21:31:51Z",
+          "started_at": "2026-10-05T15:58:07Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-05T13:52:35Z"
+  "updated_at": "2026-10-05T21:31:51Z"
 }
