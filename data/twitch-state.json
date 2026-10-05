@@ -1835,6 +1835,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 319,
+          "ended_at": "2026-10-05T21:53:16Z",
+          "game": "How to Fish",
+          "source": "vod",
+          "started_at": "2026-10-05T16:34:16Z",
+          "stream_id": "317005254998",
+          "title": "[BLR] Каапны панядзелак. Як рыбачыць?",
+          "vod": {
+            "gone": false,
+            "id": "2892670697",
+            "seen_at": "2026-10-05T22:04:10Z",
+            "url": "https://www.twitch.tv/videos/2892670697"
+          }
+        },
+        {
           "duration_min": 128,
           "ended_at": "2026-10-04T20:07:57Z",
           "game": "Way of the Hunter 2",
@@ -2096,26 +2111,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 128,
-        "ended_at": "2026-10-04T20:07:57Z",
-        "game": "Way of the Hunter 2",
+        "duration_min": 319,
+        "ended_at": "2026-10-05T21:53:16Z",
+        "game": "How to Fish",
         "source": "vod",
-        "started_at": "2026-10-04T17:59:55Z",
-        "stream_id": "318881969638",
-        "title": "[BLR] Нядзельны трыял. Шлях паляўнічага. 2 гадзіны",
+        "started_at": "2026-10-05T16:34:16Z",
+        "stream_id": "317005254998",
+        "title": "[BLR] Каапны панядзелак. Як рыбачыць?",
         "vod": {
           "gone": false,
-          "id": "2891907630",
-          "seen_at": "2026-10-04T22:06:16Z",
-          "url": "https://www.twitch.tv/videos/2891907630"
+          "id": "2892670697",
+          "seen_at": "2026-10-05T22:04:10Z",
+          "url": "https://www.twitch.tv/videos/2892670697"
         }
       },
       "live": {
-        "game": "How to Fish",
-        "since": "2026-10-05T16:34:16Z",
-        "stream_id": "317005254998",
-        "title": "[BLR] Каапны панядзелак. Як рыбачыць?",
-        "viewers": 2
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3112,7 +3127,7 @@
         "since": "2026-10-05T16:21:27Z",
         "stream_id": "318836387045",
         "title": "Дык а як рыбаліць? від Іринка подруга",
-        "viewers": 13
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3155,6 +3170,21 @@
       "description": "♦️Стрымер твічоўскі. Жыццё - жураві́ны з цукрам",
       "display_name": "Ucenamescy",
       "history": [
+        {
+          "duration_min": 324,
+          "ended_at": "2026-10-05T21:54:52Z",
+          "game": "How to Fish",
+          "source": "vod",
+          "started_at": "2026-10-05T16:30:37Z",
+          "stream_id": "318698341607",
+          "title": "Ханцім Карасікаў ◉ How To Fish",
+          "vod": {
+            "gone": false,
+            "id": "2892667877",
+            "seen_at": "2026-10-05T22:04:09Z",
+            "url": "https://www.twitch.tv/videos/2892667877"
+          }
+        },
         {
           "duration_min": 124,
           "ended_at": "2026-10-03T21:08:31Z",
@@ -3242,26 +3272,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 124,
-        "ended_at": "2026-10-03T21:08:31Z",
-        "game": "Species: Unknown",
+        "duration_min": 324,
+        "ended_at": "2026-10-05T21:54:52Z",
+        "game": "How to Fish",
         "source": "vod",
-        "started_at": "2026-10-03T19:04:38Z",
-        "stream_id": "318676655975",
-        "title": "Баявы Піў Піў Піў ◉ Ready or Not",
+        "started_at": "2026-10-05T16:30:37Z",
+        "stream_id": "318698341607",
+        "title": "Ханцім Карасікаў ◉ How To Fish",
         "vod": {
           "gone": false,
-          "id": "2891004753",
-          "seen_at": "2026-10-04T11:06:03Z",
-          "url": "https://www.twitch.tv/videos/2891004753"
+          "id": "2892667877",
+          "seen_at": "2026-10-05T22:04:09Z",
+          "url": "https://www.twitch.tv/videos/2892667877"
         }
       },
       "live": {
-        "game": "How to Fish",
-        "since": "2026-10-05T16:30:37Z",
-        "stream_id": "318698341607",
-        "title": "Ханцім Карасікаў ◉ How To Fish",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -3523,5 +3553,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-05T21:49:30Z"
+  "updated_at": "2026-10-05T22:04:08Z"
 }

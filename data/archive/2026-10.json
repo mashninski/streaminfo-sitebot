@@ -377,6 +377,10 @@
     "mihas_gareza": {
       "added_at": "2026-09-11",
       "categories": {
+        "How to Fish": {
+          "launches": 1,
+          "minutes": 319
+        },
         "Serious Sam: The Second Encounter": {
           "launches": 1,
           "minutes": 119
@@ -389,9 +393,9 @@
       "display_name": "Mihas_Gareza",
       "followers_end": null,
       "followers_start": 198,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,120,114,8],
-      "launches": 2,
-      "minutes": 247,
+      "hours": [53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,65,180,174,68],
+      "launches": 3,
+      "minutes": 566,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:19:48Z",
       "sessions": [
@@ -404,6 +408,11 @@
           "duration_min": 128,
           "ended_at": "2026-10-04T20:07:57Z",
           "started_at": "2026-10-04T17:59:55Z"
+        },
+        {
+          "duration_min": 319,
+          "ended_at": "2026-10-05T21:53:16Z",
+          "started_at": "2026-10-05T16:34:16Z"
         }
       ]
     },
@@ -642,21 +651,25 @@
     "ucenamescy": {
       "added_at": "2026-09-11",
       "categories": {
+        "How to Fish": {
+          "launches": 1,
+          "minutes": 301
+        },
         "Ready or Not": {
           "launches": 2,
           "minutes": 144
         },
         "Species: Unknown": {
-          "launches": 1,
-          "minutes": 123
+          "launches": 2,
+          "minutes": 145
         }
       },
       "display_name": "Ucenamescy",
       "followers_end": null,
       "followers_start": 142,
-      "hours": [9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,60,36,55,60],
-      "launches": 2,
-      "minutes": 267,
+      "hours": [64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,120,96,115,120],
+      "launches": 3,
+      "minutes": 591,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-23T20:51:32Z",
       "sessions": [
@@ -669,6 +682,11 @@
           "duration_min": 124,
           "ended_at": "2026-10-03T21:08:31Z",
           "started_at": "2026-10-03T19:04:38Z"
+        },
+        {
+          "duration_min": 324,
+          "ended_at": "2026-10-05T21:54:52Z",
+          "started_at": "2026-10-05T16:30:37Z"
         }
       ]
     },
@@ -748,5 +766,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-05T21:31:51Z"
+  "updated_at": "2026-10-05T22:04:08Z"
 }
