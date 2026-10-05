@@ -117,6 +117,10 @@
     "dzedmaksim": {
       "added_at": "2026-09-11",
       "categories": {
+        "Farming Simulator 25": {
+          "launches": 1,
+          "minutes": 168
+        },
         "The Long Dark": {
           "launches": 1,
           "minutes": 235
@@ -129,9 +133,9 @@
       "display_name": "DzedMaksim",
       "followers_end": null,
       "followers_start": 228,
-      "hours": [0,0,0,0,0,0,0,0,0,0,93,120,120,103,3,0,0,0,0,0,0,0,0,0],
-      "launches": 2,
-      "minutes": 440,
+      "hours": [0,0,0,0,0,0,0,0,0,0,93,166,180,163,6,0,0,0,0,0,0,0,0,0],
+      "launches": 3,
+      "minutes": 608,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T11:19:32Z",
       "sessions": [
@@ -144,6 +148,11 @@
           "duration_min": 205,
           "ended_at": "2026-10-02T10:42:58Z",
           "started_at": "2026-10-02T07:18:16Z"
+        },
+        {
+          "duration_min": 168,
+          "ended_at": "2026-10-05T11:02:32Z",
+          "started_at": "2026-10-05T08:14:29Z"
         }
       ]
     },
@@ -697,5 +706,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-05T03:23:15Z"
+  "updated_at": "2026-10-05T11:11:19Z"
 }

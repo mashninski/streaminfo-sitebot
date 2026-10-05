@@ -251,7 +251,7 @@
         "since": "2026-10-05T08:07:49Z",
         "stream_id": "318887036646",
         "title": "Скончваем DLC з Аланам Вэйкам і потым ідзём у наступнае. Control",
-        "viewers": 18
+        "viewers": 27
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -719,6 +719,21 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 168,
+          "ended_at": "2026-10-05T11:02:32Z",
+          "game": "Farming Simulator 25",
+          "source": "vod",
+          "started_at": "2026-10-05T08:14:29Z",
+          "stream_id": "318831940069",
+          "title": "Сустракаем вясну. Распранаемся і працуем | Farming Simulator 2025 беларуская мова",
+          "vod": {
+            "gone": false,
+            "id": "2892425401",
+            "seen_at": "2026-10-05T11:11:20Z",
+            "url": "https://www.twitch.tv/videos/2892425401"
+          }
+        },
+        {
           "duration_min": 205,
           "ended_at": "2026-10-02T10:42:58Z",
           "game": "The Witcher 3: Wild Hunt",
@@ -900,26 +915,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 205,
-        "ended_at": "2026-10-02T10:42:58Z",
-        "game": "The Witcher 3: Wild Hunt",
+        "duration_min": 168,
+        "ended_at": "2026-10-05T11:02:32Z",
+        "game": "Farming Simulator 25",
         "source": "vod",
-        "started_at": "2026-10-02T07:18:16Z",
-        "stream_id": "318792431973",
-        "title": "#12 Не Remastered! Крочым далей па сюжэце | The Witcher 3 беларуская мова",
+        "started_at": "2026-10-05T08:14:29Z",
+        "stream_id": "318831940069",
+        "title": "Сустракаем вясну. Распранаемся і працуем | Farming Simulator 2025 беларуская мова",
         "vod": {
           "gone": false,
-          "id": "2889616224",
-          "seen_at": "2026-10-04T11:06:03Z",
-          "url": "https://www.twitch.tv/videos/2889616224"
+          "id": "2892425401",
+          "seen_at": "2026-10-05T11:11:20Z",
+          "url": "https://www.twitch.tv/videos/2892425401"
         }
       },
       "live": {
-        "game": "Farming Simulator 25",
-        "since": "2026-10-05T08:14:29Z",
-        "stream_id": "318831940069",
-        "title": "Сустракаем вясну. Распранаемся і працуем | Farming Simulator 2025 беларуская мова",
-        "viewers": 10
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -2736,11 +2751,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Whiskerwood",
+        "since": "2026-10-05T11:06:46Z",
+        "stream_id": "316968546645",
+        "title": "Каты катуюць мышэй у Whiskerwood",
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -3458,5 +3473,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-05T10:52:55Z"
+  "updated_at": "2026-10-05T11:11:19Z"
 }
