@@ -251,7 +251,7 @@
         "since": "2026-10-05T08:07:49Z",
         "stream_id": "318887036646",
         "title": "Скончваем DLC з Аланам Вэйкам і потым ідзём у наступнае. Control",
-        "viewers": 0
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -915,11 +915,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Farming Simulator 25",
+        "since": "2026-10-05T08:14:29Z",
+        "stream_id": "318831940069",
+        "title": "Сустракаем вясну. Распранаемся і працуем | Farming Simulator 2025 беларуская мова",
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -2618,7 +2618,7 @@
         "since": "2026-10-04T00:33:11Z",
         "stream_id": "317039444564",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 2
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -3458,5 +3458,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-05T08:08:39Z"
+  "updated_at": "2026-10-05T08:34:05Z"
 }
