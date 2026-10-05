@@ -523,16 +523,16 @@
           "minutes": 125
         },
         "Whiskerwood": {
-          "launches": 1,
-          "minutes": 32
+          "launches": 2,
+          "minutes": 106
         }
       },
       "display_name": "Rudzi_Belarus",
       "followers_end": null,
       "followers_start": 926,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,26,60,39,0,0,0,0,0,0],
-      "launches": 2,
-      "minutes": 157,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,69,91,39,0,0,0,0,0,0],
+      "launches": 3,
+      "minutes": 231,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T13:00:27Z",
       "sessions": [
@@ -545,6 +545,11 @@
           "duration_min": 32,
           "ended_at": "2026-10-05T11:38:19Z",
           "started_at": "2026-10-05T11:06:46Z"
+        },
+        {
+          "duration_min": 74,
+          "ended_at": "2026-10-05T13:31:11Z",
+          "started_at": "2026-10-05T12:16:41Z"
         }
       ]
     },
@@ -724,5 +729,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-05T11:57:04Z"
+  "updated_at": "2026-10-05T13:52:35Z"
 }
