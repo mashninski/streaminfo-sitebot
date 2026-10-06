@@ -1849,11 +1849,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Witcher 3: Wild Hunt",
+        "since": "2026-10-06T13:32:55Z",
+        "stream_id": "318901024102",
+        "title": "Тлусты лысы аб'юзер скардзіцца за жыццё, без рэгістрацыі",
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -3246,6 +3246,21 @@
       "display_name": "Ucenamescy",
       "history": [
         {
+          "duration_min": 182,
+          "ended_at": "2026-10-06T13:34:41Z",
+          "game": "Apex Legends",
+          "source": "vod",
+          "started_at": "2026-10-06T10:33:05Z",
+          "stream_id": "318899624678",
+          "title": "АРЭХ: Дэградацыя ◉ Apex",
+          "vod": {
+            "gone": false,
+            "id": "2893318312",
+            "seen_at": "2026-10-06T13:50:03Z",
+            "url": "https://www.twitch.tv/videos/2893318312"
+          }
+        },
+        {
           "duration_min": 324,
           "ended_at": "2026-10-05T21:54:52Z",
           "game": "How to Fish",
@@ -3347,26 +3362,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 324,
-        "ended_at": "2026-10-05T21:54:52Z",
-        "game": "How to Fish",
+        "duration_min": 182,
+        "ended_at": "2026-10-06T13:34:41Z",
+        "game": "Apex Legends",
         "source": "vod",
-        "started_at": "2026-10-05T16:30:37Z",
-        "stream_id": "318698341607",
-        "title": "Ханцім Карасікаў ◉ How To Fish",
+        "started_at": "2026-10-06T10:33:05Z",
+        "stream_id": "318899624678",
+        "title": "АРЭХ: Дэградацыя ◉ Apex",
         "vod": {
           "gone": false,
-          "id": "2892667877",
-          "seen_at": "2026-10-05T22:04:09Z",
-          "url": "https://www.twitch.tv/videos/2892667877"
+          "id": "2893318312",
+          "seen_at": "2026-10-06T13:50:03Z",
+          "url": "https://www.twitch.tv/videos/2893318312"
         }
       },
       "live": {
-        "game": "Apex Legends",
-        "since": "2026-10-06T10:33:05Z",
-        "stream_id": "318899624678",
-        "title": "АРЭХ: Дэградацыя ◉ Apex",
-        "viewers": 17
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -3628,5 +3643,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-06T13:23:15Z"
+  "updated_at": "2026-10-06T13:50:03Z"
 }
