@@ -1563,7 +1563,7 @@
         "since": "2026-10-06T15:16:33Z",
         "stream_id": "317055998676",
         "title": "Я гэтую самую ісціну выкопваю, а ў гэты час з ёй нешта такое робіцца, што выкопваў-то я ісціну, а выкапаў кучу, прабачце.. не скажу чаго (с)",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -2171,11 +2171,11 @@
         }
       },
       "live": {
-        "game": "RESIDENT EVIL: requiem",
+        "game": "Vampire Survivors",
         "since": "2026-10-06T17:55:03Z",
         "stream_id": "318711504487",
-        "title": "[BLR] Рагаликавы аўторак. Інферна Лявона",
-        "viewers": 4
+        "title": "[BLR] Рагаликавы аўторак. Вампір Сурвайвар",
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2616,7 +2616,7 @@
         "since": "2026-10-06T17:59:43Z",
         "stream_id": "318711611239",
         "title": "Шасцёрачка чырва",
-        "viewers": 11
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3217,7 +3217,7 @@
         "since": "2026-10-06T18:30:44Z",
         "stream_id": "318905107814",
         "title": "Забыліся аб Індра? А ён вас памятае! від Іринка подруга",
-        "viewers": 9
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3658,5 +3658,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-06T19:02:27Z"
+  "updated_at": "2026-10-06T19:22:42Z"
 }
