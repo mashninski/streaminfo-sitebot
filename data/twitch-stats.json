@@ -1554,11 +1554,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 14218
+            "sec": 15407
           }
         ],
-        "hours_sec": [0,0,0,1598,3600,3600,3600,1820,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-06T04:30:20Z",
+        "hours_sec": [0,0,0,1598,3600,3600,3600,3009,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-10-06T04:50:09Z",
         "started_at": "2026-10-06T00:33:22Z",
         "stream_id": "316973292373"
       },
@@ -1795,26 +1795,7 @@
           "2026-10-01": 998
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "How to Fish",
-            "sec": 21964
-          },
-          {
-            "game": "Waterpark Simulator",
-            "sec": 4111
-          },
-          {
-            "game": "Valheim",
-            "sec": 17658
-          }
-        ],
-        "hours_sec": [3600,3600,3600,3600,3600,3600,3600,1820,0,0,0,0,0,0,0,0,0,0,0,2313,3600,3600,3600,3600],
-        "last_seen_at": "2026-10-06T04:30:20Z",
-        "started_at": "2026-10-05T16:21:27Z",
-        "stream_id": "318836387045"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1861,6 +1842,10 @@
               "launches": 1,
               "minutes": 143
             },
+            "How to Fish": {
+              "launches": 1,
+              "minutes": 366
+            },
             "Ready or Not": {
               "launches": 1,
               "minutes": 169
@@ -1874,20 +1859,39 @@
               "minutes": 544
             },
             "Valheim": {
-              "launches": 2,
-              "minutes": 487
+              "launches": 3,
+              "minutes": 790
             },
             "Waterpark Simulator": {
-              "launches": 1,
-              "minutes": 443
+              "launches": 2,
+              "minutes": 512
             }
           },
-          "hours": [240,240,205,180,180,180,105,0,0,0,0,0,0,0,0,0,0,0,0,52,61,224,240,240],
-          "launches": 4,
-          "minutes": 2147
+          "hours": [300,300,265,240,240,240,165,39,0,0,0,0,0,0,0,0,0,0,0,91,121,284,300,300],
+          "launches": 5,
+          "minutes": 2885
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "How to Fish",
+              "minutes": 366
+            },
+            {
+              "game": "Waterpark Simulator",
+              "minutes": 69
+            },
+            {
+              "game": "Valheim",
+              "minutes": 303
+            }
+          ],
+          "ended_at": "2026-10-06T04:39:17Z",
+          "hours": [60,60,60,60,60,60,60,39,0,0,0,0,0,0,0,0,0,0,0,39,60,60,60,60],
+          "started_at": "2026-10-05T16:21:27Z"
+        },
         {
           "categories": [
             {
@@ -2424,5 +2428,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-06T04:30:20Z"
+  "updated_at": "2026-10-06T04:50:09Z"
 }
