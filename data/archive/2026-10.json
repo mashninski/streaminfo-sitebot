@@ -557,8 +557,8 @@
       "added_at": "2026-09-11",
       "categories": {
         "SILENT HILL: townfall": {
-          "launches": 1,
-          "minutes": 125
+          "launches": 3,
+          "minutes": 258
         },
         "Whiskerwood": {
           "launches": 2,
@@ -568,9 +568,9 @@
       "display_name": "Rudzi_Belarus",
       "followers_end": null,
       "followers_start": 926,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,69,91,39,0,0,0,0,0,0],
-      "launches": 3,
-      "minutes": 231,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,1,92,129,102,39,0,0,0,0,0,0],
+      "launches": 5,
+      "minutes": 364,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T13:00:27Z",
       "sessions": [
@@ -588,6 +588,16 @@
           "duration_min": 74,
           "ended_at": "2026-10-05T13:31:11Z",
           "started_at": "2026-10-05T12:16:41Z"
+        },
+        {
+          "duration_min": 131,
+          "ended_at": "2026-10-06T13:09:16Z",
+          "started_at": "2026-10-06T10:58:43Z"
+        },
+        {
+          "duration_min": 2,
+          "ended_at": "2026-10-06T13:11:58Z",
+          "started_at": "2026-10-06T13:10:00Z"
         }
       ]
     },
@@ -790,5 +800,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-06T12:35:39Z"
+  "updated_at": "2026-10-06T13:23:15Z"
 }
