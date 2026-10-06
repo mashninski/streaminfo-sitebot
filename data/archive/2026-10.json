@@ -344,16 +344,16 @@
           "minutes": 162
         },
         "The Witcher 3: Wild Hunt": {
-          "launches": 3,
-          "minutes": 556
+          "launches": 4,
+          "minutes": 720
         }
       },
       "display_name": "mashninski",
       "followers_end": null,
       "followers_start": 162,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,120,67,119,199,162,120,48,0],
-      "launches": 5,
-      "minutes": 999,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,147,127,179,216,162,120,48,0],
+      "launches": 6,
+      "minutes": 1163,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T18:06:44Z",
       "sessions": [
@@ -381,6 +381,11 @@
           "duration_min": 217,
           "ended_at": "2026-10-05T19:34:44Z",
           "started_at": "2026-10-05T15:57:42Z"
+        },
+        {
+          "duration_min": 164,
+          "ended_at": "2026-10-06T16:16:43Z",
+          "started_at": "2026-10-06T13:32:55Z"
         }
       ]
     },
@@ -809,5 +814,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-06T13:50:03Z"
+  "updated_at": "2026-10-06T16:22:54Z"
 }
