@@ -293,6 +293,21 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 119,
+          "ended_at": "2026-10-06T21:57:15Z",
+          "game": "Dungeons 3",
+          "source": "vod",
+          "started_at": "2026-10-06T19:58:30Z",
+          "stream_id": "318851755109",
+          "title": "Гуляем за Злоснае Зло з страшэннага Падзямелля)",
+          "vod": {
+            "gone": false,
+            "id": "2893689152",
+            "seen_at": "2026-10-06T22:19:24Z",
+            "url": "https://www.twitch.tv/videos/2893689152"
+          }
+        },
+        {
           "duration_min": 127,
           "ended_at": "2026-10-04T17:08:12Z",
           "game": "Total War: WARHAMMER III",
@@ -509,26 +524,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 127,
-        "ended_at": "2026-10-04T17:08:12Z",
-        "game": "Total War: WARHAMMER III",
+        "duration_min": 119,
+        "ended_at": "2026-10-06T21:57:15Z",
+        "game": "Dungeons 3",
         "source": "vod",
-        "started_at": "2026-10-04T15:01:16Z",
-        "stream_id": "318686227047",
-        "title": "Змагаемся за Вялікі Катай, супраць чумных)",
+        "started_at": "2026-10-06T19:58:30Z",
+        "stream_id": "318851755109",
+        "title": "Гуляем за Злоснае Зло з страшэннага Падзямелля)",
         "vod": {
           "gone": false,
-          "id": "2891758847",
-          "seen_at": "2026-10-04T22:06:15Z",
-          "url": "https://www.twitch.tv/videos/2891758847"
+          "id": "2893689152",
+          "seen_at": "2026-10-06T22:19:24Z",
+          "url": "https://www.twitch.tv/videos/2893689152"
         }
       },
       "live": {
-        "game": "Dungeons 3",
-        "since": "2026-10-06T19:58:30Z",
-        "stream_id": "318851755109",
-        "title": "Гуляем за Злоснае Зло з страшэннага Падзямелля)",
-        "viewers": 5
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -3227,7 +3242,7 @@
         "since": "2026-10-06T18:30:44Z",
         "stream_id": "318905107814",
         "title": "Забыліся аб Індра? А ён вас памятае! від Іринка подруга",
-        "viewers": 18
+        "viewers": 19
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3668,5 +3683,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-06T21:53:53Z"
+  "updated_at": "2026-10-06T22:19:24Z"
 }

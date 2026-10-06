@@ -52,6 +52,10 @@
     "annigilatormg42": {
       "added_at": "2026-09-11",
       "categories": {
+        "Dungeons 3": {
+          "launches": 1,
+          "minutes": 119
+        },
         "Empire: Total War": {
           "launches": 1,
           "minutes": 203
@@ -68,9 +72,9 @@
       "display_name": "annigilatormg42",
       "followers_end": null,
       "followers_start": 54,
-      "hours": [24,60,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,120,68,35,0,0],
-      "launches": 3,
-      "minutes": 456,
+      "hours": [81,60,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,120,68,35,2,60],
+      "launches": 4,
+      "minutes": 575,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:46:12Z",
       "sessions": [
@@ -88,6 +92,11 @@
           "duration_min": 127,
           "ended_at": "2026-10-04T17:08:12Z",
           "started_at": "2026-10-04T15:01:16Z"
+        },
+        {
+          "duration_min": 119,
+          "ended_at": "2026-10-06T21:57:15Z",
+          "started_at": "2026-10-06T19:58:30Z"
         }
       ]
     },
@@ -837,5 +846,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-06T21:19:11Z"
+  "updated_at": "2026-10-06T22:19:24Z"
 }
