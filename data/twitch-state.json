@@ -1243,6 +1243,21 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 247,
+          "ended_at": "2026-10-06T19:24:02Z",
+          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "source": "vod",
+          "started_at": "2026-10-06T15:16:33Z",
+          "stream_id": "317055998676",
+          "title": "Я гэтую самую ісціну выкопваю, а ў гэты час з ёй нешта такое робіцца, што выкопваў-то я ісціну, а выкапаў кучу, прабачце.. не скажу чаго (с)",
+          "vod": {
+            "gone": false,
+            "id": "2893466392",
+            "seen_at": "2026-10-06T19:41:50Z",
+            "url": "https://www.twitch.tv/videos/2893466392"
+          }
+        },
+        {
           "duration_min": 179,
           "ended_at": "2026-10-04T16:26:28Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -1526,44 +1541,29 @@
             "seen_at": "2026-10-04T11:06:01Z",
             "url": "https://www.twitch.tv/videos/2874841942"
           }
-        },
-        {
-          "duration_min": 254,
-          "ended_at": "2026-09-11T19:23:06Z",
-          "game": "Medieval II: Total War",
-          "source": "vod",
-          "started_at": "2026-09-11T15:08:56Z",
-          "stream_id": "316895607636",
-          "title": "Ці возьмем мы Ерусалем?",
-          "vod": {
-            "gone": false,
-            "id": "2871283779",
-            "seen_at": "2026-10-04T11:06:01Z",
-            "url": "https://www.twitch.tv/videos/2871283779"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 179,
-        "ended_at": "2026-10-04T16:26:28Z",
+        "duration_min": 247,
+        "ended_at": "2026-10-06T19:24:02Z",
         "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
         "source": "vod",
-        "started_at": "2026-10-04T13:27:20Z",
-        "stream_id": "316963340757",
-        "title": "Ну заходзь, раз прыйшоўшы (с)",
+        "started_at": "2026-10-06T15:16:33Z",
+        "stream_id": "317055998676",
+        "title": "Я гэтую самую ісціну выкопваю, а ў гэты час з ёй нешта такое робіцца, што выкопваў-то я ісціну, а выкапаў кучу, прабачце.. не скажу чаго (с)",
         "vod": {
           "gone": false,
-          "id": "2891692815",
-          "seen_at": "2026-10-04T22:06:14Z",
-          "url": "https://www.twitch.tv/videos/2891692815"
+          "id": "2893466392",
+          "seen_at": "2026-10-06T19:41:50Z",
+          "url": "https://www.twitch.tv/videos/2893466392"
         }
       },
       "live": {
-        "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-        "since": "2026-10-06T15:16:33Z",
-        "stream_id": "317055998676",
-        "title": "Я гэтую самую ісціну выкопваю, а ў гэты час з ёй нешта такое робіцца, што выкопваў-то я ісціну, а выкапаў кучу, прабачце.. не скажу чаго (с)",
-        "viewers": 5
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -2175,7 +2175,7 @@
         "since": "2026-10-06T17:55:03Z",
         "stream_id": "318711504487",
         "title": "[BLR] Рагаликавы аўторак. Вампір Сурвайвар",
-        "viewers": 3
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2616,7 +2616,7 @@
         "since": "2026-10-06T17:59:43Z",
         "stream_id": "318711611239",
         "title": "Шасцёрачка чырва",
-        "viewers": 7
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3658,5 +3658,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-06T19:22:42Z"
+  "updated_at": "2026-10-06T19:41:50Z"
 }

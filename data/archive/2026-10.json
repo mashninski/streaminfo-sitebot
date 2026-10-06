@@ -263,16 +263,16 @@
           "minutes": 210
         },
         "S.T.A.L.K.E.R. 2: Heart of Chornobyl": {
-          "launches": 1,
-          "minutes": 179
+          "launches": 2,
+          "minutes": 426
         }
       },
       "display_name": "lepus81",
       "followers_end": null,
       "followers_start": 632,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,60,60,91,120,120,78,0],
-      "launches": 3,
-      "minutes": 562,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,60,103,151,180,180,102,0],
+      "launches": 4,
+      "minutes": 809,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:55:42Z",
       "sessions": [
@@ -290,6 +290,11 @@
           "duration_min": 179,
           "ended_at": "2026-10-04T16:26:28Z",
           "started_at": "2026-10-04T13:27:20Z"
+        },
+        {
+          "duration_min": 247,
+          "ended_at": "2026-10-06T19:24:02Z",
+          "started_at": "2026-10-06T15:16:33Z"
         }
       ]
     },
@@ -814,5 +819,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-06T16:22:54Z"
+  "updated_at": "2026-10-06T19:41:50Z"
 }
