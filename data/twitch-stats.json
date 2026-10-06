@@ -168,11 +168,11 @@
         "categories": [
           {
             "game": "Dungeons 3",
-            "sec": 3518
+            "sec": 4841
           }
         ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,3428],
-        "last_seen_at": "2026-10-06T20:57:08Z",
+        "hours_sec": [1151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,3600],
+        "last_seen_at": "2026-10-06T21:19:11Z",
         "started_at": "2026-10-06T19:58:30Z",
         "stream_id": "318851755109"
       },
@@ -1153,22 +1153,7 @@
           "2026-10-01": 198
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "RESIDENT EVIL: requiem",
-            "sec": 5259
-          },
-          {
-            "game": "Vampire Survivors",
-            "sec": 5666
-          }
-        ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,297,3600,3600,3428],
-        "last_seen_at": "2026-10-06T20:57:08Z",
-        "started_at": "2026-10-06T17:55:03Z",
-        "stream_id": "318711504487"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -1199,21 +1184,44 @@
               "launches": 1,
               "minutes": 319
             },
+            "RESIDENT EVIL: requiem": {
+              "launches": 1,
+              "minutes": 88
+            },
             "Serious Sam: The Second Encounter": {
               "launches": 1,
               "minutes": 119
+            },
+            "Vampire Survivors": {
+              "launches": 1,
+              "minutes": 107
             },
             "Way of the Hunter 2": {
               "launches": 1,
               "minutes": 128
             }
           },
-          "hours": [53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,65,180,174,68],
-          "launches": 3,
-          "minutes": 566
+          "hours": [63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,70,240,234,128],
+          "launches": 4,
+          "minutes": 761
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "RESIDENT EVIL: requiem",
+              "minutes": 88
+            },
+            {
+              "game": "Vampire Survivors",
+              "minutes": 107
+            }
+          ],
+          "ended_at": "2026-10-06T21:09:36Z",
+          "hours": [10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,60,60,60],
+          "started_at": "2026-10-06T17:55:03Z"
+        },
         {
           "categories": [
             {
@@ -1635,11 +1643,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 73426
+            "sec": 74749
           }
         ],
-        "hours_sec": [0,0,0,1598,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3428],
-        "last_seen_at": "2026-10-06T20:57:08Z",
+        "hours_sec": [1151,0,0,1598,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600],
+        "last_seen_at": "2026-10-06T21:19:11Z",
         "started_at": "2026-10-06T00:33:22Z",
         "stream_id": "316973292373"
       },
@@ -1902,11 +1910,11 @@
         "categories": [
           {
             "game": "Kingdom Come: Deliverance",
-            "sec": 8784
+            "sec": 10107
           }
         ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1756,3600,3428],
-        "last_seen_at": "2026-10-06T20:57:08Z",
+        "hours_sec": [1151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1756,3600,3600],
+        "last_seen_at": "2026-10-06T21:19:11Z",
         "started_at": "2026-10-06T18:30:44Z",
         "stream_id": "318905107814"
       },
@@ -2557,5 +2565,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-06T20:57:08Z"
+  "updated_at": "2026-10-06T21:19:11Z"
 }
