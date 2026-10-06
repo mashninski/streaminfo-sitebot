@@ -266,7 +266,7 @@
         "since": "2026-10-06T08:04:35Z",
         "stream_id": "316974284501",
         "title": "Дапаўненне з гісторыяй заснавання Бюро. Control",
-        "viewers": 17
+        "viewers": 20
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -734,6 +734,21 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 191,
+          "ended_at": "2026-10-06T10:55:23Z",
+          "game": "The Long Dark",
+          "source": "vod",
+          "started_at": "2026-10-06T07:44:21Z",
+          "stream_id": "318898578918",
+          "title": "82# Рыхтуемся да дасягнення. Дзень 430+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
+          "vod": {
+            "gone": false,
+            "id": "2893263549",
+            "seen_at": "2026-10-06T11:09:05Z",
+            "url": "https://www.twitch.tv/videos/2893263549"
+          }
+        },
+        {
           "duration_min": 168,
           "ended_at": "2026-10-05T11:02:32Z",
           "game": "Farming Simulator 25",
@@ -930,26 +945,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 168,
-        "ended_at": "2026-10-05T11:02:32Z",
-        "game": "Farming Simulator 25",
+        "duration_min": 191,
+        "ended_at": "2026-10-06T10:55:23Z",
+        "game": "The Long Dark",
         "source": "vod",
-        "started_at": "2026-10-05T08:14:29Z",
-        "stream_id": "318831940069",
-        "title": "Сустракаем вясну. Распранаемся і працуем | Farming Simulator 2025 беларуская мова",
+        "started_at": "2026-10-06T07:44:21Z",
+        "stream_id": "318898578918",
+        "title": "82# Рыхтуемся да дасягнення. Дзень 430+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
         "vod": {
           "gone": false,
-          "id": "2892425401",
-          "seen_at": "2026-10-05T11:11:20Z",
-          "url": "https://www.twitch.tv/videos/2892425401"
+          "id": "2893263549",
+          "seen_at": "2026-10-06T11:09:05Z",
+          "url": "https://www.twitch.tv/videos/2893263549"
         }
       },
       "live": {
-        "game": "The Long Dark",
-        "since": "2026-10-06T07:44:21Z",
-        "stream_id": "318898578918",
-        "title": "82# Рыхтуемся да дасягнення. Дзень 430+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "viewers": 8
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -2826,11 +2841,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "SILENT HILL: townfall",
+        "since": "2026-10-06T10:58:43Z",
+        "stream_id": "317054609748",
+        "title": "Вяртаемя ў шатландскі Сайлент Хіл: Townfall",
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -3306,7 +3321,7 @@
         "since": "2026-10-06T10:33:05Z",
         "stream_id": "318899624678",
         "title": "АРЭХ: Дэградацыя ◉ Apex",
-        "viewers": 4
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -3568,5 +3583,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-06T10:51:54Z"
+  "updated_at": "2026-10-06T11:09:03Z"
 }
