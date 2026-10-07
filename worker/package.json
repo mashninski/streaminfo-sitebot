@@ -1,0 +1,13 @@
+{
+  "name": "strymy-bot-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "deploy": "wrangler deploy",
+    "logs": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.147.0"
+  }
+}

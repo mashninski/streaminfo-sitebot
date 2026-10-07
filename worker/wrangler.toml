@@ -1,0 +1,29 @@
+# Worker «будильник» бота. Секретов здесь нет: они задаются командой
+# npx wrangler secret put <ИМЯ> и живут только в Cloudflare
+# (GITHUB_TOKEN, TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET, EVENTSUB_SECRET).
+name = "strymy-bot"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Каждые 10 минут: запуск collect.yml и сверка подписок EventSub.
+# Cron самого воркфлоу сдвинут на 3-59/10 — минуты не совпадают.
+[triggers]
+crons = ["*/10 * * * *"]
+
+[vars]
+# Адрес, на который Twitch шлёт уведомления. Меняется только вместе
+# с именем Worker или поддоменом workers.dev аккаунта.
+CALLBACK_URL = "https://strymy-bot.SUBDOMAIN.workers.dev/twitch/eventsub"
+# Пауза перед сбором после stream.offline, секунд: Get Streams ещё
+# какое-то время отдаёт закончившийся эфир как живой.
+OFFLINE_DELAY_SEC = "60"
+
+# Защита от повторов EventSub и токен Twitch между вызовами.
+[[kv_namespaces]]
+binding = "KV"
+id = "KV_ID"
+
+# Логи вызовов (console.log, ответы GitHub не 204, отзывы подписок)
+# хранятся в Cloudflare: Workers → strymy-bot → Logs.
+[observability]
+enabled = true
