@@ -4,6 +4,10 @@
 name = "strymy-bot"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
+# Адрес strymy-bot.mashninski.workers.dev нужен Twitch для webhook;
+# отдельные адреса версий (preview) не нужны.
+workers_dev = true
+preview_urls = false
 
 # Каждые 10 минут: запуск collect.yml и сверка подписок EventSub.
 # Cron самого воркфлоу сдвинут на 3-59/10 — минуты не совпадают.
@@ -13,7 +17,7 @@ crons = ["*/10 * * * *"]
 [vars]
 # Адрес, на который Twitch шлёт уведомления. Меняется только вместе
 # с именем Worker или поддоменом workers.dev аккаунта.
-CALLBACK_URL = "https://strymy-bot.SUBDOMAIN.workers.dev/twitch/eventsub"
+CALLBACK_URL = "https://strymy-bot.mashninski.workers.dev/twitch/eventsub"
 # Пауза перед сбором после stream.offline, секунд: Get Streams ещё
 # какое-то время отдаёт закончившийся эфир как живой.
 OFFLINE_DELAY_SEC = "60"
@@ -21,7 +25,7 @@ OFFLINE_DELAY_SEC = "60"
 # Защита от повторов EventSub и токен Twitch между вызовами.
 [[kv_namespaces]]
 binding = "KV"
-id = "KV_ID"
+id = "5e587a12ae5c49ba9568f648f70533b5"
 
 # Логи вызовов (console.log, ответы GitHub не 204, отзывы подписок)
 # хранятся в Cloudflare: Workers → strymy-bot → Logs.
