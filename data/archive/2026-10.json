@@ -227,16 +227,16 @@
       "added_at": "2026-09-11",
       "categories": {
         "Starfield": {
-          "launches": 1,
-          "minutes": 56
+          "launches": 2,
+          "minutes": 339
         }
       },
       "display_name": "Kryvichanka",
       "followers_end": null,
       "followers_start": 144,
-      "hours": [0,0,0,48,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 1,
-      "minutes": 56,
+      "hours": [0,0,0,82,68,60,60,60,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "launches": 2,
+      "minutes": 339,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-26T02:01:32Z",
       "sessions": [
@@ -244,6 +244,11 @@
           "duration_min": 56,
           "ended_at": "2026-10-03T01:08:12Z",
           "started_at": "2026-10-03T00:11:42Z"
+        },
+        {
+          "duration_min": 283,
+          "ended_at": "2026-10-07T05:08:52Z",
+          "started_at": "2026-10-07T00:25:42Z"
         }
       ]
     },
@@ -855,5 +860,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-07T04:00:08Z"
+  "updated_at": "2026-10-07T05:08:52Z"
 }
