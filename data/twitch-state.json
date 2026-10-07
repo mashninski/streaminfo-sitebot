@@ -570,6 +570,21 @@
       "display_name": "Bel_Asch",
       "history": [
         {
+          "duration_min": 166,
+          "ended_at": "2026-10-07T17:03:39Z",
+          "game": "Dragon Age: Inquisition",
+          "source": "vod",
+          "started_at": "2026-10-07T14:17:28Z",
+          "stream_id": "318720260711",
+          "title": "Падзямелля & беларускія субтытры 😈 | Dragon Age: Inquisition",
+          "vod": {
+            "gone": false,
+            "id": "2894290419",
+            "seen_at": "2026-10-07T17:05:14Z",
+            "url": "https://www.twitch.tv/videos/2894290419"
+          }
+        },
+        {
           "duration_min": 145,
           "ended_at": "2026-10-03T19:36:53Z",
           "game": "The Order: 1886",
@@ -691,26 +706,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 145,
-        "ended_at": "2026-10-03T19:36:53Z",
-        "game": "The Order: 1886",
+        "duration_min": 166,
+        "ended_at": "2026-10-07T17:03:39Z",
+        "game": "Dragon Age: Inquisition",
         "source": "vod",
-        "started_at": "2026-10-03T17:11:53Z",
-        "stream_id": "318674859623",
-        "title": "Сустракаем кастрычніцкія вайбы 🕯️ | The Order: 1886",
+        "started_at": "2026-10-07T14:17:28Z",
+        "stream_id": "318720260711",
+        "title": "Падзямелля & беларускія субтытры 😈 | Dragon Age: Inquisition",
         "vod": {
           "gone": false,
-          "id": "2890898306",
-          "seen_at": "2026-10-03T21:09:51Z",
-          "url": "https://www.twitch.tv/videos/2890898306"
+          "id": "2894290419",
+          "seen_at": "2026-10-07T17:05:14Z",
+          "url": "https://www.twitch.tv/videos/2894290419"
         }
       },
       "live": {
-        "game": "Dragon Age: Inquisition",
-        "since": "2026-10-07T14:17:28Z",
-        "stream_id": "318720260711",
-        "title": "Падзямелля & беларускія субтытры 😈 | Dragon Age: Inquisition",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -1923,7 +1938,7 @@
         "since": "2026-10-07T16:52:51Z",
         "stream_id": "318915547494",
         "title": "Караценькі каап, потым Секіро",
-        "viewers": 4
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -3743,5 +3758,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-07T17:03:40Z"
+  "updated_at": "2026-10-07T17:05:13Z"
 }
