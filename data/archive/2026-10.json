@@ -394,6 +394,14 @@
           "launches": 2,
           "minutes": 281
         },
+        "Big Walk": {
+          "launches": 1,
+          "minutes": 78
+        },
+        "Goose Goose Duck": {
+          "launches": 1,
+          "minutes": 106
+        },
         "How to Fish": {
           "launches": 1,
           "minutes": 162
@@ -406,9 +414,9 @@
       "display_name": "mashninski",
       "followers_end": null,
       "followers_start": 162,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,147,127,179,216,162,120,48,0],
-      "launches": 6,
-      "minutes": 1163,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,147,127,179,223,222,180,105,0],
+      "launches": 7,
+      "minutes": 1347,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T18:06:44Z",
       "sessions": [
@@ -441,12 +449,25 @@
           "duration_min": 164,
           "ended_at": "2026-10-06T16:16:43Z",
           "started_at": "2026-10-06T13:32:55Z"
+        },
+        {
+          "duration_min": 184,
+          "ended_at": "2026-10-07T19:57:11Z",
+          "started_at": "2026-10-07T16:52:51Z"
         }
       ]
     },
     "mihas_gareza": {
       "added_at": "2026-09-11",
       "categories": {
+        "Big Walk": {
+          "launches": 1,
+          "minutes": 75
+        },
+        "Goose Goose Duck": {
+          "launches": 1,
+          "minutes": 105
+        },
         "How to Fish": {
           "launches": 1,
           "minutes": 319
@@ -471,9 +492,9 @@
       "display_name": "Mihas_Gareza",
       "followers_end": null,
       "followers_start": 198,
-      "hours": [63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,70,240,234,128],
-      "launches": 4,
-      "minutes": 761,
+      "hours": [63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,130,300,289,128],
+      "launches": 5,
+      "minutes": 941,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:19:48Z",
       "sessions": [
@@ -496,6 +517,11 @@
           "duration_min": 195,
           "ended_at": "2026-10-06T21:09:36Z",
           "started_at": "2026-10-06T17:55:03Z"
+        },
+        {
+          "duration_min": 180,
+          "ended_at": "2026-10-07T19:54:54Z",
+          "started_at": "2026-10-07T16:55:04Z"
         }
       ]
     },
@@ -901,5 +927,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-07T17:05:13Z"
+  "updated_at": "2026-10-07T19:57:33Z"
 }

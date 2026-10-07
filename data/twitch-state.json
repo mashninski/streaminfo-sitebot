@@ -558,7 +558,7 @@
         "since": "2026-10-07T18:41:46Z",
         "stream_id": "318724023015",
         "title": "Пякельны Містэр Проппер у Чысцілішчы)",
-        "viewers": 6
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -1713,6 +1713,21 @@
       "display_name": "mashninski",
       "history": [
         {
+          "duration_min": 184,
+          "ended_at": "2026-10-07T19:57:11Z",
+          "game": "Goose Goose Duck",
+          "source": "vod",
+          "started_at": "2026-10-07T16:52:51Z",
+          "stream_id": "318915547494",
+          "title": "Гусак гусака",
+          "vod": {
+            "gone": false,
+            "id": "2894395382",
+            "seen_at": "2026-10-07T19:57:33Z",
+            "url": "https://www.twitch.tv/videos/2894395382"
+          }
+        },
+        {
           "duration_min": 164,
           "ended_at": "2026-10-06T16:16:43Z",
           "game": "The Witcher 3: Wild Hunt",
@@ -1919,26 +1934,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 164,
-        "ended_at": "2026-10-06T16:16:43Z",
-        "game": "The Witcher 3: Wild Hunt",
+        "duration_min": 184,
+        "ended_at": "2026-10-07T19:57:11Z",
+        "game": "Goose Goose Duck",
         "source": "vod",
-        "started_at": "2026-10-06T13:32:55Z",
-        "stream_id": "318901024102",
-        "title": "Тлусты лысы аб'юзер скардзіцца за жыццё, без рэгістрацыі",
+        "started_at": "2026-10-07T16:52:51Z",
+        "stream_id": "318915547494",
+        "title": "Гусак гусака",
         "vod": {
           "gone": false,
-          "id": "2893403497",
-          "seen_at": "2026-10-06T16:22:55Z",
-          "url": "https://www.twitch.tv/videos/2893403497"
+          "id": "2894395382",
+          "seen_at": "2026-10-07T19:57:33Z",
+          "url": "https://www.twitch.tv/videos/2894395382"
         }
       },
       "live": {
-        "game": "Goose Goose Duck",
-        "since": "2026-10-07T16:52:51Z",
-        "stream_id": "318915547494",
-        "title": "Гусак гусака",
-        "viewers": 5
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -1949,6 +1964,21 @@
       "description": "Беларускі хлопчык трохі за 30 гадоў у вольны час гуляе у відэагульні і атрымвае платынавыя трафеі.",
       "display_name": "Mihas_Gareza",
       "history": [
+        {
+          "duration_min": 180,
+          "ended_at": "2026-10-07T19:54:54Z",
+          "game": "Goose Goose Duck",
+          "source": "vod",
+          "started_at": "2026-10-07T16:55:04Z",
+          "stream_id": "318722163559",
+          "title": "[BLR] Качка Качка Гусь",
+          "vod": {
+            "gone": false,
+            "id": "2894397027",
+            "seen_at": "2026-10-07T19:57:34Z",
+            "url": "https://www.twitch.tv/videos/2894397027"
+          }
+        },
         {
           "duration_min": 195,
           "ended_at": "2026-10-06T21:09:36Z",
@@ -2218,39 +2248,29 @@
           "stream_id": "316916707540",
           "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
           "vod": null
-        },
-        {
-          "duration_min": 137,
-          "ended_at": "2026-09-13T20:29:02Z",
-          "game": "SpeedRunners 2: King of Speed",
-          "source": "observed",
-          "started_at": "2026-09-13T18:12:22Z",
-          "stream_id": "318576561253",
-          "title": "[BLR] Нядзельны трыял. 2 гульні па гадзіне. Каліста пратакол.",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 195,
-        "ended_at": "2026-10-06T21:09:36Z",
-        "game": "Vampire Survivors",
+        "duration_min": 180,
+        "ended_at": "2026-10-07T19:54:54Z",
+        "game": "Goose Goose Duck",
         "source": "vod",
-        "started_at": "2026-10-06T17:55:03Z",
-        "stream_id": "318711504487",
-        "title": "[BLR] Рагаликавы аўторак. Вампір Сурвайвар",
+        "started_at": "2026-10-07T16:55:04Z",
+        "stream_id": "318722163559",
+        "title": "[BLR] Качка Качка Гусь",
         "vod": {
           "gone": false,
-          "id": "2893585350",
-          "seen_at": "2026-10-06T21:19:11Z",
-          "url": "https://www.twitch.tv/videos/2893585350"
+          "id": "2894397027",
+          "seen_at": "2026-10-07T19:57:34Z",
+          "url": "https://www.twitch.tv/videos/2894397027"
         }
       },
       "live": {
-        "game": "Goose Goose Duck",
-        "since": "2026-10-07T16:55:04Z",
-        "stream_id": "318722163559",
-        "title": "[BLR] Качка Качка Гусь",
-        "viewers": 1
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2696,7 +2716,7 @@
         "since": "2026-10-07T17:58:30Z",
         "stream_id": "316983589077",
         "title": "Ой, а тутака зноўку павучок?",
-        "viewers": 9
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3317,7 +3337,7 @@
         "since": "2026-10-07T16:52:32Z",
         "stream_id": "318860435557",
         "title": "Ніхто не чакаў, але зноў мы тут від Іринка подруга",
-        "viewers": 16
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3751,12 +3771,12 @@
         "since": "2026-10-07T16:12:11Z",
         "stream_id": "317062596308",
         "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
-        "viewers": 5
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-07T19:50:19Z"
+  "updated_at": "2026-10-07T19:57:33Z"
 }
