@@ -6,8 +6,8 @@
 
 Сборщик состояния беларуских Twitch-стримеров для раздела `mashninski.com/strymy`.
 Раз в 10 минут спрашивает Twitch, кто в эфире, ловит момент окончания стрима, ищет запись
-и пишет `data/twitch-state.json`. Сайт читает этот файл по raw-ссылке и от его изменений
-не пересобирается.
+и пишет `data/twitch-state.json`. Сайт читает этот файл через API GitHub (кэш 60 с) и от его
+изменений не пересобирается.
 
 Полная спека и план — в **приватном репозитории сайта** `mashninski-site`
 (локально `D:\production\mashninski-site`): `claude/twitch-spec.md` — как устроено,
@@ -25,7 +25,8 @@ collect.py                      сборщик, единственный исп�
 data/twitch-state.json          состояние, пишет только бот, руками не трогать
 data/twitch-stats.json          статистика для вкладки «Агляд» (была «Агульная статыстыка»), тоже только бот
 data/archive/YYYY-MM.json       архив месяца для вкладки «Хронікі», тоже только бот
-.github/workflows/collect.yml   cron */10
+.github/workflows/collect.yml   сборка; запускается Worker'ом, запасной cron 3-59/10
+worker/                         Worker в Cloudflare: будит бота cron'ом и по Twitch EventSub
 ```
 
 ## Запуск
@@ -37,6 +38,42 @@ python collect.py
 ```
 
 `FORCE_VOD_CHECK=1` — проверить записи вне расписания.
+
+## Расписание и EventSub
+
+Решение и цифры — `claude/twitch-plan.md`, §5.2 и §5.3, в репозитории сайта.
+
+- **Бота запускает Worker `strymy-bot` в Cloudflare** (`worker/`), через
+  `workflow_dispatch`: каждые 10 минут по своему cron и сразу, когда Twitch EventSub
+  присылает `stream.online` или `stream.offline` на `POST /twitch/eventsub`. Расписание
+  `schedule` GitHub Actions пропускает часы (03–04.10.2026 — 6 прогонов в сутки из 144),
+  `workflow_dispatch` ставится в очередь сразу.
+- **Cron в `collect.yml` — запасной**, `3-59/10`: минуты не совпадают с Worker'ом.
+  Замолчит Worker — бот вернётся к прежнему режиму, а не встанет.
+- **Параллельных прогонов не бывает:** `concurrency: collect` держит один идущий и один
+  ждущий, лишний ждущий GitHub отменяет сам. Поэтому в истории бывают `cancelled` —
+  это норма, данные собирает следующий прогон.
+- **`delay_sec`** — вход `workflow_dispatch`: пауза перед сбором. Worker передаёт
+  `OFFLINE_DELAY_SEC` (`wrangler.toml`) только для `stream.offline`: Get Streams ещё
+  какое-то время отдаёт закончившийся эфир живым.
+- **Подписки EventSub ставит и чинит сам Worker** на каждом тике cron (`syncSubscriptions`):
+  нескрытые стримеры `streamers.json` — тот же отбор, что в `collect.py`, — по две
+  подписки. Новый стример подписывается в течение 10 минут без команд; отозванная или
+  сломанная подписка пересоздаётся так же; убранный — отписывается. Повтор не создаёт
+  дублей (Twitch отвечает 409). Отдельного скрипта нет намеренно: секреты живут только
+  в Cloudflare, на диске их нет.
+- **Webhook:** подпись HMAC-SHA256 по `EVENTSUB_SECRET`, сообщения старше 10 минут
+  и повторы по `Twitch-Eventsub-Message-Id` (KV, 10 минут) отбрасываются, `revocation`
+  пишется в лог.
+- **Секреты Worker'а** — `npx wrangler secret put <ИМЯ>` в папке `worker/`:
+  `GITHUB_TOKEN` (fine-grained, бессрочный, только этот репозиторий, Actions: Read and
+  write), `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET`, `EVENTSUB_SECRET`.
+- **Логи:** Cloudflare → Workers → `strymy-bot` → Logs, или `npm run logs` в `worker/`.
+  Ответ GitHub не 204 — строка `[dispatch] ... GitHub ответил`.
+- **Тесты Worker'а:** `npm test` в `worker/` (встроенный `node --test`), деплой —
+  `npm run deploy`.
+- **`missing_runs` и `stale` считают прогоны**, а прогонов теперь больше — до 144 в сутки
+  плюс события. Шесть прогонов подряд — теперь не «около часа», а иногда меньше.
 
 ## Устройство, если правишь код
 
@@ -138,7 +175,8 @@ python collect.py
 
 ## Чего не делать
 
-- Не клади сюда ключи. `TWITCH_CLIENT_ID` и `TWITCH_CLIENT_SECRET` — только GitHub Secrets.
+- Не клади сюда ключи. `TWITCH_CLIENT_ID` и `TWITCH_CLIENT_SECRET` — только GitHub Secrets;
+  секреты Worker'а — только `wrangler secret put`.
 - Не делай репозиторий приватным: на приватном опрос раз в 10 минут выходит за бесплатные
   2000 минут Actions и начинает стоить около $14/мес.
 - Не подключай базу данных. Вся архитектура держится на том, что состояние — файл в git.
