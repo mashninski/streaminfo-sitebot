@@ -649,6 +649,10 @@
           "launches": 1,
           "minutes": 366
         },
+        "Kingdom Come: Deliverance": {
+          "launches": 1,
+          "minutes": 410
+        },
         "Ready or Not": {
           "launches": 1,
           "minutes": 169
@@ -666,16 +670,16 @@
           "minutes": 790
         },
         "Waterpark Simulator": {
-          "launches": 2,
-          "minutes": 512
+          "launches": 3,
+          "minutes": 662
         }
       },
       "display_name": "ShagraeL_BY",
       "followers_end": null,
       "followers_start": 998,
-      "hours": [300,300,265,240,240,240,165,39,0,0,0,0,0,0,0,0,0,0,0,91,121,284,300,300],
-      "launches": 5,
-      "minutes": 2885,
+      "hours": [360,360,325,300,300,300,215,39,0,0,0,0,0,0,0,0,0,0,0,91,121,313,360,360],
+      "launches": 6,
+      "minutes": 3445,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-10-01T01:57:14Z",
       "sessions": [
@@ -703,6 +707,11 @@
           "duration_min": 738,
           "ended_at": "2026-10-06T04:39:17Z",
           "started_at": "2026-10-05T16:21:27Z"
+        },
+        {
+          "duration_min": 560,
+          "ended_at": "2026-10-07T03:50:14Z",
+          "started_at": "2026-10-06T18:30:44Z"
         }
       ]
     },
@@ -846,5 +855,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-06T22:19:24Z"
+  "updated_at": "2026-10-07T04:00:08Z"
 }
