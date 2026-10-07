@@ -807,6 +807,14 @@
           "launches": 1,
           "minutes": 182
         },
+        "Big Walk": {
+          "launches": 1,
+          "minutes": 77
+        },
+        "Goose Goose Duck": {
+          "launches": 1,
+          "minutes": 105
+        },
         "How to Fish": {
           "launches": 1,
           "minutes": 301
@@ -823,9 +831,9 @@
       "display_name": "Ucenamescy",
       "followers_end": null,
       "followers_start": 142,
-      "hours": [64,0,0,0,0,0,0,0,0,0,0,0,0,27,60,60,35,0,0,75,120,96,115,120],
-      "launches": 4,
-      "minutes": 773,
+      "hours": [64,0,0,0,0,0,0,0,0,0,0,0,0,27,60,60,35,0,0,75,177,156,175,126],
+      "launches": 5,
+      "minutes": 956,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-23T20:51:32Z",
       "sessions": [
@@ -848,6 +856,11 @@
           "duration_min": 182,
           "ended_at": "2026-10-06T13:34:41Z",
           "started_at": "2026-10-06T10:33:05Z"
+        },
+        {
+          "duration_min": 183,
+          "ended_at": "2026-10-07T20:06:05Z",
+          "started_at": "2026-10-07T17:03:12Z"
         }
       ]
     },
@@ -927,5 +940,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-07T19:57:33Z"
+  "updated_at": "2026-10-07T20:07:44Z"
 }

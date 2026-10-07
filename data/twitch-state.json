@@ -558,7 +558,7 @@
         "since": "2026-10-07T18:41:46Z",
         "stream_id": "318724023015",
         "title": "Пякельны Містэр Проппер у Чысцілішчы)",
-        "viewers": 5
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -2716,7 +2716,7 @@
         "since": "2026-10-07T17:58:30Z",
         "stream_id": "316983589077",
         "title": "Ой, а тутака зноўку павучок?",
-        "viewers": 14
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3337,7 +3337,7 @@
         "since": "2026-10-07T16:52:32Z",
         "stream_id": "318860435557",
         "title": "Ніхто не чакаў, але зноў мы тут від Іринка подруга",
-        "viewers": 21
+        "viewers": 24
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3380,6 +3380,21 @@
       "description": "♦️Стрымер твічоўскі. Жыццё - жураві́ны з цукрам",
       "display_name": "Ucenamescy",
       "history": [
+        {
+          "duration_min": 183,
+          "ended_at": "2026-10-07T20:06:05Z",
+          "game": "Goose Goose Duck",
+          "source": "vod",
+          "started_at": "2026-10-07T17:03:12Z",
+          "stream_id": "318860631269",
+          "title": "Штосьці ◉ Goose Goose Duck",
+          "vod": {
+            "gone": false,
+            "id": "2894405095",
+            "seen_at": "2026-10-07T20:07:49Z",
+            "url": "https://www.twitch.tv/videos/2894405095"
+          }
+        },
         {
           "duration_min": 182,
           "ended_at": "2026-10-06T13:34:41Z",
@@ -3497,26 +3512,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 182,
-        "ended_at": "2026-10-06T13:34:41Z",
-        "game": "Apex Legends",
+        "duration_min": 183,
+        "ended_at": "2026-10-07T20:06:05Z",
+        "game": "Goose Goose Duck",
         "source": "vod",
-        "started_at": "2026-10-06T10:33:05Z",
-        "stream_id": "318899624678",
-        "title": "АРЭХ: Дэградацыя ◉ Apex",
+        "started_at": "2026-10-07T17:03:12Z",
+        "stream_id": "318860631269",
+        "title": "Штосьці ◉ Goose Goose Duck",
         "vod": {
           "gone": false,
-          "id": "2893318312",
-          "seen_at": "2026-10-06T13:50:03Z",
-          "url": "https://www.twitch.tv/videos/2893318312"
+          "id": "2894405095",
+          "seen_at": "2026-10-07T20:07:49Z",
+          "url": "https://www.twitch.tv/videos/2894405095"
         }
       },
       "live": {
-        "game": "Goose Goose Duck",
-        "since": "2026-10-07T17:03:12Z",
-        "stream_id": "318860631269",
-        "title": "Штосьці ◉ Goose Goose Duck",
-        "viewers": 1
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -3771,12 +3786,12 @@
         "since": "2026-10-07T16:12:11Z",
         "stream_id": "317062596308",
         "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
-        "viewers": 6
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-07T20:00:21Z"
+  "updated_at": "2026-10-07T20:07:44Z"
 }
