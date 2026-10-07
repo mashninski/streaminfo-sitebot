@@ -50,6 +50,16 @@ python collect.py
   `workflow_dispatch` ставится в очередь сразу.
 - **Cron в `collect.yml` — запасной**, `3-59/10`: минуты не совпадают с Worker'ом.
   Замолчит Worker — бот вернётся к прежнему режиму, а не встанет.
+- **Тот же Worker запускает сборщик новостей `ai-news-harvester`** (с 07.10.2026,
+  `claude/ai-news-plan.md` сайта, «Этап 9»): свой cron-триггер `17 1-23/2 * * *`,
+  `workflow_dispatch` его `harvest.yml` с входом `kind` — вид прогона по часу UTC,
+  таблица в `worker/src/harvest.js` (два цикла: генерация 23 и 11, fix 1 и 13,
+  публикация 5 и 17, остальное — сбор). Бота и подписки этот триггер не трогает.
+  Запасной `schedule` харвестера — те же часы в минуту 47; прогон, который Worker
+  уже запустил, он пропускает. Часы меняются в двух местах сразу: `harvest.js`
+  здесь и строки cron с `case` в `harvest.yml` там — тест `harvest.test.js`
+  сверяет их, если харвестер лежит рядом (`D:\production\ai-news-harvester`).
+  Cloudflare Free — 5 cron-триггеров на аккаунт, заняты 2.
 - **Параллельных прогонов не бывает:** `concurrency: collect` держит один идущий и один
   ждущий, лишний ждущий GitHub отменяет сам. Поэтому в истории бывают `cancelled` —
   это норма, данные собирает следующий прогон. Ждавший прогон берёт `main` на момент
@@ -68,10 +78,11 @@ python collect.py
   и повторы по `Twitch-Eventsub-Message-Id` (KV, 10 минут) отбрасываются, `revocation`
   пишется в лог.
 - **Секреты Worker'а** — `npx wrangler secret put <ИМЯ>` в папке `worker/`:
-  `GITHUB_TOKEN` (fine-grained, бессрочный, только этот репозиторий, Actions: Read and
-  write), `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET`, `EVENTSUB_SECRET`.
+  `GITHUB_TOKEN` (fine-grained, бессрочный, два репозитория — этот и `ai-news-harvester`,
+  Actions: Read and write), `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET`, `EVENTSUB_SECRET`.
 - **Логи:** Cloudflare → Workers → `strymy-bot` → Logs, или `npm run logs` в `worker/`.
-  Ответ GitHub не 204 — строка `[dispatch] ... GitHub ответил`.
+  Ответ GitHub не 204 — строка `[dispatch] ... GitHub ответил`; у сборщика новостей —
+  `[dispatch] harvest <вид>: ...`. 403 там — у токена нет доступа к `ai-news-harvester`.
 - **Тесты Worker'а:** `npm test` в `worker/` (встроенный `node --test`), деплой —
   `npm run deploy`.
 - **`missing_runs` и `stale` считают прогоны**, а прогонов теперь больше — до 144 в сутки

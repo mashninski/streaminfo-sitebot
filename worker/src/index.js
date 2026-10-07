@@ -3,6 +3,8 @@
    - cron каждые 10 минут: запуск collect.yml через workflow_dispatch
      (cron самого GitHub часами пропускает прогоны) и сверка подписок
      Twitch EventSub;
+   - cron в :17 нечётных часов: запуск harvest.yml сборщика новостей
+     ai-news-harvester с видом прогона по часу (src/harvest.js);
    - POST /twitch/eventsub: Twitch сообщает о начале или конце эфира,
      бот запускается сразу.
 
@@ -12,6 +14,7 @@
 
 import { dispatchCollect } from "./github.js";
 import { handleWebhook, syncSubscriptions } from "./eventsub.js";
+import { HARVEST_CRON, dispatchHarvest } from "./harvest.js";
 
 export default {
   async fetch(request, env, ctx) {
@@ -23,6 +26,11 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
+    // Свой триггер у сборщика новостей: бота и подписки он не трогает
+    if (event.cron === HARVEST_CRON) {
+      await dispatchHarvest(env, event.scheduledTime);
+      return;
+    }
     // Запуск бота — первым и независимо: сбой сверки подписок
     // не должен оставить бота без прогона.
     await dispatchCollect(env, `cron ${event.cron}`);

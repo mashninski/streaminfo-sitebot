@@ -1,4 +1,4 @@
-# Worker «будильник» бота. Секретов здесь нет: они задаются командой
+# Worker «будильник» бота и сборщика новостей. Секретов здесь нет: они задаются командой
 # npx wrangler secret put <ИМЯ> и живут только в Cloudflare
 # (GITHUB_TOKEN, TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET, EVENTSUB_SECRET).
 name = "strymy-bot"
@@ -11,8 +11,11 @@ preview_urls = false
 
 # Каждые 10 минут: запуск collect.yml и сверка подписок EventSub.
 # Cron самого воркфлоу сдвинут на 3-59/10 — минуты не совпадают.
+# В :17 нечётных часов UTC: запуск harvest.yml ai-news-harvester, вид
+# прогона по часу — src/harvest.js (строка та же, что HARVEST_CRON там).
+# Запасной schedule в harvest.yml — в :47 тех же часов.
 [triggers]
-crons = ["*/10 * * * *"]
+crons = ["*/10 * * * *", "17 1-23/2 * * *"]
 
 [vars]
 # Адрес, на который Twitch шлёт уведомления. Меняется только вместе
