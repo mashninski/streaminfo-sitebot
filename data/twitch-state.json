@@ -710,7 +710,7 @@
         "since": "2026-10-07T14:17:28Z",
         "stream_id": "318720260711",
         "title": "Падзямелля & беларускія субтытры 😈 | Dragon Age: Inquisition",
-        "viewers": 5
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -1298,6 +1298,21 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 196,
+          "ended_at": "2026-10-07T16:09:15Z",
+          "game": "Battlefield 6",
+          "source": "vod",
+          "started_at": "2026-10-07T12:53:05Z",
+          "stream_id": "316981535701",
+          "title": "Апошняя частка батлпас, чыста для птушачкі",
+          "vod": {
+            "gone": false,
+            "id": "2894240904",
+            "seen_at": "2026-10-07T16:10:58Z",
+            "url": "https://www.twitch.tv/videos/2894240904"
+          }
+        },
+        {
           "duration_min": 247,
           "ended_at": "2026-10-06T19:24:02Z",
           "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
@@ -1581,44 +1596,29 @@
             "seen_at": "2026-10-04T11:06:01Z",
             "url": "https://www.twitch.tv/videos/2875699296"
           }
-        },
-        {
-          "duration_min": 166,
-          "ended_at": "2026-09-15T17:14:58Z",
-          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "vod",
-          "started_at": "2026-09-15T14:29:18Z",
-          "stream_id": "316921191380",
-          "title": "Новыя сюрпрызы?",
-          "vod": {
-            "gone": false,
-            "id": "2874841942",
-            "seen_at": "2026-10-04T11:06:01Z",
-            "url": "https://www.twitch.tv/videos/2874841942"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 247,
-        "ended_at": "2026-10-06T19:24:02Z",
-        "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+        "duration_min": 196,
+        "ended_at": "2026-10-07T16:09:15Z",
+        "game": "Battlefield 6",
         "source": "vod",
-        "started_at": "2026-10-06T15:16:33Z",
-        "stream_id": "317055998676",
-        "title": "Я гэтую самую ісціну выкопваю, а ў гэты час з ёй нешта такое робіцца, што выкопваў-то я ісціну, а выкапаў кучу, прабачце.. не скажу чаго (с)",
+        "started_at": "2026-10-07T12:53:05Z",
+        "stream_id": "316981535701",
+        "title": "Апошняя частка батлпас, чыста для птушачкі",
         "vod": {
           "gone": false,
-          "id": "2893466392",
-          "seen_at": "2026-10-06T19:41:50Z",
-          "url": "https://www.twitch.tv/videos/2893466392"
+          "id": "2894240904",
+          "seen_at": "2026-10-07T16:10:58Z",
+          "url": "https://www.twitch.tv/videos/2894240904"
         }
       },
       "live": {
-        "game": "Battlefield 6",
-        "since": "2026-10-07T12:53:05Z",
-        "stream_id": "316981535701",
-        "title": "Апошняя частка батлпас, чыста для птушачкі",
-        "viewers": 7
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -3743,5 +3743,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-07T16:00:19Z"
+  "updated_at": "2026-10-07T16:10:58Z"
 }
