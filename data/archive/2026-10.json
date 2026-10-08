@@ -5,6 +5,10 @@
     "angryralef": {
       "added_at": "2026-09-11",
       "categories": {
+        "Banquet for Fools": {
+          "launches": 1,
+          "minutes": 231
+        },
         "CONTROL Resonant": {
           "launches": 1,
           "minutes": 209
@@ -25,9 +29,9 @@
       "display_name": "AngryRalef",
       "followers_end": null,
       "followers_start": 1293,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,256,300,300,252,9,0,0,0,0,0,0,0,0],
-      "launches": 5,
-      "minutes": 1117,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,305,360,360,312,11,0,0,0,0,0,0,0,0],
+      "launches": 6,
+      "minutes": 1348,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T12:11:27Z",
       "sessions": [
@@ -55,6 +59,11 @@
           "duration_min": 209,
           "ended_at": "2026-10-07T11:38:38Z",
           "started_at": "2026-10-07T08:09:36Z"
+        },
+        {
+          "duration_min": 231,
+          "ended_at": "2026-10-08T12:01:45Z",
+          "started_at": "2026-10-08T08:10:31Z"
         }
       ]
     },
@@ -1000,5 +1009,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-08T11:20:32Z"
+  "updated_at": "2026-10-08T12:03:19Z"
 }
