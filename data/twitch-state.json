@@ -1684,11 +1684,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Ready or Not",
+        "since": "2026-10-08T15:57:35Z",
+        "stream_id": "317068569300",
+        "title": "ТРАТАТАТА! OVER!",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -3911,12 +3911,12 @@
         "since": "2026-10-08T15:25:59Z",
         "stream_id": "317068304212",
         "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
-        "viewers": 5
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-08T15:50:21Z"
+  "updated_at": "2026-10-08T15:58:01Z"
 }
