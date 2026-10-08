@@ -1801,11 +1801,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 15408
+            "sec": 15763
           }
         ],
-        "hours_sec": [0,0,0,1587,3600,3600,3600,3021,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-08T04:50:21Z",
+        "hours_sec": [0,0,0,1587,3600,3600,3600,3376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-10-08T04:56:16Z",
         "started_at": "2026-10-08T00:33:33Z",
         "stream_id": "317021067734"
       },
@@ -2086,26 +2086,7 @@
           "2026-10-01": 998
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "Big Walk",
-            "sec": 5270
-          },
-          {
-            "game": "Goose Goose Duck",
-            "sec": 5906
-          },
-          {
-            "game": "Valheim",
-            "sec": 31893
-          }
-        ],
-        "hours_sec": [3600,3600,3600,3600,3600,3600,3600,3021,0,0,0,0,0,0,0,0,0,0,0,448,3600,3600,3600,3600],
-        "last_seen_at": "2026-10-08T04:50:21Z",
-        "started_at": "2026-10-07T16:52:32Z",
-        "stream_id": "318860435557"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -2148,9 +2129,17 @@
         },
         "2026-10": {
           "categories": {
+            "Big Walk": {
+              "launches": 1,
+              "minutes": 88
+            },
             "ELDEN RING": {
               "launches": 1,
               "minutes": 143
+            },
+            "Goose Goose Duck": {
+              "launches": 1,
+              "minutes": 98
             },
             "How to Fish": {
               "launches": 1,
@@ -2173,20 +2162,39 @@
               "minutes": 544
             },
             "Valheim": {
-              "launches": 3,
-              "minutes": 790
+              "launches": 4,
+              "minutes": 1325
             },
             "Waterpark Simulator": {
               "launches": 3,
               "minutes": 662
             }
           },
-          "hours": [360,360,325,300,300,300,215,39,0,0,0,0,0,0,0,0,0,0,0,91,121,313,360,360],
-          "launches": 6,
-          "minutes": 3445
+          "hours": [420,420,385,360,360,360,275,93,0,0,0,0,0,0,0,0,0,0,0,98,181,373,420,420],
+          "launches": 7,
+          "minutes": 4167
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Big Walk",
+              "minutes": 88
+            },
+            {
+              "game": "Goose Goose Duck",
+              "minutes": 98
+            },
+            {
+              "game": "Valheim",
+              "minutes": 535
+            }
+          ],
+          "ended_at": "2026-10-08T04:54:13Z",
+          "hours": [60,60,60,60,60,60,60,54,0,0,0,0,0,0,0,0,0,0,0,7,60,60,60,60],
+          "started_at": "2026-10-07T16:52:32Z"
+        },
         {
           "categories": [
             {
@@ -2819,5 +2827,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-08T04:50:21Z"
+  "updated_at": "2026-10-08T04:56:16Z"
 }

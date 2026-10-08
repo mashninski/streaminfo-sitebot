@@ -3072,6 +3072,21 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 722,
+          "ended_at": "2026-10-08T04:54:13Z",
+          "game": "Valheim",
+          "source": "vod",
+          "started_at": "2026-10-07T16:52:32Z",
+          "stream_id": "318860435557",
+          "title": "Ніхто не чакаў, але зноў мы тут від Іринка подруга",
+          "vod": {
+            "gone": false,
+            "id": "2894395152",
+            "seen_at": "2026-10-08T04:56:17Z",
+            "url": "https://www.twitch.tv/videos/2894395152"
+          }
+        },
+        {
           "duration_min": 560,
           "ended_at": "2026-10-07T03:50:14Z",
           "game": "Waterpark Simulator",
@@ -3345,39 +3360,29 @@
           "stream_id": "316859062357",
           "title": "Пакульгалі від Іринка подруга",
           "vod": null
-        },
-        {
-          "duration_min": 486,
-          "ended_at": "2026-09-17T00:40:09Z",
-          "game": "Contraband Police",
-          "source": "observed",
-          "started_at": "2026-09-16T16:34:03Z",
-          "stream_id": "318472547687",
-          "title": "Ці дашпацыруем? від Іринка подруга",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 560,
-        "ended_at": "2026-10-07T03:50:14Z",
-        "game": "Waterpark Simulator",
+        "duration_min": 722,
+        "ended_at": "2026-10-08T04:54:13Z",
+        "game": "Valheim",
         "source": "vod",
-        "started_at": "2026-10-06T18:30:44Z",
-        "stream_id": "318905107814",
-        "title": "Аквавечарына від Іринка подруга",
+        "started_at": "2026-10-07T16:52:32Z",
+        "stream_id": "318860435557",
+        "title": "Ніхто не чакаў, але зноў мы тут від Іринка подруга",
         "vod": {
           "gone": false,
-          "id": "2893617385",
-          "seen_at": "2026-10-07T04:00:09Z",
-          "url": "https://www.twitch.tv/videos/2893617385"
+          "id": "2894395152",
+          "seen_at": "2026-10-08T04:56:17Z",
+          "url": "https://www.twitch.tv/videos/2894395152"
         }
       },
       "live": {
-        "game": "Valheim",
-        "since": "2026-10-07T16:52:32Z",
-        "stream_id": "318860435557",
-        "title": "Ніхто не чакаў, але зноў мы тут від Іринка подруга",
-        "viewers": 7
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3851,5 +3856,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-08T04:50:08Z"
+  "updated_at": "2026-10-08T04:56:16Z"
 }
