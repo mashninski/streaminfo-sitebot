@@ -1368,6 +1368,21 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 167,
+          "ended_at": "2026-10-08T18:44:25Z",
+          "game": "Ready or Not",
+          "source": "vod",
+          "started_at": "2026-10-08T15:57:35Z",
+          "stream_id": "317068569300",
+          "title": "ТРАТАТАТА! OVER!",
+          "vod": {
+            "gone": false,
+            "id": "2895221365",
+            "seen_at": "2026-10-08T18:45:58Z",
+            "url": "https://www.twitch.tv/videos/2895221365"
+          }
+        },
+        {
           "duration_min": 164,
           "ended_at": "2026-10-08T15:09:22Z",
           "game": "Ghost of Yōtei",
@@ -1651,44 +1666,29 @@
             "seen_at": "2026-10-04T11:06:01Z",
             "url": "https://www.twitch.tv/videos/2877522088"
           }
-        },
-        {
-          "duration_min": 54,
-          "ended_at": "2026-09-18T16:13:14Z",
-          "game": "Kingdom Come: Deliverance II",
-          "source": "vod",
-          "started_at": "2026-09-18T15:18:46Z",
-          "stream_id": "316896246358",
-          "title": "Пераможца пятніцы KСD2, вернемся на вечарок у Сярэднявечную Багемію",
-          "vod": {
-            "gone": false,
-            "id": "2877479383",
-            "seen_at": "2026-10-04T11:06:01Z",
-            "url": "https://www.twitch.tv/videos/2877479383"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 164,
-        "ended_at": "2026-10-08T15:09:22Z",
-        "game": "Ghost of Yōtei",
+        "duration_min": 167,
+        "ended_at": "2026-10-08T18:44:25Z",
+        "game": "Ready or Not",
         "source": "vod",
-        "started_at": "2026-10-08T12:25:47Z",
-        "stream_id": "317067198420",
-        "title": "Ghost of Yotei. Part 15",
+        "started_at": "2026-10-08T15:57:35Z",
+        "stream_id": "317068569300",
+        "title": "ТРАТАТАТА! OVER!",
         "vod": {
           "gone": false,
-          "id": "2895092782",
-          "seen_at": "2026-10-08T15:10:56Z",
-          "url": "https://www.twitch.tv/videos/2895092782"
+          "id": "2895221365",
+          "seen_at": "2026-10-08T18:45:58Z",
+          "url": "https://www.twitch.tv/videos/2895221365"
         }
       },
       "live": {
-        "game": "Ready or Not",
-        "since": "2026-10-08T15:57:35Z",
-        "stream_id": "317068569300",
-        "title": "ТРАТАТАТА! OVER!",
-        "viewers": 5
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -2325,7 +2325,7 @@
         "since": "2026-10-08T17:58:36Z",
         "stream_id": "317069676372",
         "title": "[BLR] Рэтра Чацвер. Сур'ёзны Сэм. Да першага Энкаунтэра",
-        "viewers": 3
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3423,11 +3423,11 @@
         }
       },
       "live": {
-        "game": "Ready or Not",
+        "game": "Valheim",
         "since": "2026-10-08T16:00:50Z",
         "stream_id": "318732976103",
-        "title": "Не рэдзі від Іринка подруга",
-        "viewers": 9
+        "title": "Вальхеймімся від Іринка подруга",
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3953,5 +3953,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-08T18:42:30Z"
+  "updated_at": "2026-10-08T18:45:57Z"
 }
