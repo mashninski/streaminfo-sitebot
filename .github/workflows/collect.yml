@@ -23,17 +23,20 @@ permissions:
 
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    # ubuntu-24.04, а не ubuntu-latest: метка latest с 19.10.2026 переезжает
+    # на Ubuntu 26, и бот сменил бы систему сам, без коммита. Actions — мажорные
+    # версии на Node 24 (у v4/v5 был Node 20). Журнал сайта, 09.10.2026, этап 12
+    runs-on: ubuntu-24.04
     steps:
       # ref: main — свежий конец ветки на момент старта. Без него checkout берёт
       # коммит на момент запуска: прогон, ждавший в очереди concurrency, собирал
       # по устаревшему состоянию, и push отклонялся (07.10.2026 — 2 из 56).
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
           ssh-key: ${{ secrets.DEPLOY_KEY }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
