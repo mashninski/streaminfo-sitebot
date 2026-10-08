@@ -880,16 +880,27 @@
     },
     "toidrygizpg": {
       "added_at": "2026-10-08",
-      "categories": {},
+      "categories": {
+        "The Witcher 3: Wild Hunt": {
+          "launches": 1,
+          "minutes": 338
+        }
+      },
       "display_name": "toidrygizpg",
       "followers_end": null,
       "followers_start": 45,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 0,
-      "minutes": 0,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,60,60,60,60,60,15,0,0],
+      "launches": 1,
+      "minutes": 338,
       "prev_broadcast_at": null,
       "prev_ended_at": null,
-      "sessions": []
+      "sessions": [
+        {
+          "duration_min": 338,
+          "ended_at": "2026-10-08T18:14:41Z",
+          "started_at": "2026-10-08T12:37:03Z"
+        }
+      ]
     },
     "ucenamescy": {
       "added_at": "2026-09-11",
@@ -1036,5 +1047,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-08T15:10:56Z"
+  "updated_at": "2026-10-08T18:14:41Z"
 }
