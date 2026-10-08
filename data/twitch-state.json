@@ -1368,6 +1368,21 @@
       "display_name": "lepus81",
       "history": [
         {
+          "duration_min": 164,
+          "ended_at": "2026-10-08T15:09:22Z",
+          "game": "Ghost of Yōtei",
+          "source": "vod",
+          "started_at": "2026-10-08T12:25:47Z",
+          "stream_id": "317067198420",
+          "title": "Ghost of Yotei. Part 15",
+          "vod": {
+            "gone": false,
+            "id": "2895092782",
+            "seen_at": "2026-10-08T15:10:56Z",
+            "url": "https://www.twitch.tv/videos/2895092782"
+          }
+        },
+        {
           "duration_min": 196,
           "ended_at": "2026-10-07T16:09:15Z",
           "game": "Battlefield 6",
@@ -1651,44 +1666,29 @@
             "seen_at": "2026-10-04T11:06:01Z",
             "url": "https://www.twitch.tv/videos/2877479383"
           }
-        },
-        {
-          "duration_min": 211,
-          "ended_at": "2026-09-16T17:44:40Z",
-          "game": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-          "source": "vod",
-          "started_at": "2026-09-16T14:14:00Z",
-          "stream_id": "316851293781",
-          "title": "Паціху даследуем ЗОНУ",
-          "vod": {
-            "gone": false,
-            "id": "2875699296",
-            "seen_at": "2026-10-04T11:06:01Z",
-            "url": "https://www.twitch.tv/videos/2875699296"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 196,
-        "ended_at": "2026-10-07T16:09:15Z",
-        "game": "Battlefield 6",
+        "duration_min": 164,
+        "ended_at": "2026-10-08T15:09:22Z",
+        "game": "Ghost of Yōtei",
         "source": "vod",
-        "started_at": "2026-10-07T12:53:05Z",
-        "stream_id": "316981535701",
-        "title": "Апошняя частка батлпас, чыста для птушачкі",
+        "started_at": "2026-10-08T12:25:47Z",
+        "stream_id": "317067198420",
+        "title": "Ghost of Yotei. Part 15",
         "vod": {
           "gone": false,
-          "id": "2894240904",
-          "seen_at": "2026-10-07T16:10:58Z",
-          "url": "https://www.twitch.tv/videos/2894240904"
+          "id": "2895092782",
+          "seen_at": "2026-10-08T15:10:56Z",
+          "url": "https://www.twitch.tv/videos/2895092782"
         }
       },
       "live": {
-        "game": "Ghost of Yōtei",
-        "since": "2026-10-08T12:25:47Z",
-        "stream_id": "317067198420",
-        "title": "Ghost of Yotei. Part 15",
-        "viewers": 12
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -3494,7 +3494,7 @@
         "since": "2026-10-08T12:37:03Z",
         "stream_id": "317067254228",
         "title": "Шукаем пытальнічкі і Цыры #2",
-        "viewers": 10
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/fddd3231-bc8f-446f-8ab9-373e820c59e9-profile_image-300x300.png",
@@ -3918,5 +3918,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-08T15:00:21Z"
+  "updated_at": "2026-10-08T15:10:56Z"
 }

@@ -331,6 +331,10 @@
           "launches": 1,
           "minutes": 173
         },
+        "Ghost of Yōtei": {
+          "launches": 1,
+          "minutes": 164
+        },
         "Ready or Not": {
           "launches": 1,
           "minutes": 210
@@ -343,9 +347,9 @@
       "display_name": "lepus81",
       "followers_end": null,
       "followers_start": 632,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,93,120,163,160,180,180,102,0],
-      "launches": 5,
-      "minutes": 1005,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,153,180,172,160,180,180,102,0],
+      "launches": 6,
+      "minutes": 1169,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:55:42Z",
       "sessions": [
@@ -373,6 +377,11 @@
           "duration_min": 196,
           "ended_at": "2026-10-07T16:09:15Z",
           "started_at": "2026-10-07T12:53:05Z"
+        },
+        {
+          "duration_min": 164,
+          "ended_at": "2026-10-08T15:09:22Z",
+          "started_at": "2026-10-08T12:25:47Z"
         }
       ]
     },
@@ -1027,5 +1036,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-08T12:57:29Z"
+  "updated_at": "2026-10-08T15:10:56Z"
 }
