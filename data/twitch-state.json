@@ -1688,7 +1688,7 @@
         "since": "2026-10-08T12:25:47Z",
         "stream_id": "317067198420",
         "title": "Ghost of Yotei. Part 15",
-        "viewers": 5
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -2905,6 +2905,21 @@
       "display_name": "Rudzi_Belarus",
       "history": [
         {
+          "duration_min": 115,
+          "ended_at": "2026-10-08T12:50:51Z",
+          "game": "SILENT HILL: townfall",
+          "source": "vod",
+          "started_at": "2026-10-08T10:56:02Z",
+          "stream_id": "318923666918",
+          "title": "Ганяем голых дзядоў па Сайлент Хіл: Townfall",
+          "vod": {
+            "gone": false,
+            "id": "2895051291",
+            "seen_at": "2026-10-08T12:52:23Z",
+            "url": "https://www.twitch.tv/videos/2895051291"
+          }
+        },
+        {
           "duration_min": 32,
           "ended_at": "2026-10-07T11:32:20Z",
           "game": "SILENT HILL: townfall",
@@ -3071,26 +3086,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 32,
-        "ended_at": "2026-10-07T11:32:20Z",
+        "duration_min": 115,
+        "ended_at": "2026-10-08T12:50:51Z",
         "game": "SILENT HILL: townfall",
         "source": "vod",
-        "started_at": "2026-10-07T11:00:06Z",
-        "stream_id": "318911855334",
-        "title": "Голыя пенсіянеры і сякерагаловыя ў Сайлент Хіл: Townfall",
+        "started_at": "2026-10-08T10:56:02Z",
+        "stream_id": "318923666918",
+        "title": "Ганяем голых дзядоў па Сайлент Хіл: Townfall",
         "vod": {
           "gone": false,
-          "id": "2894187026",
-          "seen_at": "2026-10-07T11:33:50Z",
-          "url": "https://www.twitch.tv/videos/2894187026"
+          "id": "2895051291",
+          "seen_at": "2026-10-08T12:52:23Z",
+          "url": "https://www.twitch.tv/videos/2895051291"
         }
       },
       "live": {
-        "game": "SILENT HILL: townfall",
-        "since": "2026-10-08T10:56:02Z",
-        "stream_id": "318923666918",
-        "title": "Ганяем голых дзядоў па Сайлент Хіл: Townfall",
-        "viewers": 29
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -3886,5 +3901,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-08T12:50:20Z"
+  "updated_at": "2026-10-08T12:52:22Z"
 }
