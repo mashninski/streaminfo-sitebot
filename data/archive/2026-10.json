@@ -176,8 +176,8 @@
           "minutes": 168
         },
         "The Long Dark": {
-          "launches": 2,
-          "minutes": 426
+          "launches": 3,
+          "minutes": 688
         },
         "The Witcher 3: Wild Hunt": {
           "launches": 1,
@@ -187,9 +187,9 @@
       "display_name": "DzedMaksim",
       "followers_end": null,
       "followers_start": 228,
-      "hours": [0,0,0,0,0,0,0,0,0,0,109,276,300,278,14,0,0,0,0,0,0,0,0,0],
-      "launches": 5,
-      "minutes": 977,
+      "hours": [0,0,0,0,0,0,0,0,0,3,169,336,360,338,33,0,0,0,0,0,0,0,0,0],
+      "launches": 6,
+      "minutes": 1239,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T11:19:32Z",
       "sessions": [
@@ -217,6 +217,11 @@
           "duration_min": 178,
           "ended_at": "2026-10-07T11:08:25Z",
           "started_at": "2026-10-07T08:10:17Z"
+        },
+        {
+          "duration_min": 262,
+          "ended_at": "2026-10-08T11:19:00Z",
+          "started_at": "2026-10-08T06:56:32Z"
         }
       ]
     },
@@ -995,5 +1000,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-08T04:56:16Z"
+  "updated_at": "2026-10-08T11:20:32Z"
 }
