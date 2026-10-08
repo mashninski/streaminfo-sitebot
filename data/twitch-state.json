@@ -2045,6 +2045,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 188,
+          "ended_at": "2026-10-08T21:07:06Z",
+          "game": "Serious Sam 3: BFE",
+          "source": "vod",
+          "started_at": "2026-10-08T17:58:36Z",
+          "stream_id": "317069676372",
+          "title": "[BLR] Рэтра Чацвер. Сур'ёзны Сэм. Да першага Энкаунтэра",
+          "vod": {
+            "gone": false,
+            "id": "2895316463",
+            "seen_at": "2026-10-08T21:08:48Z",
+            "url": "https://www.twitch.tv/videos/2895316463"
+          }
+        },
+        {
           "duration_min": 180,
           "ended_at": "2026-10-07T19:54:54Z",
           "game": "Goose Goose Duck",
@@ -2318,39 +2333,29 @@
             "seen_at": "2026-09-15T21:01:18Z",
             "url": "https://www.twitch.tv/videos/2874991412"
           }
-        },
-        {
-          "duration_min": 194,
-          "ended_at": "2026-09-14T21:18:17Z",
-          "game": "Grand Theft Auto V",
-          "source": "observed",
-          "started_at": "2026-09-14T18:04:36Z",
-          "stream_id": "316916707540",
-          "title": "[BLR] Рыхтуемся да GTA VI. Абрабаванне інкасатарскай марыны",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 180,
-        "ended_at": "2026-10-07T19:54:54Z",
-        "game": "Goose Goose Duck",
+        "duration_min": 188,
+        "ended_at": "2026-10-08T21:07:06Z",
+        "game": "Serious Sam 3: BFE",
         "source": "vod",
-        "started_at": "2026-10-07T16:55:04Z",
-        "stream_id": "318722163559",
-        "title": "[BLR] Качка Качка Гусь",
+        "started_at": "2026-10-08T17:58:36Z",
+        "stream_id": "317069676372",
+        "title": "[BLR] Рэтра Чацвер. Сур'ёзны Сэм. Да першага Энкаунтэра",
         "vod": {
           "gone": false,
-          "id": "2894397027",
-          "seen_at": "2026-10-07T19:57:34Z",
-          "url": "https://www.twitch.tv/videos/2894397027"
+          "id": "2895316463",
+          "seen_at": "2026-10-08T21:08:48Z",
+          "url": "https://www.twitch.tv/videos/2895316463"
         }
       },
       "live": {
-        "game": "Serious Sam 3: BFE",
-        "since": "2026-10-08T17:58:36Z",
-        "stream_id": "317069676372",
-        "title": "[BLR] Рэтра Чацвер. Сур'ёзны Сэм. Да першага Энкаунтэра",
-        "viewers": 8
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3452,7 +3457,7 @@
         "since": "2026-10-08T16:00:50Z",
         "stream_id": "318732976103",
         "title": "Вальхеймімся від Іринка подруга",
-        "viewers": 17
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3971,12 +3976,12 @@
         "since": "2026-10-08T15:25:59Z",
         "stream_id": "317068304212",
         "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
-        "viewers": 7
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-08T21:00:23Z"
+  "updated_at": "2026-10-08T21:08:47Z"
 }
