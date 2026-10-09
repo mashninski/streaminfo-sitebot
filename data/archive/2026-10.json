@@ -482,6 +482,10 @@
           "launches": 1,
           "minutes": 162
         },
+        "Just Chatting": {
+          "launches": 1,
+          "minutes": 123
+        },
         "The Witcher 3: Wild Hunt": {
           "launches": 5,
           "minutes": 735
@@ -494,9 +498,9 @@
       "display_name": "mashninski",
       "followers_end": null,
       "followers_start": 162,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,147,127,179,268,282,240,129,0],
-      "launches": 8,
-      "minutes": 1536,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,39,60,66,147,127,179,308,342,263,129,0],
+      "launches": 9,
+      "minutes": 1659,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T18:06:44Z",
       "sessions": [
@@ -539,6 +543,11 @@
           "duration_min": 189,
           "ended_at": "2026-10-08T19:24:06Z",
           "started_at": "2026-10-08T16:15:20Z"
+        },
+        {
+          "duration_min": 123,
+          "ended_at": "2026-10-09T18:22:45Z",
+          "started_at": "2026-10-09T16:19:54Z"
         }
       ]
     },
@@ -1143,5 +1152,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-09T18:00:23Z"
+  "updated_at": "2026-10-09T18:24:13Z"
 }

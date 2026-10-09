@@ -1843,6 +1843,21 @@
       "display_name": "mashninski",
       "history": [
         {
+          "duration_min": 123,
+          "ended_at": "2026-10-09T18:22:45Z",
+          "game": "Just Chatting",
+          "source": "vod",
+          "started_at": "2026-10-09T16:19:54Z",
+          "stream_id": "318745515751",
+          "title": "Аўтаматызацыя перакладаў. Крок 1 l Over the Garden Wall",
+          "vod": {
+            "gone": false,
+            "id": "2896112560",
+            "seen_at": "2026-10-09T18:24:13Z",
+            "url": "https://www.twitch.tv/videos/2896112560"
+          }
+        },
+        {
           "duration_min": 189,
           "ended_at": "2026-10-08T19:24:06Z",
           "game": "The Witcher 3: Wild Hunt Remastered",
@@ -2079,26 +2094,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 189,
-        "ended_at": "2026-10-08T19:24:06Z",
-        "game": "The Witcher 3: Wild Hunt Remastered",
+        "duration_min": 123,
+        "ended_at": "2026-10-09T18:22:45Z",
+        "game": "Just Chatting",
         "source": "vod",
-        "started_at": "2026-10-08T16:15:20Z",
-        "stream_id": "318733202791",
-        "title": "Гервальд і яго скура",
+        "started_at": "2026-10-09T16:19:54Z",
+        "stream_id": "318745515751",
+        "title": "Аўтаматызацыя перакладаў. Крок 1 l Over the Garden Wall",
         "vod": {
           "gone": false,
-          "id": "2895235668",
-          "seen_at": "2026-10-08T19:25:35Z",
-          "url": "https://www.twitch.tv/videos/2895235668"
+          "id": "2896112560",
+          "seen_at": "2026-10-09T18:24:13Z",
+          "url": "https://www.twitch.tv/videos/2896112560"
         }
       },
       "live": {
-        "game": "Just Chatting",
-        "since": "2026-10-09T16:19:54Z",
-        "stream_id": "318745515751",
-        "title": "Аўтаматызацыя перакладаў. Крок 1 l Over the Garden Wall",
-        "viewers": 9
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -2420,7 +2435,7 @@
         "since": "2026-10-09T18:08:26Z",
         "stream_id": "318940435814",
         "title": "[BLR] Рыхтуемся да GTA VI. Ратуем Майкла",
-        "viewers": 1
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2871,7 +2886,7 @@
         "since": "2026-10-09T18:00:07Z",
         "stream_id": "317031786838",
         "title": "Кінадзень, \"Што мы робім у цемры\" 2014",
-        "viewers": 7
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -4066,12 +4081,12 @@
         "since": "2026-10-09T16:24:03Z",
         "stream_id": "316994683605",
         "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
-        "viewers": 14
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T18:20:20Z"
+  "updated_at": "2026-10-09T18:24:13Z"
 }
