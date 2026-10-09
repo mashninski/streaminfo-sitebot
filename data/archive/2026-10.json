@@ -144,16 +144,16 @@
           "minutes": 166
         },
         "The Order: 1886": {
-          "launches": 1,
-          "minutes": 145
+          "launches": 2,
+          "minutes": 316
         }
       },
       "display_name": "Bel_Asch",
       "followers_end": null,
       "followers_start": 207,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,60,60,52,60,37,0],
-      "launches": 2,
-      "minutes": 311,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,103,120,84,52,60,37,0],
+      "launches": 3,
+      "minutes": 482,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-28T19:35:58Z",
       "sessions": [
@@ -166,6 +166,11 @@
           "duration_min": 166,
           "ended_at": "2026-10-07T17:03:39Z",
           "started_at": "2026-10-07T14:17:28Z"
+        },
+        {
+          "duration_min": 171,
+          "ended_at": "2026-10-09T16:24:29Z",
+          "started_at": "2026-10-09T13:33:11Z"
         }
       ]
     },
@@ -1133,5 +1138,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-09T13:10:47Z"
+  "updated_at": "2026-10-09T16:26:05Z"
 }

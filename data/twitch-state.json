@@ -615,6 +615,21 @@
       "display_name": "Bel_Asch",
       "history": [
         {
+          "duration_min": 171,
+          "ended_at": "2026-10-09T16:24:29Z",
+          "game": "The Order: 1886",
+          "source": "vod",
+          "started_at": "2026-10-09T13:33:11Z",
+          "stream_id": "318936670566",
+          "title": "Ордэн барацьбы з 🐺 | The Order: 1886",
+          "vod": {
+            "gone": false,
+            "id": "2895999641",
+            "seen_at": "2026-10-09T16:26:05Z",
+            "url": "https://www.twitch.tv/videos/2895999641"
+          }
+        },
+        {
           "duration_min": 166,
           "ended_at": "2026-10-07T17:03:39Z",
           "game": "Dragon Age: Inquisition",
@@ -751,26 +766,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 166,
-        "ended_at": "2026-10-07T17:03:39Z",
-        "game": "Dragon Age: Inquisition",
+        "duration_min": 171,
+        "ended_at": "2026-10-09T16:24:29Z",
+        "game": "The Order: 1886",
         "source": "vod",
-        "started_at": "2026-10-07T14:17:28Z",
-        "stream_id": "318720260711",
-        "title": "Падзямелля & беларускія субтытры 😈 | Dragon Age: Inquisition",
+        "started_at": "2026-10-09T13:33:11Z",
+        "stream_id": "318936670566",
+        "title": "Ордэн барацьбы з 🐺 | The Order: 1886",
         "vod": {
           "gone": false,
-          "id": "2894290419",
-          "seen_at": "2026-10-07T17:05:14Z",
-          "url": "https://www.twitch.tv/videos/2894290419"
+          "id": "2895999641",
+          "seen_at": "2026-10-09T16:26:05Z",
+          "url": "https://www.twitch.tv/videos/2895999641"
         }
       },
       "live": {
-        "game": "The Order: 1886",
-        "since": "2026-10-09T13:33:11Z",
-        "stream_id": "318936670566",
-        "title": "Ордэн барацьбы з 🐺 | The Order: 1886",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -2083,7 +2098,7 @@
         "since": "2026-10-09T16:19:54Z",
         "stream_id": "318745515751",
         "title": "Аўтаматызацыя перакладаў. Крок 1 l Over the Garden Wall",
-        "viewers": 1
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -4058,5 +4073,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T16:24:34Z"
+  "updated_at": "2026-10-09T16:26:05Z"
 }
