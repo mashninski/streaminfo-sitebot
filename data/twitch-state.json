@@ -2125,6 +2125,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 200,
+          "ended_at": "2026-10-09T21:28:16Z",
+          "game": "Grand Theft Auto V",
+          "source": "vod",
+          "started_at": "2026-10-09T18:08:26Z",
+          "stream_id": "318940435814",
+          "title": "[BLR] Рыхтуемся да GTA VI. Ратуем Майкла",
+          "vod": {
+            "gone": false,
+            "id": "2896203928",
+            "seen_at": "2026-10-09T21:29:54Z",
+            "url": "https://www.twitch.tv/videos/2896203928"
+          }
+        },
+        {
           "duration_min": 188,
           "ended_at": "2026-10-08T21:07:06Z",
           "game": "Serious Sam 3: BFE",
@@ -2398,44 +2413,29 @@
             "seen_at": "2026-09-16T22:01:04Z",
             "url": "https://www.twitch.tv/videos/2875795266"
           }
-        },
-        {
-          "duration_min": 181,
-          "ended_at": "2026-09-15T20:56:06Z",
-          "game": "RESIDENT EVIL: requiem",
-          "source": "vod",
-          "started_at": "2026-09-15T17:55:06Z",
-          "stream_id": "318599486821",
-          "title": "[BLR] Круцім Гуся. Лявон мусіць памерці. Заўсёды.",
-          "vod": {
-            "gone": false,
-            "id": "2874991412",
-            "seen_at": "2026-09-15T21:01:18Z",
-            "url": "https://www.twitch.tv/videos/2874991412"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 188,
-        "ended_at": "2026-10-08T21:07:06Z",
-        "game": "Serious Sam 3: BFE",
+        "duration_min": 200,
+        "ended_at": "2026-10-09T21:28:16Z",
+        "game": "Grand Theft Auto V",
         "source": "vod",
-        "started_at": "2026-10-08T17:58:36Z",
-        "stream_id": "317069676372",
-        "title": "[BLR] Рэтра Чацвер. Сур'ёзны Сэм. Да першага Энкаунтэра",
+        "started_at": "2026-10-09T18:08:26Z",
+        "stream_id": "318940435814",
+        "title": "[BLR] Рыхтуемся да GTA VI. Ратуем Майкла",
         "vod": {
           "gone": false,
-          "id": "2895316463",
-          "seen_at": "2026-10-08T21:08:48Z",
-          "url": "https://www.twitch.tv/videos/2895316463"
+          "id": "2896203928",
+          "seen_at": "2026-10-09T21:29:54Z",
+          "url": "https://www.twitch.tv/videos/2896203928"
         }
       },
       "live": {
-        "game": "Grand Theft Auto V",
-        "since": "2026-10-09T18:08:26Z",
-        "stream_id": "318940435814",
-        "title": "[BLR] Рыхтуемся да GTA VI. Ратуем Майкла",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3557,7 +3557,7 @@
         "since": "2026-10-09T19:52:42Z",
         "stream_id": "318749171687",
         "title": "Гранд будаўніцтва від Іринка подруга",
-        "viewers": 11
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4088,5 +4088,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T21:10:18Z"
+  "updated_at": "2026-10-09T21:29:54Z"
 }

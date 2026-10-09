@@ -562,6 +562,10 @@
           "launches": 1,
           "minutes": 105
         },
+        "Grand Theft Auto V": {
+          "launches": 1,
+          "minutes": 200
+        },
         "How to Fish": {
           "launches": 1,
           "minutes": 319
@@ -590,9 +594,9 @@
       "display_name": "Mihas_Gareza",
       "followers_end": null,
       "followers_start": 198,
-      "hours": [70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,131,360,349,188],
-      "launches": 6,
-      "minutes": 1129,
+      "hours": [98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,131,412,409,248],
+      "launches": 7,
+      "minutes": 1329,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:19:48Z",
       "sessions": [
@@ -625,6 +629,11 @@
           "duration_min": 188,
           "ended_at": "2026-10-08T21:07:06Z",
           "started_at": "2026-10-08T17:58:36Z"
+        },
+        {
+          "duration_min": 200,
+          "ended_at": "2026-10-09T21:28:16Z",
+          "started_at": "2026-10-09T18:08:26Z"
         }
       ]
     },
@@ -1157,5 +1166,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-09T20:09:27Z"
+  "updated_at": "2026-10-09T21:29:54Z"
 }
