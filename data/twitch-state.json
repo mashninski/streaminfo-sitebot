@@ -1358,7 +1358,7 @@
         "since": "2026-10-09T02:14:25Z",
         "stream_id": "317621420407",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 4
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -3157,6 +3157,21 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 711,
+          "ended_at": "2026-10-09T03:51:40Z",
+          "game": "Valheim",
+          "source": "vod",
+          "started_at": "2026-10-08T16:00:50Z",
+          "stream_id": "318732976103",
+          "title": "Вальхеймімся від Іринка подруга",
+          "vod": {
+            "gone": false,
+            "id": "2895224552",
+            "seen_at": "2026-10-09T03:53:21Z",
+            "url": "https://www.twitch.tv/videos/2895224552"
+          }
+        },
+        {
           "duration_min": 722,
           "ended_at": "2026-10-08T04:54:13Z",
           "game": "Valheim",
@@ -3435,39 +3450,29 @@
           "stream_id": "318634503141",
           "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
           "vod": null
-        },
-        {
-          "duration_min": 468,
-          "ended_at": "2026-09-18T01:44:07Z",
-          "game": "Project Zomboid",
-          "source": "observed",
-          "started_at": "2026-09-17T17:55:38Z",
-          "stream_id": "316859062357",
-          "title": "Пакульгалі від Іринка подруга",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 722,
-        "ended_at": "2026-10-08T04:54:13Z",
+        "duration_min": 711,
+        "ended_at": "2026-10-09T03:51:40Z",
         "game": "Valheim",
         "source": "vod",
-        "started_at": "2026-10-07T16:52:32Z",
-        "stream_id": "318860435557",
-        "title": "Ніхто не чакаў, але зноў мы тут від Іринка подруга",
+        "started_at": "2026-10-08T16:00:50Z",
+        "stream_id": "318732976103",
+        "title": "Вальхеймімся від Іринка подруга",
         "vod": {
           "gone": false,
-          "id": "2894395152",
-          "seen_at": "2026-10-08T04:56:17Z",
-          "url": "https://www.twitch.tv/videos/2894395152"
+          "id": "2895224552",
+          "seen_at": "2026-10-09T03:53:21Z",
+          "url": "https://www.twitch.tv/videos/2895224552"
         }
       },
       "live": {
-        "game": "Valheim",
-        "since": "2026-10-08T16:00:50Z",
-        "stream_id": "318732976103",
-        "title": "Вальхеймімся від Іринка подруга",
-        "viewers": 8
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3988,5 +3993,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T03:50:19Z"
+  "updated_at": "2026-10-09T03:53:21Z"
 }
