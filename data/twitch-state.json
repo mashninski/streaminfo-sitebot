@@ -1193,6 +1193,16 @@
       "display_name": "Kryvichanka",
       "history": [
         {
+          "duration_min": 113,
+          "ended_at": "2026-10-09T04:07:44Z",
+          "game": "Starfield",
+          "source": "observed",
+          "started_at": "2026-10-09T02:14:25Z",
+          "stream_id": "317621420407",
+          "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
+          "vod": null
+        },
+        {
           "duration_min": 2,
           "ended_at": "2026-10-08T22:03:55Z",
           "game": "Starfield",
@@ -1344,21 +1354,21 @@
         }
       ],
       "last_stream": {
-        "duration_min": 2,
-        "ended_at": "2026-10-08T22:03:55Z",
+        "duration_min": 113,
+        "ended_at": "2026-10-09T04:07:44Z",
         "game": "Starfield",
         "source": "observed",
-        "started_at": "2026-10-08T22:02:16Z",
-        "stream_id": "318317321560",
+        "started_at": "2026-10-09T02:14:25Z",
+        "stream_id": "317621420407",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
         "vod": null
       },
       "live": {
-        "game": "Starfield",
-        "since": "2026-10-09T02:14:25Z",
-        "stream_id": "317621420407",
-        "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 2
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -3993,5 +4003,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T04:00:18Z"
+  "updated_at": "2026-10-09T04:07:44Z"
 }
