@@ -189,16 +189,16 @@
           "minutes": 688
         },
         "The Witcher 3: Wild Hunt": {
-          "launches": 1,
-          "minutes": 205
+          "launches": 2,
+          "minutes": 433
         }
       },
       "display_name": "DzedMaksim",
       "followers_end": null,
       "followers_start": 228,
-      "hours": [0,0,0,0,0,0,0,0,0,3,169,336,360,338,33,0,0,0,0,0,0,0,0,0],
-      "launches": 6,
-      "minutes": 1239,
+      "hours": [0,0,0,0,0,0,0,0,0,3,227,396,420,388,33,0,0,0,0,0,0,0,0,0],
+      "launches": 7,
+      "minutes": 1467,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T11:19:32Z",
       "sessions": [
@@ -231,6 +231,11 @@
           "duration_min": 262,
           "ended_at": "2026-10-08T11:19:00Z",
           "started_at": "2026-10-08T06:56:32Z"
+        },
+        {
+          "duration_min": 228,
+          "ended_at": "2026-10-09T10:50:17Z",
+          "started_at": "2026-10-09T07:02:08Z"
         }
       ]
     },
@@ -1110,5 +1115,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-09T09:53:48Z"
+  "updated_at": "2026-10-09T10:51:46Z"
 }
