@@ -9,6 +9,10 @@
           "launches": 1,
           "minutes": 231
         },
+        "Beyond Good & Evil": {
+          "launches": 1,
+          "minutes": 221
+        },
         "CONTROL Resonant": {
           "launches": 1,
           "minutes": 209
@@ -29,9 +33,9 @@
       "display_name": "AngryRalef",
       "followers_end": null,
       "followers_start": 1293,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,305,360,360,312,11,0,0,0,0,0,0,0,0],
-      "launches": 6,
-      "minutes": 1348,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,353,420,420,365,11,0,0,0,0,0,0,0,0],
+      "launches": 7,
+      "minutes": 1569,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T12:11:27Z",
       "sessions": [
@@ -64,6 +68,11 @@
           "duration_min": 231,
           "ended_at": "2026-10-08T12:01:45Z",
           "started_at": "2026-10-08T08:10:31Z"
+        },
+        {
+          "duration_min": 221,
+          "ended_at": "2026-10-09T11:52:44Z",
+          "started_at": "2026-10-09T08:11:58Z"
         }
       ]
     },
@@ -1115,5 +1124,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-09T10:51:46Z"
+  "updated_at": "2026-10-09T11:54:18Z"
 }
