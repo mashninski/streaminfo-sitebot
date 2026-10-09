@@ -2973,7 +2973,7 @@
         "since": "2026-10-08T00:33:33Z",
         "stream_id": "317021067734",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 21
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -2984,6 +2984,21 @@
       "description": "Беларускі стрымер, аглядальнік на YouTube",
       "display_name": "Rudzi_Belarus",
       "history": [
+        {
+          "duration_min": 125,
+          "ended_at": "2026-10-09T13:09:13Z",
+          "game": "Fallout 2",
+          "source": "vod",
+          "started_at": "2026-10-09T11:04:22Z",
+          "stream_id": "318879927653",
+          "title": "Глядзім Fallout 2 (+беларуская лакалізацыя)",
+          "vod": {
+            "gone": false,
+            "id": "2895922065",
+            "seen_at": "2026-10-09T13:10:48Z",
+            "url": "https://www.twitch.tv/videos/2895922065"
+          }
+        },
         {
           "duration_min": 115,
           "ended_at": "2026-10-08T12:50:51Z",
@@ -3166,26 +3181,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 115,
-        "ended_at": "2026-10-08T12:50:51Z",
-        "game": "SILENT HILL: townfall",
+        "duration_min": 125,
+        "ended_at": "2026-10-09T13:09:13Z",
+        "game": "Fallout 2",
         "source": "vod",
-        "started_at": "2026-10-08T10:56:02Z",
-        "stream_id": "318923666918",
-        "title": "Ганяем голых дзядоў па Сайлент Хіл: Townfall",
+        "started_at": "2026-10-09T11:04:22Z",
+        "stream_id": "318879927653",
+        "title": "Глядзім Fallout 2 (+беларуская лакалізацыя)",
         "vod": {
           "gone": false,
-          "id": "2895051291",
-          "seen_at": "2026-10-08T12:52:23Z",
-          "url": "https://www.twitch.tv/videos/2895051291"
+          "id": "2895922065",
+          "seen_at": "2026-10-09T13:10:48Z",
+          "url": "https://www.twitch.tv/videos/2895922065"
         }
       },
       "live": {
-        "game": "Fallout 2",
-        "since": "2026-10-09T11:04:22Z",
-        "stream_id": "318879927653",
-        "title": "Глядзім Fallout 2 (+беларуская лакалізацыя)",
-        "viewers": 36
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -4043,5 +4058,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T13:00:21Z"
+  "updated_at": "2026-10-09T13:10:47Z"
 }
