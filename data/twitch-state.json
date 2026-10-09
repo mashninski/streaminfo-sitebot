@@ -1413,7 +1413,7 @@
         "since": "2026-10-09T22:19:22Z",
         "stream_id": "319515257175",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 3
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -3557,7 +3557,7 @@
         "since": "2026-10-09T19:52:42Z",
         "stream_id": "318749171687",
         "title": "Гранд будаўніцтва від Іринка подруга",
-        "viewers": 20
+        "viewers": 19
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3861,6 +3861,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 369,
+          "ended_at": "2026-10-09T22:32:59Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-10-09T16:24:03Z",
+          "stream_id": "316994683605",
+          "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 397,
           "ended_at": "2026-10-08T22:02:41Z",
           "game": "WARDOGS",
@@ -4054,39 +4064,29 @@
           "stream_id": "316883245653",
           "title": "🔥ГУЛЯЕМ ГАЎКАЕМ ды СЛУХАЕМ МУЗЫКУ 🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 423,
-          "ended_at": "2026-09-20T20:51:11Z",
-          "game": "Just Chatting",
-          "source": "observed",
-          "started_at": "2026-09-20T13:48:30Z",
-          "stream_id": "316909968470",
-          "title": "🔥ІНТЭЛЕКТУАЛЬНАЕ ШОЎ 🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 397,
-        "ended_at": "2026-10-08T22:02:41Z",
+        "duration_min": 369,
+        "ended_at": "2026-10-09T22:32:59Z",
         "game": "WARDOGS",
         "source": "observed",
-        "started_at": "2026-10-08T15:25:59Z",
-        "stream_id": "317068304212",
+        "started_at": "2026-10-09T16:24:03Z",
+        "stream_id": "316994683605",
         "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "WARDOGS",
-        "since": "2026-10-09T16:24:03Z",
-        "stream_id": "316994683605",
-        "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
-        "viewers": 7
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T22:30:19Z"
+  "updated_at": "2026-10-09T22:32:59Z"
 }
