@@ -2435,7 +2435,7 @@
         "since": "2026-10-09T18:08:26Z",
         "stream_id": "318940435814",
         "title": "[BLR] Рыхтуемся да GTA VI. Ратуем Майкла",
-        "viewers": 7
+        "viewers": 20
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2570,6 +2570,21 @@
       "description": "Штодзённыя стрымы - маляванне і гульні. Утульнасць, дзіўныя казкі, дранікі. Ніякага \"ші\".",
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
+        {
+          "duration_min": 127,
+          "ended_at": "2026-10-09T20:06:44Z",
+          "game": "Just Chatting",
+          "source": "vod",
+          "started_at": "2026-10-09T18:00:07Z",
+          "stream_id": "317031786838",
+          "title": "Кінадзень, \"Што мы робім у цемры\" 2014",
+          "vod": {
+            "gone": false,
+            "id": "2896195050",
+            "seen_at": "2026-10-09T20:09:29Z",
+            "url": "https://www.twitch.tv/videos/2896195050"
+          }
+        },
         {
           "duration_min": 1,
           "ended_at": "2026-10-09T18:00:24Z",
@@ -2849,44 +2864,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2880352270"
           }
-        },
-        {
-          "duration_min": 154,
-          "ended_at": "2026-09-20T20:29:23Z",
-          "game": "Thief: Deadly Shadows",
-          "source": "vod",
-          "started_at": "2026-09-20T17:55:09Z",
-          "stream_id": "316878965077",
-          "title": "Пляжны эпізод",
-          "vod": {
-            "gone": false,
-            "id": "2879513267",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2879513267"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 1,
-        "ended_at": "2026-10-09T18:00:24Z",
+        "duration_min": 127,
+        "ended_at": "2026-10-09T20:06:44Z",
         "game": "Just Chatting",
         "source": "vod",
-        "started_at": "2026-10-09T18:00:17Z",
+        "started_at": "2026-10-09T18:00:07Z",
         "stream_id": "317031786838",
         "title": "Кінадзень, \"Што мы робім у цемры\" 2014",
         "vod": {
           "gone": false,
           "id": "2896195050",
-          "seen_at": "2026-10-09T18:00:25Z",
+          "seen_at": "2026-10-09T20:09:29Z",
           "url": "https://www.twitch.tv/videos/2896195050"
         }
       },
       "live": {
-        "game": "Just Chatting",
-        "since": "2026-10-09T18:00:07Z",
-        "stream_id": "317031786838",
-        "title": "Кінадзень, \"Што мы робім у цемры\" 2014",
-        "viewers": 11
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3557,7 +3557,7 @@
         "since": "2026-10-09T19:52:42Z",
         "stream_id": "318749171687",
         "title": "Гранд будаўніцтва від Іринка подруга",
-        "viewers": 5
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4081,12 +4081,12 @@
         "since": "2026-10-09T16:24:03Z",
         "stream_id": "316994683605",
         "title": "🔥ТУТ МАГЛА БЫЦЬ ВАША РЭКЛАМА АЛЕ ЗАМЕСТ ГЭТАГА БУЛЬБА🥰@watafakablr",
-        "viewers": 10
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-09T20:00:21Z"
+  "updated_at": "2026-10-09T20:09:27Z"
 }
