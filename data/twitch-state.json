@@ -1207,7 +1207,7 @@
         "since": "2026-10-10T12:02:34Z",
         "stream_id": "318756135271",
         "title": "лёгкі стрым",
-        "viewers": 4
+        "viewers": 6
       },
       "missing_runs": 0,
       "prev_broadcast_at": "2026-10-03T15:36:12Z",
@@ -4113,5 +4113,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-10T13:30:21Z"
+  "updated_at": "2026-10-10T13:40:21Z"
 }
