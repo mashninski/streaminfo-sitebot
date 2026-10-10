@@ -1146,16 +1146,16 @@
           "minutes": 858
         },
         "WARDOGS": {
-          "launches": 7,
-          "minutes": 2278
+          "launches": 8,
+          "minutes": 2655
         }
       },
       "display_name": "watafakablr",
       "followers_end": null,
       "followers_start": 466,
-      "hours": [249,36,0,0,0,0,0,0,0,0,104,180,180,147,120,120,88,74,203,444,480,429,420,392],
-      "launches": 12,
-      "minutes": 3667,
+      "hours": [249,36,0,0,0,0,0,0,0,0,104,180,180,147,120,120,100,134,263,504,540,489,480,397],
+      "launches": 13,
+      "minutes": 4044,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-27T20:18:21Z",
       "sessions": [
@@ -1218,9 +1218,14 @@
           "duration_min": 180,
           "ended_at": "2026-10-10T10:27:24Z",
           "started_at": "2026-10-10T07:27:49Z"
+        },
+        {
+          "duration_min": 377,
+          "ended_at": "2026-10-10T20:05:12Z",
+          "started_at": "2026-10-10T13:48:10Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-10T17:14:13Z"
+  "updated_at": "2026-10-10T20:05:12Z"
 }

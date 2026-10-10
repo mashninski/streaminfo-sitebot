@@ -2927,7 +2927,7 @@
         "since": "2026-10-10T18:01:52Z",
         "stream_id": "317083270228",
         "title": "Цемра",
-        "viewers": 15
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3917,6 +3917,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 377,
+          "ended_at": "2026-10-10T20:05:12Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-10-10T13:48:10Z",
+          "stream_id": "317036404694",
+          "title": "🔥САБАЧНІКІ ТУТ?🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 180,
           "ended_at": "2026-10-10T10:27:24Z",
           "game": "ARC Raiders",
@@ -4110,39 +4120,29 @@
             "seen_at": "2026-10-04T11:06:02Z",
             "url": "https://www.twitch.tv/videos/2882627876"
           }
-        },
-        {
-          "duration_min": 353,
-          "ended_at": "2026-09-23T20:51:32Z",
-          "game": "WARDOGS",
-          "source": "observed",
-          "started_at": "2026-09-23T14:58:52Z",
-          "stream_id": "316927860182",
-          "title": "🔥ГУЛЯЕМ ГАЎКАЕМ ды СЛУХАЕМ МУЗЫКУ 🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 180,
-        "ended_at": "2026-10-10T10:27:24Z",
-        "game": "ARC Raiders",
+        "duration_min": 377,
+        "ended_at": "2026-10-10T20:05:12Z",
+        "game": "WARDOGS",
         "source": "observed",
-        "started_at": "2026-10-10T07:27:49Z",
-        "stream_id": "317078619604",
-        "title": "🔥ООО ЛЕГЕНДЫ ПАВЯРТАЮЦЦА Ў ARC RAIDERS🥰@watafakablr",
+        "started_at": "2026-10-10T13:48:10Z",
+        "stream_id": "317036404694",
+        "title": "🔥САБАЧНІКІ ТУТ?🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "WARDOGS",
-        "since": "2026-10-10T13:48:10Z",
-        "stream_id": "317036404694",
-        "title": "🔥САБАЧНІКІ ТУТ?🥰@watafakablr",
-        "viewers": 14
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-10T20:00:19Z"
+  "updated_at": "2026-10-10T20:05:12Z"
 }
