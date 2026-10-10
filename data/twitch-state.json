@@ -2612,6 +2612,21 @@
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
         {
+          "duration_min": 165,
+          "ended_at": "2026-10-10T20:46:28Z",
+          "game": "Thief: Deadly Shadows",
+          "source": "vod",
+          "started_at": "2026-10-10T18:01:52Z",
+          "stream_id": "317083270228",
+          "title": "Цемра",
+          "vod": {
+            "gone": false,
+            "id": "2897166144",
+            "seen_at": "2026-10-10T20:48:04Z",
+            "url": "https://www.twitch.tv/videos/2897166144"
+          }
+        },
+        {
           "duration_min": 127,
           "ended_at": "2026-10-09T20:06:44Z",
           "game": "Just Chatting",
@@ -2890,44 +2905,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2881200100"
           }
-        },
-        {
-          "duration_min": 123,
-          "ended_at": "2026-09-21T20:01:33Z",
-          "game": "Art",
-          "source": "vod",
-          "started_at": "2026-09-21T17:58:26Z",
-          "stream_id": "316917823830",
-          "title": "Петрык і Янук танчаць",
-          "vod": {
-            "gone": false,
-            "id": "2880352270",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2880352270"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 127,
-        "ended_at": "2026-10-09T20:06:44Z",
-        "game": "Just Chatting",
+        "duration_min": 165,
+        "ended_at": "2026-10-10T20:46:28Z",
+        "game": "Thief: Deadly Shadows",
         "source": "vod",
-        "started_at": "2026-10-09T18:00:07Z",
-        "stream_id": "317031786838",
-        "title": "Кінадзень, \"Што мы робім у цемры\" 2014",
+        "started_at": "2026-10-10T18:01:52Z",
+        "stream_id": "317083270228",
+        "title": "Цемра",
         "vod": {
           "gone": false,
-          "id": "2896195050",
-          "seen_at": "2026-10-09T20:09:29Z",
-          "url": "https://www.twitch.tv/videos/2896195050"
+          "id": "2897166144",
+          "seen_at": "2026-10-10T20:48:04Z",
+          "url": "https://www.twitch.tv/videos/2897166144"
         }
       },
       "live": {
-        "game": "Thief: Deadly Shadows",
-        "since": "2026-10-10T18:01:52Z",
-        "stream_id": "317083270228",
-        "title": "Цемра",
-        "viewers": 13
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3054,7 +3054,7 @@
         "since": "2026-10-10T00:33:44Z",
         "stream_id": "316997443285",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 2
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -4144,5 +4144,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-10T20:44:39Z"
+  "updated_at": "2026-10-10T20:48:03Z"
 }
