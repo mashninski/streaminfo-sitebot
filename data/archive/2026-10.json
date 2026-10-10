@@ -268,16 +268,27 @@
     },
     "impani4": {
       "added_at": "2026-10-03",
-      "categories": {},
+      "categories": {
+        "GeoGuessr": {
+          "launches": 1,
+          "minutes": 237
+        }
+      },
       "display_name": "imPani4",
       "followers_end": null,
       "followers_start": 120,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 0,
-      "minutes": 0,
-      "prev_broadcast_at": null,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,60,60,60,0,0,0,0,0],
+      "launches": 1,
+      "minutes": 237,
+      "prev_broadcast_at": "2026-10-03T15:36:12Z",
       "prev_ended_at": null,
-      "sessions": []
+      "sessions": [
+        {
+          "duration_min": 237,
+          "ended_at": "2026-10-10T15:59:46Z",
+          "started_at": "2026-10-10T12:02:34Z"
+        }
+      ]
     },
     "k4mbeg": {
       "added_at": "2026-09-11",
@@ -1200,5 +1211,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-10T10:27:24Z"
+  "updated_at": "2026-10-10T16:01:53Z"
 }
