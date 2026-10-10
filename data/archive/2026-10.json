@@ -176,16 +176,27 @@
     },
     "dzed_ahey": {
       "added_at": "2026-09-11",
-      "categories": {},
+      "categories": {
+        "CONTROL Resonant": {
+          "launches": 1,
+          "minutes": 118
+        }
+      },
       "display_name": "Dzed_Ahey",
       "followers_end": null,
       "followers_start": 41,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 0,
-      "minutes": 0,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,60,13,0,0,0],
+      "launches": 1,
+      "minutes": 118,
       "prev_broadcast_at": null,
-      "prev_ended_at": null,
-      "sessions": []
+      "prev_ended_at": "2026-09-24T23:42:33Z",
+      "sessions": [
+        {
+          "duration_min": 118,
+          "ended_at": "2026-10-10T17:12:42Z",
+          "started_at": "2026-10-10T15:14:46Z"
+        }
+      ]
     },
     "dzedmaksim": {
       "added_at": "2026-09-11",
@@ -1211,5 +1222,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-10T16:01:53Z"
+  "updated_at": "2026-10-10T17:14:13Z"
 }

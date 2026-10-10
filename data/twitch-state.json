@@ -797,6 +797,21 @@
       "display_name": "Dzed_Ahey",
       "history": [
         {
+          "duration_min": 118,
+          "ended_at": "2026-10-10T17:12:42Z",
+          "game": "CONTROL Resonant",
+          "source": "vod",
+          "started_at": "2026-10-10T15:14:46Z",
+          "stream_id": "317000808277",
+          "title": "Пераклаў Control Resonant на беларускую мову",
+          "vod": {
+            "gone": false,
+            "id": "2897024516",
+            "seen_at": "2026-10-10T17:14:14Z",
+            "url": "https://www.twitch.tv/videos/2897024516"
+          }
+        },
+        {
           "duration_min": 103,
           "ended_at": "2026-09-24T23:42:33Z",
           "game": "CONTROL Resonant",
@@ -823,26 +838,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 103,
-        "ended_at": "2026-09-24T23:42:33Z",
+        "duration_min": 118,
+        "ended_at": "2026-10-10T17:12:42Z",
         "game": "CONTROL Resonant",
         "source": "vod",
-        "started_at": "2026-09-24T21:59:33Z",
-        "stream_id": "318707856869",
-        "title": "Начны стрым! З'язджаем з глузду ў Control Resonant.",
+        "started_at": "2026-10-10T15:14:46Z",
+        "stream_id": "317000808277",
+        "title": "Пераклаў Control Resonant на беларускую мову",
         "vod": {
-          "gone": true,
-          "id": "2883094563",
-          "seen_at": "2026-09-25T00:01:12Z",
-          "url": "https://www.twitch.tv/videos/2883094563"
+          "gone": false,
+          "id": "2897024516",
+          "seen_at": "2026-10-10T17:14:14Z",
+          "url": "https://www.twitch.tv/videos/2897024516"
         }
       },
       "live": {
-        "game": "CONTROL Resonant",
-        "since": "2026-10-10T15:14:46Z",
-        "stream_id": "317000808277",
-        "title": "Пераклаў Control Resonant на беларускую мову",
-        "viewers": 2
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b3e18b5-6d45-4af2-9abb-eec6eb3a1264-profile_image-300x300.png",
@@ -4122,12 +4137,12 @@
         "since": "2026-10-10T13:48:10Z",
         "stream_id": "317036404694",
         "title": "🔥САБАЧНІКІ ТУТ?🥰@watafakablr",
-        "viewers": 14
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-10T17:10:17Z"
+  "updated_at": "2026-10-10T17:14:13Z"
 }
