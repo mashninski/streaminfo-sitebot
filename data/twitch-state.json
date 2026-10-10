@@ -2927,7 +2927,7 @@
         "since": "2026-10-10T18:01:52Z",
         "stream_id": "317083270228",
         "title": "Цемра",
-        "viewers": 18
+        "viewers": 16
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3054,7 +3054,7 @@
         "since": "2026-10-10T00:33:44Z",
         "stream_id": "316997443285",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 2
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -4144,5 +4144,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-10T20:20:19Z"
+  "updated_at": "2026-10-10T20:30:20Z"
 }
