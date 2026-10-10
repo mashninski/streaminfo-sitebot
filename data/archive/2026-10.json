@@ -907,8 +907,8 @@
           "minutes": 544
         },
         "Valheim": {
-          "launches": 5,
-          "minutes": 1870
+          "launches": 6,
+          "minutes": 2338
         },
         "Waterpark Simulator": {
           "launches": 3,
@@ -918,9 +918,9 @@
       "display_name": "ShagraeL_BY",
       "followers_end": null,
       "followers_start": 998,
-      "hours": [480,480,445,420,420,420,327,93,0,0,0,0,0,0,0,0,0,0,0,157,241,433,480,480],
-      "launches": 8,
-      "minutes": 4878,
+      "hours": [540,540,505,480,480,480,368,93,0,0,0,0,0,0,0,0,0,0,0,157,241,433,487,540],
+      "launches": 9,
+      "minutes": 5346,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-10-01T01:57:14Z",
       "sessions": [
@@ -963,6 +963,11 @@
           "duration_min": 711,
           "ended_at": "2026-10-09T03:51:40Z",
           "started_at": "2026-10-08T16:00:50Z"
+        },
+        {
+          "duration_min": 468,
+          "ended_at": "2026-10-10T03:40:52Z",
+          "started_at": "2026-10-09T19:52:42Z"
         }
       ]
     },
@@ -1181,5 +1186,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-10T00:35:03Z"
+  "updated_at": "2026-10-10T03:42:33Z"
 }

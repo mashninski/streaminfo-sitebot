@@ -3262,6 +3262,21 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 468,
+          "ended_at": "2026-10-10T03:40:52Z",
+          "game": "Valheim",
+          "source": "vod",
+          "started_at": "2026-10-09T19:52:42Z",
+          "stream_id": "318749171687",
+          "title": "Гранд будаўніцтва від Іринка подруга",
+          "vod": {
+            "gone": false,
+            "id": "2896295301",
+            "seen_at": "2026-10-10T03:42:34Z",
+            "url": "https://www.twitch.tv/videos/2896295301"
+          }
+        },
+        {
           "duration_min": 711,
           "ended_at": "2026-10-09T03:51:40Z",
           "game": "Valheim",
@@ -3545,39 +3560,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2879521459"
           }
-        },
-        {
-          "duration_min": 258,
-          "ended_at": "2026-09-18T22:51:16Z",
-          "game": "Dungeons & Dragons",
-          "source": "observed",
-          "started_at": "2026-09-18T18:33:02Z",
-          "stream_id": "318634503141",
-          "title": "ДнД па-беларуску! вядучыя @mx_oda від Іринка подруга",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 711,
-        "ended_at": "2026-10-09T03:51:40Z",
+        "duration_min": 468,
+        "ended_at": "2026-10-10T03:40:52Z",
         "game": "Valheim",
         "source": "vod",
-        "started_at": "2026-10-08T16:00:50Z",
-        "stream_id": "318732976103",
-        "title": "Вальхеймімся від Іринка подруга",
+        "started_at": "2026-10-09T19:52:42Z",
+        "stream_id": "318749171687",
+        "title": "Гранд будаўніцтва від Іринка подруга",
         "vod": {
           "gone": false,
-          "id": "2895224552",
-          "seen_at": "2026-10-09T03:53:21Z",
-          "url": "https://www.twitch.tv/videos/2895224552"
+          "id": "2896295301",
+          "seen_at": "2026-10-10T03:42:34Z",
+          "url": "https://www.twitch.tv/videos/2896295301"
         }
       },
       "live": {
-        "game": "Valheim",
-        "since": "2026-10-09T19:52:42Z",
-        "stream_id": "318749171687",
-        "title": "Гранд будаўніцтва від Іринка подруга",
-        "viewers": 7
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4108,5 +4113,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-10T03:30:21Z"
+  "updated_at": "2026-10-10T03:42:33Z"
 }
