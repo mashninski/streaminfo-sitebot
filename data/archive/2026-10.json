@@ -769,16 +769,16 @@
       "added_at": "2026-09-11",
       "categories": {
         "Just Chatting": {
-          "launches": 3,
-          "minutes": 8640
+          "launches": 4,
+          "minutes": 11520
         }
       },
       "display_name": "radyjo_holas",
       "followers_end": null,
       "followers_start": 65,
-      "hours": [360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360,360],
-      "launches": 3,
-      "minutes": 8640,
+      "hours": [480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480],
+      "launches": 4,
+      "minutes": 11520,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-10-02T00:32:59Z",
       "sessions": [
@@ -796,6 +796,11 @@
           "duration_min": 2880,
           "ended_at": "2026-10-08T00:33:33Z",
           "started_at": "2026-10-06T00:33:22Z"
+        },
+        {
+          "duration_min": 2880,
+          "ended_at": "2026-10-10T00:33:44Z",
+          "started_at": "2026-10-08T00:33:33Z"
         }
       ]
     },
@@ -1176,5 +1181,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-09T23:21:56Z"
+  "updated_at": "2026-10-10T00:35:03Z"
 }
