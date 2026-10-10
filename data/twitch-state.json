@@ -1203,11 +1203,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "GeoGuessr",
+        "since": "2026-10-10T12:02:34Z",
+        "stream_id": "318756135271",
+        "title": "лёгкі стрым",
+        "viewers": 0
       },
       "missing_runs": 0,
       "prev_broadcast_at": "2026-10-03T15:36:12Z",
@@ -4113,5 +4113,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-10T10:27:24Z"
+  "updated_at": "2026-10-10T12:03:00Z"
 }
