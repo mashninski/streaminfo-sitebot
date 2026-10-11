@@ -2501,7 +2501,7 @@
         "since": "2026-10-11T17:33:29Z",
         "stream_id": "318966688998",
         "title": "[BLR] Нядзеьны трыял. Перавыданне вядзьмара. 4 гадзіны",
-        "viewers": 2
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3638,7 +3638,7 @@
         "since": "2026-10-11T17:24:10Z",
         "stream_id": "317089898324",
         "title": "Ну тра-та-та від Іринка подруга",
-        "viewers": 13
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3957,6 +3957,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 517,
+          "ended_at": "2026-10-11T21:08:40Z",
+          "game": "Just Chatting",
+          "source": "observed",
+          "started_at": "2026-10-11T12:31:45Z",
+          "stream_id": "317006556885",
+          "title": "🔥ЧЫСТА ЛЮБЛЮ САБАК + А 22.00 будзе інтэлектуальны выбоховы кантэнт🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 146,
           "ended_at": "2026-10-11T09:37:13Z",
           "game": "Retro",
@@ -4150,44 +4160,29 @@
           "stream_id": "316937783126",
           "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 442,
-          "ended_at": "2026-09-24T22:01:01Z",
-          "game": "WARDOGS",
-          "source": "observed",
-          "started_at": "2026-09-24T14:38:38Z",
-          "stream_id": "316933318486",
-          "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 146,
-        "ended_at": "2026-10-11T09:37:13Z",
-        "game": "Retro",
-        "source": "vod",
-        "started_at": "2026-10-11T07:11:42Z",
-        "stream_id": "317005006165",
-        "title": "🔥RETRA гульня пасля якой я вырашыў стаць Wardogsam🥰@watafakablr",
-        "vod": {
-          "gone": false,
-          "id": "2897722482",
-          "seen_at": "2026-10-11T12:32:12Z",
-          "url": "https://www.twitch.tv/videos/2897722482"
-        }
-      },
-      "live": {
+        "duration_min": 517,
+        "ended_at": "2026-10-11T21:08:40Z",
         "game": "Just Chatting",
-        "since": "2026-10-11T12:31:45Z",
+        "source": "observed",
+        "started_at": "2026-10-11T12:31:45Z",
         "stream_id": "317006556885",
         "title": "🔥ЧЫСТА ЛЮБЛЮ САБАК + А 22.00 будзе інтэлектуальны выбоховы кантэнт🥰@watafakablr",
-        "viewers": 15
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-11T21:00:20Z"
+  "updated_at": "2026-10-11T21:08:40Z"
 }

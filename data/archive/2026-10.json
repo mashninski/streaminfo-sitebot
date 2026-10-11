@@ -1167,24 +1167,24 @@
           "minutes": 187
         },
         "Just Chatting": {
-          "launches": 1,
-          "minutes": 344
+          "launches": 2,
+          "minutes": 492
         },
         "Retro": {
           "launches": 3,
           "minutes": 1004
         },
         "WARDOGS": {
-          "launches": 8,
-          "minutes": 2655
+          "launches": 9,
+          "minutes": 3024
         }
       },
       "display_name": "watafakablr",
       "followers_end": null,
       "followers_start": 466,
-      "hours": [249,36,0,0,0,0,0,0,0,0,152,240,217,147,120,120,100,134,263,504,540,489,480,397],
-      "launches": 14,
-      "minutes": 4190,
+      "hours": [258,36,0,0,0,0,0,0,0,0,152,240,217,147,120,148,160,194,323,564,600,549,540,457],
+      "launches": 15,
+      "minutes": 4707,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-27T20:18:21Z",
       "sessions": [
@@ -1257,9 +1257,14 @@
           "duration_min": 146,
           "ended_at": "2026-10-11T09:37:13Z",
           "started_at": "2026-10-11T07:11:42Z"
+        },
+        {
+          "duration_min": 517,
+          "ended_at": "2026-10-11T21:08:40Z",
+          "started_at": "2026-10-11T12:31:45Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-11T20:11:09Z"
+  "updated_at": "2026-10-11T21:08:40Z"
 }
