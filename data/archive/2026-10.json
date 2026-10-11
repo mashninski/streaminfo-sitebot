@@ -1086,6 +1086,10 @@
           "launches": 3,
           "minutes": 288
         },
+        "Shadows of Doubt": {
+          "launches": 1,
+          "minutes": 159
+        },
         "Species: Unknown": {
           "launches": 2,
           "minutes": 145
@@ -1094,9 +1098,9 @@
       "display_name": "Ucenamescy",
       "followers_end": null,
       "followers_start": 142,
-      "hours": [64,0,0,0,0,0,0,0,0,0,0,0,0,27,60,60,35,0,0,118,237,197,175,126],
-      "launches": 6,
-      "minutes": 1100,
+      "hours": [64,0,0,0,0,0,0,0,0,0,0,0,0,27,60,60,35,0,0,118,292,257,220,126],
+      "launches": 7,
+      "minutes": 1259,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-23T20:51:32Z",
       "sessions": [
@@ -1129,6 +1133,11 @@
           "duration_min": 144,
           "ended_at": "2026-10-08T18:41:01Z",
           "started_at": "2026-10-08T16:16:38Z"
+        },
+        {
+          "duration_min": 159,
+          "ended_at": "2026-10-11T19:44:34Z",
+          "started_at": "2026-10-11T17:05:26Z"
         }
       ]
     },
@@ -1247,5 +1256,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-11T17:09:14Z"
+  "updated_at": "2026-10-11T19:46:16Z"
 }
