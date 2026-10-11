@@ -3927,6 +3927,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 147,
+          "ended_at": "2026-10-11T09:38:52Z",
+          "game": "Retro",
+          "source": "observed",
+          "started_at": "2026-10-11T07:11:42Z",
+          "stream_id": "317005006165",
+          "title": "🔥RETRA гульня пасля якой я вырашыў стаць Wardogsam🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 377,
           "ended_at": "2026-10-10T20:05:12Z",
           "game": "WARDOGS",
@@ -4115,44 +4125,29 @@
           "stream_id": "316933318486",
           "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 136,
-          "ended_at": "2026-09-24T11:50:51Z",
-          "game": "PAPERHEAD EP.0",
-          "source": "vod",
-          "started_at": "2026-09-24T09:34:55Z",
-          "stream_id": "316931917782",
-          "title": "🔥#1 Глядзім штосьці новае 🥰@watafakablr",
-          "vod": {
-            "gone": false,
-            "id": "2882627876",
-            "seen_at": "2026-10-04T11:06:02Z",
-            "url": "https://www.twitch.tv/videos/2882627876"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 377,
-        "ended_at": "2026-10-10T20:05:12Z",
-        "game": "WARDOGS",
+        "duration_min": 147,
+        "ended_at": "2026-10-11T09:38:52Z",
+        "game": "Retro",
         "source": "observed",
-        "started_at": "2026-10-10T13:48:10Z",
-        "stream_id": "317036404694",
-        "title": "🔥САБАЧНІКІ ТУТ?🥰@watafakablr",
+        "started_at": "2026-10-11T07:11:42Z",
+        "stream_id": "317005006165",
+        "title": "🔥RETRA гульня пасля якой я вырашыў стаць Wardogsam🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "Retro",
-        "since": "2026-10-11T07:11:42Z",
-        "stream_id": "317005006165",
-        "title": "🔥RETRA гульня пасля якой я вырашыў стаць Wardogsam🥰@watafakablr",
-        "viewers": 11
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-11T09:30:22Z"
+  "updated_at": "2026-10-11T09:38:52Z"
 }
