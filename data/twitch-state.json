@@ -2501,7 +2501,7 @@
         "since": "2026-10-11T17:33:29Z",
         "stream_id": "318966688998",
         "title": "[BLR] Нядзеьны трыял. Перавыданне вядзьмара. 4 гадзіны",
-        "viewers": 4
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -2636,6 +2636,21 @@
       "description": "Штодзённыя стрымы - маляванне і гульні. Утульнасць, дзіўныя казкі, дранікі. Ніякага \"ші\".",
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
+        {
+          "duration_min": 130,
+          "ended_at": "2026-10-11T20:09:30Z",
+          "game": "Thief: Deadly Shadows",
+          "source": "vod",
+          "started_at": "2026-10-11T17:59:58Z",
+          "stream_id": "318967135974",
+          "title": "За кратамі",
+          "vod": {
+            "gone": false,
+            "id": "2898119512",
+            "seen_at": "2026-10-11T20:11:10Z",
+            "url": "https://www.twitch.tv/videos/2898119512"
+          }
+        },
         {
           "duration_min": 165,
           "ended_at": "2026-10-10T20:46:28Z",
@@ -2915,44 +2930,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2882064345"
           }
-        },
-        {
-          "duration_min": 123,
-          "ended_at": "2026-09-22T20:01:33Z",
-          "game": "Art",
-          "source": "vod",
-          "started_at": "2026-09-22T17:58:26Z",
-          "stream_id": "316923415510",
-          "title": "Грыбныя танцы",
-          "vod": {
-            "gone": false,
-            "id": "2881200100",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2881200100"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 165,
-        "ended_at": "2026-10-10T20:46:28Z",
+        "duration_min": 130,
+        "ended_at": "2026-10-11T20:09:30Z",
         "game": "Thief: Deadly Shadows",
         "source": "vod",
-        "started_at": "2026-10-10T18:01:52Z",
-        "stream_id": "317083270228",
-        "title": "Цемра",
+        "started_at": "2026-10-11T17:59:58Z",
+        "stream_id": "318967135974",
+        "title": "За кратамі",
         "vod": {
           "gone": false,
-          "id": "2897166144",
-          "seen_at": "2026-10-10T20:48:04Z",
-          "url": "https://www.twitch.tv/videos/2897166144"
+          "id": "2898119512",
+          "seen_at": "2026-10-11T20:11:10Z",
+          "url": "https://www.twitch.tv/videos/2898119512"
         }
       },
       "live": {
-        "game": "Thief: Deadly Shadows",
-        "since": "2026-10-11T17:59:58Z",
-        "stream_id": "318967135974",
-        "title": "За кратамі",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3638,7 +3638,7 @@
         "since": "2026-10-11T17:24:10Z",
         "stream_id": "317089898324",
         "title": "Ну тра-та-та від Іринка подруга",
-        "viewers": 8
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4182,12 +4182,12 @@
         "since": "2026-10-11T12:31:45Z",
         "stream_id": "317006556885",
         "title": "🔥ЧЫСТА ЛЮБЛЮ САБАК + А 22.00 будзе інтэлектуальны выбоховы кантэнт🥰@watafakablr",
-        "viewers": 13
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-11T20:00:19Z"
+  "updated_at": "2026-10-11T20:11:09Z"
 }
