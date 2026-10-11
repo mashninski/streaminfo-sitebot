@@ -2191,6 +2191,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 250,
+          "ended_at": "2026-10-11T21:43:42Z",
+          "game": "The Witcher 3: Wild Hunt Remastered",
+          "source": "vod",
+          "started_at": "2026-10-11T17:33:29Z",
+          "stream_id": "318966688998",
+          "title": "[BLR] Нядзеьны трыял. Перавыданне вядзьмара. 4 гадзіны",
+          "vod": {
+            "gone": false,
+            "id": "2898095926",
+            "seen_at": "2026-10-11T21:45:48Z",
+            "url": "https://www.twitch.tv/videos/2898095926"
+          }
+        },
+        {
           "duration_min": 200,
           "ended_at": "2026-10-09T21:28:16Z",
           "game": "Grand Theft Auto V",
@@ -2464,44 +2479,29 @@
           "stream_id": "316859213525",
           "title": "[BLR] Рэтра чацвер. Вяртанне сур'ёзнага Сэму",
           "vod": null
-        },
-        {
-          "duration_min": 321,
-          "ended_at": "2026-09-16T21:58:59Z",
-          "game": "Big Walk",
-          "source": "vod",
-          "started_at": "2026-09-16T16:37:59Z",
-          "stream_id": "318472600423",
-          "title": "[BLR] Каапная серада. Таямніца выспы",
-          "vod": {
-            "gone": false,
-            "id": "2875795266",
-            "seen_at": "2026-09-16T22:01:04Z",
-            "url": "https://www.twitch.tv/videos/2875795266"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 200,
-        "ended_at": "2026-10-09T21:28:16Z",
-        "game": "Grand Theft Auto V",
+        "duration_min": 250,
+        "ended_at": "2026-10-11T21:43:42Z",
+        "game": "The Witcher 3: Wild Hunt Remastered",
         "source": "vod",
-        "started_at": "2026-10-09T18:08:26Z",
-        "stream_id": "318940435814",
-        "title": "[BLR] Рыхтуемся да GTA VI. Ратуем Майкла",
+        "started_at": "2026-10-11T17:33:29Z",
+        "stream_id": "318966688998",
+        "title": "[BLR] Нядзеьны трыял. Перавыданне вядзьмара. 4 гадзіны",
         "vod": {
           "gone": false,
-          "id": "2896203928",
-          "seen_at": "2026-10-09T21:29:54Z",
-          "url": "https://www.twitch.tv/videos/2896203928"
+          "id": "2898095926",
+          "seen_at": "2026-10-11T21:45:48Z",
+          "url": "https://www.twitch.tv/videos/2898095926"
         }
       },
       "live": {
-        "game": "The Witcher 3: Wild Hunt Remastered",
-        "since": "2026-10-11T17:33:29Z",
-        "stream_id": "318966688998",
-        "title": "[BLR] Нядзеьны трыял. Перавыданне вядзьмара. 4 гадзіны",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3638,7 +3638,7 @@
         "since": "2026-10-11T17:24:10Z",
         "stream_id": "317089898324",
         "title": "Ну тра-та-та від Іринка подруга",
-        "viewers": 18
+        "viewers": 17
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4184,5 +4184,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-11T21:40:19Z"
+  "updated_at": "2026-10-11T21:45:47Z"
 }

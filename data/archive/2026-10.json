@@ -619,6 +619,10 @@
           "launches": 1,
           "minutes": 119
         },
+        "The Witcher 3: Wild Hunt Remastered": {
+          "launches": 1,
+          "minutes": 250
+        },
         "Vampire Survivors": {
           "launches": 1,
           "minutes": 107
@@ -631,9 +635,9 @@
       "display_name": "Mihas_Gareza",
       "followers_end": null,
       "followers_start": 198,
-      "hours": [98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,131,412,409,248],
-      "launches": 7,
-      "minutes": 1329,
+      "hours": [142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,158,472,469,308],
+      "launches": 8,
+      "minutes": 1579,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:19:48Z",
       "sessions": [
@@ -671,6 +675,11 @@
           "duration_min": 200,
           "ended_at": "2026-10-09T21:28:16Z",
           "started_at": "2026-10-09T18:08:26Z"
+        },
+        {
+          "duration_min": 250,
+          "ended_at": "2026-10-11T21:43:42Z",
+          "started_at": "2026-10-11T17:33:29Z"
         }
       ]
     },
@@ -1266,5 +1275,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-11T21:08:40Z"
+  "updated_at": "2026-10-11T21:45:47Z"
 }
