@@ -96,16 +96,16 @@
           "minutes": 137
         },
         "Total War: WARHAMMER III": {
-          "launches": 1,
-          "minutes": 127
+          "launches": 2,
+          "minutes": 349
         }
       },
       "display_name": "annigilatormg42",
       "followers_end": null,
       "followers_start": 54,
-      "hours": [81,60,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,120,68,53,62,119],
-      "launches": 5,
-      "minutes": 712,
+      "hours": [81,60,42,0,0,0,0,0,0,0,0,0,0,0,0,0,35,60,167,180,76,53,62,119],
+      "launches": 6,
+      "minutes": 934,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:46:12Z",
       "sessions": [
@@ -133,6 +133,11 @@
           "duration_min": 137,
           "ended_at": "2026-10-07T20:58:53Z",
           "started_at": "2026-10-07T18:41:46Z"
+        },
+        {
+          "duration_min": 222,
+          "ended_at": "2026-10-11T17:07:42Z",
+          "started_at": "2026-10-11T13:25:27Z"
         }
       ]
     },
@@ -1242,5 +1247,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-11T12:32:11Z"
+  "updated_at": "2026-10-11T17:09:14Z"
 }
