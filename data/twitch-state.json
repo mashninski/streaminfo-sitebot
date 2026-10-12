@@ -3328,6 +3328,21 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 453,
+          "ended_at": "2026-10-12T00:57:10Z",
+          "game": "Valheim",
+          "source": "vod",
+          "started_at": "2026-10-11T17:24:10Z",
+          "stream_id": "317089898324",
+          "title": "Трошкі. Ну зусім трошкі, ага від Іринка подруга",
+          "vod": {
+            "gone": false,
+            "id": "2898087827",
+            "seen_at": "2026-10-12T00:58:50Z",
+            "url": "https://www.twitch.tv/videos/2898087827"
+          }
+        },
+        {
           "duration_min": 468,
           "ended_at": "2026-10-10T03:40:52Z",
           "game": "Valheim",
@@ -3611,44 +3626,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2880279457"
           }
-        },
-        {
-          "duration_min": 495,
-          "ended_at": "2026-09-21T02:17:37Z",
-          "game": "Project Zomboid",
-          "source": "vod",
-          "started_at": "2026-09-20T18:02:27Z",
-          "stream_id": "318660509285",
-          "title": "Пакульгалі далей від Іринка подруга",
-          "vod": {
-            "gone": false,
-            "id": "2879521459",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2879521459"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 468,
-        "ended_at": "2026-10-10T03:40:52Z",
+        "duration_min": 453,
+        "ended_at": "2026-10-12T00:57:10Z",
         "game": "Valheim",
         "source": "vod",
-        "started_at": "2026-10-09T19:52:42Z",
-        "stream_id": "318749171687",
-        "title": "Гранд будаўніцтва від Іринка подруга",
+        "started_at": "2026-10-11T17:24:10Z",
+        "stream_id": "317089898324",
+        "title": "Трошкі. Ну зусім трошкі, ага від Іринка подруга",
         "vod": {
           "gone": false,
-          "id": "2896295301",
-          "seen_at": "2026-10-10T03:42:34Z",
-          "url": "https://www.twitch.tv/videos/2896295301"
+          "id": "2898087827",
+          "seen_at": "2026-10-12T00:58:50Z",
+          "url": "https://www.twitch.tv/videos/2898087827"
         }
       },
       "live": {
-        "game": "Valheim",
-        "since": "2026-10-11T17:24:10Z",
-        "stream_id": "317089898324",
-        "title": "Трошкі. Ну зусім трошкі, ага від Іринка подруга",
-        "viewers": 14
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4194,5 +4194,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-12T00:50:19Z"
+  "updated_at": "2026-10-12T00:58:49Z"
 }

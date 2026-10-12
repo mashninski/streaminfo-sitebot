@@ -2136,11 +2136,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 984
+            "sec": 1494
           }
         ],
-        "hours_sec": [0,0,0,984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-12T00:50:19Z",
+        "hours_sec": [0,0,0,1494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-10-12T00:58:49Z",
         "started_at": "2026-10-12T00:33:55Z",
         "stream_id": "318778667239"
       },
@@ -2469,26 +2469,7 @@
           "2026-10-01": 998
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "Counter-Strike",
-            "sec": 16569
-          },
-          {
-            "game": "Fortnite",
-            "sec": 4206
-          },
-          {
-            "game": "Valheim",
-            "sec": 5994
-          }
-        ],
-        "hours_sec": [3600,3600,3600,3019,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2150,3600,3600,3600],
-        "last_seen_at": "2026-10-12T00:50:19Z",
-        "started_at": "2026-10-11T17:24:10Z",
-        "stream_id": "317089898324"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -2535,9 +2516,17 @@
               "launches": 1,
               "minutes": 88
             },
+            "Counter-Strike": {
+              "launches": 1,
+              "minutes": 276
+            },
             "ELDEN RING": {
               "launches": 1,
               "minutes": 143
+            },
+            "Fortnite": {
+              "launches": 1,
+              "minutes": 70
             },
             "Goose Goose Duck": {
               "launches": 1,
@@ -2564,20 +2553,39 @@
               "minutes": 544
             },
             "Valheim": {
-              "launches": 6,
-              "minutes": 2338
+              "launches": 7,
+              "minutes": 2444
             },
             "Waterpark Simulator": {
               "launches": 3,
               "minutes": 662
             }
           },
-          "hours": [540,540,505,480,480,480,368,93,0,0,0,0,0,0,0,0,0,0,0,157,241,433,487,540],
-          "launches": 9,
-          "minutes": 5346
+          "hours": [600,600,565,537,480,480,368,93,0,0,0,0,0,0,0,0,0,0,0,157,277,493,547,600],
+          "launches": 10,
+          "minutes": 5799
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "Counter-Strike",
+              "minutes": 276
+            },
+            {
+              "game": "Fortnite",
+              "minutes": 70
+            },
+            {
+              "game": "Valheim",
+              "minutes": 106
+            }
+          ],
+          "ended_at": "2026-10-12T00:57:10Z",
+          "hours": [60,60,60,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,60,60,60],
+          "started_at": "2026-10-11T17:24:10Z"
+        },
         {
           "categories": [
             {
@@ -3414,5 +3422,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-12T00:50:19Z"
+  "updated_at": "2026-10-12T00:58:49Z"
 }
