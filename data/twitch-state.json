@@ -326,7 +326,7 @@
         "since": "2026-10-12T08:11:02Z",
         "stream_id": "317047641430",
         "title": "Складаны дзень Дылана, выйшаў з комы, а навокал усё абстрактна. Control Resonant",
-        "viewers": 20
+        "viewers": 21
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -884,6 +884,21 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 174,
+          "ended_at": "2026-10-12T11:05:03Z",
+          "game": "Forever Ago",
+          "source": "vod",
+          "started_at": "2026-10-12T08:11:25Z",
+          "stream_id": "318916592613",
+          "title": "Спрабуем нешта новае! | Forever Ago стрымім беларускаю",
+          "vod": {
+            "gone": false,
+            "id": "2898659620",
+            "seen_at": "2026-10-12T11:06:40Z",
+            "url": "https://www.twitch.tv/videos/2898659620"
+          }
+        },
+        {
           "duration_min": 228,
           "ended_at": "2026-10-09T10:50:17Z",
           "game": "The Witcher 3: Wild Hunt",
@@ -1140,26 +1155,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 228,
-        "ended_at": "2026-10-09T10:50:17Z",
-        "game": "The Witcher 3: Wild Hunt",
+        "duration_min": 174,
+        "ended_at": "2026-10-12T11:05:03Z",
+        "game": "Forever Ago",
         "source": "vod",
-        "started_at": "2026-10-09T07:02:08Z",
-        "stream_id": "318878399717",
-        "title": "#13 Навіградзкія квэсты | The Witcher 3 беларуская мова",
+        "started_at": "2026-10-12T08:11:25Z",
+        "stream_id": "318916592613",
+        "title": "Спрабуем нешта новае! | Forever Ago стрымім беларускаю",
         "vod": {
           "gone": false,
-          "id": "2895839555",
-          "seen_at": "2026-10-09T10:51:47Z",
-          "url": "https://www.twitch.tv/videos/2895839555"
+          "id": "2898659620",
+          "seen_at": "2026-10-12T11:06:40Z",
+          "url": "https://www.twitch.tv/videos/2898659620"
         }
       },
       "live": {
-        "game": "Forever Ago",
-        "since": "2026-10-12T08:11:25Z",
-        "stream_id": "318916592613",
-        "title": "Спрабуем нешта новае! | Forever Ago стрымім беларускаю",
-        "viewers": 12
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -4194,5 +4209,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-12T11:00:21Z"
+  "updated_at": "2026-10-12T11:06:38Z"
 }

@@ -214,6 +214,10 @@
           "launches": 1,
           "minutes": 168
         },
+        "Forever Ago": {
+          "launches": 1,
+          "minutes": 174
+        },
         "The Long Dark": {
           "launches": 3,
           "minutes": 688
@@ -226,9 +230,9 @@
       "display_name": "DzedMaksim",
       "followers_end": null,
       "followers_start": 228,
-      "hours": [0,0,0,0,0,0,0,0,0,3,227,396,420,388,33,0,0,0,0,0,0,0,0,0],
-      "launches": 7,
-      "minutes": 1467,
+      "hours": [0,0,0,0,0,0,0,0,0,3,227,445,480,448,38,0,0,0,0,0,0,0,0,0],
+      "launches": 8,
+      "minutes": 1641,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T11:19:32Z",
       "sessions": [
@@ -266,6 +270,11 @@
           "duration_min": 228,
           "ended_at": "2026-10-09T10:50:17Z",
           "started_at": "2026-10-09T07:02:08Z"
+        },
+        {
+          "duration_min": 174,
+          "ended_at": "2026-10-12T11:05:03Z",
+          "started_at": "2026-10-12T08:11:25Z"
         }
       ]
     },
@@ -1293,5 +1302,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-12T00:58:49Z"
+  "updated_at": "2026-10-12T11:06:38Z"
 }
