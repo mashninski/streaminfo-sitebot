@@ -6,6 +6,21 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 222,
+          "ended_at": "2026-10-12T11:52:36Z",
+          "game": "CONTROL Resonant",
+          "source": "vod",
+          "started_at": "2026-10-12T08:11:02Z",
+          "stream_id": "317047641430",
+          "title": "Складаны дзень Дылана, выйшаў з комы, а навокал усё абстрактна. Control Resonant",
+          "vod": {
+            "gone": false,
+            "id": "2898659528",
+            "seen_at": "2026-10-12T11:54:19Z",
+            "url": "https://www.twitch.tv/videos/2898659528"
+          }
+        },
+        {
           "duration_min": 221,
           "ended_at": "2026-10-09T11:52:44Z",
           "game": "Beyond Good & Evil",
@@ -289,44 +304,29 @@
             "seen_at": "2026-09-16T12:01:26Z",
             "url": "https://www.twitch.tv/videos/2875540513"
           }
-        },
-        {
-          "duration_min": 210,
-          "ended_at": "2026-09-14T11:46:18Z",
-          "game": "Nancy Drew: The Secret of Shadow Ranch",
-          "source": "vod",
-          "started_at": "2026-09-14T08:16:32Z",
-          "stream_id": "318642628070",
-          "title": "Белы конь з'яўляецца ў начы і адразу нешта адбываецца. Nancy Drew: The Secret of Shadow Ranch",
-          "vod": {
-            "gone": false,
-            "id": "2873847988",
-            "seen_at": "2026-10-04T11:06:02Z",
-            "url": "https://www.twitch.tv/videos/2873847988"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 221,
-        "ended_at": "2026-10-09T11:52:44Z",
-        "game": "Beyond Good & Evil",
+        "duration_min": 222,
+        "ended_at": "2026-10-12T11:52:36Z",
+        "game": "CONTROL Resonant",
         "source": "vod",
-        "started_at": "2026-10-09T08:11:58Z",
-        "stream_id": "316992018005",
-        "title": "Дзядзька пакінуў нам касмічны карабель, засталося толькі яго адрэмантаваць. Beyond Good & Evil",
+        "started_at": "2026-10-12T08:11:02Z",
+        "stream_id": "317047641430",
+        "title": "Складаны дзень Дылана, выйшаў з комы, а навокал усё абстрактна. Control Resonant",
         "vod": {
           "gone": false,
-          "id": "2895862156",
-          "seen_at": "2026-10-09T11:54:18Z",
-          "url": "https://www.twitch.tv/videos/2895862156"
+          "id": "2898659528",
+          "seen_at": "2026-10-12T11:54:19Z",
+          "url": "https://www.twitch.tv/videos/2898659528"
         }
       },
       "live": {
-        "game": "CONTROL Resonant",
-        "since": "2026-10-12T08:11:02Z",
-        "stream_id": "317047641430",
-        "title": "Складаны дзень Дылана, выйшаў з комы, а навокал усё абстрактна. Control Resonant",
-        "viewers": 23
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -3104,7 +3104,7 @@
         "since": "2026-10-12T00:33:55Z",
         "stream_id": "318778667239",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 21
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -4209,5 +4209,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-12T11:50:25Z"
+  "updated_at": "2026-10-12T11:54:19Z"
 }
