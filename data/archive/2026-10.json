@@ -782,7 +782,7 @@
       "added_at": "2026-09-11",
       "categories": {
         "Art": {
-          "launches": 6,
+          "launches": 7,
           "minutes": 842
         },
         "Just Chatting": {
@@ -798,8 +798,8 @@
       "followers_end": null,
       "followers_start": 298,
       "hours": [32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,716,720,200],
-      "launches": 13,
-      "minutes": 1677,
+      "launches": 14,
+      "minutes": 1678,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:20:53Z",
       "sessions": [
@@ -867,6 +867,11 @@
           "duration_min": 125,
           "ended_at": "2026-10-12T20:03:17Z",
           "started_at": "2026-10-12T17:57:53Z"
+        },
+        {
+          "duration_min": 1,
+          "ended_at": "2026-10-13T18:00:22Z",
+          "started_at": "2026-10-13T18:00:17Z"
         }
       ]
     },
@@ -1357,5 +1362,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-13T12:01:26Z"
+  "updated_at": "2026-10-13T18:00:20Z"
 }
