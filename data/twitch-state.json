@@ -326,7 +326,7 @@
         "since": "2026-10-13T08:08:38Z",
         "stream_id": "317098666964",
         "title": "Зона эвакуацыі патрабуе эвакуацыі. Control Resonant",
-        "viewers": 17
+        "viewers": 19
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -899,6 +899,21 @@
       "display_name": "DzedMaksim",
       "history": [
         {
+          "duration_min": 246,
+          "ended_at": "2026-10-13T11:03:31Z",
+          "game": "The Long Dark",
+          "source": "vod",
+          "started_at": "2026-10-13T06:57:17Z",
+          "stream_id": "318791492967",
+          "title": "84# Гатуем пірагі. Дзень 445+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
+          "vod": {
+            "gone": false,
+            "id": "2899508526",
+            "seen_at": "2026-10-13T11:04:59Z",
+            "url": "https://www.twitch.tv/videos/2899508526"
+          }
+        },
+        {
           "duration_min": 174,
           "ended_at": "2026-10-12T11:05:03Z",
           "game": "Forever Ago",
@@ -1170,26 +1185,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 174,
-        "ended_at": "2026-10-12T11:05:03Z",
-        "game": "Forever Ago",
+        "duration_min": 246,
+        "ended_at": "2026-10-13T11:03:31Z",
+        "game": "The Long Dark",
         "source": "vod",
-        "started_at": "2026-10-12T08:11:25Z",
-        "stream_id": "318916592613",
-        "title": "Спрабуем нешта новае! | Forever Ago стрымім беларускаю",
+        "started_at": "2026-10-13T06:57:17Z",
+        "stream_id": "318791492967",
+        "title": "84# Гатуем пірагі. Дзень 445+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
         "vod": {
           "gone": false,
-          "id": "2898659620",
-          "seen_at": "2026-10-12T11:06:40Z",
-          "url": "https://www.twitch.tv/videos/2898659620"
+          "id": "2899508526",
+          "seen_at": "2026-10-13T11:04:59Z",
+          "url": "https://www.twitch.tv/videos/2899508526"
         }
       },
       "live": {
-        "game": "The Long Dark",
-        "since": "2026-10-13T06:57:17Z",
-        "stream_id": "318791492967",
-        "title": "84# Гатуем пірагі. Дзень 445+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "viewers": 8
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -4249,5 +4264,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-13T11:00:23Z"
+  "updated_at": "2026-10-13T11:04:56Z"
 }
