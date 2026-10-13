@@ -3753,7 +3753,7 @@
         "since": "2026-10-13T18:16:29Z",
         "stream_id": "317102350548",
         "title": "Чыл.. напэўна від Іринка подруга",
-        "viewers": 14
+        "viewers": 16
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4072,6 +4072,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 288,
+          "ended_at": "2026-10-13T21:04:52Z",
+          "game": "WARDOGS",
+          "source": "observed",
+          "started_at": "2026-10-13T16:17:11Z",
+          "stream_id": "317020866389",
+          "title": "🔥Фармім крыпту з чырвонымі сабакамі🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 267,
           "ended_at": "2026-10-12T20:06:27Z",
           "game": "WARDOGS",
@@ -4265,39 +4275,29 @@
           "stream_id": "316944686550",
           "title": "🔥ЗАЧЫНЯЕМ ДЗІЦЯЧУЮ ТРАЎМУ🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 396,
-          "ended_at": "2026-09-25T21:29:29Z",
-          "game": "WARDOGS",
-          "source": "observed",
-          "started_at": "2026-09-25T14:53:56Z",
-          "stream_id": "316939690454",
-          "title": "🔥ТУТ САБАКІ ГРЫЗУЦЦА🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 267,
-        "ended_at": "2026-10-12T20:06:27Z",
+        "duration_min": 288,
+        "ended_at": "2026-10-13T21:04:52Z",
         "game": "WARDOGS",
         "source": "observed",
-        "started_at": "2026-10-12T15:39:16Z",
-        "stream_id": "317049712982",
+        "started_at": "2026-10-13T16:17:11Z",
+        "stream_id": "317020866389",
         "title": "🔥Фармім крыпту з чырвонымі сабакамі🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "WARDOGS",
-        "since": "2026-10-13T16:17:11Z",
-        "stream_id": "317020866389",
-        "title": "🔥Фармім крыпту з чырвонымі сабакамі🥰@watafakablr",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-13T20:59:50Z"
+  "updated_at": "2026-10-13T21:04:52Z"
 }
