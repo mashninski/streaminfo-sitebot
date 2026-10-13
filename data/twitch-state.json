@@ -6,6 +6,21 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 231,
+          "ended_at": "2026-10-13T11:59:42Z",
+          "game": "CONTROL Resonant",
+          "source": "vod",
+          "started_at": "2026-10-13T08:08:38Z",
+          "stream_id": "317098666964",
+          "title": "Зона эвакуацыі патрабуе эвакуацыі. Control Resonant",
+          "vod": {
+            "gone": false,
+            "id": "2899530910",
+            "seen_at": "2026-10-13T12:01:27Z",
+            "url": "https://www.twitch.tv/videos/2899530910"
+          }
+        },
+        {
           "duration_min": 222,
           "ended_at": "2026-10-12T11:52:36Z",
           "game": "CONTROL Resonant",
@@ -289,44 +304,29 @@
             "seen_at": "2026-10-04T11:06:02Z",
             "url": "https://www.twitch.tv/videos/2876399656"
           }
-        },
-        {
-          "duration_min": 225,
-          "ended_at": "2026-09-16T11:58:16Z",
-          "game": "Control",
-          "source": "vod",
-          "started_at": "2026-09-16T08:13:16Z",
-          "stream_id": "316925515092",
-          "title": "Месца здабычы Чорнага Камню. У пошуках Прызмы. Control",
-          "vod": {
-            "gone": false,
-            "id": "2875540513",
-            "seen_at": "2026-09-16T12:01:26Z",
-            "url": "https://www.twitch.tv/videos/2875540513"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 222,
-        "ended_at": "2026-10-12T11:52:36Z",
+        "duration_min": 231,
+        "ended_at": "2026-10-13T11:59:42Z",
         "game": "CONTROL Resonant",
         "source": "vod",
-        "started_at": "2026-10-12T08:11:02Z",
-        "stream_id": "317047641430",
-        "title": "Складаны дзень Дылана, выйшаў з комы, а навокал усё абстрактна. Control Resonant",
+        "started_at": "2026-10-13T08:08:38Z",
+        "stream_id": "317098666964",
+        "title": "Зона эвакуацыі патрабуе эвакуацыі. Control Resonant",
         "vod": {
           "gone": false,
-          "id": "2898659528",
-          "seen_at": "2026-10-12T11:54:19Z",
-          "url": "https://www.twitch.tv/videos/2898659528"
+          "id": "2899530910",
+          "seen_at": "2026-10-13T12:01:27Z",
+          "url": "https://www.twitch.tv/videos/2899530910"
         }
       },
       "live": {
-        "game": "CONTROL Resonant",
-        "since": "2026-10-13T08:08:38Z",
-        "stream_id": "317098666964",
-        "title": "Зона эвакуацыі патрабуе эвакуацыі. Control Resonant",
-        "viewers": 17
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -3159,7 +3159,7 @@
         "since": "2026-10-12T00:33:55Z",
         "stream_id": "318778667239",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 4
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -4264,5 +4264,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-13T11:50:22Z"
+  "updated_at": "2026-10-13T12:01:26Z"
 }
