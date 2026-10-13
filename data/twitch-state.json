@@ -2727,6 +2727,21 @@
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
         {
+          "duration_min": 130,
+          "ended_at": "2026-10-13T20:10:06Z",
+          "game": "Art",
+          "source": "vod",
+          "started_at": "2026-10-13T18:00:08Z",
+          "stream_id": "318933640037",
+          "title": "Чырвы варушацца",
+          "vod": {
+            "gone": false,
+            "id": "2899847688",
+            "seen_at": "2026-10-13T20:11:39Z",
+            "url": "https://www.twitch.tv/videos/2899847688"
+          }
+        },
+        {
           "duration_min": 1,
           "ended_at": "2026-10-13T18:00:22Z",
           "game": "Art",
@@ -3005,44 +3020,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2884726327"
           }
-        },
-        {
-          "duration_min": 129,
-          "ended_at": "2026-09-25T20:08:14Z",
-          "game": "Art",
-          "source": "vod",
-          "started_at": "2026-09-25T17:59:42Z",
-          "stream_id": "318772172774",
-          "title": "Пятнішная праца",
-          "vod": {
-            "gone": false,
-            "id": "2883773764",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2883773764"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 1,
-        "ended_at": "2026-10-13T18:00:22Z",
+        "duration_min": 130,
+        "ended_at": "2026-10-13T20:10:06Z",
         "game": "Art",
         "source": "vod",
-        "started_at": "2026-10-13T18:00:17Z",
+        "started_at": "2026-10-13T18:00:08Z",
         "stream_id": "318933640037",
         "title": "Чырвы варушацца",
         "vod": {
           "gone": false,
           "id": "2899847688",
-          "seen_at": "2026-10-13T18:00:22Z",
+          "seen_at": "2026-10-13T20:11:39Z",
           "url": "https://www.twitch.tv/videos/2899847688"
         }
       },
       "live": {
-        "game": "Art",
-        "since": "2026-10-13T18:00:08Z",
-        "stream_id": "318933640037",
-        "title": "Чырвы варушацца",
-        "viewers": 10
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -4023,11 +4023,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Mewgenics",
+        "since": "2026-10-13T20:11:10Z",
+        "stream_id": "318935714021",
+        "title": "Чылім + бонус ◉ Mewgenics",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -4284,5 +4284,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-13T20:10:21Z"
+  "updated_at": "2026-10-13T20:11:38Z"
 }
