@@ -3373,6 +3373,21 @@
       "display_name": "ShagraeL_BY",
       "history": [
         {
+          "duration_min": 444,
+          "ended_at": "2026-10-13T01:56:57Z",
+          "game": "The Witcher 3: Wild Hunt Remastered",
+          "source": "vod",
+          "started_at": "2026-10-12T18:32:46Z",
+          "stream_id": "318923025381",
+          "title": "Працягваем. Велен. від Іринка подруга",
+          "vod": {
+            "gone": false,
+            "id": "2899019198",
+            "seen_at": "2026-10-13T01:59:03Z",
+            "url": "https://www.twitch.tv/videos/2899019198"
+          }
+        },
+        {
           "duration_min": 453,
           "ended_at": "2026-10-12T00:57:10Z",
           "game": "Valheim",
@@ -3656,44 +3671,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2881133340"
           }
-        },
-        {
-          "duration_min": 478,
-          "ended_at": "2026-09-22T00:23:03Z",
-          "game": "Valheim",
-          "source": "vod",
-          "started_at": "2026-09-21T16:25:13Z",
-          "stream_id": "316960773332",
-          "title": "Не ўтрымаўся від Іринка подруга",
-          "vod": {
-            "gone": false,
-            "id": "2880279457",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2880279457"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 453,
-        "ended_at": "2026-10-12T00:57:10Z",
-        "game": "Valheim",
+        "duration_min": 444,
+        "ended_at": "2026-10-13T01:56:57Z",
+        "game": "The Witcher 3: Wild Hunt Remastered",
         "source": "vod",
-        "started_at": "2026-10-11T17:24:10Z",
-        "stream_id": "317089898324",
-        "title": "Трошкі. Ну зусім трошкі, ага від Іринка подруга",
+        "started_at": "2026-10-12T18:32:46Z",
+        "stream_id": "318923025381",
+        "title": "Працягваем. Велен. від Іринка подруга",
         "vod": {
           "gone": false,
-          "id": "2898087827",
-          "seen_at": "2026-10-12T00:58:50Z",
-          "url": "https://www.twitch.tv/videos/2898087827"
+          "id": "2899019198",
+          "seen_at": "2026-10-13T01:59:03Z",
+          "url": "https://www.twitch.tv/videos/2899019198"
         }
       },
       "live": {
-        "game": "The Witcher 3: Wild Hunt Remastered",
-        "since": "2026-10-12T18:32:46Z",
-        "stream_id": "318923025381",
-        "title": "Працягваем. Велен. від Іринка подруга",
-        "viewers": 5
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4239,5 +4239,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-13T01:50:19Z"
+  "updated_at": "2026-10-13T01:59:02Z"
 }
