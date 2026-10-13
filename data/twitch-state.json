@@ -815,7 +815,7 @@
         "since": "2026-10-13T18:03:52Z",
         "stream_id": "318933721701",
         "title": "Сакрэты Аб'яднанай Індскай кампаніі 🔍 | The Order: 1886",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -2271,6 +2271,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 97,
+          "ended_at": "2026-10-13T20:05:10Z",
+          "game": "The Exit 8",
+          "source": "vod",
+          "started_at": "2026-10-13T18:27:48Z",
+          "stream_id": "318934130405",
+          "title": "[BLR] Рагалікавы аўторак. Выхад нумар 8",
+          "vod": {
+            "gone": false,
+            "id": "2899871558",
+            "seen_at": "2026-10-13T20:06:52Z",
+            "url": "https://www.twitch.tv/videos/2899871558"
+          }
+        },
+        {
           "duration_min": 219,
           "ended_at": "2026-10-12T21:39:47Z",
           "game": "Grand Theft Auto V",
@@ -2554,39 +2569,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2879450152"
           }
-        },
-        {
-          "duration_min": 203,
-          "ended_at": "2026-09-18T21:17:59Z",
-          "game": "Grand Theft Auto V",
-          "source": "observed",
-          "started_at": "2026-09-18T17:55:03Z",
-          "stream_id": "318692786662",
-          "title": "[BLR] Рыхтуемся да GTA VI. Крадзем машыны",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 219,
-        "ended_at": "2026-10-12T21:39:47Z",
-        "game": "Grand Theft Auto V",
+        "duration_min": 97,
+        "ended_at": "2026-10-13T20:05:10Z",
+        "game": "The Exit 8",
         "source": "vod",
-        "started_at": "2026-10-12T18:01:02Z",
-        "stream_id": "317050954838",
-        "title": "[BLR] Рыхтуемся да GTA VI. Сёння финал?",
+        "started_at": "2026-10-13T18:27:48Z",
+        "stream_id": "318934130405",
+        "title": "[BLR] Рагалікавы аўторак. Выхад нумар 8",
         "vod": {
           "gone": false,
-          "id": "2898989907",
-          "seen_at": "2026-10-12T21:41:22Z",
-          "url": "https://www.twitch.tv/videos/2898989907"
+          "id": "2899871558",
+          "seen_at": "2026-10-13T20:06:52Z",
+          "url": "https://www.twitch.tv/videos/2899871558"
         }
       },
       "live": {
-        "game": "The Exit 8",
-        "since": "2026-10-13T18:27:48Z",
-        "stream_id": "318934130405",
-        "title": "[BLR] Рагалікавы аўторак. Выхад нумар 8",
-        "viewers": 10
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3037,7 +3042,7 @@
         "since": "2026-10-13T18:00:08Z",
         "stream_id": "318933640037",
         "title": "Чырвы варушацца",
-        "viewers": 11
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3733,7 +3738,7 @@
         "since": "2026-10-13T18:16:29Z",
         "stream_id": "317102350548",
         "title": "Зноў пакутваць.. від Іринка подруга",
-        "viewers": 15
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4272,12 +4277,12 @@
         "since": "2026-10-13T16:17:11Z",
         "stream_id": "317020866389",
         "title": "🔥Фармім крыпту з чырвонымі сабакамі🥰@watafakablr",
-        "viewers": 5
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-13T20:00:20Z"
+  "updated_at": "2026-10-13T20:06:51Z"
 }
