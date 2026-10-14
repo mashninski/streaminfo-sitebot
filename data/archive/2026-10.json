@@ -970,8 +970,8 @@
           "minutes": 405
         },
         "The Witcher 3: Wild Hunt Remastered": {
-          "launches": 2,
-          "minutes": 3
+          "launches": 3,
+          "minutes": 86
         },
         "Whiskerwood": {
           "launches": 2,
@@ -981,9 +981,9 @@
       "display_name": "Rudzi_Belarus",
       "followers_end": null,
       "followers_start": 926,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,5,242,240,111,39,0,0,0,0,0,0],
-      "launches": 10,
-      "minutes": 639,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,5,279,286,111,39,0,0,0,0,0,0],
+      "launches": 11,
+      "minutes": 722,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T13:00:27Z",
       "sessions": [
@@ -1036,6 +1036,11 @@
           "duration_min": 1,
           "ended_at": "2026-10-14T11:09:17Z",
           "started_at": "2026-10-14T11:08:52Z"
+        },
+        {
+          "duration_min": 83,
+          "ended_at": "2026-10-14T12:46:14Z",
+          "started_at": "2026-10-14T11:23:14Z"
         }
       ]
     },
@@ -1434,5 +1439,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-14T11:54:42Z"
+  "updated_at": "2026-10-14T12:47:45Z"
 }

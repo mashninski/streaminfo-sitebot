@@ -2331,11 +2331,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 43624
+            "sec": 44018
           }
         ],
-        "hours_sec": [0,0,0,1553,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,2471,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-14T12:41:11Z",
+        "hours_sec": [0,0,0,1553,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,2865,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-10-14T12:47:45Z",
         "started_at": "2026-10-14T00:34:07Z",
         "stream_id": "317058451286"
       },
@@ -2497,18 +2497,7 @@
           "2026-10-01": 926
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "The Witcher 3: Wild Hunt Remastered",
-            "sec": 4677
-          }
-        ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,2206,2471,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-14T12:41:11Z",
-        "started_at": "2026-10-14T11:23:14Z",
-        "stream_id": "318804520807"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -2532,20 +2521,31 @@
               "minutes": 405
             },
             "The Witcher 3: Wild Hunt Remastered": {
-              "launches": 2,
-              "minutes": 3
+              "launches": 3,
+              "minutes": 86
             },
             "Whiskerwood": {
               "launches": 2,
               "minutes": 106
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,5,242,240,111,39,0,0,0,0,0,0],
-          "launches": 10,
-          "minutes": 639
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,5,279,286,111,39,0,0,0,0,0,0],
+          "launches": 11,
+          "minutes": 722
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "The Witcher 3: Wild Hunt Remastered",
+              "minutes": 83
+            }
+          ],
+          "ended_at": "2026-10-14T12:46:14Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,46,0,0,0,0,0,0,0,0],
+          "started_at": "2026-10-14T11:23:14Z"
+        },
         {
           "categories": [
             {
@@ -3728,5 +3728,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-14T12:41:11Z"
+  "updated_at": "2026-10-14T12:47:45Z"
 }
