@@ -2309,11 +2309,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 13029
+            "sec": 13617
           }
         ],
-        "hours_sec": [0,0,0,1553,3600,3600,3600,676,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-14T04:11:16Z",
+        "hours_sec": [0,0,0,1553,3600,3600,3600,1264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-10-14T04:21:04Z",
         "started_at": "2026-10-14T00:34:07Z",
         "stream_id": "317058451286"
       },
@@ -2653,22 +2653,7 @@
           "2026-10-01": 998
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "ELDEN RING",
-            "sec": 9231
-          },
-          {
-            "game": "Valheim",
-            "sec": 26456
-          }
-        ],
-        "hours_sec": [3600,3600,3600,3600,3600,3600,3600,676,0,0,0,0,0,0,0,0,0,0,0,0,0,2611,3600,3600],
-        "last_seen_at": "2026-10-14T04:11:16Z",
-        "started_at": "2026-10-13T18:16:29Z",
-        "stream_id": "317102350548"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -2720,8 +2705,8 @@
               "minutes": 276
             },
             "ELDEN RING": {
-              "launches": 1,
-              "minutes": 143
+              "launches": 2,
+              "minutes": 297
             },
             "Fortnite": {
               "launches": 1,
@@ -2752,20 +2737,35 @@
               "minutes": 988
             },
             "Valheim": {
-              "launches": 7,
-              "minutes": 2444
+              "launches": 8,
+              "minutes": 2893
             },
             "Waterpark Simulator": {
               "launches": 3,
               "minutes": 662
             }
           },
-          "hours": [660,660,625,597,537,480,368,93,0,0,0,0,0,0,0,0,0,0,0,157,277,520,607,660],
-          "launches": 11,
-          "minutes": 6243
+          "hours": [720,720,685,657,597,540,428,112,0,0,0,0,0,0,0,0,0,0,0,157,277,564,667,720],
+          "launches": 12,
+          "minutes": 6846
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "ELDEN RING",
+              "minutes": 154
+            },
+            {
+              "game": "Valheim",
+              "minutes": 449
+            }
+          ],
+          "ended_at": "2026-10-14T04:19:29Z",
+          "hours": [60,60,60,60,60,60,60,19,0,0,0,0,0,0,0,0,0,0,0,0,0,44,60,60],
+          "started_at": "2026-10-13T18:16:29Z"
+        },
         {
           "categories": [
             {
@@ -3669,5 +3669,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-14T04:11:16Z"
+  "updated_at": "2026-10-14T04:21:04Z"
 }
