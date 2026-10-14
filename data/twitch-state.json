@@ -3432,11 +3432,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Witcher 3: Wild Hunt Remastered",
+        "since": "2026-10-14T11:01:38Z",
+        "stream_id": "318997301606",
+        "title": "Вядзьмар 3 Рэмайстар",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -4329,5 +4329,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T11:01:23Z"
+  "updated_at": "2026-10-14T11:02:16Z"
 }
