@@ -2637,11 +2637,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "HELLDIVERS 2",
+        "since": "2026-10-14T17:13:15Z",
+        "stream_id": "318944792293",
+        "title": "[BLR] Каапная серада. Ватафака і ягоныя навабранцы. За дэмакратыю",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -4404,5 +4404,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T17:11:12Z"
+  "updated_at": "2026-10-14T17:13:44Z"
 }
