@@ -2321,6 +2321,21 @@
       "display_name": "Mihas_Gareza",
       "history": [
         {
+          "duration_min": 247,
+          "ended_at": "2026-10-14T21:19:59Z",
+          "game": "HELLDIVERS 2",
+          "source": "vod",
+          "started_at": "2026-10-14T17:13:15Z",
+          "stream_id": "318944792293",
+          "title": "[BLR] Каапная серада. Ватафака і ягоныя навабранцы. За дэмакратыю",
+          "vod": {
+            "gone": false,
+            "id": "2900673284",
+            "seen_at": "2026-10-14T21:21:38Z",
+            "url": "https://www.twitch.tv/videos/2900673284"
+          }
+        },
+        {
           "duration_min": 97,
           "ended_at": "2026-10-13T20:05:10Z",
           "game": "The Exit 8",
@@ -2604,44 +2619,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2880287564"
           }
-        },
-        {
-          "duration_min": 399,
-          "ended_at": "2026-09-20T23:22:51Z",
-          "game": "Final Fantasy Resonance",
-          "source": "vod",
-          "started_at": "2026-09-20T16:43:22Z",
-          "stream_id": "318659336293",
-          "title": "[BLR] Нядзельны трыял. Глядзім дэмку фіналкі рэзананс",
-          "vod": {
-            "gone": false,
-            "id": "2879450152",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2879450152"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 97,
-        "ended_at": "2026-10-13T20:05:10Z",
-        "game": "The Exit 8",
+        "duration_min": 247,
+        "ended_at": "2026-10-14T21:19:59Z",
+        "game": "HELLDIVERS 2",
         "source": "vod",
-        "started_at": "2026-10-13T18:27:48Z",
-        "stream_id": "318934130405",
-        "title": "[BLR] Рагалікавы аўторак. Выхад нумар 8",
+        "started_at": "2026-10-14T17:13:15Z",
+        "stream_id": "318944792293",
+        "title": "[BLR] Каапная серада. Ватафака і ягоныя навабранцы. За дэмакратыю",
         "vod": {
           "gone": false,
-          "id": "2899871558",
-          "seen_at": "2026-10-13T20:06:52Z",
-          "url": "https://www.twitch.tv/videos/2899871558"
+          "id": "2900673284",
+          "seen_at": "2026-10-14T21:21:38Z",
+          "url": "https://www.twitch.tv/videos/2900673284"
         }
       },
       "live": {
-        "game": "HELLDIVERS 2",
-        "since": "2026-10-14T17:13:15Z",
-        "stream_id": "318944792293",
-        "title": "[BLR] Каапная серада. Ватафака і ягоныя навабранцы. За дэмакратыю",
-        "viewers": 1
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3843,7 +3843,7 @@
         "since": "2026-10-14T19:25:09Z",
         "stream_id": "319003373030",
         "title": "згарэўшая каціная срака ідзе ў кс від Іринка подруга",
-        "viewers": 12
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -3853,14 +3853,34 @@
       "broadcaster_type": "affiliate",
       "description": "Часам — добры стрымер. Часам — вельмі добры. Але гэта ўжо як фартанё. Стрымлю не рэгулярна, затое з душой 🎮 Гуляю ў розныя гульні, але дупа стабільна гарыць толькі ў Counter-Strike🔥Калі раптам захочаш супрацу, ці проста напісаць «чаму ты зноў памёр?» — пішаш у Telegram ці ў Discord.",
       "display_name": "Sla5her_BY",
-      "history": [],
-      "last_stream": null,
-      "live": {
+      "history": [
+        {
+          "duration_min": 246,
+          "ended_at": "2026-10-14T21:21:38Z",
+          "game": "HELLDIVERS 2",
+          "source": "observed",
+          "started_at": "2026-10-14T17:15:59Z",
+          "stream_id": "318944837989",
+          "title": "[BY] Вітай дэмакратыю [Bel/Ukr/Eng]",
+          "vod": null
+        }
+      ],
+      "last_stream": {
+        "duration_min": 246,
+        "ended_at": "2026-10-14T21:21:38Z",
         "game": "HELLDIVERS 2",
-        "since": "2026-10-14T17:15:59Z",
+        "source": "observed",
+        "started_at": "2026-10-14T17:15:59Z",
         "stream_id": "318944837989",
         "title": "[BY] Вітай дэмакратыю [Bel/Ukr/Eng]",
-        "viewers": 4
+        "vod": null
+      },
+      "live": {
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "prev_broadcast_at": "2026-10-07T19:53:47Z",
@@ -4177,6 +4197,16 @@
       "display_name": "watafakablr",
       "history": [
         {
+          "duration_min": 247,
+          "ended_at": "2026-10-14T21:21:38Z",
+          "game": "HELLDIVERS 2",
+          "source": "observed",
+          "started_at": "2026-10-14T17:14:15Z",
+          "stream_id": "317062341590",
+          "title": "🔥ВЫНІШЧАЕМ РЭСПУБЛІКАНСКУЮ ГІДОТУ РАЗАМ🥰@watafakablr",
+          "vod": null
+        },
+        {
           "duration_min": 288,
           "ended_at": "2026-10-13T21:04:52Z",
           "game": "WARDOGS",
@@ -4370,39 +4400,29 @@
           "stream_id": "316996272468",
           "title": "🔥ЗАЧЫНЯЕМ ДЗІЦЯЧУЮ ТРАЎМУ🥰@watafakablr",
           "vod": null
-        },
-        {
-          "duration_min": 306,
-          "ended_at": "2026-09-26T13:17:29Z",
-          "game": "Retro",
-          "source": "observed",
-          "started_at": "2026-09-26T08:11:33Z",
-          "stream_id": "316944686550",
-          "title": "🔥ЗАЧЫНЯЕМ ДЗІЦЯЧУЮ ТРАЎМУ🥰@watafakablr",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 288,
-        "ended_at": "2026-10-13T21:04:52Z",
-        "game": "WARDOGS",
+        "duration_min": 247,
+        "ended_at": "2026-10-14T21:21:38Z",
+        "game": "HELLDIVERS 2",
         "source": "observed",
-        "started_at": "2026-10-13T16:17:11Z",
-        "stream_id": "317020866389",
-        "title": "🔥Фармім крыпту з чырвонымі сабакамі🥰@watafakablr",
+        "started_at": "2026-10-14T17:14:15Z",
+        "stream_id": "317062341590",
+        "title": "🔥ВЫНІШЧАЕМ РЭСПУБЛІКАНСКУЮ ГІДОТУ РАЗАМ🥰@watafakablr",
         "vod": null
       },
       "live": {
-        "game": "HELLDIVERS 2",
-        "since": "2026-10-14T17:14:15Z",
-        "stream_id": "317062341590",
-        "title": "🔥ВЫНІШЧАЕМ РЭСПУБЛІКАНСКУЮ ГІДОТУ РАЗАМ🥰@watafakablr",
-        "viewers": 9
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T21:11:11Z"
+  "updated_at": "2026-10-14T21:21:38Z"
 }

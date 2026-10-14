@@ -687,6 +687,10 @@
           "launches": 2,
           "minutes": 419
         },
+        "HELLDIVERS 2": {
+          "launches": 1,
+          "minutes": 247
+        },
         "How to Fish": {
           "launches": 1,
           "minutes": 319
@@ -723,9 +727,9 @@
       "display_name": "Mihas_Gareza",
       "followers_end": null,
       "followers_start": 198,
-      "hours": [182,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,158,563,589,373],
-      "launches": 10,
-      "minutes": 1895,
+      "hours": [202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,205,623,649,433],
+      "launches": 11,
+      "minutes": 2142,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-29T21:19:48Z",
       "sessions": [
@@ -778,6 +782,11 @@
           "duration_min": 97,
           "ended_at": "2026-10-13T20:05:10Z",
           "started_at": "2026-10-13T18:27:48Z"
+        },
+        {
+          "duration_min": 247,
+          "ended_at": "2026-10-14T21:19:59Z",
+          "started_at": "2026-10-14T17:13:15Z"
         }
       ]
     },
@@ -1194,16 +1203,27 @@
     },
     "sla5her_by": {
       "added_at": "2026-10-08",
-      "categories": {},
+      "categories": {
+        "HELLDIVERS 2": {
+          "launches": 1,
+          "minutes": 246
+        }
+      },
       "display_name": "Sla5her_BY",
       "followers_end": null,
       "followers_start": 313,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "launches": 0,
-      "minutes": 0,
-      "prev_broadcast_at": null,
+      "hours": [22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,60,60,60],
+      "launches": 1,
+      "minutes": 246,
+      "prev_broadcast_at": "2026-10-07T19:53:47Z",
       "prev_ended_at": null,
-      "sessions": []
+      "sessions": [
+        {
+          "duration_min": 246,
+          "ended_at": "2026-10-14T21:21:38Z",
+          "started_at": "2026-10-14T17:15:59Z"
+        }
+      ]
     },
     "toddzie": {
       "added_at": "2026-09-11",
@@ -1354,6 +1374,10 @@
           "launches": 2,
           "minutes": 187
         },
+        "HELLDIVERS 2": {
+          "launches": 1,
+          "minutes": 247
+        },
         "Just Chatting": {
           "launches": 2,
           "minutes": 492
@@ -1370,9 +1394,9 @@
       "display_name": "watafakablr",
       "followers_end": null,
       "followers_start": 466,
-      "hours": [263,36,0,0,0,0,0,0,0,0,152,240,217,147,120,148,160,194,344,667,720,669,660,523],
-      "launches": 17,
-      "minutes": 5262,
+      "hours": [285,36,0,0,0,0,0,0,0,0,152,240,217,147,120,148,160,194,344,667,766,729,720,583],
+      "launches": 18,
+      "minutes": 5509,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-27T20:18:21Z",
       "sessions": [
@@ -1460,9 +1484,14 @@
           "duration_min": 288,
           "ended_at": "2026-10-13T21:04:52Z",
           "started_at": "2026-10-13T16:17:11Z"
+        },
+        {
+          "duration_min": 247,
+          "ended_at": "2026-10-14T21:21:38Z",
+          "started_at": "2026-10-14T17:14:15Z"
         }
       ]
     }
   },
-  "updated_at": "2026-10-14T20:08:31Z"
+  "updated_at": "2026-10-14T21:21:38Z"
 }
