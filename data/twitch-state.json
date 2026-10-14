@@ -1994,6 +1994,21 @@
       "display_name": "mashninski",
       "history": [
         {
+          "duration_min": 170,
+          "ended_at": "2026-10-14T19:30:09Z",
+          "game": "The Witcher 3: Wild Hunt Remastered",
+          "source": "vod",
+          "started_at": "2026-10-14T16:39:57Z",
+          "stream_id": "318807942503",
+          "title": "Выконваем дурацкія ачыўкі (мы не хацелі гэтага)",
+          "vod": {
+            "gone": false,
+            "id": "2900646054",
+            "seen_at": "2026-10-14T19:31:40Z",
+            "url": "https://www.twitch.tv/videos/2900646054"
+          }
+        },
+        {
           "duration_min": 10,
           "ended_at": "2026-10-14T16:36:28Z",
           "game": "The Witcher 3: Wild Hunt Remastered",
@@ -2272,44 +2287,29 @@
           "stream_id": "316869498453",
           "title": "Траім DLC (балючае)",
           "vod": null
-        },
-        {
-          "duration_min": 326,
-          "ended_at": "2026-09-16T21:58:00Z",
-          "game": "Big Walk",
-          "source": "vod",
-          "started_at": "2026-09-16T16:32:00Z",
-          "stream_id": "316884678102",
-          "title": "Сланы ідуць на шпацыр | каап",
-          "vod": {
-            "gone": false,
-            "id": "2875791041",
-            "seen_at": "2026-09-16T22:01:02Z",
-            "url": "https://www.twitch.tv/videos/2875791041"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 10,
-        "ended_at": "2026-10-14T16:36:28Z",
+        "duration_min": 170,
+        "ended_at": "2026-10-14T19:30:09Z",
         "game": "The Witcher 3: Wild Hunt Remastered",
         "source": "vod",
-        "started_at": "2026-10-14T16:26:02Z",
-        "stream_id": "318807728359",
+        "started_at": "2026-10-14T16:39:57Z",
+        "stream_id": "318807942503",
         "title": "Выконваем дурацкія ачыўкі (мы не хацелі гэтага)",
         "vod": {
           "gone": false,
-          "id": "2900635748",
-          "seen_at": "2026-10-14T16:38:06Z",
-          "url": "https://www.twitch.tv/videos/2900635748"
+          "id": "2900646054",
+          "seen_at": "2026-10-14T19:31:40Z",
+          "url": "https://www.twitch.tv/videos/2900646054"
         }
       },
       "live": {
-        "game": "The Witcher 3: Wild Hunt Remastered",
-        "since": "2026-10-14T16:39:57Z",
-        "stream_id": "318807942503",
-        "title": "Выконваем дурацкія ачыўкі (мы не хацелі гэтага)",
-        "viewers": 7
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -2641,7 +2641,7 @@
         "since": "2026-10-14T17:13:15Z",
         "stream_id": "318944792293",
         "title": "[BLR] Каапная серада. Ватафака і ягоныя навабранцы. За дэмакратыю",
-        "viewers": 5
+        "viewers": 10
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1336d7b-9cd5-4ce0-8926-c76bed69befd-profile_image-300x300.png",
@@ -3092,7 +3092,7 @@
         "since": "2026-10-14T17:59:04Z",
         "stream_id": "317027548245",
         "title": "Маленечкі павучок",
-        "viewers": 5
+        "viewers": 6
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3843,7 +3843,7 @@
         "since": "2026-10-14T19:25:09Z",
         "stream_id": "319003373030",
         "title": "згарэўшая каціная срака ідзе ў кс від Іринка подруга",
-        "viewers": 0
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4404,5 +4404,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T19:25:36Z"
+  "updated_at": "2026-10-14T19:31:39Z"
 }
