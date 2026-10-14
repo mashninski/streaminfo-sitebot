@@ -6,6 +6,21 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 216,
+          "ended_at": "2026-10-14T11:53:08Z",
+          "game": "CONTROL Resonant",
+          "source": "vod",
+          "started_at": "2026-10-14T08:16:59Z",
+          "stream_id": "317105514964",
+          "title": "На горад напала іншасусветная існасць, час для боньк. Control Resonant",
+          "vod": {
+            "gone": false,
+            "id": "2900391793",
+            "seen_at": "2026-10-14T11:54:43Z",
+            "url": "https://www.twitch.tv/videos/2900391793"
+          }
+        },
+        {
           "duration_min": 231,
           "ended_at": "2026-10-13T11:59:42Z",
           "game": "CONTROL Resonant",
@@ -289,44 +304,29 @@
             "seen_at": "2026-09-17T12:02:06Z",
             "url": "https://www.twitch.tv/videos/2876426857"
           }
-        },
-        {
-          "duration_min": 80,
-          "ended_at": "2026-09-17T09:29:21Z",
-          "game": "Pluto",
-          "source": "vod",
-          "started_at": "2026-09-17T08:09:02Z",
-          "stream_id": "316931485012",
-          "title": "Чараўніцтва на пальцах. Pluto",
-          "vod": {
-            "gone": false,
-            "id": "2876399656",
-            "seen_at": "2026-10-04T11:06:02Z",
-            "url": "https://www.twitch.tv/videos/2876399656"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 231,
-        "ended_at": "2026-10-13T11:59:42Z",
+        "duration_min": 216,
+        "ended_at": "2026-10-14T11:53:08Z",
         "game": "CONTROL Resonant",
         "source": "vod",
-        "started_at": "2026-10-13T08:08:38Z",
-        "stream_id": "317098666964",
-        "title": "Зона эвакуацыі патрабуе эвакуацыі. Control Resonant",
+        "started_at": "2026-10-14T08:16:59Z",
+        "stream_id": "317105514964",
+        "title": "На горад напала іншасусветная існасць, час для боньк. Control Resonant",
         "vod": {
           "gone": false,
-          "id": "2899530910",
-          "seen_at": "2026-10-13T12:01:27Z",
-          "url": "https://www.twitch.tv/videos/2899530910"
+          "id": "2900391793",
+          "seen_at": "2026-10-14T11:54:43Z",
+          "url": "https://www.twitch.tv/videos/2900391793"
         }
       },
       "live": {
-        "game": "CONTROL Resonant",
-        "since": "2026-10-14T08:16:59Z",
-        "stream_id": "317105514964",
-        "title": "На горад напала іншасусветная існасць, час для боньк. Control Resonant",
-        "viewers": 19
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -3466,7 +3466,7 @@
         "since": "2026-10-14T11:23:14Z",
         "stream_id": "318804520807",
         "title": "Вядзьмар 3 Рэмайстар",
-        "viewers": 28
+        "viewers": 26
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -4359,5 +4359,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T11:51:14Z"
+  "updated_at": "2026-10-14T11:54:42Z"
 }
