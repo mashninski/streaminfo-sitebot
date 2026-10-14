@@ -3070,6 +3070,16 @@
       "history": [
         {
           "duration_min": 2880,
+          "ended_at": "2026-10-14T00:34:07Z",
+          "game": "Just Chatting",
+          "source": "observed",
+          "started_at": "2026-10-12T00:33:55Z",
+          "stream_id": "318778667239",
+          "title": "Беларускі кантэнт — хутка навіны пра праэкт",
+          "vod": null
+        },
+        {
+          "duration_min": 2880,
           "ended_at": "2026-10-12T00:33:55Z",
           "game": "Just Chatting",
           "source": "observed",
@@ -3181,20 +3191,20 @@
       ],
       "last_stream": {
         "duration_min": 2880,
-        "ended_at": "2026-10-12T00:33:55Z",
+        "ended_at": "2026-10-14T00:34:07Z",
         "game": "Just Chatting",
         "source": "observed",
-        "started_at": "2026-10-10T00:33:44Z",
-        "stream_id": "316997443285",
+        "started_at": "2026-10-12T00:33:55Z",
+        "stream_id": "318778667239",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
         "vod": null
       },
       "live": {
         "game": "Just Chatting",
-        "since": "2026-10-12T00:33:55Z",
-        "stream_id": "318778667239",
+        "since": "2026-10-14T00:34:07Z",
+        "stream_id": "317058451286",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -3753,7 +3763,7 @@
         "since": "2026-10-13T18:16:29Z",
         "stream_id": "317102350548",
         "title": "Чыл.. напэўна від Іринка подруга",
-        "viewers": 17
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4314,5 +4324,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T00:01:26Z"
+  "updated_at": "2026-10-14T00:35:15Z"
 }
