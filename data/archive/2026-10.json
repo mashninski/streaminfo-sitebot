@@ -227,8 +227,8 @@
       "added_at": "2026-09-11",
       "categories": {
         "Crysis 2": {
-          "launches": 1,
-          "minutes": 178
+          "launches": 2,
+          "minutes": 346
         },
         "Farming Simulator 25": {
           "launches": 1,
@@ -250,9 +250,9 @@
       "display_name": "DzedMaksim",
       "followers_end": null,
       "followers_start": 228,
-      "hours": [0,0,0,0,0,0,0,0,0,6,287,505,540,508,42,0,0,0,0,0,0,0,0,0],
-      "launches": 9,
-      "minutes": 1887,
+      "hours": [0,0,0,0,0,0,0,0,0,6,343,565,592,508,42,0,0,0,0,0,0,0,0,0],
+      "launches": 10,
+      "minutes": 2055,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T11:19:32Z",
       "sessions": [
@@ -300,6 +300,11 @@
           "duration_min": 246,
           "ended_at": "2026-10-13T11:03:31Z",
           "started_at": "2026-10-13T06:57:17Z"
+        },
+        {
+          "duration_min": 168,
+          "ended_at": "2026-10-14T09:51:53Z",
+          "started_at": "2026-10-14T07:04:19Z"
         }
       ]
     },
@@ -1410,5 +1415,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-14T04:21:04Z"
+  "updated_at": "2026-10-14T09:53:27Z"
 }
