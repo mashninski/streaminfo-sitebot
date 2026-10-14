@@ -1349,6 +1349,16 @@
       "display_name": "Kryvichanka",
       "history": [
         {
+          "duration_min": 88,
+          "ended_at": "2026-10-14T17:25:26Z",
+          "game": "Starfield",
+          "source": "observed",
+          "started_at": "2026-10-14T15:57:32Z",
+          "stream_id": "317660928887",
+          "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
+          "vod": null
+        },
+        {
           "duration_min": 50,
           "ended_at": "2026-10-13T05:05:15Z",
           "game": "Starfield",
@@ -1537,34 +1547,24 @@
           "stream_id": "318149240664",
           "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
           "vod": null
-        },
-        {
-          "duration_min": 46,
-          "ended_at": "2026-09-16T22:45:34Z",
-          "game": "Starfield",
-          "source": "observed",
-          "started_at": "2026-09-16T21:59:22Z",
-          "stream_id": "318142262744",
-          "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 50,
-        "ended_at": "2026-10-13T05:05:15Z",
+        "duration_min": 88,
+        "ended_at": "2026-10-14T17:25:26Z",
         "game": "Starfield",
         "source": "observed",
-        "started_at": "2026-10-13T04:15:16Z",
-        "stream_id": "319556035415",
+        "started_at": "2026-10-14T15:57:32Z",
+        "stream_id": "317660928887",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
         "vod": null
       },
       "live": {
-        "game": "Starfield",
-        "since": "2026-10-14T15:57:32Z",
-        "stream_id": "317660928887",
-        "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 3
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -2309,7 +2309,7 @@
         "since": "2026-10-14T16:39:57Z",
         "stream_id": "318807942503",
         "title": "Выконваем дурацкія ачыўкі (мы не хацелі гэтага)",
-        "viewers": 8
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -4397,12 +4397,12 @@
         "since": "2026-10-14T17:14:15Z",
         "stream_id": "317062341590",
         "title": "🔥ВЫНІШЧАЕМ РЭСПУБЛІКАНСКУЮ ГІДОТУ РАЗАМ🥰@watafakablr",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T17:21:12Z"
+  "updated_at": "2026-10-14T17:25:26Z"
 }
