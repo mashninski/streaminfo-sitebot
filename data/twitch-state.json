@@ -1564,7 +1564,7 @@
         "since": "2026-10-14T15:57:32Z",
         "stream_id": "317660928887",
         "title": "#SilentStream#Hot cakes🦫🦫🦫 часінку",
-        "viewers": 2
+        "viewers": 1
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad2b7c75-ce68-451d-9983-b84b1dd67c16-profile_image-300x300.png",
@@ -2290,11 +2290,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "The Witcher 3: Wild Hunt Remastered",
+        "since": "2026-10-14T16:26:02Z",
+        "stream_id": "318807728359",
+        "title": "Выконваем дурацкія ачыўкі (мы не хацелі гэтага)",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -4389,5 +4389,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-14T16:21:20Z"
+  "updated_at": "2026-10-14T16:26:26Z"
 }
