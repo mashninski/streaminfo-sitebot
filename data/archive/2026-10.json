@@ -965,8 +965,8 @@
           "minutes": 405
         },
         "The Witcher 3: Wild Hunt Remastered": {
-          "launches": 1,
-          "minutes": 2
+          "launches": 2,
+          "minutes": 3
         },
         "Whiskerwood": {
           "launches": 2,
@@ -977,8 +977,8 @@
       "followers_end": null,
       "followers_start": 926,
       "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,5,242,240,111,39,0,0,0,0,0,0],
-      "launches": 9,
-      "minutes": 638,
+      "launches": 10,
+      "minutes": 639,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T13:00:27Z",
       "sessions": [
@@ -1026,6 +1026,11 @@
           "duration_min": 2,
           "ended_at": "2026-10-14T11:03:53Z",
           "started_at": "2026-10-14T11:01:38Z"
+        },
+        {
+          "duration_min": 1,
+          "ended_at": "2026-10-14T11:09:17Z",
+          "started_at": "2026-10-14T11:08:52Z"
         }
       ]
     },
@@ -1424,5 +1429,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-14T11:09:26Z"
+  "updated_at": "2026-10-14T11:09:42Z"
 }
