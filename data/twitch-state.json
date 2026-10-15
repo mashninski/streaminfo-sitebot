@@ -3992,6 +3992,21 @@
       "display_name": "Ucenamescy",
       "history": [
         {
+          "duration_min": 169,
+          "ended_at": "2026-10-15T14:37:50Z",
+          "game": "Apex Legends",
+          "source": "vod",
+          "started_at": "2026-10-15T11:48:58Z",
+          "stream_id": "319009232486",
+          "title": "Арэх: Дэградацыя ◉ Apex Legends",
+          "vod": {
+            "gone": false,
+            "id": "2901331271",
+            "seen_at": "2026-10-15T14:39:27Z",
+            "url": "https://www.twitch.tv/videos/2901331271"
+          }
+        },
+        {
           "duration_min": 166,
           "ended_at": "2026-10-13T22:57:15Z",
           "game": "Mewgenics",
@@ -4168,26 +4183,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 166,
-        "ended_at": "2026-10-13T22:57:15Z",
-        "game": "Mewgenics",
+        "duration_min": 169,
+        "ended_at": "2026-10-15T14:37:50Z",
+        "game": "Apex Legends",
         "source": "vod",
-        "started_at": "2026-10-13T20:11:10Z",
-        "stream_id": "318935714021",
-        "title": "Чылім + бонус ◉ Mewgenics",
+        "started_at": "2026-10-15T11:48:58Z",
+        "stream_id": "319009232486",
+        "title": "Арэх: Дэградацыя ◉ Apex Legends",
         "vod": {
           "gone": false,
-          "id": "2899955081",
-          "seen_at": "2026-10-13T22:58:48Z",
-          "url": "https://www.twitch.tv/videos/2899955081"
+          "id": "2901331271",
+          "seen_at": "2026-10-15T14:39:27Z",
+          "url": "https://www.twitch.tv/videos/2901331271"
         }
       },
       "live": {
-        "game": "Apex Legends",
-        "since": "2026-10-15T11:48:58Z",
-        "stream_id": "319009232486",
-        "title": "Арэх: Дэградацыя ◉ Apex Legends",
-        "viewers": 8
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -4444,5 +4459,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-15T14:31:20Z"
+  "updated_at": "2026-10-15T14:39:27Z"
 }

@@ -1305,8 +1305,8 @@
       "added_at": "2026-09-11",
       "categories": {
         "Apex Legends": {
-          "launches": 1,
-          "minutes": 182
+          "launches": 2,
+          "minutes": 351
         },
         "Big Walk": {
           "launches": 1,
@@ -1340,9 +1340,9 @@
       "display_name": "Ucenamescy",
       "followers_end": null,
       "followers_start": 142,
-      "hours": [124,57,0,0,0,0,0,0,0,0,0,0,0,27,60,60,35,0,0,118,292,257,220,175],
-      "launches": 8,
-      "minutes": 1425,
+      "hours": [124,57,0,0,0,0,0,0,0,0,0,0,0,27,71,120,95,38,0,118,292,257,220,175],
+      "launches": 9,
+      "minutes": 1594,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-23T20:51:32Z",
       "sessions": [
@@ -1385,6 +1385,11 @@
           "duration_min": 166,
           "ended_at": "2026-10-13T22:57:15Z",
           "started_at": "2026-10-13T20:11:10Z"
+        },
+        {
+          "duration_min": 169,
+          "ended_at": "2026-10-15T14:37:50Z",
+          "started_at": "2026-10-15T11:48:58Z"
         }
       ]
     },
@@ -1527,5 +1532,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-15T12:44:46Z"
+  "updated_at": "2026-10-15T14:39:27Z"
 }
