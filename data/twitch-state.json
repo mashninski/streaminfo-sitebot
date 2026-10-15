@@ -3256,6 +3256,21 @@
       "display_name": "Rudzi_Belarus",
       "history": [
         {
+          "duration_min": 89,
+          "ended_at": "2026-10-15T12:43:13Z",
+          "game": "SILENT HILL: townfall",
+          "source": "vod",
+          "started_at": "2026-10-15T11:14:38Z",
+          "stream_id": "318952643173",
+          "title": "Вяртанне Сайлентхілаўшчыны",
+          "vod": {
+            "gone": false,
+            "id": "2901317002",
+            "seen_at": "2026-10-15T12:44:46Z",
+            "url": "https://www.twitch.tv/videos/2901317002"
+          }
+        },
+        {
           "duration_min": 83,
           "ended_at": "2026-10-14T12:46:14Z",
           "game": "The Witcher 3: Wild Hunt Remastered",
@@ -3497,26 +3512,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 83,
-        "ended_at": "2026-10-14T12:46:14Z",
-        "game": "The Witcher 3: Wild Hunt Remastered",
+        "duration_min": 89,
+        "ended_at": "2026-10-15T12:43:13Z",
+        "game": "SILENT HILL: townfall",
         "source": "vod",
-        "started_at": "2026-10-14T11:23:14Z",
-        "stream_id": "318804520807",
-        "title": "Вядзьмар 3 Рэмайстар",
+        "started_at": "2026-10-15T11:14:38Z",
+        "stream_id": "318952643173",
+        "title": "Вяртанне Сайлентхілаўшчыны",
         "vod": {
           "gone": false,
-          "id": "2900456150",
-          "seen_at": "2026-10-14T12:47:45Z",
-          "url": "https://www.twitch.tv/videos/2900456150"
+          "id": "2901317002",
+          "seen_at": "2026-10-15T12:44:46Z",
+          "url": "https://www.twitch.tv/videos/2901317002"
         }
       },
       "live": {
-        "game": "SILENT HILL: townfall",
-        "since": "2026-10-15T11:14:38Z",
-        "stream_id": "318952643173",
-        "title": "Вяртанне Сайлентхілаўшчыны",
-        "viewers": 30
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -4172,7 +4187,7 @@
         "since": "2026-10-15T11:48:58Z",
         "stream_id": "319009232486",
         "title": "Арэх: Дэградацыя ◉ Apex Legends",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/7aa6f532-eb9f-4adc-9346-bb316c473023-profile_image-300x300.png",
@@ -4429,5 +4444,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-15T12:41:10Z"
+  "updated_at": "2026-10-15T12:44:46Z"
 }
