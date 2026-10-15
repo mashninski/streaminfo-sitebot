@@ -6,6 +6,21 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 96,
+          "ended_at": "2026-10-15T11:39:21Z",
+          "game": "P.T.",
+          "source": "vod",
+          "started_at": "2026-10-15T10:03:26Z",
+          "stream_id": "317030358357",
+          "title": "Калідор пужалак. P.T.",
+          "vod": {
+            "gone": false,
+            "id": "2901290070",
+            "seen_at": "2026-10-15T11:40:58Z",
+            "url": "https://www.twitch.tv/videos/2901290070"
+          }
+        },
+        {
           "duration_min": 109,
           "ended_at": "2026-10-15T10:00:36Z",
           "game": "P.T.",
@@ -289,44 +304,29 @@
             "seen_at": "2026-10-04T11:06:02Z",
             "url": "https://www.twitch.tv/videos/2877271126"
           }
-        },
-        {
-          "duration_min": 1,
-          "ended_at": "2026-09-18T08:14:37Z",
-          "game": "Hollywood Animal",
-          "source": "vod",
-          "started_at": "2026-09-18T08:13:25Z",
-          "stream_id": "316893650390",
-          "title": "Мы пачалі здымаць неблагое кіно! Усё яшчэ дрэнна, але ўжо можна глядзець. Hollywood Animal",
-          "vod": {
-            "gone": false,
-            "id": "2877270734",
-            "seen_at": "2026-10-04T11:06:02Z",
-            "url": "https://www.twitch.tv/videos/2877270734"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 109,
-        "ended_at": "2026-10-15T10:00:36Z",
+        "duration_min": 96,
+        "ended_at": "2026-10-15T11:39:21Z",
         "game": "P.T.",
         "source": "vod",
-        "started_at": "2026-10-15T08:11:31Z",
-        "stream_id": "317029961301",
+        "started_at": "2026-10-15T10:03:26Z",
+        "stream_id": "317030358357",
         "title": "Калідор пужалак. P.T.",
         "vod": {
           "gone": false,
-          "id": "2901253449",
-          "seen_at": "2026-10-15T10:04:52Z",
-          "url": "https://www.twitch.tv/videos/2901253449"
+          "id": "2901290070",
+          "seen_at": "2026-10-15T11:40:58Z",
+          "url": "https://www.twitch.tv/videos/2901290070"
         }
       },
       "live": {
-        "game": "P.T.",
-        "since": "2026-10-15T10:03:26Z",
-        "stream_id": "317030358357",
-        "title": "Калідор пужалак. P.T.",
-        "viewers": 21
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -3516,7 +3516,7 @@
         "since": "2026-10-15T11:14:38Z",
         "stream_id": "318952643173",
         "title": "Вяртанне Сайлентхілаўшчыны",
-        "viewers": 20
+        "viewers": 25
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bbb1f26-17e3-4ad3-9fff-89a235965bd4-profile_image-300x300.png",
@@ -4429,5 +4429,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-15T11:31:16Z"
+  "updated_at": "2026-10-15T11:40:57Z"
 }
