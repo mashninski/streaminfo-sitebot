@@ -322,11 +322,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "P.T.",
+        "since": "2026-10-15T08:11:31Z",
+        "stream_id": "317029961301",
+        "title": "Калідор пужалак. P.T.",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -4424,5 +4424,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-15T08:01:12Z"
+  "updated_at": "2026-10-15T08:12:02Z"
 }
