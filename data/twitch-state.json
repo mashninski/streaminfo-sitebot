@@ -2788,6 +2788,21 @@
       "history": [
         {
           "duration_min": 128,
+          "ended_at": "2026-10-15T20:06:50Z",
+          "game": "Art",
+          "source": "vod",
+          "started_at": "2026-10-15T17:58:56Z",
+          "stream_id": "317033216853",
+          "title": "Звонкі",
+          "vod": {
+            "gone": false,
+            "id": "2901573004",
+            "seen_at": "2026-10-15T20:08:28Z",
+            "url": "https://www.twitch.tv/videos/2901573004"
+          }
+        },
+        {
+          "duration_min": 128,
           "ended_at": "2026-10-14T20:06:46Z",
           "game": "Art",
           "source": "vod",
@@ -3065,44 +3080,29 @@
             "seen_at": "2026-09-28T20:03:27Z",
             "url": "https://www.twitch.tv/videos/2886518003"
           }
-        },
-        {
-          "duration_min": 163,
-          "ended_at": "2026-09-27T20:39:44Z",
-          "game": "Thief: Deadly Shadows",
-          "source": "vod",
-          "started_at": "2026-09-27T17:56:47Z",
-          "stream_id": "316999876692",
-          "title": "Дзе тут срэбныя лыжкі?",
-          "vod": {
-            "gone": false,
-            "id": "2885683307",
-            "seen_at": "2026-10-04T11:06:03Z",
-            "url": "https://www.twitch.tv/videos/2885683307"
-          }
         }
       ],
       "last_stream": {
         "duration_min": 128,
-        "ended_at": "2026-10-14T20:06:46Z",
+        "ended_at": "2026-10-15T20:06:50Z",
         "game": "Art",
         "source": "vod",
-        "started_at": "2026-10-14T17:59:04Z",
-        "stream_id": "317027548245",
-        "title": "Маленечкі павучок",
+        "started_at": "2026-10-15T17:58:56Z",
+        "stream_id": "317033216853",
+        "title": "Звонкі",
         "vod": {
           "gone": false,
-          "id": "2900709449",
-          "seen_at": "2026-10-14T20:08:32Z",
-          "url": "https://www.twitch.tv/videos/2900709449"
+          "id": "2901573004",
+          "seen_at": "2026-10-15T20:08:28Z",
+          "url": "https://www.twitch.tv/videos/2901573004"
         }
       },
       "live": {
-        "game": "Art",
-        "since": "2026-10-15T17:58:56Z",
-        "stream_id": "317033216853",
-        "title": "Звонкі",
-        "viewers": 8
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3868,7 +3868,7 @@
         "since": "2026-10-15T18:22:08Z",
         "stream_id": "319014141798",
         "title": "дабіваем кейсікі від Іринка подруга",
-        "viewers": 14
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4457,12 +4457,12 @@
         "since": "2026-10-15T15:22:50Z",
         "stream_id": "317032104277",
         "title": "🔥АФІЦЫЙНАЯ ЗАЯВА ! 2 СЕЗОН ВАРДОГС ЛІЧЫЦЦА АДКРЫТЫМ🥰@watafakablr",
-        "viewers": 7
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-15T20:01:12Z"
+  "updated_at": "2026-10-15T20:08:27Z"
 }
