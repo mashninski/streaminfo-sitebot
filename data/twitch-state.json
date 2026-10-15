@@ -1999,6 +1999,21 @@
       "display_name": "mashninski",
       "history": [
         {
+          "duration_min": 166,
+          "ended_at": "2026-10-15T19:42:27Z",
+          "game": "The Witcher 3: Wild Hunt Remastered",
+          "source": "vod",
+          "started_at": "2026-10-15T16:56:43Z",
+          "stream_id": "319012695910",
+          "title": "Чым не Секіро?",
+          "vod": {
+            "gone": false,
+            "id": "2901522307",
+            "seen_at": "2026-10-15T19:44:00Z",
+            "url": "https://www.twitch.tv/videos/2901522307"
+          }
+        },
+        {
           "duration_min": 170,
           "ended_at": "2026-10-14T19:30:09Z",
           "game": "The Witcher 3: Wild Hunt Remastered",
@@ -2282,39 +2297,29 @@
             "seen_at": "2026-10-04T11:06:01Z",
             "url": "https://www.twitch.tv/videos/2879165605"
           }
-        },
-        {
-          "duration_min": 185,
-          "ended_at": "2026-09-19T13:27:26Z",
-          "game": "Dark Souls: Remastered",
-          "source": "observed",
-          "started_at": "2026-09-19T10:22:32Z",
-          "stream_id": "316869498453",
-          "title": "Траім DLC (балючае)",
-          "vod": null
         }
       ],
       "last_stream": {
-        "duration_min": 170,
-        "ended_at": "2026-10-14T19:30:09Z",
+        "duration_min": 166,
+        "ended_at": "2026-10-15T19:42:27Z",
         "game": "The Witcher 3: Wild Hunt Remastered",
         "source": "vod",
-        "started_at": "2026-10-14T16:39:57Z",
-        "stream_id": "318807942503",
-        "title": "Выконваем дурацкія ачыўкі (мы не хацелі гэтага)",
+        "started_at": "2026-10-15T16:56:43Z",
+        "stream_id": "319012695910",
+        "title": "Чым не Секіро?",
         "vod": {
           "gone": false,
-          "id": "2900646054",
-          "seen_at": "2026-10-14T19:31:40Z",
-          "url": "https://www.twitch.tv/videos/2900646054"
+          "id": "2901522307",
+          "seen_at": "2026-10-15T19:44:00Z",
+          "url": "https://www.twitch.tv/videos/2901522307"
         }
       },
       "live": {
-        "game": "The Witcher 3: Wild Hunt Remastered",
-        "since": "2026-10-15T16:56:43Z",
-        "stream_id": "319012695910",
-        "title": "Чым не Секіро?",
-        "viewers": 10
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c313407c-474f-482c-b17c-3dbc517d4f19-profile_image-300x300.png",
@@ -4452,12 +4457,12 @@
         "since": "2026-10-15T15:22:50Z",
         "stream_id": "317032104277",
         "title": "🔥АФІЦЫЙНАЯ ЗАЯВА ! 2 СЕЗОН ВАРДОГС ЛІЧЫЦЦА АДКРЫТЫМ🥰@watafakablr",
-        "viewers": 8
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-15T19:41:10Z"
+  "updated_at": "2026-10-15T19:44:00Z"
 }
