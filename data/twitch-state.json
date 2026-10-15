@@ -6,6 +6,21 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 109,
+          "ended_at": "2026-10-15T10:00:36Z",
+          "game": "P.T.",
+          "source": "vod",
+          "started_at": "2026-10-15T08:11:31Z",
+          "stream_id": "317029961301",
+          "title": "Калідор пужалак. P.T.",
+          "vod": {
+            "gone": false,
+            "id": "2901253449",
+            "seen_at": "2026-10-15T10:04:52Z",
+            "url": "https://www.twitch.tv/videos/2901253449"
+          }
+        },
+        {
           "duration_min": 216,
           "ended_at": "2026-10-14T11:53:08Z",
           "game": "CONTROL Resonant",
@@ -289,44 +304,29 @@
             "seen_at": "2026-10-04T11:06:02Z",
             "url": "https://www.twitch.tv/videos/2877270734"
           }
-        },
-        {
-          "duration_min": 141,
-          "ended_at": "2026-09-17T11:57:23Z",
-          "game": "Pluto",
-          "source": "vod",
-          "started_at": "2026-09-17T09:36:23Z",
-          "stream_id": "318617047653",
-          "title": "Чараўніцтва на пальцах. Pluto",
-          "vod": {
-            "gone": false,
-            "id": "2876426857",
-            "seen_at": "2026-09-17T12:02:06Z",
-            "url": "https://www.twitch.tv/videos/2876426857"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 216,
-        "ended_at": "2026-10-14T11:53:08Z",
-        "game": "CONTROL Resonant",
+        "duration_min": 109,
+        "ended_at": "2026-10-15T10:00:36Z",
+        "game": "P.T.",
         "source": "vod",
-        "started_at": "2026-10-14T08:16:59Z",
-        "stream_id": "317105514964",
-        "title": "На горад напала іншасусветная існасць, час для боньк. Control Resonant",
+        "started_at": "2026-10-15T08:11:31Z",
+        "stream_id": "317029961301",
+        "title": "Калідор пужалак. P.T.",
         "vod": {
           "gone": false,
-          "id": "2900391793",
-          "seen_at": "2026-10-14T11:54:43Z",
-          "url": "https://www.twitch.tv/videos/2900391793"
+          "id": "2901253449",
+          "seen_at": "2026-10-15T10:04:52Z",
+          "url": "https://www.twitch.tv/videos/2901253449"
         }
       },
       "live": {
         "game": "P.T.",
-        "since": "2026-10-15T08:11:31Z",
-        "stream_id": "317029961301",
+        "since": "2026-10-15T10:03:26Z",
+        "stream_id": "317030358357",
         "title": "Калідор пужалак. P.T.",
-        "viewers": 20
+        "viewers": 18
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -1224,7 +1224,7 @@
         "since": "2026-10-15T07:16:12Z",
         "stream_id": "319007283558",
         "title": "85# Зноў рыхтуемся да дасягненняі. Дзень 450+💀Няпрошаны госьць💀 |🪓 The Long Dark беларуская мова",
-        "viewers": 14
+        "viewers": 15
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -4424,5 +4424,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-15T10:01:21Z"
+  "updated_at": "2026-10-15T10:04:51Z"
 }
