@@ -6,6 +6,21 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 10,
+          "ended_at": "2026-10-16T08:27:12Z",
+          "game": "MediEvil",
+          "source": "vod",
+          "started_at": "2026-10-16T08:17:39Z",
+          "stream_id": "317035796821",
+          "title": "Стырм налад? Не атрымліваецца зрабіць захоп.",
+          "vod": {
+            "gone": false,
+            "id": "2902114930",
+            "seen_at": "2026-10-16T08:28:47Z",
+            "url": "https://www.twitch.tv/videos/2902114930"
+          }
+        },
+        {
           "duration_min": 96,
           "ended_at": "2026-10-15T11:39:21Z",
           "game": "P.T.",
@@ -289,44 +304,29 @@
             "seen_at": "2026-09-21T12:00:58Z",
             "url": "https://www.twitch.tv/videos/2880043672"
           }
-        },
-        {
-          "duration_min": 233,
-          "ended_at": "2026-09-18T12:07:34Z",
-          "game": "Hollywood Animal",
-          "source": "vod",
-          "started_at": "2026-09-18T08:14:40Z",
-          "stream_id": "316893657558",
-          "title": "Мы пачалі здымаць неблагое кіно! Усё яшчэ дрэнна, але ўжо можна глядзець. Hollywood Animal",
-          "vod": {
-            "gone": false,
-            "id": "2877271126",
-            "seen_at": "2026-10-04T11:06:02Z",
-            "url": "https://www.twitch.tv/videos/2877271126"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 96,
-        "ended_at": "2026-10-15T11:39:21Z",
-        "game": "P.T.",
+        "duration_min": 10,
+        "ended_at": "2026-10-16T08:27:12Z",
+        "game": "MediEvil",
         "source": "vod",
-        "started_at": "2026-10-15T10:03:26Z",
-        "stream_id": "317030358357",
-        "title": "Калідор пужалак. P.T.",
+        "started_at": "2026-10-16T08:17:39Z",
+        "stream_id": "317035796821",
+        "title": "Стырм налад? Не атрымліваецца зрабіць захоп.",
         "vod": {
           "gone": false,
-          "id": "2901290070",
-          "seen_at": "2026-10-15T11:40:58Z",
-          "url": "https://www.twitch.tv/videos/2901290070"
+          "id": "2902114930",
+          "seen_at": "2026-10-16T08:28:47Z",
+          "url": "https://www.twitch.tv/videos/2902114930"
         }
       },
       "live": {
-        "game": "MediEvil",
-        "since": "2026-10-16T08:17:39Z",
-        "stream_id": "317035796821",
-        "title": "Стырм налад? Не атрымліваецца зрабіць захоп.",
-        "viewers": 5
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -1229,7 +1229,7 @@
         "since": "2026-10-16T07:26:22Z",
         "stream_id": "319019461094",
         "title": "#14 Навіград - адзіны незалежны горад | The Witcher 3 беларуская мова",
-        "viewers": 11
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/34a46502-eb2d-49fd-b83f-ac087ff7ba9e-profile_image-300x300.png",
@@ -4474,5 +4474,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-16T08:21:10Z"
+  "updated_at": "2026-10-16T08:28:46Z"
 }

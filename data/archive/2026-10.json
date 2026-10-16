@@ -25,6 +25,10 @@
           "launches": 1,
           "minutes": 234
         },
+        "MediEvil": {
+          "launches": 1,
+          "minutes": 10
+        },
         "P.T.": {
           "launches": 2,
           "minutes": 205
@@ -37,9 +41,9 @@
       "display_name": "AngryRalef",
       "followers_end": null,
       "followers_start": 1293,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,544,660,658,570,11,0,0,0,0,0,0,0,0],
-      "launches": 12,
-      "minutes": 2443,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,554,660,658,570,11,0,0,0,0,0,0,0,0],
+      "launches": 13,
+      "minutes": 2453,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T12:11:27Z",
       "sessions": [
@@ -102,6 +106,11 @@
           "duration_min": 96,
           "ended_at": "2026-10-15T11:39:21Z",
           "started_at": "2026-10-15T10:03:26Z"
+        },
+        {
+          "duration_min": 10,
+          "ended_at": "2026-10-16T08:27:12Z",
+          "started_at": "2026-10-16T08:17:39Z"
         }
       ]
     },
@@ -1562,5 +1571,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-16T03:25:15Z"
+  "updated_at": "2026-10-16T08:28:46Z"
 }
