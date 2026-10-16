@@ -6,6 +6,21 @@
       "display_name": "AngryRalef",
       "history": [
         {
+          "duration_min": 173,
+          "ended_at": "2026-10-16T11:33:12Z",
+          "game": "SILENT HILL: townfall",
+          "source": "vod",
+          "started_at": "2026-10-16T08:40:31Z",
+          "stream_id": "317071696214",
+          "title": "Падзенне горада. Silent Hill: Townfall",
+          "vod": {
+            "gone": false,
+            "id": "2902122015",
+            "seen_at": "2026-10-16T11:34:44Z",
+            "url": "https://www.twitch.tv/videos/2902122015"
+          }
+        },
+        {
           "duration_min": 7,
           "ended_at": "2026-10-16T08:40:18Z",
           "game": "Overlord II",
@@ -289,44 +304,29 @@
             "seen_at": "2026-10-04T11:06:02Z",
             "url": "https://www.twitch.tv/videos/2882600690"
           }
-        },
-        {
-          "duration_min": 217,
-          "ended_at": "2026-09-22T11:50:35Z",
-          "game": "Control",
-          "source": "vod",
-          "started_at": "2026-09-22T08:13:32Z",
-          "stream_id": "316964221012",
-          "title": "Праграма кандыдатаў. Control",
-          "vod": {
-            "gone": false,
-            "id": "2880888472",
-            "seen_at": "2026-10-04T11:06:02Z",
-            "url": "https://www.twitch.tv/videos/2880888472"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 7,
-        "ended_at": "2026-10-16T08:40:18Z",
-        "game": "Overlord II",
+        "duration_min": 173,
+        "ended_at": "2026-10-16T11:33:12Z",
+        "game": "SILENT HILL: townfall",
         "source": "vod",
-        "started_at": "2026-10-16T08:32:53Z",
-        "stream_id": "317071662294",
-        "title": "Раптоўна, Цёмны Лорд! Overlord 2",
+        "started_at": "2026-10-16T08:40:31Z",
+        "stream_id": "317071696214",
+        "title": "Падзенне горада. Silent Hill: Townfall",
         "vod": {
           "gone": false,
-          "id": "2902119682",
-          "seen_at": "2026-10-16T08:41:56Z",
-          "url": "https://www.twitch.tv/videos/2902119682"
+          "id": "2902122015",
+          "seen_at": "2026-10-16T11:34:44Z",
+          "url": "https://www.twitch.tv/videos/2902122015"
         }
       },
       "live": {
-        "game": "SILENT HILL: townfall",
-        "since": "2026-10-16T08:40:31Z",
-        "stream_id": "317071696214",
-        "title": "Падзенне горада. Silent Hill: Townfall",
-        "viewers": 22
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/db97a564-2201-4789-88e1-703907cdc51d-profile_image-300x300.png",
@@ -3264,7 +3264,7 @@
         "since": "2026-10-16T00:34:18Z",
         "stream_id": "317116828244",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 1
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -4479,5 +4479,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-16T11:31:13Z"
+  "updated_at": "2026-10-16T11:34:43Z"
 }

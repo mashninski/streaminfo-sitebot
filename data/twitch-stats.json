@@ -11,18 +11,7 @@
           "2026-10-01": 1293
         }
       },
-      "in_progress": {
-        "categories": [
-          {
-            "game": "SILENT HILL: townfall",
-            "sec": 10242
-          }
-        ],
-        "hours_sec": [0,0,0,0,0,0,0,0,0,0,0,1169,3600,3600,1873,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-16T11:31:13Z",
-        "started_at": "2026-10-16T08:40:31Z",
-        "stream_id": "317071696214"
-      },
+      "in_progress": null,
       "monthly": {
         "2026-09": {
           "categories": {
@@ -77,17 +66,32 @@
               "launches": 2,
               "minutes": 205
             },
+            "SILENT HILL: townfall": {
+              "launches": 1,
+              "minutes": 173
+            },
             "Whispers in the Moss": {
               "launches": 1,
               "minutes": 206
             }
           },
-          "hours": [0,0,0,0,0,0,0,0,0,0,0,561,660,658,570,11,0,0,0,0,0,0,0,0],
-          "launches": 14,
-          "minutes": 2460
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,580,720,718,603,11,0,0,0,0,0,0,0,0],
+          "launches": 15,
+          "minutes": 2633
         }
       },
       "recent_sessions": [
+        {
+          "categories": [
+            {
+              "game": "SILENT HILL: townfall",
+              "minutes": 173
+            }
+          ],
+          "ended_at": "2026-10-16T11:33:12Z",
+          "hours": [0,0,0,0,0,0,0,0,0,0,0,19,60,60,33,0,0,0,0,0,0,0,0,0],
+          "started_at": "2026-10-16T08:40:31Z"
+        },
         {
           "categories": [
             {
@@ -2522,8 +2526,8 @@
     },
     "radyjo_holas": {
       "followers": {
-        "changed_at": "2026-10-15T14:21:12Z",
-        "count": 67,
+        "changed_at": "2026-10-16T11:34:43Z",
+        "count": 68,
         "fail_runs": 0,
         "snapshots": {
           "2026-09-01": 64,
@@ -2534,11 +2538,11 @@
         "categories": [
           {
             "game": "Just Chatting",
-            "sec": 39415
+            "sec": 39625
           }
         ],
-        "hours_sec": [0,0,0,1542,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,1873,0,0,0,0,0,0,0,0,0],
-        "last_seen_at": "2026-10-16T11:31:13Z",
+        "hours_sec": [0,0,0,1542,3600,3600,3600,3600,3600,3600,3600,3600,3600,3600,2083,0,0,0,0,0,0,0,0,0],
+        "last_seen_at": "2026-10-16T11:34:43Z",
         "started_at": "2026-10-16T00:34:18Z",
         "stream_id": "317116828244"
       },
@@ -4044,5 +4048,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-16T11:31:13Z"
+  "updated_at": "2026-10-16T11:34:43Z"
 }

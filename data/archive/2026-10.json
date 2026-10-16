@@ -37,6 +37,10 @@
           "launches": 2,
           "minutes": 205
         },
+        "SILENT HILL: townfall": {
+          "launches": 1,
+          "minutes": 173
+        },
         "Whispers in the Moss": {
           "launches": 1,
           "minutes": 206
@@ -45,9 +49,9 @@
       "display_name": "AngryRalef",
       "followers_end": null,
       "followers_start": 1293,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,561,660,658,570,11,0,0,0,0,0,0,0,0],
-      "launches": 14,
-      "minutes": 2460,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,580,720,718,603,11,0,0,0,0,0,0,0,0],
+      "launches": 15,
+      "minutes": 2633,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T12:11:27Z",
       "sessions": [
@@ -120,6 +124,11 @@
           "duration_min": 7,
           "ended_at": "2026-10-16T08:40:18Z",
           "started_at": "2026-10-16T08:32:53Z"
+        },
+        {
+          "duration_min": 173,
+          "ended_at": "2026-10-16T11:33:12Z",
+          "started_at": "2026-10-16T08:40:31Z"
         }
       ]
     },
@@ -1585,5 +1594,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-16T10:36:59Z"
+  "updated_at": "2026-10-16T11:34:43Z"
 }
