@@ -826,11 +826,11 @@
         }
       },
       "live": {
-        "game": null,
-        "since": null,
-        "stream_id": null,
-        "title": null,
-        "viewers": null
+        "game": "Dragon Age: Inquisition",
+        "since": "2026-10-16T16:07:39Z",
+        "stream_id": "318831565671",
+        "title": "Дарагагім у драганаге 🐉 | Dragon Age: Inquisition",
+        "viewers": 0
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -3264,7 +3264,7 @@
         "since": "2026-10-16T00:34:18Z",
         "stream_id": "317116828244",
         "title": "Беларускі кантэнт — хутка навіны пра праэкт",
-        "viewers": 4
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e25efe0-6f98-4fc3-9fce-ca2d63c9fcf9-profile_image-300x300.png",
@@ -4494,5 +4494,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-16T15:31:13Z"
+  "updated_at": "2026-10-16T16:08:03Z"
 }
