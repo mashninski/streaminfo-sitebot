@@ -338,6 +338,21 @@
       "display_name": "annigilatormg42",
       "history": [
         {
+          "duration_min": 116,
+          "ended_at": "2026-10-16T19:43:43Z",
+          "game": "Dungeons 3",
+          "source": "vod",
+          "started_at": "2026-10-16T17:47:41Z",
+          "stream_id": "319026158438",
+          "title": "Працягвае гуляць за Злоснае Зло з страшэннага Падзямелля)",
+          "vod": {
+            "gone": false,
+            "id": "2902436276",
+            "seen_at": "2026-10-16T19:45:16Z",
+            "url": "https://www.twitch.tv/videos/2902436276"
+          }
+        },
+        {
           "duration_min": 222,
           "ended_at": "2026-10-11T17:07:42Z",
           "game": "Total War: WARHAMMER III",
@@ -599,26 +614,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 222,
-        "ended_at": "2026-10-11T17:07:42Z",
-        "game": "Total War: WARHAMMER III",
+        "duration_min": 116,
+        "ended_at": "2026-10-16T19:43:43Z",
+        "game": "Dungeons 3",
         "source": "vod",
-        "started_at": "2026-10-11T13:25:27Z",
-        "stream_id": "318963079782",
-        "title": "Глядзім на новых Лордаў)",
+        "started_at": "2026-10-16T17:47:41Z",
+        "stream_id": "319026158438",
+        "title": "Працягвае гуляць за Злоснае Зло з страшэннага Падзямелля)",
         "vod": {
           "gone": false,
-          "id": "2897901625",
-          "seen_at": "2026-10-11T17:09:15Z",
-          "url": "https://www.twitch.tv/videos/2897901625"
+          "id": "2902436276",
+          "seen_at": "2026-10-16T19:45:16Z",
+          "url": "https://www.twitch.tv/videos/2902436276"
         }
       },
       "live": {
-        "game": "Dungeons 3",
-        "since": "2026-10-16T17:47:41Z",
-        "stream_id": "319026158438",
-        "title": "Працягвае гуляць за Злоснае Зло з страшэннага Падзямелля)",
-        "viewers": 3
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6f85ccf-8f12-43f4-90e3-1e1cf95ab956-profile_image-300x300.jpeg",
@@ -932,7 +947,7 @@
         "since": "2026-10-16T18:31:49Z",
         "stream_id": "319027037158",
         "title": "Лаўкрафт, нацысты і пігвіны. Гуляем у Penguin Colony па-беларуску.",
-        "viewers": 2
+        "viewers": 3
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b3e18b5-6d45-4af2-9abb-eec6eb3a1264-profile_image-300x300.png",
@@ -3137,7 +3152,7 @@
         "since": "2026-10-16T17:55:00Z",
         "stream_id": "317121043412",
         "title": "Кінапятнішка, \"Зброя\" 2025",
-        "viewers": 13
+        "viewers": 12
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3913,7 +3928,7 @@
         "since": "2026-10-16T18:49:43Z",
         "stream_id": "317039863765",
         "title": "Блукаем з Коргам від Іринка подруга",
-        "viewers": 12
+        "viewers": 14
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4524,5 +4539,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-16T19:40:35Z"
+  "updated_at": "2026-10-16T19:45:16Z"
 }
