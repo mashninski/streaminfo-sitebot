@@ -947,7 +947,7 @@
         "since": "2026-10-16T18:31:49Z",
         "stream_id": "319027037158",
         "title": "Лаўкрафт, нацысты і пігвіны. Гуляем у Penguin Colony па-беларуску.",
-        "viewers": 3
+        "viewers": 5
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b3e18b5-6d45-4af2-9abb-eec6eb3a1264-profile_image-300x300.png",
@@ -2837,6 +2837,21 @@
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
         {
+          "duration_min": 129,
+          "ended_at": "2026-10-16T20:03:45Z",
+          "game": "Art",
+          "source": "vod",
+          "started_at": "2026-10-16T17:55:00Z",
+          "stream_id": "317121043412",
+          "title": "Кінапятнішка, \"Зброя\" 2025",
+          "vod": {
+            "gone": false,
+            "id": "2902442570",
+            "seen_at": "2026-10-16T20:05:28Z",
+            "url": "https://www.twitch.tv/videos/2902442570"
+          }
+        },
+        {
           "duration_min": 128,
           "ended_at": "2026-10-15T20:06:50Z",
           "game": "Art",
@@ -3115,44 +3130,29 @@
             "seen_at": "2026-09-29T20:05:43Z",
             "url": "https://www.twitch.tv/videos/2887365639"
           }
-        },
-        {
-          "duration_min": 124,
-          "ended_at": "2026-09-28T20:03:18Z",
-          "game": "Art",
-          "source": "vod",
-          "started_at": "2026-09-28T17:59:18Z",
-          "stream_id": "317005421780",
-          "title": "Малюем, пілікаем",
-          "vod": {
-            "gone": false,
-            "id": "2886518003",
-            "seen_at": "2026-09-28T20:03:27Z",
-            "url": "https://www.twitch.tv/videos/2886518003"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 128,
-        "ended_at": "2026-10-15T20:06:50Z",
+        "duration_min": 129,
+        "ended_at": "2026-10-16T20:03:45Z",
         "game": "Art",
         "source": "vod",
-        "started_at": "2026-10-15T17:58:56Z",
-        "stream_id": "317033216853",
-        "title": "Звонкі",
+        "started_at": "2026-10-16T17:55:00Z",
+        "stream_id": "317121043412",
+        "title": "Кінапятнішка, \"Зброя\" 2025",
         "vod": {
           "gone": false,
-          "id": "2901573004",
-          "seen_at": "2026-10-15T20:08:28Z",
-          "url": "https://www.twitch.tv/videos/2901573004"
+          "id": "2902442570",
+          "seen_at": "2026-10-16T20:05:28Z",
+          "url": "https://www.twitch.tv/videos/2902442570"
         }
       },
       "live": {
-        "game": "Art",
-        "since": "2026-10-16T17:55:00Z",
-        "stream_id": "317121043412",
-        "title": "Кінапятнішка, \"Зброя\" 2025",
-        "viewers": 13
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3928,7 +3928,7 @@
         "since": "2026-10-16T18:49:43Z",
         "stream_id": "317039863765",
         "title": "Блукаем з Коргам від Іринка подруга",
-        "viewers": 17
+        "viewers": 16
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4539,5 +4539,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-16T20:00:50Z"
+  "updated_at": "2026-10-16T20:05:28Z"
 }
