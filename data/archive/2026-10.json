@@ -1378,8 +1378,8 @@
           "minutes": 301
         },
         "Mewgenics": {
-          "launches": 1,
-          "minutes": 166
+          "launches": 2,
+          "minutes": 368
         },
         "Ready or Not": {
           "launches": 3,
@@ -1397,9 +1397,9 @@
       "display_name": "Ucenamescy",
       "followers_end": null,
       "followers_start": 142,
-      "hours": [124,57,0,0,0,0,0,0,0,0,0,0,0,27,71,120,95,38,0,118,292,257,220,175],
-      "launches": 9,
-      "minutes": 1594,
+      "hours": [124,57,0,0,0,0,0,0,0,0,0,0,0,27,90,180,155,98,2,118,292,257,220,175],
+      "launches": 10,
+      "minutes": 1796,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-23T20:51:32Z",
       "sessions": [
@@ -1447,6 +1447,11 @@
           "duration_min": 169,
           "ended_at": "2026-10-15T14:37:50Z",
           "started_at": "2026-10-15T11:48:58Z"
+        },
+        {
+          "duration_min": 202,
+          "ended_at": "2026-10-16T15:02:25Z",
+          "started_at": "2026-10-16T11:40:40Z"
         }
       ]
     },
@@ -1594,5 +1599,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-16T11:34:43Z"
+  "updated_at": "2026-10-16T15:04:02Z"
 }
