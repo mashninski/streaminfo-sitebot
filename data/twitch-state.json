@@ -842,6 +842,21 @@
       "display_name": "Dzed_Ahey",
       "history": [
         {
+          "duration_min": 10,
+          "ended_at": "2026-10-16T18:31:07Z",
+          "game": "Penguin Colony",
+          "source": "vod",
+          "started_at": "2026-10-16T18:20:55Z",
+          "stream_id": "319026834790",
+          "title": "Лаўкрафт, нацысты і пігвіны. Гуляем у Penguin Colony па-беларуску.",
+          "vod": {
+            "gone": false,
+            "id": "2902467614",
+            "seen_at": "2026-10-16T18:33:06Z",
+            "url": "https://www.twitch.tv/videos/2902467614"
+          }
+        },
+        {
           "duration_min": 118,
           "ended_at": "2026-10-10T17:12:42Z",
           "game": "CONTROL Resonant",
@@ -883,24 +898,24 @@
         }
       ],
       "last_stream": {
-        "duration_min": 118,
-        "ended_at": "2026-10-10T17:12:42Z",
-        "game": "CONTROL Resonant",
+        "duration_min": 10,
+        "ended_at": "2026-10-16T18:31:07Z",
+        "game": "Penguin Colony",
         "source": "vod",
-        "started_at": "2026-10-10T15:14:46Z",
-        "stream_id": "317000808277",
-        "title": "Пераклаў Control Resonant на беларускую мову",
+        "started_at": "2026-10-16T18:20:55Z",
+        "stream_id": "319026834790",
+        "title": "Лаўкрафт, нацысты і пігвіны. Гуляем у Penguin Colony па-беларуску.",
         "vod": {
           "gone": false,
-          "id": "2897024516",
-          "seen_at": "2026-10-10T17:14:14Z",
-          "url": "https://www.twitch.tv/videos/2897024516"
+          "id": "2902467614",
+          "seen_at": "2026-10-16T18:33:06Z",
+          "url": "https://www.twitch.tv/videos/2902467614"
         }
       },
       "live": {
         "game": "Penguin Colony",
-        "since": "2026-10-16T18:20:55Z",
-        "stream_id": "319026834790",
+        "since": "2026-10-16T18:31:49Z",
+        "stream_id": "319027037158",
         "title": "Лаўкрафт, нацысты і пігвіны. Гуляем у Penguin Colony па-беларуску.",
         "viewers": 2
       },
@@ -3107,7 +3122,7 @@
         "since": "2026-10-16T17:55:00Z",
         "stream_id": "317121043412",
         "title": "Кінапятнішка, \"Зброя\" 2025",
-        "viewers": 11
+        "viewers": 9
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -4494,5 +4509,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-16T18:30:33Z"
+  "updated_at": "2026-10-16T18:33:06Z"
 }

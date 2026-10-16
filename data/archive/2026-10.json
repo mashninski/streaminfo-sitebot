@@ -251,14 +251,18 @@
         "CONTROL Resonant": {
           "launches": 1,
           "minutes": 118
+        },
+        "Penguin Colony": {
+          "launches": 1,
+          "minutes": 10
         }
       },
       "display_name": "Dzed_Ahey",
       "followers_end": null,
       "followers_start": 41,
-      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,60,13,0,0,0],
-      "launches": 1,
-      "minutes": 118,
+      "hours": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,60,13,10,0,0],
+      "launches": 2,
+      "minutes": 128,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-24T23:42:33Z",
       "sessions": [
@@ -266,6 +270,11 @@
           "duration_min": 118,
           "ended_at": "2026-10-10T17:12:42Z",
           "started_at": "2026-10-10T15:14:46Z"
+        },
+        {
+          "duration_min": 10,
+          "ended_at": "2026-10-16T18:31:07Z",
+          "started_at": "2026-10-16T18:20:55Z"
         }
       ]
     },
@@ -1599,5 +1608,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-16T15:04:02Z"
+  "updated_at": "2026-10-16T18:33:06Z"
 }
