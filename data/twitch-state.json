@@ -2029,7 +2029,7 @@
         "since": "2026-10-17T18:24:07Z",
         "stream_id": "317082145750",
         "title": "ТРАТАТАТА! Trax\\babax!",
-        "viewers": 12
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -2897,6 +2897,21 @@
       "display_name": "Nine_Ravens_Cemetery",
       "history": [
         {
+          "duration_min": 143,
+          "ended_at": "2026-10-17T20:21:53Z",
+          "game": "Thief: Deadly Shadows",
+          "source": "vod",
+          "started_at": "2026-10-17T17:58:40Z",
+          "stream_id": "318847104615",
+          "title": "Утульнасць на максімум",
+          "vod": {
+            "gone": false,
+            "id": "2903425908",
+            "seen_at": "2026-10-17T20:23:36Z",
+            "url": "https://www.twitch.tv/videos/2903425908"
+          }
+        },
+        {
           "duration_min": 129,
           "ended_at": "2026-10-16T20:03:45Z",
           "game": "Art",
@@ -3175,44 +3190,29 @@
             "seen_at": "2026-10-04T11:06:03Z",
             "url": "https://www.twitch.tv/videos/2888227464"
           }
-        },
-        {
-          "duration_min": 122,
-          "ended_at": "2026-09-29T20:01:55Z",
-          "game": "Art",
-          "source": "vod",
-          "started_at": "2026-09-29T17:59:55Z",
-          "stream_id": "316966945750",
-          "title": "Малюю і распавядаю за \"Рэзідэнт Івл\" фільм новы",
-          "vod": {
-            "gone": false,
-            "id": "2887365639",
-            "seen_at": "2026-09-29T20:05:43Z",
-            "url": "https://www.twitch.tv/videos/2887365639"
-          }
         }
       ],
       "last_stream": {
-        "duration_min": 129,
-        "ended_at": "2026-10-16T20:03:45Z",
-        "game": "Art",
+        "duration_min": 143,
+        "ended_at": "2026-10-17T20:21:53Z",
+        "game": "Thief: Deadly Shadows",
         "source": "vod",
-        "started_at": "2026-10-16T17:55:00Z",
-        "stream_id": "317121043412",
-        "title": "Кінапятнішка, \"Зброя\" 2025",
+        "started_at": "2026-10-17T17:58:40Z",
+        "stream_id": "318847104615",
+        "title": "Утульнасць на максімум",
         "vod": {
           "gone": false,
-          "id": "2902442570",
-          "seen_at": "2026-10-16T20:05:28Z",
-          "url": "https://www.twitch.tv/videos/2902442570"
+          "id": "2903425908",
+          "seen_at": "2026-10-17T20:23:36Z",
+          "url": "https://www.twitch.tv/videos/2903425908"
         }
       },
       "live": {
-        "game": "Thief: Deadly Shadows",
-        "since": "2026-10-17T17:58:40Z",
-        "stream_id": "318847104615",
-        "title": "Утульнасць на максімум",
-        "viewers": 11
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3988,7 +3988,7 @@
         "since": "2026-10-17T18:03:35Z",
         "stream_id": "317081997142",
         "title": "Даўно не было від Іринка подруга",
-        "viewers": 12
+        "viewers": 13
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4599,5 +4599,5 @@
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-17T20:20:55Z"
+  "updated_at": "2026-10-17T20:23:35Z"
 }

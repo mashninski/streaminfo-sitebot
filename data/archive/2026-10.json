@@ -958,16 +958,16 @@
           "minutes": 417
         },
         "Thief: Deadly Shadows": {
-          "launches": 3,
-          "minutes": 417
+          "launches": 4,
+          "minutes": 560
         }
       },
       "display_name": "Nine_Ravens_Cemetery",
       "followers_end": null,
       "followers_start": 298,
-      "hours": [32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,956,960,228],
-      "launches": 18,
-      "minutes": 2193,
+      "hours": [32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,1016,1020,250],
+      "launches": 19,
+      "minutes": 2336,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-09-30T20:20:53Z",
       "sessions": [
@@ -1060,6 +1060,11 @@
           "duration_min": 129,
           "ended_at": "2026-10-16T20:03:45Z",
           "started_at": "2026-10-16T17:55:00Z"
+        },
+        {
+          "duration_min": 143,
+          "ended_at": "2026-10-17T20:21:53Z",
+          "started_at": "2026-10-17T17:58:40Z"
         }
       ]
     },
@@ -1662,5 +1667,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-17T18:48:26Z"
+  "updated_at": "2026-10-17T20:23:35Z"
 }
