@@ -1203,6 +1203,10 @@
           "launches": 2,
           "minutes": 297
         },
+        "Escape the Backrooms": {
+          "launches": 1,
+          "minutes": 301
+        },
         "Fortnite": {
           "launches": 1,
           "minutes": 70
@@ -1232,8 +1236,8 @@
           "minutes": 988
         },
         "Valheim": {
-          "launches": 10,
-          "minutes": 3638
+          "launches": 11,
+          "minutes": 3983
         },
         "Waterpark Simulator": {
           "launches": 3,
@@ -1243,9 +1247,9 @@
       "display_name": "ShagraeL_BY",
       "followers_end": null,
       "followers_start": 998,
-      "hours": [840,840,805,777,717,660,512,135,0,0,0,0,0,0,0,0,0,0,0,157,277,602,762,840],
-      "launches": 14,
-      "minutes": 7926,
+      "hours": [900,900,865,837,777,720,572,195,36,0,0,0,0,0,0,0,0,0,0,157,277,612,822,900],
+      "launches": 15,
+      "minutes": 8572,
       "prev_broadcast_at": null,
       "prev_ended_at": "2026-10-01T01:57:14Z",
       "sessions": [
@@ -1318,6 +1322,11 @@
           "duration_min": 542,
           "ended_at": "2026-10-16T03:23:38Z",
           "started_at": "2026-10-15T18:22:08Z"
+        },
+        {
+          "duration_min": 646,
+          "ended_at": "2026-10-17T05:36:03Z",
+          "started_at": "2026-10-16T18:49:43Z"
         }
       ]
     },
@@ -1628,5 +1637,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-16T20:26:37Z"
+  "updated_at": "2026-10-17T05:37:48Z"
 }
