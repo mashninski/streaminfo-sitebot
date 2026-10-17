@@ -645,6 +645,21 @@
       "display_name": "Bel_Asch",
       "history": [
         {
+          "duration_min": 106,
+          "ended_at": "2026-10-17T18:46:41Z",
+          "game": "The Order: 1886",
+          "source": "vod",
+          "started_at": "2026-10-17T17:00:41Z",
+          "stream_id": "319039618918",
+          "title": "Змярканне Ордэна 🪦 | The Order: 1886",
+          "vod": {
+            "gone": false,
+            "id": "2903373504",
+            "seen_at": "2026-10-17T18:48:26Z",
+            "url": "https://www.twitch.tv/videos/2903373504"
+          }
+        },
+        {
           "duration_min": 1,
           "ended_at": "2026-10-17T17:00:55Z",
           "game": "The Order: 1886",
@@ -856,26 +871,26 @@
         }
       ],
       "last_stream": {
-        "duration_min": 1,
-        "ended_at": "2026-10-17T17:00:55Z",
+        "duration_min": 106,
+        "ended_at": "2026-10-17T18:46:41Z",
         "game": "The Order: 1886",
         "source": "vod",
-        "started_at": "2026-10-17T17:00:46Z",
+        "started_at": "2026-10-17T17:00:41Z",
         "stream_id": "319039618918",
-        "title": "Канец Ордэна 🪦 | The Order: 1886",
+        "title": "Змярканне Ордэна 🪦 | The Order: 1886",
         "vod": {
           "gone": false,
           "id": "2903373504",
-          "seen_at": "2026-10-17T17:00:56Z",
+          "seen_at": "2026-10-17T18:48:26Z",
           "url": "https://www.twitch.tv/videos/2903373504"
         }
       },
       "live": {
-        "game": "The Order: 1886",
-        "since": "2026-10-17T17:00:41Z",
-        "stream_id": "319039618918",
-        "title": "Змярканне Ордэна 🪦 | The Order: 1886",
-        "viewers": 6
+        "game": null,
+        "since": null,
+        "stream_id": null,
+        "title": null,
+        "viewers": null
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d6cbe77c-dfc8-48ef-9775-ed4b867e195f-profile_image-300x300.png",
@@ -2014,7 +2029,7 @@
         "since": "2026-10-17T18:24:07Z",
         "stream_id": "317082145750",
         "title": "ТРАТАТАТА! Trax\\babax!",
-        "viewers": 5
+        "viewers": 7
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/ec37aa15-e58d-4484-b38a-8b07f7841f61-profile_image-300x300.png",
@@ -3197,7 +3212,7 @@
         "since": "2026-10-17T17:58:40Z",
         "stream_id": "318847104615",
         "title": "Утульнасць на максімум",
-        "viewers": 5
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/242ee6ba-23dc-4c4a-9b98-f5c45293cb5e-profile_image-300x300.png",
@@ -3973,7 +3988,7 @@
         "since": "2026-10-17T18:03:35Z",
         "stream_id": "317081997142",
         "title": "Каапімся з Коргам (пакуль без) від Іринка подруга",
-        "viewers": 5
+        "viewers": 8
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/11188f41-2c6e-4943-ac26-61949d8c42fe-profile_image-300x300.png",
@@ -4577,12 +4592,12 @@
         "since": "2026-10-17T14:50:29Z",
         "stream_id": "317044427477",
         "title": "🔥АФІЦЫЙНАЯ ЗАЯВА ! 2 СЕЗОН ВАРДОГС ЛІЧЫЦЦА АДКРЫТЫМ🥰@watafakablr",
-        "viewers": 12
+        "viewers": 11
       },
       "missing_runs": 0,
       "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/148684d2-beeb-465d-b98b-71a7e0b31a9e-profile_image-300x300.png",
       "user_id": "948421675"
     }
   },
-  "updated_at": "2026-10-17T18:40:50Z"
+  "updated_at": "2026-10-17T18:48:26Z"
 }
